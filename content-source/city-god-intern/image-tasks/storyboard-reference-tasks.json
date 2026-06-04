@@ -1,0 +1,16 @@
+{
+  "slug": "city-god-intern",
+  "mode": "ai_manhua_drama",
+  "tasks": [
+    {
+      "id": "city-god-intern-cover",
+      "episodeNumber": null,
+      "assetType": "cover",
+      "mode": "ai_manhua_drama",
+      "promptZh": "竖屏AI漫剧封面，城隍实习生：我给亡魂排队申诉，城隍职场题材，竖屏国漫，强光影，符号化道具，人物眼神特写，核心道具申诉木牌，场景夜半城隍庙，无水印，无真实IP。",
+      "promptEn": "vertical AI漫剧 cover, 城隍职场 story, symbolic key prop, cinematic lighting, no watermark, no existing IP",
+      "outputPath": "public/site/assets/covers/hot-catalog/cover-city-god-intern.svg",
+      "status": "generated_svg"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "tomb-appraiser",
+  "mode": "ai_manhua_drama",
+  "tasks": [
+    {
+      "id": "tomb-appraiser-cover",
+      "episodeNumber": null,
+      "assetType": "cover",
+      "mode": "ai_manhua_drama",
+      "promptZh": "竖屏AI漫剧封面，古墓估价师：我给千年女王开价，古墓鉴宝题材，竖屏国漫，强光影，符号化道具，人物眼神特写，核心道具女王陪葬册，场景地下王陵，无水印，无真实IP。",
+      "promptEn": "vertical AI漫剧 cover, 古墓鉴宝 story, symbolic key prop, cinematic lighting, no watermark, no existing IP",
+      "outputPath": "public/site/assets/covers/hot-catalog/cover-tomb-appraiser.svg",
+      "status": "generated_svg"
+    }
+  ]
+}

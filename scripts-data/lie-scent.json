@@ -1,0 +1,104 @@
+{
+  "script": {
+    "slug": "lie-scent",
+    "title": "她闻到谎言",
+    "titleEn": "She Smells Lies",
+    "logline": "能闻到谎言气味的危机公关女王，被一桩豪门前妻死亡案拖入旧案迷雾；她越接近真相，越发现自己才是这场骗局最早的猎物。",
+    "synopsis": "苏清妤是业内最冷静的危机公关顾问，也是一个拥有秘密能力的人：她能闻到谎言的气味。雨夜，她接到一桩天价委托，为顾氏集团继承人顾宴臣洗清前妻死亡疑云。可顾宴臣身上残留的医用消毒水味，和当年母亲失踪案现场一模一样。苏清妤表面接案，暗中调查，却发现前妻、疗养院、集团股权和自己的身世被同一条线牵住。",
+    "category": "现代都市商业悬疑情感反转短剧",
+    "coverImage": "assets/cover-lie-scent.png",
+    "status": "published",
+    "featured": true,
+    "recommendedPlatforms": [
+      "抖音",
+      "快手",
+      "小红书",
+      "TikTok",
+      "YouTube Shorts",
+      "ReelShort"
+    ],
+    "audienceTags": [
+      "女性向",
+      "都市悬疑",
+      "豪门旧案",
+      "危险关系",
+      "反转爽剧"
+    ],
+    "productionDifficulty": "medium",
+    "episodeCount": 60,
+    "freeEpisodeCount": 3
+  },
+  "episodes": [
+    {
+      "episodeNumber": 1,
+      "title": "雨夜委托",
+      "hook": "女主闻到男主身上与母亲失踪案相同的消毒水味，却必须接下他的委托。",
+      "summary": "危机公关顾问苏清妤在雨夜接到顾氏集团继承人顾宴臣的天价委托，要替他洗清前妻死亡疑云。她原本准备拒绝，却在他身上闻到母亲失踪当晚同样的消毒水气味。",
+      "endingHook": "她按下录音笔，低声说：顾宴臣，你最好真的没有撒谎。",
+      "aiPromptZh": "9:16竖屏，深夜危机公关公司会议室，雨夜城市霓虹映在玻璃桌面，清冷亚洲女性合上委托文件，冷峻亚洲男性带着雨水走入，冷蓝屏幕光，高反差现代豪门悬疑氛围。",
+      "aiPromptEn": "vertical 9:16, late-night crisis PR agency conference room, rainy city neon reflected on a glass table, cold Asian female strategist closing a commission file, severe Asian male entering with rain on his suit, cold blue screen glow, high-contrast modern tycoon suspense",
+      "isFreePreview": true,
+      "status": "published"
+    },
+    {
+      "episodeNumber": 2,
+      "title": "前妻档案",
+      "hook": "前妻死亡档案出现疗养院记录，男主警告女主不要查，却替她挡下第一次袭击。",
+      "summary": "苏清妤追查前妻死亡档案，发现里面夹着一份被涂黑的疗养院记录。顾宴臣阻止她继续查，却在地下停车场替她挡下突然冲出的袭击者。",
+      "endingHook": "袭击者掉落的药瓶标签上，写着她母亲失踪前住过的疗养院名字。",
+      "aiPromptZh": "9:16竖屏，顾氏地下停车场，黑色商务车旁文件散落，清冷亚洲女性翻看前妻死亡档案，疗养院记录特写，冷白顶灯闪烁，水泥墙潮湿冰冷，男主挡下袭击，都市悬疑压迫感。",
+      "aiPromptEn": "vertical 9:16, underground parking garage of a corporate group, documents scattered beside a black business car, cold Asian female investigator reading an ex-wife death file, close-up of a sanitarium record, flickering cold white ceiling lights, damp concrete walls, male lead blocking an attack, urban suspense pressure",
+      "isFreePreview": true,
+      "status": "published"
+    },
+    {
+      "episodeNumber": 3,
+      "title": "香水样本",
+      "hook": "女主发现前妻生前留下的香水样本，气味指向顾氏集团董事会成员。",
+      "summary": "苏清妤从前妻遗物里找到一支香水样本，里面混着她最熟悉的谎言气味。线索指向顾氏董事会，而顾宴臣在关键时刻却承认自己隐瞒了一部分真相。",
+      "endingHook": "她闻到最浓的谎言味道，不在顾宴臣身上，而在一张母亲旧照片背后。",
+      "aiPromptZh": "9:16竖屏，豪门集团新闻发布会大厅，媒体摄像机和巨型舆情屏围住讲台，清冷亚洲女性举起旧香水瓶，董事会成员在冷白强光下神情各异，红色热搜数据跳动，现代商战悬疑反转。",
+      "aiPromptEn": "vertical 9:16, tycoon group press conference hall, media cameras and a giant public-opinion screen surrounding the podium, cold Asian female strategist holding an old perfume bottle, board members under harsh cold white light, red trending-topic data jumping, modern corporate suspense twist",
+      "isFreePreview": true,
+      "status": "published"
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset_lie_scent_free_v1",
+      "assetType": "free_preview",
+      "title": "《她闻到谎言》前三集免费验证包",
+      "version": "v1.0",
+      "filePath": "downloads/lie-scent/free-preview-lie-scent-v1.docx",
+      "fileFormat": "docx",
+      "isPublic": true,
+      "status": "published"
+    }
+  ],
+  "continuationOptions": [
+    {
+      "type": "buyout",
+      "title": "一次性买断",
+      "description": "一次性获得后续完整剧集和对应授权，适合已经验证数据、准备连续投放的团队。",
+      "startingPrice": 1999,
+      "enabled": true,
+      "sortOrder": 1
+    },
+    {
+      "type": "pay_per_episode",
+      "title": "按集付费",
+      "description": "根据验证结果分批购买后续剧集，适合想控制风险、边测边做的账号团队。",
+      "startingPrice": 99,
+      "enabled": true,
+      "sortOrder": 2
+    },
+    {
+      "type": "revenue_share",
+      "title": "版权分成",
+      "description": "无需先购买后续剧集，经审核后可继续制作，并按视频收益约定比例分成。",
+      "startingPrice": null,
+      "enabled": true,
+      "sortOrder": 3
+    }
+  ]
+}

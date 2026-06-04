@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>登录注册 | 短剧本铺</title>
+    <link rel="stylesheet" href="styles.css?v=20260528-auth" />
+  </head>
+  <body class="auth-page">
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="短剧本铺首页">
+        <span class="brand-mark">剧</span>
+        <span>短剧本铺</span>
+      </a>
+      <nav class="nav" aria-label="页面导航">
+        <a href="index.html">首页</a>
+        <a href="scripts.html">剧本库</a>
+        <a href="index.html#pricing">续作方式</a>
+        <a href="index.html#license">授权说明</a>
+      </nav>
+      <a class="top-cta" href="scripts.html">返回剧本库</a>
+    </header>
+
+    <main class="auth-shell">
+      <section class="auth-panel" aria-labelledby="authTitle">
+        <div class="auth-copy">
+          <p class="eyebrow">账号入口</p>
+          <h1 id="authTitle">保存下载记录，继续后续剧集合作。</h1>
+          <p>
+            你可以先免费下载前三集验证包；注册后，系统会把当前浏览器最近的游客下载记录同步到账号里，方便后续提交测试数据、申请按集购买或分成合作。
+          </p>
+        </div>
+
+        <div class="auth-card">
+          <div class="auth-tabs" role="tablist" aria-label="登录注册切换">
+            <button type="button" id="loginTab" data-auth-mode="login">登录</button>
+            <button type="button" id="registerTab" data-auth-mode="register">注册</button>
+          </div>
+
+          <form class="auth-form" id="authForm">
+            <label>
+              邮箱
+              <input type="email" name="email" autocomplete="email" required placeholder="you@example.com" />
+            </label>
+
+            <label>
+              密码
+              <input type="password" name="password" autocomplete="current-password" required minlength="8" placeholder="至少 8 位" />
+            </label>
+
+            <div class="register-only">
+              <label>
+                昵称
+                <input type="text" name="displayName" autocomplete="nickname" placeholder="短剧制作人" />
+              </label>
+
+              <label>
+                微信号
+                <input type="text" name="contactWechat" autocomplete="off" placeholder="用于后续合作沟通，可选" />
+              </label>
+            </div>
+
+            <p class="form-message" id="authMessage" role="status"></p>
+
+            <button class="primary-button form-button" type="submit" id="authSubmit">登录</button>
+          </form>
+
+          <div class="auth-actions">
+            <button type="button" class="secondary-button" id="logoutButton">退出当前账号</button>
+            <a class="secondary-button" href="scripts.html">继续浏览剧本</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="site-session.js"></script>
+    <script src="auth.js"></script>
+  </body>
+</html>

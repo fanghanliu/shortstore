@@ -1,0 +1,105 @@
+{
+  "script": {
+    "slug": "live-revenge",
+    "title": "第99次直播复仇",
+    "titleEn": "The 99th Livestream Revenge",
+    "logline": "被全网封杀的过气女主播，用第99个小号重开直播，靠一场场公开审判，把昔日毁掉她的人送上热搜。",
+    "synopsis": "三年前，千万级带货女主播温栀被假货、逼死助理、偷税漏税三重黑料毁掉。她被平台封号，被品牌索赔，被全网网暴，母亲也因此病倒。三年后，她用第99个小号重开直播，不卖货，不求打赏，只公开验货、查账、撕合同。每一场直播，她只放出一点证据，逼乔蔓、周启明、许嘉年、平台内鬼和资本老板程砚主动露馅。账号从7人在线一路冲到5000万人围观，直播间从网暴现场变成全民陪审团。",
+    "category": "现代都市直播逆袭账号复仇爽文反转短剧",
+    "coverImage": "assets/storyboards/live-revenge/frame-01.png",
+    "status": "published",
+    "featured": false,
+    "recommendedPlatforms": [
+      "抖音",
+      "快手",
+      "小红书",
+      "视频号",
+      "TikTok",
+      "YouTube Shorts",
+      "ReelShort"
+    ],
+    "audienceTags": [
+      "现代都市",
+      "直播逆袭",
+      "账号复仇",
+      "爽文反转",
+      "舆论战"
+    ],
+    "productionDifficulty": "medium",
+    "episodeCount": 60,
+    "freeEpisodeCount": 3
+  },
+  "episodes": [
+    {
+      "episodeNumber": 1,
+      "title": "第99个小号",
+      "hook": "被全网封杀的温栀用第99个小号重开直播，只把三年前被判假货的口红推到镜头前。",
+      "summary": "深夜出租屋里，温栀不露脸、不卖货，只开播展示一支旧口红和完整批号。在线人数只有7人，但她说今晚不洗白，只验货。",
+      "endingHook": "检测报告刚出现，直播间突然涌入同一批辱骂账号。",
+      "aiPromptZh": "深夜廉价出租屋改成的临时直播间，黑色桌布，旧口红摆在镜头中央，冷白补光灯，28岁亚洲女主播半张脸隐在阴影中，直播弹幕冷光映在脸上，手边有检测报告，都市复仇悬疑短剧，竖屏9:16。",
+      "aiPromptEn": "late night cheap apartment turned livestream room, black tablecloth, old lipstick, cold white ring light, Asian female streamer half face in shadow, livestream comments reflected on her face, tense urban revenge drama, vertical 9:16",
+      "isFreePreview": true,
+      "status": "published"
+    },
+    {
+      "episodeNumber": 2,
+      "title": "水军订单",
+      "hook": "温栀不关弹幕，反而把骂得最狠的账号逐一投屏标红。",
+      "summary": "弹幕墙刷满辱骂，温栀冷静把账号标红，远程数据师陆沉舟追踪到同一个 MCN 水军池。她把水军订单备注公开，第一批观众开始倒戈。",
+      "endingHook": "订单备注里出现了当年背刺她的闺蜜乔蔓的内部代号。",
+      "aiPromptZh": "临时直播间内巨大的弹幕投屏墙，辱骂账号被红色高亮标记，亚洲女主播冷静坐在镜头前，分屏显示暗色数据室里的男性数据师追踪水军来源，多屏幕蓝光，公开审判式直播，都市舆论战，竖屏9:16。",
+      "aiPromptEn": "livestream room with huge comment wall, red highlighted troll accounts, Asian female streamer calm and cold, split screen with male data analyst in dark room, blue monitor glow, viral public trial, vertical short drama 9:16",
+      "isFreePreview": true,
+      "status": "published"
+    },
+    {
+      "episodeNumber": 3,
+      "title": "公开验货",
+      "hook": "温栀当场拆开封存样品，直播验货结果指向当年品牌方和平台联合造假。",
+      "summary": "温栀邀请第三方检测员连线，公开封存样品、仓储记录和合同编号。乔蔓试图发声明反击，却被温栀提前准备的原始采购单打断。",
+      "endingHook": "直播间人数突破百万，平台后台却有人下达封号指令。",
+      "aiPromptZh": "爆火直播公开审判现场，封存样品和采购单特写，亚洲女主播在冷白补光灯下保持冷静，弹幕数量和在线人数快速飙升，平台后台封禁按钮被一只手按下，都市复仇悬疑氛围，竖屏9:16。",
+      "aiPromptEn": "viral livestream public trial, sealed product sample, purchase order close-up, Asian female streamer calm under cold ring light, comment count exploding, platform backend ban button, urban revenge suspense, vertical 9:16",
+      "isFreePreview": true,
+      "status": "published"
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset_live_revenge_free_v1",
+      "assetType": "free_preview",
+      "title": "《第99次直播复仇》前三集免费验证包",
+      "version": "v1.0",
+      "filePath": "downloads/live-revenge/free-preview-live-revenge-v1.docx",
+      "fileFormat": "docx",
+      "isPublic": true,
+      "status": "published"
+    }
+  ],
+  "continuationOptions": [
+    {
+      "type": "buyout",
+      "title": "一次性买断",
+      "description": "一次性获得后续完整剧集和对应授权，适合直播复仇爽剧验证成功后的连续投放。",
+      "startingPrice": 1999,
+      "enabled": true,
+      "sortOrder": 1
+    },
+    {
+      "type": "pay_per_episode",
+      "title": "按集付费",
+      "description": "按阶段购买后续剧集，适合根据直播审判题材的数据反馈逐步制作。",
+      "startingPrice": 99,
+      "enabled": true,
+      "sortOrder": 2
+    },
+    {
+      "type": "revenue_share",
+      "title": "版权分成",
+      "description": "经审核后可继续制作，并按视频收益约定比例分成。",
+      "startingPrice": null,
+      "enabled": true,
+      "sortOrder": 3
+    }
+  ]
+}

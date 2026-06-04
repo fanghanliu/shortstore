@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="941" height="1672" viewBox="0 0 941 1672">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#301934"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="58%">
+      <stop offset="0" stop-color="#c084fc" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#301934" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="softShadow"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#020617" flood-opacity="0.48"/></filter>
+  </defs>
+  <rect width="941" height="1672" fill="url(#bg)"/>
+  <rect width="941" height="1672" fill="url(#glow)" opacity="0.82"/>
+  <circle cx="780" cy="286" r="210" fill="#f472b6" opacity="0.14" filter="url(#blur)"/>
+  <circle cx="158" cy="1160" r="270" fill="#c084fc" opacity="0.12" filter="url(#blur)"/>
+  
+    <circle cx="144" cy="240" r="3" fill="#fdf2f8" opacity="0.42"/>
+    <circle cx="735" cy="188" r="4" fill="#f472b6" opacity="0.48"/>
+    <circle cx="812" cy="482" r="3" fill="#c084fc" opacity="0.42"/>
+    <path d="M0 1110 C140 1030 250 1170 392 1085 C530 1000 642 1116 780 1042 C850 1005 900 1000 941 1008 L941 1672 L0 1672 Z" fill="#c084fc" opacity="0.2"/>
+    <path d="M90 1185 C190 1120 292 1240 410 1170 C528 1100 642 1228 770 1162 C850 1120 900 1118 941 1126" fill="none" stroke="#f472b6" stroke-width="8" opacity="0.45"/>
+    <ellipse cx="707" cy="828" rx="124" ry="34" fill="#f472b6" opacity="0.25"/><path d="M600 828 C670 730 790 744 842 826" fill="none" stroke="#f472b6" stroke-width="7" opacity="0.45"/>
+  <rect x="68" y="82" width="805" height="1508" rx="30" fill="none" stroke="#f472b6" stroke-width="4" opacity="0.66"/>
+  <rect x="92" y="108" width="757" height="1458" rx="22" fill="#020617" opacity="0.12"/>
+  <text x="104" y="168" fill="#f472b6" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="800">AI MANHUA ORIGINAL COVER</text>
+  <text x="104" y="214" fill="#fdf2f8" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" opacity="0.72">海岛奇幻 · 沉海鲸岛</text>
+  <g filter="url(#softShadow)">
+    <path d="M470 374 L650 528 L598 812 L470 950 L342 812 L290 528 Z" fill="#c084fc" opacity="0.7" stroke="#f472b6" stroke-width="9"/>
+    <path d="M342 528 L598 812 M650 528 L342 812 M470 374 L470 950" stroke="#fdf2f8" stroke-width="4" opacity="0.38"/>
+    <circle cx="470" cy="654" r="92" fill="#020617" opacity="0.22"/>
+    <text x="470" y="670" text-anchor="middle" fill="#fdf2f8" font-family="Microsoft YaHei, Arial, sans-serif" font-size="40" font-weight="800">鲸骨琴</text>
+    <g opacity="0.92">
+    <ellipse cx="470" cy="922" rx="122" ry="40" fill="#020617" opacity="0.42"/>
+    <circle cx="470" cy="702" r="74" fill="#111827" stroke="#f472b6" stroke-width="6"/>
+    <path d="M330 1040 C350 870 402 788 470 788 C538 788 590 870 610 1040 Z" fill="#111827" stroke="#f472b6" stroke-width="6"/>
+    <path d="M408 680 C440 715 505 715 538 680" fill="none" stroke="#c084fc" stroke-width="7" opacity="0.7"/>
+    <path d="M332 912 C244 906 208 836 188 750 M608 912 C696 906 732 836 752 750" fill="none" stroke="#f472b6" stroke-width="12" opacity="0.52"/>
+    <text x="470" y="1130" text-anchor="middle" fill="#fdf2f8" font-family="Microsoft YaHei, Arial, sans-serif" font-size="30" font-weight="700" opacity="0.9">失声歌姬</text>
+  </g>
+  </g>
+  <rect x="92" y="1156" width="757" height="328" rx="24" fill="#020617" opacity="0.58"/>
+  <text x="122" y="1198" fill="#fdf2f8" font-family="Microsoft YaHei, Arial, sans-serif" font-size="61" font-weight="900">鲸岛歌姬：我的歌能</text>
+  <text x="122" y="1274" fill="#fdf2f8" font-family="Microsoft YaHei, Arial, sans-serif" font-size="61" font-weight="900">唤醒沉海城</text>
+  <text x="122" y="1430" fill="#f472b6" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" font-weight="800">核心道具：鲸骨琴</text>
+  <text x="122" y="1476" fill="#fdf2f8" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" opacity="0.78">AI海岛奇幻漫剧 / 海商会长压迫局</text>
+  <path d="M122 1518 L816 1518" stroke="#f472b6" stroke-width="3" opacity="0.46"/>
+  <text x="122" y="1558" fill="#fdf2f8" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" opacity="0.62">前三集验证包 · 买断 · 按集 · 分成</text>
+</svg>

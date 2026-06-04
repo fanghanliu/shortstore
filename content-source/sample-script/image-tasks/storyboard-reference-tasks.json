@@ -1,0 +1,26 @@
+{
+  "slug": "sample-script",
+  "mode": "dual",
+  "tasks": [
+    {
+      "id": "sample-script-ep001-shot001",
+      "episodeNumber": 1,
+      "assetType": "storyboard_reference",
+      "mode": "ai_short_drama",
+      "promptZh": "9:16竖屏，近未来都市午夜 AI 心理诊所，暴雨街道，冷蓝医疗招牌，亚洲女性心理师推门进入，电影感高反差光影。",
+      "promptEn": "vertical 9:16, near-future midnight AI psychology clinic, rainy street, cold blue medical sign, Asian female therapist entering the door, cinematic high-contrast lighting",
+      "outputPath": "public/site/assets/storyboards/sample-script/episode-001-shot-001.png",
+      "status": "planned"
+    },
+    {
+      "id": "sample-script-ep004-panel005",
+      "episodeNumber": 4,
+      "assetType": "manhua_panel_reference",
+      "mode": "ai_manhua_drama",
+      "promptZh": "竖屏国漫悬疑结尾格，黑底绿色终端屏幕，显示少女编号，女性心理师瞳孔倒影震动，强悬念，预留文字空间。",
+      "promptEn": "vertical manhua suspense ending panel, black background green terminal screen showing girl's ID, female therapist pupil reflection shaken, strong cliffhanger, text space",
+      "outputPath": "public/site/assets/storyboards/sample-script/episode-004-panel-005.png",
+      "status": "planned"
+    }
+  ]
+}

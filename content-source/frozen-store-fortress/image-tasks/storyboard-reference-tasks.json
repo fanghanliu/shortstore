@@ -1,0 +1,16 @@
+{
+  "slug": "frozen-store-fortress",
+  "mode": "ai_manhua_drama",
+  "tasks": [
+    {
+      "id": "frozen-store-fortress-cover",
+      "episodeNumber": null,
+      "assetType": "cover",
+      "mode": "ai_manhua_drama",
+      "promptZh": "竖屏国漫分镜，末日寒潮，移动便利店堡垒，冰封城市，女主宁晚，系统逆袭，囤货爽文，干净线稿，强情绪特写，预留对白气泡空间。",
+      "promptEn": "vertical manhua storyboard, frozen apocalypse, mobile convenience-store fortress, icy city, heroine Ning Wan, system comeback, stockpiling power fantasy, clean line art, emotional close-up, speech bubble space.",
+      "outputPath": "public/site/assets/covers/cover-frozen-store-fortress.png",
+      "status": "planned"
+    }
+  ]
+}

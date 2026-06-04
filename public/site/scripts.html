@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>剧本库 | 短剧本铺</title>
+    <link rel="stylesheet" href="styles.css?v=20260601-script-market" />
+  </head>
+  <body>
+    <header class="topbar home-topbar">
+      <nav class="nav" aria-label="页面导航">
+        <a href="index.html#featured">今日主推</a>
+        <a href="scripts.html">剧本库</a>
+        <a href="index.html#pricing">续作方式</a>
+        <a href="index.html#license">授权说明</a>
+        <a href="auth.html?mode=login" data-auth-link>登录 / 注册</a>
+      </nav>
+      <a class="top-cta" href="scripts.html">进入剧本库</a>
+    </header>
+
+    <main class="script-market" id="top">
+      <section class="script-filter-panel" aria-label="剧本筛选">
+        <div class="filter-head">
+          <p class="eyebrow">AI短剧剧本库</p>
+          <h1>先筛题材，再挑前三集验证包。</h1>
+          <span>按受众、题材、开放状态和集数快速缩小范围，进入详情页查看前三集制作包。</span>
+        </div>
+
+        <div class="filter-row" data-filter-group="reader">
+          <span class="filter-label">受众：</span>
+          <button class="filter-button active" type="button" data-filter-value="all">全部</button>
+          <button class="filter-button" type="button" data-filter-value="male">男生</button>
+          <button class="filter-button" type="button" data-filter-value="female">女生</button>
+        </div>
+
+        <div class="filter-row genre-row" data-filter-group="genre">
+          <span class="filter-label">分类：</span>
+          <button class="filter-button active" type="button" data-filter-value="all">全部</button>
+          <button class="filter-button" type="button" data-filter-value="主题">主题</button>
+          <button class="filter-button" type="button" data-filter-value="角色">角色</button>
+          <button class="filter-button" type="button" data-filter-value="情节">情节</button>
+          <div class="genre-cloud" aria-label="题材分类"></div>
+        </div>
+
+        <div class="filter-row" data-filter-group="status">
+          <span class="filter-label">状态：</span>
+          <button class="filter-button active" type="button" data-filter-value="all">全部</button>
+          <button class="filter-button" type="button" data-filter-value="published">已开放</button>
+          <button class="filter-button" type="button" data-filter-value="coming">筹备中</button>
+        </div>
+
+        <div class="filter-row" data-filter-group="length">
+          <span class="filter-label">集数：</span>
+          <button class="filter-button active" type="button" data-filter-value="all">全部</button>
+          <button class="filter-button" type="button" data-filter-value="short">30集以下</button>
+          <button class="filter-button" type="button" data-filter-value="medium">30-60集</button>
+          <button class="filter-button" type="button" data-filter-value="long">60集以上</button>
+        </div>
+      </section>
+
+      <section class="script-results" id="scripts">
+        <div class="sort-tabs" data-sort-tabs>
+          <button class="active" type="button" data-sort-value="hot">最热</button>
+          <button type="button" data-sort-value="new">最新</button>
+          <button type="button" data-sort-value="episodes">集数</button>
+        </div>
+
+        <div class="script-list-grid" id="scriptLibrary" aria-label="剧本库列表">
+          <article class="library-state" id="scriptLibraryState">正在从数据库加载剧本...</article>
+        </div>
+      </section>
+    </main>
+    <script src="site-session.js"></script>
+    <script src="script-library.js?v=20260601-dynamic-detail-link"></script>
+  </body>
+</html>

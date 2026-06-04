@@ -1,0 +1,739 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>后台管理 | 短剧本铺</title>
+    <link rel="stylesheet" href="admin.css" />
+  </head>
+  <body>
+    <div class="admin-app">
+      <header class="admin-topbar">
+        <div>
+          <p class="eyebrow">Admin Console</p>
+          <h1>后台管理</h1>
+        </div>
+        <div class="admin-actions">
+          <span class="admin-user" data-admin-user>正在校验权限</span>
+          <a class="ghost-link" href="/">返回用户端</a>
+        </div>
+      </header>
+
+      <main class="admin-layout">
+        <nav class="admin-nav" aria-label="后台模块">
+          <button class="nav-item active" type="button" data-tab="overview">概况</button>
+          <button class="nav-item" type="button" data-tab="requests">合作申请</button>
+          <button class="nav-item" type="button" data-tab="orders">订单</button>
+          <button class="nav-item" type="button" data-tab="reports">测试反馈</button>
+          <button class="nav-item" type="button" data-tab="revenueShareStatements">分成回传</button>
+          <button class="nav-item" type="button" data-tab="downloads">下载记录</button>
+          <button class="nav-item" type="button" data-tab="scripts">剧本</button>
+          <button class="nav-item" type="button" data-tab="users">用户</button>
+        </nav>
+
+        <section class="admin-content">
+          <div class="notice" data-admin-notice hidden></div>
+
+          <section class="tab-panel active" data-panel="overview">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Overview</p>
+                <h2>运营概况</h2>
+              </div>
+              <button class="secondary-button" type="button" data-refresh>刷新</button>
+            </div>
+
+            <div class="metric-grid" data-metrics>
+              <article class="metric-card">
+                <span>已发布剧本</span>
+                <strong>-</strong>
+              </article>
+              <article class="metric-card">
+                <span>注册用户</span>
+                <strong>-</strong>
+              </article>
+              <article class="metric-card">
+                <span>下载总数</span>
+                <strong>-</strong>
+              </article>
+              <article class="metric-card">
+                <span>待处理合作</span>
+                <strong>-</strong>
+              </article>
+            </div>
+
+            <div class="overview-grid">
+              <section class="table-block">
+                <div class="block-heading">
+                  <h3>最近合作申请</h3>
+                  <span data-request-count>-</span>
+                </div>
+                <div class="table-wrap">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>剧本</th>
+                        <th>用户</th>
+                        <th>方式</th>
+                        <th>状态</th>
+                        <th>时间</th>
+                      </tr>
+                    </thead>
+                    <tbody data-recent-requests>
+                      <tr>
+                        <td colspan="5">加载中</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+
+              <section class="table-block">
+                <div class="block-heading">
+                  <h3>最近测试反馈</h3>
+                  <span data-report-count>-</span>
+                </div>
+                <div class="table-wrap">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>剧本</th>
+                        <th>平台</th>
+                        <th>播放</th>
+                        <th>状态</th>
+                        <th>时间</th>
+                      </tr>
+                    </thead>
+                    <tbody data-recent-reports>
+                      <tr>
+                        <td colspan="5">加载中</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+            </div>
+          </section>
+
+          <section class="tab-panel" data-panel="requests">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Continuation</p>
+                <h2>合作申请管理</h2>
+              </div>
+              <button class="secondary-button" type="button" data-requests-refresh>刷新</button>
+            </div>
+
+            <div class="filter-bar" data-requests-filters>
+              <label>
+                <span>状态</span>
+                <select data-requests-status>
+                  <option value="">全部状态</option>
+                </select>
+              </label>
+              <label>
+                <span>方式</span>
+                <select data-requests-type>
+                  <option value="">全部方式</option>
+                </select>
+              </label>
+              <label class="search-field">
+                <span>搜索</span>
+                <input data-requests-search type="search" placeholder="剧本、用户、说明" />
+              </label>
+              <button class="secondary-button" type="button" data-requests-search-button>查询</button>
+            </div>
+
+            <section class="table-block admin-table-block">
+              <div class="block-heading">
+                <h3>申请列表</h3>
+                <span data-requests-summary>-</span>
+              </div>
+              <div class="table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>剧本</th>
+                      <th>用户</th>
+                      <th>方式</th>
+                      <th>集数</th>
+                      <th>测试数据</th>
+                      <th>状态</th>
+                      <th>时间</th>
+                      <th>操作</th>
+                    </tr>
+                  </thead>
+                  <tbody data-requests-table>
+                    <tr>
+                      <td colspan="8">等待加载</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+            <div class="pagination-bar">
+              <button class="secondary-button" type="button" data-requests-prev>上一页</button>
+              <span data-requests-page>第 1 页</span>
+              <button class="secondary-button" type="button" data-requests-next>下一页</button>
+            </div>
+          </section>
+
+          <section class="tab-panel" data-panel="orders">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Orders</p>
+                <h2>订单 / 报价</h2>
+              </div>
+              <button class="secondary-button" type="button" data-orders-refresh>刷新</button>
+            </div>
+
+            <div class="filter-bar" data-orders-filters>
+              <label>
+                <span>状态</span>
+                <select data-orders-status>
+                  <option value="">全部状态</option>
+                </select>
+              </label>
+              <label class="search-field">
+                <span>搜索</span>
+                <input data-orders-search type="search" placeholder="订单、剧本、用户、付款备注" />
+              </label>
+              <button class="secondary-button" type="button" data-orders-search-button>查询</button>
+            </div>
+
+            <section class="table-block admin-table-block">
+              <div class="block-heading">
+                <h3>订单列表</h3>
+                <span data-orders-summary>-</span>
+              </div>
+              <div class="table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>订单</th>
+                      <th>用户</th>
+                      <th>金额</th>
+                      <th>关联</th>
+                      <th>交付</th>
+                      <th>状态</th>
+                      <th>时间</th>
+                      <th>操作</th>
+                    </tr>
+                  </thead>
+                  <tbody data-orders-table>
+                    <tr>
+                      <td colspan="8">等待加载</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+            <div class="pagination-bar">
+              <button class="secondary-button" type="button" data-orders-prev>上一页</button>
+              <span data-orders-page>第 1 页</span>
+              <button class="secondary-button" type="button" data-orders-next>下一页</button>
+            </div>
+          </section>
+
+          <section class="tab-panel" data-panel="reports">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Validation</p>
+                <h2>测试反馈管理</h2>
+              </div>
+              <button class="secondary-button" type="button" data-reports-refresh>刷新</button>
+            </div>
+
+            <div class="filter-bar" data-reports-filters>
+              <label>
+                <span>状态</span>
+                <select data-reports-status>
+                  <option value="">全部状态</option>
+                </select>
+              </label>
+              <label>
+                <span>平台</span>
+                <input data-reports-platform type="search" placeholder="抖音 / 快手 / 视频号" />
+              </label>
+              <label class="search-field">
+                <span>搜索</span>
+                <input data-reports-search type="search" placeholder="剧本、用户、链接、备注" />
+              </label>
+              <button class="secondary-button" type="button" data-reports-search-button>查询</button>
+            </div>
+
+            <section class="table-block admin-table-block">
+              <div class="block-heading">
+                <h3>反馈列表</h3>
+                <span data-reports-summary>-</span>
+              </div>
+              <div class="table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>剧本</th>
+                      <th>用户</th>
+                      <th>平台</th>
+                      <th>数据</th>
+                      <th>视频</th>
+                      <th>状态</th>
+                      <th>时间</th>
+                      <th>操作</th>
+                    </tr>
+                  </thead>
+                  <tbody data-reports-table>
+                    <tr>
+                      <td colspan="8">等待加载</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+            <div class="pagination-bar">
+              <button class="secondary-button" type="button" data-reports-prev>上一页</button>
+              <span data-reports-page>第 1 页</span>
+              <button class="secondary-button" type="button" data-reports-next>下一页</button>
+            </div>
+          </section>
+
+          <section class="tab-panel" data-panel="revenueShareStatements">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Revenue Share</p>
+                <h2>分成回传审核</h2>
+              </div>
+              <button class="secondary-button" type="button" data-revenue-share-statements-refresh>刷新</button>
+            </div>
+
+            <div class="filter-bar" data-revenue-share-statements-filters>
+              <label>
+                <span>状态</span>
+                <select data-revenue-share-statements-status>
+                  <option value="">全部状态</option>
+                </select>
+              </label>
+              <label class="search-field">
+                <span>搜索</span>
+                <input data-revenue-share-statements-search type="search" placeholder="剧本、用户、备注" />
+              </label>
+              <button class="secondary-button" type="button" data-revenue-share-statements-search-button>查询</button>
+            </div>
+
+            <section class="table-block admin-table-block">
+              <div class="block-heading">
+                <h3>回传列表</h3>
+                <span data-revenue-share-statements-summary>-</span>
+              </div>
+              <div class="table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>项目</th>
+                      <th>用户</th>
+                      <th>周期</th>
+                      <th>收益</th>
+                      <th>视频 / 证明</th>
+                      <th>状态</th>
+                      <th>时间</th>
+                      <th>操作</th>
+                    </tr>
+                  </thead>
+                  <tbody data-revenue-share-statements-table>
+                    <tr>
+                      <td colspan="8">等待加载</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+            <div class="pagination-bar">
+              <button class="secondary-button" type="button" data-revenue-share-statements-prev>上一页</button>
+              <span data-revenue-share-statements-page>第 1 页</span>
+              <button class="secondary-button" type="button" data-revenue-share-statements-next>下一页</button>
+            </div>
+          </section>
+
+          <section class="tab-panel" data-panel="downloads">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Downloads</p>
+                <h2>下载记录</h2>
+              </div>
+              <button class="secondary-button" type="button" data-downloads-refresh>刷新</button>
+            </div>
+
+            <div class="filter-bar compact-filter-bar" data-downloads-filters>
+              <label class="search-field">
+                <span>搜索</span>
+                <input data-downloads-search type="search" placeholder="剧本、用户、游客标识、来源" />
+              </label>
+              <button class="secondary-button" type="button" data-downloads-search-button>查询</button>
+            </div>
+
+            <section class="table-block admin-table-block">
+              <div class="block-heading">
+                <h3>下载列表</h3>
+                <span data-downloads-summary>-</span>
+              </div>
+              <div class="table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>剧本</th>
+                      <th>用户</th>
+                      <th>资源</th>
+                      <th>游客标识</th>
+                      <th>后续行为</th>
+                      <th>来源</th>
+                      <th>时间</th>
+                      <th>操作</th>
+                    </tr>
+                  </thead>
+                  <tbody data-downloads-table>
+                    <tr>
+                      <td colspan="8">等待加载</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+            <div class="pagination-bar">
+              <button class="secondary-button" type="button" data-downloads-prev>上一页</button>
+              <span data-downloads-page>第 1 页</span>
+              <button class="secondary-button" type="button" data-downloads-next>下一页</button>
+            </div>
+          </section>
+
+          <section class="tab-panel" data-panel="scripts">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Scripts</p>
+                <h2>剧本管理</h2>
+              </div>
+              <button class="secondary-button" type="button" data-scripts-refresh>刷新</button>
+            </div>
+
+            <div class="filter-bar" data-scripts-filters>
+              <label>
+                <span>状态</span>
+                <select data-scripts-status>
+                  <option value="">全部状态</option>
+                </select>
+              </label>
+              <label>
+                <span>主推</span>
+                <select data-scripts-featured>
+                  <option value="">全部</option>
+                  <option value="true">只看主推</option>
+                  <option value="false">只看非主推</option>
+                </select>
+              </label>
+              <label class="search-field">
+                <span>搜索</span>
+                <input data-scripts-search type="search" placeholder="标题、slug、题材、卖点" />
+              </label>
+              <button class="secondary-button" type="button" data-scripts-search-button>查询</button>
+            </div>
+
+            <section class="table-block admin-table-block">
+              <div class="block-heading">
+                <h3>剧本列表</h3>
+                <span data-scripts-summary>-</span>
+              </div>
+              <div class="table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>剧本</th>
+                      <th>题材</th>
+                      <th>内容</th>
+                      <th>表现</th>
+                      <th>状态</th>
+                      <th>主推</th>
+                      <th>更新</th>
+                      <th>操作</th>
+                    </tr>
+                  </thead>
+                  <tbody data-scripts-table>
+                    <tr>
+                      <td colspan="8">等待加载</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+            <div class="pagination-bar">
+              <button class="secondary-button" type="button" data-scripts-prev>上一页</button>
+              <span data-scripts-page>第 1 页</span>
+              <button class="secondary-button" type="button" data-scripts-next>下一页</button>
+            </div>
+          </section>
+
+          <section class="tab-panel" data-panel="users">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Users</p>
+                <h2>用户管理</h2>
+              </div>
+              <button class="secondary-button" type="button" data-users-refresh>刷新</button>
+            </div>
+
+            <div class="filter-bar" data-users-filters>
+              <label>
+                <span>状态</span>
+                <select data-users-status>
+                  <option value="">全部状态</option>
+                </select>
+              </label>
+              <label>
+                <span>角色</span>
+                <select data-users-role>
+                  <option value="">全部角色</option>
+                </select>
+              </label>
+              <label class="search-field">
+                <span>搜索</span>
+                <input data-users-search type="search" placeholder="邮箱、昵称、微信、手机" />
+              </label>
+              <button class="secondary-button" type="button" data-users-search-button>查询</button>
+            </div>
+
+            <section class="table-block admin-table-block">
+              <div class="block-heading">
+                <h3>用户列表</h3>
+                <span data-users-summary>-</span>
+              </div>
+              <div class="table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>账号</th>
+                      <th>联系</th>
+                      <th>角色</th>
+                      <th>行为</th>
+                      <th>状态</th>
+                      <th>注册时间</th>
+                      <th>操作</th>
+                    </tr>
+                  </thead>
+                  <tbody data-users-table>
+                    <tr>
+                      <td colspan="7">等待加载</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+            <div class="pagination-bar">
+              <button class="secondary-button" type="button" data-users-prev>上一页</button>
+              <span data-users-page>第 1 页</span>
+              <button class="secondary-button" type="button" data-users-next>下一页</button>
+            </div>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <dialog class="admin-dialog" data-approval-dialog>
+      <form class="admin-form" data-approval-form>
+        <div class="dialog-heading">
+          <div>
+            <p class="eyebrow">Approval Workflow</p>
+            <h2>合作申请审批</h2>
+          </div>
+          <button class="icon-button" type="button" data-approval-cancel aria-label="关闭">×</button>
+        </div>
+
+        <div class="workflow-summary" data-approval-summary></div>
+        <input type="hidden" data-approval-request-id />
+        <input type="hidden" data-approval-order-status />
+
+        <div class="workflow-tabs" data-approval-workflow-label></div>
+
+        <label>
+          <span>用户可见审核说明</span>
+          <textarea data-approval-user-note rows="3" required></textarea>
+        </label>
+
+        <section class="form-subsection" data-revenue-share-fields hidden>
+          <h3>分成项目设置</h3>
+          <div class="form-grid two-columns">
+            <label>
+              <span>平台分成比例（%）</span>
+              <input data-revenue-share-platform-ratio type="number" min="0" max="100" step="1" />
+            </label>
+            <label>
+              <span>用户分成比例（%）</span>
+              <input data-revenue-share-user-ratio type="number" min="0" max="100" step="1" />
+            </label>
+          </div>
+          <div class="form-grid two-columns">
+            <label>
+              <span>第一批起始集</span>
+              <input data-revenue-share-episode-start type="number" min="1" step="1" />
+            </label>
+            <label>
+              <span>第一批结束集</span>
+              <input data-revenue-share-episode-end type="number" min="1" step="1" />
+            </label>
+          </div>
+          <label>
+            <span>授权平台</span>
+            <input data-revenue-share-platforms type="text" placeholder="抖音、快手、视频号" />
+          </label>
+          <label>
+            <span>授权账号</span>
+            <input data-revenue-share-accounts type="text" placeholder="账号昵称 / 账号主页链接" />
+          </label>
+          <div class="form-grid two-columns">
+            <label>
+              <span>协议状态</span>
+              <select data-revenue-share-contract-status>
+                <option value="not_uploaded">未上传</option>
+                <option value="pending_user_confirmation">等待用户确认</option>
+                <option value="confirmed">已确认</option>
+                <option value="rejected">需重签</option>
+              </select>
+            </label>
+            <label>
+              <span>协议文件路径</span>
+              <input data-revenue-share-contract-path type="text" placeholder="contracts/revenue-share/xxx.pdf" />
+            </label>
+          </div>
+        </section>
+
+        <div class="form-grid two-columns" data-order-fields>
+          <label>
+            <span>订单金额（元）</span>
+            <input data-approval-amount type="number" min="0" step="1" />
+          </label>
+          <label>
+            <span>订单标题</span>
+            <input data-approval-order-title type="text" />
+          </label>
+        </div>
+
+        <label data-order-fields>
+          <span>订单用户可见说明</span>
+          <textarea data-approval-order-note rows="4"></textarea>
+        </label>
+
+        <label data-order-fields>
+          <span>付款 / 合作确认说明</span>
+          <textarea data-approval-payment-note rows="3"></textarea>
+        </label>
+
+        <div class="form-grid two-columns">
+          <label>
+            <span>交付标题</span>
+            <input data-approval-delivery-title type="text" />
+          </label>
+          <label>
+            <span>自动交付文件路径</span>
+            <input data-approval-asset-path type="text" />
+          </label>
+        </div>
+
+        <label>
+          <span>交付说明</span>
+          <textarea data-approval-delivery-note rows="4"></textarea>
+        </label>
+
+        <label>
+          <span>交付文件名称</span>
+          <input data-approval-asset-title type="text" />
+        </label>
+
+        <div class="dialog-actions">
+          <button class="secondary-button" type="button" data-approval-cancel>取消</button>
+          <button class="primary-button" type="submit">通过并生成</button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog class="admin-dialog compact-dialog" data-order-dialog>
+      <form class="admin-form" data-order-form>
+        <div class="dialog-heading">
+          <div>
+            <p class="eyebrow">Order Status</p>
+            <h2>订单状态处理</h2>
+          </div>
+          <button class="icon-button" type="button" data-order-cancel aria-label="关闭">×</button>
+        </div>
+
+        <input type="hidden" data-order-id />
+        <input type="hidden" data-order-status />
+        <div class="workflow-summary" data-order-summary></div>
+
+        <label>
+          <span>处理备注</span>
+          <textarea data-order-payment-note rows="3"></textarea>
+        </label>
+
+        <label>
+          <span>用户可见说明</span>
+          <textarea data-order-user-note rows="3"></textarea>
+        </label>
+
+        <div class="dialog-actions">
+          <button class="secondary-button" type="button" data-order-cancel>取消</button>
+          <button class="primary-button" type="submit">确认更新</button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog class="admin-dialog compact-dialog" data-revenue-share-statement-dialog>
+      <form class="admin-form" data-revenue-share-statement-form>
+        <div class="dialog-heading">
+          <div>
+            <p class="eyebrow">Settlement Review</p>
+            <h2>分成结算确认</h2>
+          </div>
+          <button class="icon-button" type="button" data-revenue-share-statement-cancel aria-label="关闭">×</button>
+        </div>
+
+        <input type="hidden" data-revenue-share-statement-id />
+        <input type="hidden" data-revenue-share-statement-status />
+        <div class="workflow-summary" data-revenue-share-statement-summary></div>
+
+        <div class="form-grid two-columns">
+          <label>
+            <span>确认收益（元）</span>
+            <input data-revenue-share-confirmed-revenue type="number" min="0" step="0.01" required />
+          </label>
+          <label>
+            <span>平台分成比例（%）</span>
+            <input data-revenue-share-statement-ratio type="number" min="0" max="100" step="1" required />
+          </label>
+        </div>
+
+        <label>
+          <span>结算凭证路径或链接</span>
+          <input data-revenue-share-settlement-proof type="text" placeholder="settlements/revenue-share/xxx.pdf 或 https://..." />
+        </label>
+
+        <label>
+          <span>付款流水 / 结算备注</span>
+          <input data-revenue-share-payment-reference type="text" placeholder="转账单号、平台结算单号或备注" />
+        </label>
+
+        <label>
+          <span>付款时间</span>
+          <input data-revenue-share-paid-at type="datetime-local" />
+        </label>
+
+        <label>
+          <span>管理员审核备注</span>
+          <textarea data-revenue-share-statement-admin-note rows="4" placeholder="记录确认口径、异常说明、扣减原因或结算沟通记录"></textarea>
+        </label>
+
+        <div class="dialog-actions">
+          <button class="secondary-button" type="button" data-revenue-share-statement-cancel>取消</button>
+          <button class="primary-button" type="submit">保存结算确认</button>
+        </div>
+      </form>
+    </dialog>
+
+    <script src="admin.js"></script>
+  </body>
+</html>

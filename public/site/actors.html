@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI演员模型 | LoRA片酬制选角库</title>
+    <link rel="stylesheet" href="styles.css?v=20260525-ai-actors" />
+  </head>
+  <body class="actor-page">
+    <header class="topbar">
+      <a class="brand" href="index.html#top" aria-label="短剧本铺首页">
+        <span class="brand-mark">剧</span>
+        <span>短剧本铺</span>
+      </a>
+      <nav class="nav" aria-label="页面导航">
+        <a href="index.html#board">故事板</a>
+        <a href="#casting">AI演员</a>
+        <a href="#payroll">片酬方案</a>
+        <a href="#license">授权</a>
+      </nav>
+      <button class="top-cta" type="button" data-open-actor-lead>预约选角</button>
+    </header>
+
+    <main id="top">
+      <section class="actor-hero" id="featured">
+        <div class="actor-hero-media" aria-hidden="true">
+          <img src="assets/storyboards/live-revenge/frame-05.png" alt="" />
+          <img src="assets/storyboards/love-algorithm/frame-03.png" alt="" />
+          <img src="assets/storyboards/last-cloud-city/frame-08.png" alt="" />
+        </div>
+        <div class="actor-hero-copy">
+          <div class="hero-label">
+            <span>AI演员模型</span>
+            <span>LoRA片酬制</span>
+          </div>
+          <h1>不用买断角色，<span>按片酬调用你的AI演员。</span></h1>
+          <p class="hero-subtitle">
+            把人物LoRA包装成可选角、可试镜、可授权的演员资产。创作者按项目、集数或镜头量付费，获得稳定脸、固定人设和短剧级角色表现力。
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#casting">查看演员档案</a>
+            <button class="secondary-button" type="button" data-open-actor-lead>提交用角需求</button>
+          </div>
+          <div class="meta-pills">
+            <span>人设档案</span>
+            <span>LoRA调用</span>
+            <span>片酬结算</span>
+            <span>商用授权</span>
+          </div>
+        </div>
+        <aside class="actor-hero-panel" aria-label="片酬模式概览">
+          <span>Talent Pool</span>
+          <strong>AI演员经纪库</strong>
+          <p>角色不作为一次性素材售卖，而以“演员出镜权”计费。客户购买的是指定人物在指定项目中的使用额度。</p>
+          <div class="actor-stat-grid">
+            <div><b>12</b><small>首批演员</small></div>
+            <div><b>3档</b><small>片酬区间</small></div>
+            <div><b>30天</b><small>项目授权</small></div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="actor-casting" id="casting">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">演员档案</p>
+            <h2>像选演员一样挑选AI人物模型。</h2>
+          </div>
+          <span>每位演员都有固定外貌锚点、适配题材、可用镜头类型和片酬档位，方便客户按剧本气质直接决策。</span>
+        </div>
+
+        <div class="talent-toolbar" role="list" aria-label="演员类型筛选">
+          <button class="active" type="button" data-filter="all">全部</button>
+          <button type="button" data-filter="urban">都市</button>
+          <button type="button" data-filter="romance">情感</button>
+          <button type="button" data-filter="sci-fi">科幻</button>
+          <button type="button" data-filter="villain">反派</button>
+        </div>
+
+        <div class="actor-grid">
+          <article class="actor-card" data-category="urban villain" data-name="温栀" data-fee="¥129 / 10镜头" data-fit="都市悬疑、直播审判、复仇爽剧" data-asset="冷感女主LoRA、黑色西装视觉锚点、克制审判型表演">
+            <figure class="actor-portrait">
+              <img src="assets/storyboards/live-revenge/frame-01.png" alt="AI演员温栀人物样片" />
+              <figcaption>S级 · 冷感女主</figcaption>
+            </figure>
+            <div class="actor-copy">
+              <span class="tag">都市悬疑</span>
+              <h3>温栀</h3>
+              <p>克制、锋利、带疲惫感的复仇型女主，适合审判、反击、直播揭露类短剧。</p>
+              <div class="actor-meta"><span>¥129 / 10镜头</span><span>商用可授权</span></div>
+              <div class="card-actions">
+                <button type="button" data-open-actor-detail>档案</button>
+                <button type="button" data-open-actor-lead>约档</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="actor-card" data-category="romance urban" data-name="姜梨" data-fee="¥99 / 10镜头" data-fit="甜宠、合约恋爱、职场轻喜剧" data-asset="清爽理工女LoRA、细框眼镜、聪明嘴硬型表演">
+            <figure class="actor-portrait">
+              <img src="assets/storyboards/love-algorithm/frame-02.png" alt="AI演员姜梨人物样片" />
+              <figcaption>A级 · 理工甜宠</figcaption>
+            </figure>
+            <div class="actor-copy">
+              <span class="tag">合约恋爱</span>
+              <h3>姜梨</h3>
+              <p>聪明、漂亮、嘴硬，能在算法、职场、恋爱误会之间切换轻喜剧节奏。</p>
+              <div class="actor-meta"><span>¥99 / 10镜头</span><span>可连续剧复用</span></div>
+              <div class="card-actions">
+                <button type="button" data-open-actor-detail>档案</button>
+                <button type="button" data-open-actor-lead>约档</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="actor-card" data-category="sci-fi urban" data-name="云栖" data-fee="¥159 / 10镜头" data-fit="废土、科幻悬疑、末日成长线" data-asset="废土少女LoRA、酸雨城市视觉锚点、倔强求生型表演">
+            <figure class="actor-portrait">
+              <img src="assets/storyboards/last-cloud-city/frame-03.png" alt="AI演员云栖人物样片" />
+              <figcaption>S级 · 废土少女</figcaption>
+            </figure>
+            <div class="actor-copy">
+              <span class="tag">科幻废土</span>
+              <h3>云栖</h3>
+              <p>干净但坚硬的末世少女感，适合阶级逃亡、城市秘密、云端世界题材。</p>
+              <div class="actor-meta"><span>¥159 / 10镜头</span><span>世界观绑定</span></div>
+              <div class="card-actions">
+                <button type="button" data-open-actor-detail>档案</button>
+                <button type="button" data-open-actor-lead>约档</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="actor-card" data-category="romance villain" data-name="顾屿白" data-fee="¥119 / 10镜头" data-fit="霸总、投资人、隐忍深情男主" data-asset="精英男主LoRA、深色西装/浅灰大衣、克制深情型表演">
+            <figure class="actor-portrait">
+              <img src="assets/storyboards/love-algorithm/frame-10.png" alt="AI演员顾屿白人物样片" />
+              <figcaption>A级 · 精英男主</figcaption>
+            </figure>
+            <div class="actor-copy">
+              <span class="tag">都市情感</span>
+              <h3>顾屿白</h3>
+              <p>温柔、克制、带一点腹黑，适合久别重逢、合约恋爱和资本博弈。</p>
+              <div class="actor-meta"><span>¥119 / 10镜头</span><span>CP组合可打包</span></div>
+              <div class="card-actions">
+                <button type="button" data-open-actor-detail>档案</button>
+                <button type="button" data-open-actor-lead>约档</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="actor-card" data-category="urban villain" data-name="周启明" data-fee="¥89 / 10镜头" data-fit="MCN老板、商业反派、舆论操盘手" data-asset="压迫感老板LoRA、深色商务西装、温和笑面反派表演">
+            <figure class="actor-portrait">
+              <img src="assets/storyboards/live-revenge/frame-08.png" alt="AI演员周启明人物样片" />
+              <figcaption>B级 · 商业反派</figcaption>
+            </figure>
+            <div class="actor-copy">
+              <span class="tag">反派老板</span>
+              <h3>周启明</h3>
+              <p>笑容温和但压迫感强，适合MCN、集团、资本方等短剧反派位置。</p>
+              <div class="actor-meta"><span>¥89 / 10镜头</span><span>配角授权</span></div>
+              <div class="card-actions">
+                <button type="button" data-open-actor-detail>档案</button>
+                <button type="button" data-open-actor-lead>约档</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="actor-card" data-category="sci-fi villain" data-name="巡城官" data-fee="¥79 / 10镜头" data-fit="废土秩序、追捕者、城市守门人" data-asset="未来秩序感LoRA、防护制服、冷酷执行型表演">
+            <figure class="actor-portrait">
+              <img src="assets/storyboards/last-cloud-city/frame-09.png" alt="AI演员巡城官人物样片" />
+              <figcaption>B级 · 类型配角</figcaption>
+            </figure>
+            <div class="actor-copy">
+              <span class="tag">科幻反派</span>
+              <h3>巡城官</h3>
+              <p>适合科幻短剧里的制度压力、追捕线和世界观展示型角色。</p>
+              <div class="actor-meta"><span>¥79 / 10镜头</span><span>群像可扩展</span></div>
+              <div class="card-actions">
+                <button type="button" data-open-actor-detail>档案</button>
+                <button type="button" data-open-actor-lead>约档</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="actor-workflow">
+        <div class="section-head compact">
+          <div>
+            <p class="eyebrow">选角流程</p>
+            <h2>从试镜到出镜，按制作阶段结算。</h2>
+          </div>
+          <span>客户先确认角色是否适配剧本，再锁定镜头额度和授权范围，避免一次性买断造成的价格压力。</span>
+        </div>
+        <div class="workflow-lane">
+          <article><span>01</span><strong>选角</strong><p>按题材、角色气质和片酬档位挑选演员。</p></article>
+          <article><span>02</span><strong>试镜</strong><p>提供3张形象样片或3条镜头提示词验证一致性。</p></article>
+          <article><span>03</span><strong>锁档</strong><p>确定项目名称、镜头量、平台和授权周期。</p></article>
+          <article><span>04</span><strong>出镜</strong><p>交付LoRA调用方式、角色提示词和使用凭证。</p></article>
+        </div>
+      </section>
+
+      <section class="actor-pricing" id="payroll">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">片酬方案</p>
+            <h2>把模型价格改成角色片酬。</h2>
+          </div>
+          <span>价格表达从“买一个LoRA”变成“请一位AI演员出演这个项目”，更容易让短剧客户理解价值。</span>
+        </div>
+        <div class="pricing-grid actor-payroll-grid">
+          <article>
+            <div class="plan-head">
+              <span>试镜档</span>
+              <h3>¥29</h3>
+              <p>单角色试镜</p>
+            </div>
+            <button type="button" data-open-actor-lead>预约试镜</button>
+            <ul class="plan-features">
+              <li>1位AI演员</li>
+              <li>3张形象样片</li>
+              <li>基础角色提示词</li>
+              <li>不含商用出镜权</li>
+            </ul>
+            <small>适合先看脸、看气质、看是否能进入项目。</small>
+          </article>
+          <article class="featured-price">
+            <div class="plan-badge">主推</div>
+            <div class="plan-head">
+              <span>片酬档</span>
+              <h3>¥99+</h3>
+              <p>按镜头使用</p>
+            </div>
+            <button type="button" data-open-actor-lead>锁定演员</button>
+            <ul class="plan-features">
+              <li>10个商用镜头起</li>
+              <li>LoRA调用方式</li>
+              <li>角色一致性提示词</li>
+              <li>30天项目授权</li>
+              <li>可追加镜头额度</li>
+            </ul>
+            <small>适合短剧正片、投流样片和角色连续出镜。</small>
+          </article>
+          <article>
+            <div class="plan-head">
+              <span>剧组档</span>
+              <h3>¥599+</h3>
+              <p>整剧演员包</p>
+            </div>
+            <button type="button" data-open-actor-lead>配置剧组</button>
+            <ul class="plan-features">
+              <li>3-6位AI演员组合</li>
+              <li>主配角关系设定</li>
+              <li>CP/反派组合价</li>
+              <li>跨集一致性提示词</li>
+              <li>授权范围单独确认</li>
+            </ul>
+            <small>适合已经有剧本、需要稳定角色阵容的团队。</small>
+          </article>
+        </div>
+      </section>
+
+      <section class="actor-license" id="license">
+        <div class="license-copy">
+          <p class="eyebrow">授权边界</p>
+          <h2>付的是出镜权，不是永久买断。</h2>
+          <p>片酬模式的重点是把角色模型保留为你的可持续资产。客户获得约定项目内的使用权，追加项目、追加平台或长期投放时再补充授权。</p>
+        </div>
+        <div class="license-grid">
+          <article><strong>可用</strong><p>短剧正片、投流样片、账号内容、项目宣传物料。</p></article>
+          <article><strong>需加价</strong><p>跨项目复用、长期广告投放、多平台商业分发。</p></article>
+          <article><strong>不开放</strong><p>转售LoRA、二次训练、冒充真人、未约定项目外调用。</p></article>
+        </div>
+      </section>
+    </main>
+
+    <aside class="actor-modal" id="actorModal" aria-hidden="true" aria-label="演员档案">
+      <button class="close-button" type="button" id="closeActorModal" aria-label="关闭">×</button>
+      <img id="actorModalImage" src="assets/storyboards/live-revenge/frame-01.png" alt="AI演员档案样片" />
+      <div class="actor-modal-copy">
+        <p class="eyebrow">演员档案</p>
+        <h2 id="actorModalName">温栀</h2>
+        <p id="actorModalFit">都市悬疑、直播审判、复仇爽剧</p>
+        <div class="modal-facts">
+          <span id="actorModalFee">¥129 / 10镜头</span>
+          <span id="actorModalAsset">冷感女主LoRA、黑色西装视觉锚点、克制审判型表演</span>
+        </div>
+        <button class="primary-button" type="button" data-open-actor-lead>预约这位演员</button>
+      </div>
+    </aside>
+
+    <aside class="lead-drawer actor-lead-drawer" id="actorLeadDrawer" aria-hidden="true" aria-label="预约AI演员">
+      <div class="drawer-head">
+        <div>
+          <p class="eyebrow">选角意向</p>
+          <h2>预约AI演员模型</h2>
+        </div>
+        <button class="close-button" type="button" id="closeActorLead" aria-label="关闭">×</button>
+      </div>
+      <form class="lead-form">
+        <label>
+          <span>意向演员</span>
+          <select id="actorSelect">
+            <option>温栀 · S级冷感女主</option>
+            <option>姜梨 · A级理工甜宠</option>
+            <option>云栖 · S级废土少女</option>
+            <option>顾屿白 · A级精英男主</option>
+            <option>周启明 · B级商业反派</option>
+            <option>巡城官 · B级类型配角</option>
+            <option>需要帮我配置整剧演员</option>
+          </select>
+        </label>
+        <label>
+          <span>使用方式</span>
+          <select>
+            <option>试镜档 ¥29</option>
+            <option>片酬档 ¥99+ / 10镜头</option>
+            <option>剧组档 ¥599+</option>
+          </select>
+        </label>
+        <label>
+          <span>联系方式</span>
+          <input type="text" placeholder="微信 / 邮箱 / 其他联系方式" />
+        </label>
+        <label>
+          <span>项目说明</span>
+          <textarea rows="4" placeholder="例如：都市复仇短剧，主角需要连续出镜30个镜头"></textarea>
+        </label>
+        <button class="primary-button form-button" type="button" id="submitActorLead">提交选角意向</button>
+        <p class="form-note">当前验证阶段先人工确认片酬、授权和交付方式，后续再接入自动支付。</p>
+      </form>
+    </aside>
+    <div class="scrim" id="actorScrim"></div>
+
+    <script src="actors.js"></script>
+  </body>
+</html>

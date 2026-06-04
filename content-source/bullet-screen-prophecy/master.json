@@ -1,0 +1,427 @@
+{
+  "schemaVersion": "1.0.0",
+  "slug": "bullet-screen-prophecy",
+  "title": {
+    "zh": "她的弹幕预言成真",
+    "en": "Her Bullet Comments Come True"
+  },
+  "primaryMode": "ai_short_drama",
+  "supportedModes": [
+    "ai_short_drama"
+  ],
+  "freeEpisodeCount": 3,
+  "episodeCount": 24,
+  "logline": "危机公关女王突然看见未来弹幕，发现每一条热搜都不是舆论，而是一张提前排好的杀人日历。",
+  "synopsis": "夏知微是最擅长压热搜的危机公关经理。一次豪门婚礼发布会前，她突然看见未来弹幕预告新娘死亡。事故成真后，夏知微被卷入一连串由热搜操控的死亡事件。她与数据取证师陆既白联手，追查废弃电视台、死人账号、城市传媒集团和母亲旧案。最终她发现所谓未来弹幕不是超能力，而是一套用舆论制造审判、用热搜掩盖谋杀的城市级系统。",
+  "category": "现代都市舆论悬疑女性成长短剧",
+  "coverImage": "assets/covers/cover-bullet-screen-prophecy.png",
+  "recommendedPlatforms": [
+    "抖音",
+    "快手",
+    "小红书",
+    "TikTok",
+    "YouTube Shorts",
+    "ReelShort"
+  ],
+  "audienceTags": [
+    "女性成长",
+    "现实悬疑",
+    "热搜舆论",
+    "公关反杀",
+    "强反转"
+  ],
+  "productionDifficulty": "medium",
+  "characters": [
+    {
+      "name": "夏知微",
+      "role": "女主 / 危机公关经理",
+      "age": 30,
+      "visualAnchor": "亚洲女性，利落黑色短发，白衬衫和深色西装，冷静眼神，手机不离手。",
+      "desire": "查清母亲旧案并终止热搜审判系统。",
+      "fear": "自己最擅长的舆论工具正在杀人。",
+      "secret": "母亲曾参与系统早期设计。",
+      "arc": "从压热搜的人变成公开真相的人。"
+    },
+    {
+      "name": "陆既白",
+      "role": "男主 / 数据取证师",
+      "age": 32,
+      "visualAnchor": "亚洲男性，黑框眼镜，深灰衬衫，多屏数据光映脸。",
+      "desire": "证明父亲不是系统罪魁祸首。",
+      "fear": "自己的技术再次被用于伪造真相。",
+      "secret": "父亲是系统第一任算法负责人。",
+      "arc": "从旁观取证到主动承担。"
+    },
+    {
+      "name": "顾曼",
+      "role": "证人 / 女主母亲旧案学生",
+      "age": 28,
+      "visualAnchor": "亚洲女性，浅色风衣，疲惫眼神，手里总攥着旧 U 盘。",
+      "desire": "把老师留下的证据交出去。",
+      "fear": "自己也被写进死亡排期。",
+      "secret": "她保留了母亲旧案一半证据。",
+      "arc": "从躲藏者变成证人。"
+    }
+  ],
+  "storyWorld": {
+    "setting": "现实都市中，热搜、公关、直播和数据取证深度绑定。",
+    "coreSystem": "热搜审判系统可以提前排期事故、伪造舆论和引导全民投票。",
+    "hiddenRule": "所谓未来弹幕来自系统内测泄漏，不是超自然预言。"
+  },
+  "conflictDesign": {
+    "surfaceConflict": "夏知微必须阻止未来弹幕预告的死亡事件。",
+    "deepConflict": "每个热搜事故都指向母亲旧案和城市传媒集团。",
+    "antagonistPressure": "幕后资本用全民舆论伪装审判。",
+    "emotionalTension": "女主必须摧毁自己赖以成名的公关体系。"
+  },
+  "arcOutline": [
+    {
+      "arc": "开局钩子",
+      "episodes": "1-3",
+      "purpose": "免费验证",
+      "event": "未来弹幕、新娘死亡、排期表曝光。",
+      "reversal": "弹幕不是预言而是排期。"
+    },
+    {
+      "arc": "旧案牵出",
+      "episodes": "4-10",
+      "purpose": "付费承接",
+      "event": "死亡排期表、母亲旧案、地下直播。",
+      "reversal": "死人账号还在发帖。"
+    },
+    {
+      "arc": "证人升级",
+      "episodes": "11-16",
+      "purpose": "拉高追更",
+      "event": "顾曼、母亲视频、老板上桌。",
+      "reversal": "女主公司也参与清理。"
+    },
+    {
+      "arc": "男主背叛",
+      "episodes": "17-20",
+      "purpose": "情绪爆点",
+      "event": "陆既白背锅自首，全城投票。",
+      "reversal": "父亲旧权限劫持男主账号。"
+    },
+    {
+      "arc": "系统反噬",
+      "episodes": "21-24",
+      "purpose": "终局兑现",
+      "event": "母亲账号上线，热搜归零。",
+      "reversal": "真相成为唯一热搜。"
+    }
+  ],
+  "episodeOutline": [
+    {
+      "episodeNumber": 1,
+      "title": "她看见弹幕",
+      "hook": "公关经理夏知微在发布会前看见一行未来弹幕：三分钟后，新娘会死。",
+      "summary": "她冲上台阻止豪门婚礼，却被所有人当成疯子。",
+      "endingHook": "新娘倒下前抓住她，说：弹幕是真的。",
+      "arc": "开局钩子",
+      "isFreePreview": true,
+      "paidValue": "",
+      "reversalPoint": "新娘倒下前抓住她，说：弹幕是真的。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 2,
+      "title": "热搜杀人",
+      "hook": "夏知微发现每条未来弹幕都会变成热搜事故。",
+      "summary": "她用公关手段压下婚礼死亡舆论，却看见下一条弹幕指向自己。",
+      "endingHook": "弹幕写着：今晚，夏知微会自首。",
+      "arc": "开局钩子",
+      "isFreePreview": true,
+      "paidValue": "",
+      "reversalPoint": "弹幕写着：今晚，夏知微会自首。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 3,
+      "title": "不在场证明",
+      "hook": "她明明没有杀人，所有监控却都证明她在现场。",
+      "summary": "夏知微找出监控被提前合成的痕迹，遇见数据取证师陆既白。",
+      "endingHook": "陆既白说：弹幕不是预言，是排期。",
+      "arc": "开局钩子",
+      "isFreePreview": true,
+      "paidValue": "",
+      "reversalPoint": "陆既白说：弹幕不是预言，是排期。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 4,
+      "title": "排期表",
+      "hook": "所有死亡都像被提前安排的内容日历。",
+      "summary": "夏知微潜入热搜代运营公司，发现一份死亡排期表。",
+      "endingHook": "排期表第七行是她母亲。",
+      "arc": "旧案牵出",
+      "isFreePreview": false,
+      "paidValue": "持续解锁热搜排期、母亲旧案和幕后系统。",
+      "reversalPoint": "排期表第七行是她母亲。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 5,
+      "title": "母亲旧案",
+      "hook": "母亲三年前车祸也曾上过同一家公司的热搜。",
+      "summary": "夏知微重查旧案，发现母亲死前删除了一段客户录音。",
+      "endingHook": "录音里出现陆既白父亲的声音。",
+      "arc": "旧案牵出",
+      "isFreePreview": false,
+      "paidValue": "持续解锁热搜排期、母亲旧案和幕后系统。",
+      "reversalPoint": "录音里出现陆既白父亲的声音。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 6,
+      "title": "合作条件",
+      "hook": "陆既白愿意帮她，但条件是夏知微公开承认婚礼事件失误。",
+      "summary": "两人用假内讧引出幕后账号，夏知微被全网骂上热搜。",
+      "endingHook": "骂她最狠的账号来自警方内网。",
+      "arc": "旧案牵出",
+      "isFreePreview": false,
+      "paidValue": "持续解锁热搜排期、母亲旧案和幕后系统。",
+      "reversalPoint": "骂她最狠的账号来自警方内网。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 7,
+      "title": "内网账号",
+      "hook": "警方内网账号参与操盘热搜，案件不再只是商业黑幕。",
+      "summary": "夏知微追踪账号，发现它绑定母亲旧案调查员。",
+      "endingHook": "调查员早在两年前已经死亡。",
+      "arc": "旧案牵出",
+      "isFreePreview": false,
+      "paidValue": "持续解锁热搜排期、母亲旧案和幕后系统。",
+      "reversalPoint": "调查员早在两年前已经死亡。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 8,
+      "title": "死人发帖",
+      "hook": "一个死人账号正在持续发布未来弹幕。",
+      "summary": "陆既白恢复账号日志，发现登录地点是废弃电视台。",
+      "endingHook": "电视台地下室仍在直播。",
+      "arc": "旧案牵出",
+      "isFreePreview": false,
+      "paidValue": "持续解锁热搜排期、母亲旧案和幕后系统。",
+      "reversalPoint": "电视台地下室仍在直播。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 9,
+      "title": "地下直播",
+      "hook": "废弃电视台里有一间无人直播间，循环播放所有受害者倒计时。",
+      "summary": "夏知微关掉直播，却触发新的城市级推送。",
+      "endingHook": "全城手机收到她的通缉令。",
+      "arc": "旧案牵出",
+      "isFreePreview": false,
+      "paidValue": "持续解锁热搜排期、母亲旧案和幕后系统。",
+      "reversalPoint": "全城手机收到她的通缉令。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 10,
+      "title": "全民审判",
+      "hook": "夏知微被塑造成连环案主谋，舆论开始替凶手办案。",
+      "summary": "她反向开直播，把自己变成诱饵。",
+      "endingHook": "直播间弹幕第一次出现人工打字错误。",
+      "arc": "旧案牵出",
+      "isFreePreview": false,
+      "paidValue": "持续解锁热搜排期、母亲旧案和幕后系统。",
+      "reversalPoint": "直播间弹幕第一次出现人工打字错误。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 11,
+      "title": "错字线索",
+      "hook": "一个错字暴露幕后人不是算法，而是熟人。",
+      "summary": "夏知微根据输入习惯锁定母亲生前学生顾曼。",
+      "endingHook": "顾曼见到她第一句话：你妈妈没有死透。",
+      "arc": "证人升级",
+      "isFreePreview": false,
+      "paidValue": "持续解锁热搜排期、母亲旧案和幕后系统。",
+      "reversalPoint": "顾曼见到她第一句话：你妈妈没有死透。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 12,
+      "title": "没有死透",
+      "hook": "顾曼说母亲临死前把一半证据上传到夏知微的账号。",
+      "summary": "夏知微回到旧家，发现童年电脑仍在自动同步。",
+      "endingHook": "电脑开机后弹出母亲自拍视频。",
+      "arc": "证人升级",
+      "isFreePreview": false,
+      "paidValue": "持续解锁热搜排期、母亲旧案和幕后系统。",
+      "reversalPoint": "电脑开机后弹出母亲自拍视频。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 13,
+      "title": "母亲视频",
+      "hook": "母亲在视频里承认自己参与过热搜审判系统。",
+      "summary": "她说系统本为保护受害者，却被资本改成舆论杀人工具。",
+      "endingHook": "视频最后点名陆既白父亲。",
+      "arc": "证人升级",
+      "isFreePreview": false,
+      "paidValue": "持续解锁热搜排期、母亲旧案和幕后系统。",
+      "reversalPoint": "视频最后点名陆既白父亲。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 14,
+      "title": "父辈同谋",
+      "hook": "陆既白父亲是系统第一任算法负责人。",
+      "summary": "陆既白崩溃离开，夏知微独自面对下一场死亡推送。",
+      "endingHook": "下一名受害者是顾曼。",
+      "arc": "证人升级",
+      "isFreePreview": false,
+      "paidValue": "持续解锁热搜排期、母亲旧案和幕后系统。",
+      "reversalPoint": "下一名受害者是顾曼。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 15,
+      "title": "救下证人",
+      "hook": "夏知微必须在全网仇恨中救下唯一证人。",
+      "summary": "她用假爆料转移流量，带顾曼逃出医院。",
+      "endingHook": "顾曼交出名单，第一名是夏知微老板。",
+      "arc": "证人升级",
+      "isFreePreview": false,
+      "paidValue": "持续解锁热搜排期、母亲旧案和幕后系统。",
+      "reversalPoint": "顾曼交出名单，第一名是夏知微老板。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 16,
+      "title": "老板上桌",
+      "hook": "夏知微老板一直在替幕后资本清理受害者。",
+      "summary": "她回公司设局，让老板在内部会议承认排期表。",
+      "endingHook": "老板说真正下单的人是陆既白。",
+      "arc": "证人升级",
+      "isFreePreview": false,
+      "paidValue": "持续解锁热搜排期、母亲旧案和幕后系统。",
+      "reversalPoint": "老板说真正下单的人是陆既白。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 17,
+      "title": "背叛热搜",
+      "hook": "全网都相信陆既白是幕后买手。",
+      "summary": "夏知微不信，查到陆既白账号被父亲旧权限劫持。",
+      "endingHook": "陆既白主动自首，只为保护她。",
+      "arc": "男主背叛",
+      "isFreePreview": false,
+      "paidValue": "持续解锁热搜排期、母亲旧案和幕后系统。",
+      "reversalPoint": "陆既白主动自首，只为保护她。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 18,
+      "title": "自首直播",
+      "hook": "陆既白在直播中承认所有罪名，弹幕却开始倒计时夏知微死亡。",
+      "summary": "夏知微冲进直播间，当众拆穿权限伪造。",
+      "endingHook": "直播屏幕后出现幕后人的真实剪影。",
+      "arc": "男主背叛",
+      "isFreePreview": false,
+      "paidValue": "持续解锁热搜排期、母亲旧案和幕后系统。",
+      "reversalPoint": "直播屏幕后出现幕后人的真实剪影。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 19,
+      "title": "真实剪影",
+      "hook": "幕后人竟是早已退休的城市传媒集团董事长。",
+      "summary": "他把热搜审判系统当成城市情绪清洗工具。",
+      "endingHook": "他宣布夏知微是最后一次公测。",
+      "arc": "男主背叛",
+      "isFreePreview": false,
+      "paidValue": "持续解锁热搜排期、母亲旧案和幕后系统。",
+      "reversalPoint": "他宣布夏知微是最后一次公测。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 20,
+      "title": "最后公测",
+      "hook": "全城用户被迫投票决定夏知微是否有罪。",
+      "summary": "夏知微拒绝辩解，公开所有受害者真实故事。",
+      "endingHook": "投票系统开始崩溃。",
+      "arc": "男主背叛",
+      "isFreePreview": false,
+      "paidValue": "持续解锁热搜排期、母亲旧案和幕后系统。",
+      "reversalPoint": "投票系统开始崩溃。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 21,
+      "title": "系统反噬",
+      "hook": "被操控的弹幕第一次变成真实用户声音。",
+      "summary": "受害者家属接力发声，董事长试图切断全网直播。",
+      "endingHook": "夏知微母亲的账号重新上线。",
+      "arc": "系统反噬",
+      "isFreePreview": false,
+      "paidValue": "持续解锁热搜排期、母亲旧案和幕后系统。",
+      "reversalPoint": "夏知微母亲的账号重新上线。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 22,
+      "title": "母亲账号",
+      "hook": "母亲账号发布最后证据，证明董事长买下所有死亡排期。",
+      "summary": "陆既白恢复底层日志，锁死证据链。",
+      "endingHook": "董事长启动销毁程序。",
+      "arc": "系统反噬",
+      "isFreePreview": false,
+      "paidValue": "持续解锁热搜排期、母亲旧案和幕后系统。",
+      "reversalPoint": "董事长启动销毁程序。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 23,
+      "title": "热搜归零",
+      "hook": "夏知微用自己的账号承接销毁程序，让系统把全部罪证推上热搜。",
+      "summary": "她短暂失去所有账号权限，却保住证据。",
+      "endingHook": "全网热搜只剩一个词：真相。",
+      "arc": "系统反噬",
+      "isFreePreview": false,
+      "paidValue": "持续解锁热搜排期、母亲旧案和幕后系统。",
+      "reversalPoint": "全网热搜只剩一个词：真相。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 24,
+      "title": "弹幕未完",
+      "hook": "案件结束后，夏知微不再害怕弹幕。",
+      "summary": "她和陆既白建立公开舆情取证平台，帮助普通人保存被压下的证据。",
+      "endingHook": "新弹幕出现：下一次，不是热搜，是城市断电。",
+      "arc": "系统反噬",
+      "isFreePreview": false,
+      "paidValue": "持续解锁热搜排期、母亲旧案和幕后系统。",
+      "reversalPoint": "新弹幕出现：下一次，不是热搜，是城市断电。",
+      "productionPriority": "high"
+    }
+  ],
+  "modeAdaptation": {
+    "aiShortDrama": {
+      "aspectRatio": "9:16",
+      "episodeDurationSeconds": {
+        "min": 45,
+        "max": 75
+      },
+      "visualStyle": "现代都市冷光舆论战，热搜红色数据、手机弹幕和直播大屏。",
+      "globalPromptZh": "9:16竖屏，现代都市舆论悬疑短剧，热搜红色数据，未来弹幕，危机公关女性，数据取证师，冷蓝屏幕光，高反差电影光影，强反转。",
+      "globalPromptEn": "vertical 9:16, modern urban public-opinion suspense short drama, red trending-topic data, future bullet comments, female crisis PR strategist, digital forensic analyst, cold blue screen glow, high-contrast cinematic lighting, strong twist."
+    }
+  },
+  "commercialPolicy": {
+    "freeScope": "第 1-3 集验证包。",
+    "buyout": "一次性开放第 4-24 集完整短剧制作包。",
+    "payPerEpisode": "优先开放第 4-6 集作为热搜悬疑付费承接。",
+    "revenueShare": "开放第 4-10 集作为第一批分成合作内容。",
+    "forbidden": [
+      "不得伪造成真实案件",
+      "不得转售原始制作包",
+      "不得绕开授权续写后续付费集"
+    ]
+  }
+}

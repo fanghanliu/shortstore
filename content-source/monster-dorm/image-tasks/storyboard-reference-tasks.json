@@ -1,0 +1,16 @@
+{
+  "slug": "monster-dorm",
+  "mode": "ai_manhua_drama",
+  "tasks": [
+    {
+      "id": "monster-dorm-cover",
+      "episodeNumber": null,
+      "assetType": "cover",
+      "mode": "ai_manhua_drama",
+      "promptZh": "竖屏AI漫剧封面，怪谈宿舍：我把规则怪物收进班级群，校园怪谈题材，竖屏国漫，强光影，符号化道具，人物眼神特写，核心道具规则班级群，场景封闭宿舍楼，无水印，无真实IP。",
+      "promptEn": "vertical AI漫剧 cover, 校园怪谈 story, symbolic key prop, cinematic lighting, no watermark, no existing IP",
+      "outputPath": "public/site/assets/covers/hot-catalog/cover-monster-dorm.svg",
+      "status": "generated_svg"
+    }
+  ]
+}

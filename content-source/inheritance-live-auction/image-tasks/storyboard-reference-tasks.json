@@ -1,0 +1,16 @@
+{
+  "slug": "inheritance-live-auction",
+  "mode": "ai_short_drama",
+  "tasks": [
+    {
+      "id": "inheritance-live-auction-cover",
+      "episodeNumber": null,
+      "assetType": "cover",
+      "mode": "ai_short_drama",
+      "promptZh": "竖屏AI短剧封面，遗产直播拍卖：我竞价买回亲妈，遗产反转题材，现代短剧电影感，冷暖对比，证据特写，强情绪表演，核心道具遗产拍卖号牌，场景直播拍卖厅，无水印，无真实IP。",
+      "promptEn": "vertical AI短剧 cover, 遗产反转 story, symbolic key prop, cinematic lighting, no watermark, no existing IP",
+      "outputPath": "public/site/assets/covers/hot-catalog/cover-inheritance-live-auction.svg",
+      "status": "generated_svg"
+    }
+  ]
+}

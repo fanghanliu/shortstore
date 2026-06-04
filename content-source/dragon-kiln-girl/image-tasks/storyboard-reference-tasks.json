@@ -1,0 +1,16 @@
+{
+  "slug": "dragon-kiln-girl",
+  "mode": "ai_manhua_drama",
+  "tasks": [
+    {
+      "id": "dragon-kiln-girl-cover",
+      "episodeNumber": null,
+      "assetType": "cover",
+      "mode": "ai_manhua_drama",
+      "promptZh": "竖屏AI漫剧封面，龙窑少女：我烧出能说话的瓷军，龙窑机关题材，竖屏国漫，强光影，符号化道具，人物眼神特写，核心道具龙窑火种，场景古窑山城，无水印，无真实IP。",
+      "promptEn": "vertical AI漫剧 cover, 龙窑机关 story, symbolic key prop, cinematic lighting, no watermark, no existing IP",
+      "outputPath": "public/site/assets/covers/hot-catalog/cover-dragon-kiln-girl.svg",
+      "status": "generated_svg"
+    }
+  ]
+}

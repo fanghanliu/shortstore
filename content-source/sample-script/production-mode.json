@@ -1,0 +1,28 @@
+{
+  "slug": "sample-script",
+  "primaryMode": "dual",
+  "supportedModes": ["ai_short_drama", "ai_manhua_drama"],
+  "defaultAspectRatio": "9:16",
+  "episodeDurationSeconds": {
+    "min": 45,
+    "max": 75
+  },
+  "panelCount": {
+    "min": 10,
+    "max": 14
+  },
+  "visualStyle": {
+    "ai_short_drama": "近未来都市 AI 心理诊所，冷蓝医疗光，雨夜霓虹，记忆碎片可视化，真人影视短剧质感。",
+    "ai_manhua_drama": "近未来都市悬疑国漫，竖屏条漫构图，干净线稿，冷蓝灰色调，强表情特写，预留对白气泡空间。"
+  },
+  "promptPolicy": {
+    "ai_short_drama": {
+      "mustInclude": ["vertical 9:16", "cinematic lighting", "camera movement", "character action", "short drama pacing"],
+      "avoid": ["cartoon style", "low resolution", "exaggerated expression", "watermark"]
+    },
+    "ai_manhua_drama": {
+      "mustInclude": ["vertical manhua panel", "clean line art", "speech bubble space", "consistent character design", "panel continuity"],
+      "avoid": ["western superhero style", "messy background", "face drift", "overcrowded text"]
+    }
+  }
+}

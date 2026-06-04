@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>剧本详情 | 短剧本铺</title>
+    <link rel="stylesheet" href="styles.css?v=20260527-routing" />
+  </head>
+  <body>
+    <header class="topbar home-topbar">
+      <nav class="nav" aria-label="页面导航">
+        <a href="index.html#featured">今日主推</a>
+        <a href="scripts.html">剧本库</a>
+        <a href="index.html#pricing">续作方式</a>
+        <a href="index.html#license">授权说明</a>
+        <a href="auth.html?mode=login" data-auth-link>登录 / 注册</a>
+      </nav>
+      <a class="top-cta" href="scripts.html">进入剧本库</a>
+    </header>
+
+    <main id="top">
+      <section class="hero dynamic-detail-hero">
+        <div class="hero-backdrop"></div>
+        <div class="hero-content">
+          <a class="secondary-button" href="scripts.html">返回剧本库</a>
+          <div class="hero-label" id="scriptLabels">
+            <span>前三集已开放</span>
+            <span>AI短剧验证包</span>
+          </div>
+          <h1 id="scriptTitle">剧本详情</h1>
+          <p class="hero-subtitle" id="scriptLogline">正在加载剧本数据...</p>
+          <div class="hero-actions">
+            <button class="primary-button" type="button" id="openDownload">下载前三集验证包</button>
+            <a class="secondary-button" href="#episodes">查看前三集</a>
+          </div>
+          <div class="meta-pills" id="platformPills"></div>
+        </div>
+        <aside class="hero-preview detail-visual" aria-label="剧本视觉预览">
+          <img class="hero-poster" id="heroPoster" src="assets/hero-storyboard-marketplace.png" alt="剧本封面视觉" />
+          <div class="hero-panel">
+            <div class="panel-top">
+              <span>免费包</span>
+              <strong id="heroAssetVersion">v1.0</strong>
+            </div>
+            <div class="mini-reel" id="heroFrames"></div>
+            <div class="preview-caption">
+              <span id="heroDifficulty">制作难度读取中</span>
+              <strong id="heroEpisodeCount">前三集可验证</strong>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="library-section detail-overview-section">
+        <div class="section-head detail-overview-head">
+          <div>
+            <p class="eyebrow">剧本概览</p>
+            <h2 id="scriptCategory">正在读取题材信息</h2>
+          </div>
+        </div>
+        <div class="detail-overview-panel">
+          <article class="detail-synopsis-card">
+            <span>Synopsis</span>
+            <strong>剧情简介</strong>
+            <p id="scriptSynopsis">请稍候。</p>
+          </article>
+          <div class="asset-grid detail-overview-grid" id="overviewGrid"></div>
+        </div>
+      </section>
+
+      <section class="library-section" id="episodes">
+        <div class="section-head compact">
+          <div>
+            <p class="eyebrow">前三集验证</p>
+            <h2>先用前三集验证钩子、完播和追更评论。</h2>
+          </div>
+          <span>每集建议控制在45-75秒，连续发布后观察数据走势。</span>
+        </div>
+        <div class="episode-grid" id="episodeGrid"></div>
+      </section>
+
+      <section class="pricing-section" id="download">
+        <div class="section-head compact">
+          <div>
+            <p class="eyebrow">免费下载</p>
+            <h2 id="assetTitle">前三集免费验证包</h2>
+          </div>
+          <span id="assetMeta">下载前需要确认免费试用边界。</span>
+        </div>
+        <div class="detail-download-grid">
+          <article class="featured-price">
+            <div class="plan-head">
+              <span>免费包</span>
+              <h3>前三集验证包</h3>
+              <p id="packageFileFormat">DOCX 文件</p>
+            </div>
+            <div class="free-pack-metrics" aria-label="免费包摘要">
+              <div>
+                <b>3</b>
+                <small>免费剧集</small>
+              </div>
+              <div>
+                <b id="packageFormatMetric">DOCX</b>
+                <small>交付格式</small>
+              </div>
+              <div>
+                <b>试拍</b>
+                <small>先测数据</small>
+              </div>
+            </div>
+            <button type="button" id="openDownloadSecondary">下载前三集验证包</button>
+            <ul class="plan-features">
+              <li>前三集剧情正文</li>
+              <li>核心钩子和结尾悬念</li>
+              <li>角色视觉锚点</li>
+              <li>AI画面提示词</li>
+              <li>授权边界说明</li>
+            </ul>
+          </article>
+          <article class="delivery-card">
+            <div class="plan-head">
+              <span>文件清单</span>
+              <h3>交付内容</h3>
+              <p>下载前即可确认包含内容</p>
+            </div>
+            <div class="delivery-layout">
+              <ul class="plan-features delivery-list" id="downloadFileList"></ul>
+              <div class="delivery-side">
+                <div class="delivery-metric">
+                  <span>Preview</span>
+                  <strong>3集</strong>
+                  <p>先验证题材钩子、评论反应和完播潜力。</p>
+                </div>
+                <div class="delivery-metric">
+                  <span>Format</span>
+                  <strong id="deliveryFormat">DOCX</strong>
+                  <p>正文、分镜和提示词按制作字段整理。</p>
+                </div>
+              </div>
+            </div>
+            <div class="delivery-note">
+              <span>使用边界</span>
+              <p>免费包可用于前三集测试发布；续作、买断或分成合作以后续授权确认。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="library-section" id="continuation">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">续作方式</p>
+            <h2>前三集验证后，再决定如何继续制作。</h2>
+          </div>
+          <span>支持一次性买断、按集付费和版权分成。具体合作以后续确认和授权文件为准。</span>
+        </div>
+        <div class="continuation-grid" id="continuationGrid"></div>
+      </section>
+
+      <section class="library-section" id="license">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">授权说明</p>
+            <h2>免费试拍，不等于完整版权转让。</h2>
+          </div>
+          <span>你可以使用本免费包制作并发布前三集测试视频，但不得转售、打包上传、拆分售卖或作为素材库二次分发。</span>
+        </div>
+      </section>
+    </main>
+
+    <aside class="preview-modal download-modal" id="downloadDialog" aria-hidden="true" aria-label="下载前授权确认">
+      <div class="modal-stage">
+        <button class="close-button" type="button" id="closeDownload" aria-label="关闭">×</button>
+        <div class="modal-copy">
+          <p class="eyebrow">下载前确认</p>
+          <h2>请确认免费试用边界</h2>
+          <p>本免费包仅授权前三集测试使用，不包含第4集及以后内容，不构成完整剧本版权转让。你不得将本免费包转售、打包上传、拆分售卖或作为素材库二次分发。</p>
+          <div class="modal-boundary-grid" aria-label="免费试用边界摘要">
+            <span>可试拍前三集</span>
+            <span>不可转售分发</span>
+            <span>续作需另授权</span>
+          </div>
+          <label class="download-check">
+            <input type="checkbox" id="licenseConfirm" />
+            <span>我已了解并同意以上免费试用边界</span>
+          </label>
+          <a class="primary-button disabled-link" id="confirmDownload" href="#" download aria-disabled="true">确认下载前三集</a>
+        </div>
+        <aside class="modal-download-summary" aria-label="验证包内容摘要">
+          <div>
+            <span>Free Preview</span>
+            <strong>前三集验证包</strong>
+            <p>用于确认题材钩子、角色张力、开头节奏和账号受众反馈。</p>
+          </div>
+          <div class="modal-summary-grid">
+            <article>
+              <span>01</span>
+              <strong>剧情正文</strong>
+              <p>前三集完整剧情、关键转折和结尾悬念。</p>
+            </article>
+            <article>
+              <span>02</span>
+              <strong>分镜提示</strong>
+              <p>可直接转入 AI 视频工具的画面提示词。</p>
+            </article>
+            <article>
+              <span>03</span>
+              <strong>测试建议</strong>
+              <p>发布节奏、评论观察和后续判断依据。</p>
+            </article>
+            <article>
+              <span>04</span>
+              <strong>授权边界</strong>
+              <p>免费试拍范围与续作合作边界说明。</p>
+            </article>
+          </div>
+        </aside>
+      </div>
+    </aside>
+    <div class="scrim" id="scrim"></div>
+
+    <script src="site-session.js"></script>
+    <script src="script-detail.js"></script>
+    <script src="script-preview.js"></script>
+  </body>
+</html>

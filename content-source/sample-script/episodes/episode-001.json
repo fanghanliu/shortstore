@@ -1,0 +1,118 @@
+{
+  "episodeNumber": 1,
+  "title": "午夜患者",
+  "hook": "失忆女孩醒来第一句话是“不要相信林雾”。",
+  "summary": "午夜暴雨中，林雾接诊被送入诊所的许眠。许眠每晚零点都会重置记忆，却在看到林雾时本能后退，并写下“不要相信林雾”。林雾启动记忆修复系统，发现许眠脑内反复闪现一个被删除的名字：林燃。",
+  "endingHook": "许眠在治疗屏幕上写下林雾哥哥的名字。",
+  "characters": ["林雾", "许眠"],
+  "locations": ["午夜算法诊所接诊室"],
+  "reversalPoint": "患者不是第一次见到林雾，她知道林雾哥哥的名字。",
+  "paidScope": false,
+  "status": "draft",
+  "aiShortDrama": {
+    "runtimeSeconds": 60,
+    "scriptText": "暴雨敲打诊所玻璃。林雾推开接诊室门，看见许眠蜷缩在诊疗椅上，手腕编号腕带闪着冷光。林雾低声确认姓名，许眠却忽然抬头，声音发抖：“不要相信林雾。”林雾动作停住。她启动 Mnemosyne，蓝色记忆界面浮起，许眠的记忆像雪花一样碎裂。屏幕不断闪现同一个名字：林燃。林雾脸色第一次失控，因为那是她失踪三年的哥哥。",
+    "shots": [
+      {
+        "shotNumber": 1,
+        "durationSeconds": 6,
+        "visual": "午夜算法诊所外景，暴雨和蓝色招牌反射在湿漉漉街面。",
+        "characterAction": "林雾推门进入接诊室。",
+        "cameraMovement": "从诊所招牌快速推进到接诊室玻璃门。",
+        "lighting": "雨夜霓虹和冷蓝医疗光交叠。",
+        "dialogueOrSubtitle": "午夜零点，只接无法公开治疗的患者。",
+        "audioCue": "雨声、门禁滴声、低频电子音。",
+        "aiPromptZh": "9:16竖屏，近未来都市午夜 AI 心理诊所，暴雨街道，冷蓝医疗招牌，亚洲女性心理师推门进入，电影感高反差光影。",
+        "aiPromptEn": "vertical 9:16, near-future midnight AI psychology clinic, rainy street, cold blue medical sign, Asian female therapist entering the door, cinematic high-contrast lighting"
+      },
+      {
+        "shotNumber": 2,
+        "durationSeconds": 8,
+        "visual": "许眠蜷缩在诊疗椅上，手腕编号腕带闪烁。",
+        "characterAction": "许眠抬头看见林雾，惊恐后退。",
+        "cameraMovement": "从腕带特写上摇到许眠苍白的脸。",
+        "lighting": "冷白顶灯，脸部半明半暗。",
+        "dialogueOrSubtitle": "不要相信林雾。",
+        "audioCue": "心跳声放大。",
+        "aiPromptZh": "9:16竖屏，冷白诊疗室，苍白亚洲少女蜷缩在诊疗椅，灰色卫衣，编号腕带发光，惊恐眼神，悬疑短剧特写。",
+        "aiPromptEn": "vertical 9:16, cold white therapy room, pale Asian teenage girl curled in a therapy chair, gray hoodie, glowing numbered wristband, frightened eyes, suspense drama close-up"
+      },
+      {
+        "shotNumber": 3,
+        "durationSeconds": 10,
+        "visual": "Mnemosyne 记忆界面展开，碎片化画面漂浮在两人之间。",
+        "characterAction": "林雾克制地启动系统，眼神逐渐变冷。",
+        "cameraMovement": "环绕两人半圈，穿过半透明记忆界面。",
+        "lighting": "蓝色算法光照亮林雾眼睛。",
+        "dialogueOrSubtitle": "她的记忆不是丢了，是被切开了。",
+        "audioCue": "数据扫描声和低频嗡鸣。",
+        "aiPromptZh": "9:16竖屏，AI 记忆修复界面，蓝色半透明数据碎片漂浮，亚洲女性心理师冷静操作，失忆少女坐在对面，近未来医疗悬疑。",
+        "aiPromptEn": "vertical 9:16, AI memory repair interface, blue translucent data fragments floating, Asian female therapist operating calmly, amnesiac girl sitting opposite, near-future medical suspense"
+      },
+      {
+        "shotNumber": 4,
+        "durationSeconds": 8,
+        "visual": "治疗屏幕上出现“林燃”两个字。",
+        "characterAction": "林雾的手指停在屏幕前，呼吸短暂停住。",
+        "cameraMovement": "从屏幕文字反打到林雾眼睛。",
+        "lighting": "屏幕蓝光压暗背景。",
+        "dialogueOrSubtitle": "这个名字，她不该知道。",
+        "audioCue": "电子音戛然而止。",
+        "aiPromptZh": "9:16竖屏，治疗屏幕特写，蓝色界面出现中文姓名，亚洲女性心理师眼神震动，冷蓝光，高反差悬疑。",
+        "aiPromptEn": "vertical 9:16, close-up of therapy screen, blue interface showing a Chinese name, Asian female therapist's eyes shaken, cold blue light, high-contrast suspense"
+      }
+    ],
+    "editingNotes": ["开头 3 秒必须出现“不要相信林雾”", "结尾停在林雾眼睛和林燃名字之间"]
+  },
+  "aiManhuaDrama": {
+    "panelCount": 12,
+    "scriptText": "本集用冷蓝诊所、编号腕带和记忆碎片建立悬疑感。前三格先让许眠说出警告，中段展示记忆修复系统，最后一格用“林燃”名字制造追更。",
+    "panels": [
+      {
+        "panelNumber": 1,
+        "composition": "竖屏上半格，雨夜中的午夜算法诊所招牌。",
+        "characterPose": "林雾背影推门。",
+        "expression": "冷静、疲惫。",
+        "dialogueBubble": "",
+        "narrationBox": "午夜零点，诊所只接无法公开治疗的人。",
+        "sfx": "哗啦",
+        "aiPromptZh": "竖屏国漫分镜，雨夜近未来 AI 心理诊所，冷蓝招牌，女性心理师背影推门，干净线稿，悬疑氛围。",
+        "aiPromptEn": "vertical manhua panel, rainy night near-future AI psychology clinic, cold blue sign, female therapist entering from behind, clean line art, suspense atmosphere"
+      },
+      {
+        "panelNumber": 2,
+        "composition": "中景，许眠蜷缩在诊疗椅。",
+        "characterPose": "许眠抓紧袖口，腕带发光。",
+        "expression": "惊恐、警觉。",
+        "dialogueBubble": "不要相信林雾。",
+        "narrationBox": "",
+        "sfx": "滴",
+        "aiPromptZh": "竖屏国漫分镜，冷白诊疗室，苍白少女灰色卫衣蜷缩在椅子上，发光编号腕带，惊恐表情，预留对白气泡。",
+        "aiPromptEn": "vertical manhua panel, cold white therapy room, pale girl in gray hoodie curled in chair, glowing numbered wristband, frightened expression, speech bubble space"
+      },
+      {
+        "panelNumber": 3,
+        "composition": "特写，林雾的眼睛被蓝色界面照亮。",
+        "characterPose": "林雾抬手启动系统。",
+        "expression": "克制中出现一丝震动。",
+        "dialogueBubble": "开始记忆修复。",
+        "narrationBox": "",
+        "sfx": "嗡",
+        "aiPromptZh": "竖屏国漫特写，亚洲女性心理师黑色短发，眼睛被蓝色数据界面照亮，白色诊疗外套，悬疑冷调。",
+        "aiPromptEn": "vertical manhua close-up, Asian female therapist with short black hair, eyes lit by blue data interface, white medical coat, cold suspense tone"
+      },
+      {
+        "panelNumber": 4,
+        "composition": "黑底大字格，屏幕浮现“林燃”。",
+        "characterPose": "林雾手指停在屏幕前。",
+        "expression": "震惊但压住情绪。",
+        "dialogueBubble": "这个名字……",
+        "narrationBox": "她失踪三年的哥哥。",
+        "sfx": "",
+        "aiPromptZh": "竖屏国漫悬疑分镜，黑色背景，蓝色治疗屏幕显示中文姓名，女性心理师手指停住，强情绪特写，预留文字空间。",
+        "aiPromptEn": "vertical manhua suspense panel, black background, blue therapy screen showing a Chinese name, female therapist's finger frozen, emotional close-up, text space"
+      }
+    ],
+    "layoutNotes": ["前两格直接放警告台词", "最后一格黑底蓝字制造停顿"]
+  }
+}

@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>用户中心 | 短剧本铺</title>
+    <link rel="stylesheet" href="styles.css?v=20260528-account" />
+  </head>
+  <body class="account-page">
+    <header class="topbar home-topbar">
+      <nav class="nav" aria-label="页面导航">
+        <a href="index.html#featured">今日主推</a>
+        <a href="scripts.html">剧本库</a>
+        <a href="index.html#pricing">续作方式</a>
+        <a href="index.html#license">授权说明</a>
+        <a href="auth.html?mode=login" data-auth-link>登录 / 注册</a>
+      </nav>
+      <a class="top-cta" href="scripts.html">进入剧本库</a>
+    </header>
+
+    <main class="account-shell">
+      <section class="account-hero">
+        <div>
+          <p class="eyebrow">用户中心</p>
+          <h1>你的剧本下载记录，会在这里沉淀。</h1>
+          <p>
+            当前版本先展示免费前三集验证包的下载记录。后续会继续接入测试反馈、按集购买、买断申请和分成合作申请。
+          </p>
+        </div>
+        <aside class="account-summary" aria-label="账号摘要">
+          <span>当前账号</span>
+          <strong id="accountName">正在读取...</strong>
+          <p id="accountEmail">请稍候</p>
+          <button class="secondary-button" type="button" id="logoutButton">退出登录</button>
+        </aside>
+      </section>
+
+      <section class="account-dashboard" aria-label="用户中心概况">
+        <article>
+          <span>已下载剧本</span>
+          <strong id="statDownloadCount">0</strong>
+          <p>可提交测试反馈或申请后续合作。</p>
+        </article>
+        <article>
+          <span>测试反馈</span>
+          <strong id="statReportCount">0</strong>
+          <p>用于判断是否值得继续制作。</p>
+        </article>
+        <article>
+          <span>合作申请</span>
+          <strong id="statRequestCount">0</strong>
+          <p>买断、按集和版权分成意向。</p>
+        </article>
+        <article>
+          <span>版权分成项目</span>
+          <strong id="statRevenueShareCount">0</strong>
+          <p>已通过分成合作后持续追踪。</p>
+        </article>
+        <article>
+          <span>订单</span>
+          <strong id="statOrderCount">0</strong>
+          <p>待付款和已付款记录。</p>
+        </article>
+        <article>
+          <span>交付内容</span>
+          <strong id="statDeliveryCount">0</strong>
+          <p>通过合作申请后可领取。</p>
+        </article>
+      </section>
+
+      <nav class="account-tabs" aria-label="用户中心分区">
+        <button type="button" class="active" data-account-tab="downloads">我的下载</button>
+        <button type="button" data-account-tab="reports">测试反馈</button>
+        <button type="button" data-account-tab="requests">后续合作</button>
+        <button type="button" data-account-tab="revenueShare">我的分成</button>
+        <button type="button" data-account-tab="orders">我的订单</button>
+        <button type="button" data-account-tab="deliveries">我的交付</button>
+      </nav>
+
+      <section class="account-section" id="downloads-section" data-account-panel="downloads">
+        <div class="section-head compact">
+          <div>
+            <p class="eyebrow">我的下载</p>
+            <h2>已领取的免费验证包</h2>
+          </div>
+          <span id="downloadCount">正在加载下载记录...</span>
+        </div>
+
+        <div class="account-download-grid" id="downloadList">
+          <article class="library-state">正在读取你的下载记录...</article>
+        </div>
+      </section>
+
+      <section class="account-section" id="test-reports" data-account-panel="reports" hidden>
+        <div class="section-head compact">
+          <div>
+            <p class="eyebrow">测试反馈</p>
+            <h2>提交前三集测试视频数据</h2>
+          </div>
+          <div class="section-head-actions">
+            <span id="reportCount">提交后可作为后续买断、按集或分成合作的参考。</span>
+            <button class="secondary-button" type="button" id="refreshReportsButton">刷新状态</button>
+          </div>
+        </div>
+
+        <div class="test-report-layout">
+          <form class="test-report-form" id="testReportForm">
+            <label>
+              选择已下载剧本
+              <select name="downloadId" id="reportDownloadSelect" required>
+                <option value="">请先选择下载记录</option>
+              </select>
+            </label>
+
+            <label>
+              发布平台
+              <input type="text" name="platform" required placeholder="抖音 / 快手 / TikTok / YouTube Shorts" />
+            </label>
+
+            <label>
+              测试视频链接
+              <input type="url" name="videoUrl" required placeholder="https://..." />
+            </label>
+
+            <div class="test-report-grid">
+              <label>
+                播放量
+                <input type="number" name="viewCount" min="0" inputmode="numeric" placeholder="0" />
+              </label>
+              <label>
+                点赞量
+                <input type="number" name="likeCount" min="0" inputmode="numeric" placeholder="0" />
+              </label>
+              <label>
+                评论量
+                <input type="number" name="commentCount" min="0" inputmode="numeric" placeholder="0" />
+              </label>
+              <label>
+                涨粉量
+                <input type="number" name="followerDelta" min="0" inputmode="numeric" placeholder="0" />
+              </label>
+            </div>
+
+            <label>
+              发布时间
+              <input type="datetime-local" name="publishTime" />
+            </label>
+
+            <label>
+              备注
+              <textarea name="notes" rows="4" placeholder="可以记录完播率、评论反馈、剪辑版本、封面标题等观察。"></textarea>
+            </label>
+
+            <p class="form-message" id="reportMessage" role="status"></p>
+            <button class="primary-button form-button" type="submit" id="reportSubmit">提交测试反馈</button>
+          </form>
+
+          <div class="test-report-list" id="reportList">
+            <article class="library-state">正在读取测试反馈...</article>
+          </div>
+        </div>
+      </section>
+
+      <section class="account-section" id="continuation-requests" data-account-panel="requests" hidden>
+        <div class="section-head compact">
+          <div>
+            <p class="eyebrow">后续合作</p>
+            <h2>申请买断、按集购买或版权分成</h2>
+          </div>
+          <div class="section-head-actions">
+            <span id="requestCount">提交后平台会根据下载记录和测试反馈判断后续合作方式。</span>
+            <button class="secondary-button" type="button" id="refreshRequestsButton">刷新状态</button>
+          </div>
+        </div>
+
+        <div class="test-report-layout">
+          <form class="test-report-form" id="continuationRequestForm">
+            <label>
+              合作方式
+              <select name="type" id="requestType" required>
+                <option value="buyout">一次性买断完整剧本</option>
+                <option value="pay_per_episode">按集购买后续内容</option>
+                <option value="revenue_share">版权分成合作</option>
+              </select>
+            </label>
+
+            <label>
+              选择可申请剧本
+              <select name="downloadId" id="requestDownloadSelect" required>
+                <option value="">请先选择合作方式</option>
+              </select>
+            </label>
+
+            <label>
+              关联测试反馈
+              <select name="testReportId" id="requestReportSelect">
+                <option value="">暂不关联测试反馈</option>
+              </select>
+            </label>
+
+            <label id="requestEpisodeField" hidden>
+              选择购买集数
+              <div class="episode-checkbox-grid" id="requestEpisodeSelect"></div>
+              <input type="hidden" name="episodeRange" id="requestEpisodeRange" />
+            </label>
+
+            <label>
+              联系方式偏好
+              <input type="text" name="contactPreference" placeholder="微信 / 邮箱 / 电话，以及方便联系的时间" />
+            </label>
+
+            <label>
+              申请说明
+              <textarea name="message" rows="4" placeholder="可以说明测试数据、账号情况、预算、预计更新频率或分成合作想法。"></textarea>
+            </label>
+
+            <p class="form-message" id="requestMessage" role="status"></p>
+            <button class="primary-button form-button" type="submit" id="requestSubmit">提交后续合作申请</button>
+          </form>
+
+          <div class="test-report-list" id="requestList">
+            <article class="library-state">正在读取后续合作申请...</article>
+          </div>
+        </div>
+      </section>
+
+      <section class="account-section" id="revenue-share-projects" data-account-panel="revenueShare" hidden>
+        <div class="section-head compact">
+          <div>
+            <p class="eyebrow">版权分成</p>
+            <h2>我的分成项目</h2>
+          </div>
+          <div class="section-head-actions">
+            <span id="revenueShareCount">分成合作通过后，项目状态会出现在这里。</span>
+            <button class="secondary-button" type="button" id="refreshRevenueShareButton">刷新分成项目</button>
+          </div>
+        </div>
+
+        <div class="test-report-list" id="revenueShareList">
+          <article class="library-state">正在读取分成项目...</article>
+        </div>
+
+        <form class="test-report-form revenue-share-statement-form" id="revenueShareStatementForm">
+          <label>
+            分成项目
+            <select name="projectId" id="revenueShareProjectSelect" required>
+              <option value="">请选择分成项目</option>
+            </select>
+          </label>
+
+          <div class="test-report-grid">
+            <label>
+              周期开始
+              <input type="date" name="periodStart" required />
+            </label>
+            <label>
+              周期结束
+              <input type="date" name="periodEnd" required />
+            </label>
+            <label>
+              本期总收益
+              <input type="number" name="reportedRevenueYuan" min="0" step="0.01" inputmode="decimal" required />
+            </label>
+            <label>
+              集数
+              <input type="number" name="episodeNumber" min="1" step="1" required />
+            </label>
+          </div>
+
+          <label>
+            视频标题
+            <input type="text" name="videoTitle" required placeholder="第4集成片标题" />
+          </label>
+
+          <div class="test-report-grid">
+            <label>
+              平台
+              <input type="text" name="platform" required placeholder="抖音 / 快手 / 视频号" />
+            </label>
+            <label>
+              账号
+              <input type="text" name="accountName" required placeholder="账号昵称或主页链接" />
+            </label>
+            <label>
+              发布时间
+              <input type="datetime-local" name="publishedAt" required />
+            </label>
+            <label>
+              单条收益
+              <input type="number" name="videoRevenueYuan" min="0" step="0.01" inputmode="decimal" required />
+            </label>
+          </div>
+
+          <label>
+            视频链接
+            <input type="url" name="videoUrl" required placeholder="https://..." />
+          </label>
+
+          <div class="test-report-grid">
+            <label>
+              播放量
+              <input type="number" name="viewCount" min="0" inputmode="numeric" />
+            </label>
+            <label>
+              点赞量
+              <input type="number" name="likeCount" min="0" inputmode="numeric" />
+            </label>
+            <label>
+              评论量
+              <input type="number" name="commentCount" min="0" inputmode="numeric" />
+            </label>
+            <label>
+              证明类型
+              <select name="evidenceType">
+                <option value="revenue_screenshot">收益截图</option>
+                <option value="platform_statement">平台结算单</option>
+                <option value="analytics_screenshot">数据后台截图</option>
+                <option value="other">其他证明</option>
+              </select>
+            </label>
+          </div>
+
+          <label>
+            收益证明路径或链接
+            <input type="text" name="evidencePath" required placeholder="screenshots/revenue/xxx.png 或 https://..." />
+          </label>
+
+          <label>
+            备注
+            <textarea name="userNote" rows="3" placeholder="可记录平台后台口径、异常数据或补充说明"></textarea>
+          </label>
+
+          <p class="form-message" id="revenueShareStatementMessage" role="status"></p>
+          <button class="primary-button form-button" type="submit" id="revenueShareStatementSubmit">提交月度回传</button>
+        </form>
+      </section>
+
+      <section class="account-section" id="orders" data-account-panel="orders" hidden>
+        <div class="section-head compact">
+          <div>
+            <p class="eyebrow">我的订单</p>
+            <h2>待付款和已确认订单</h2>
+          </div>
+          <div class="section-head-actions">
+            <span id="orderCount">后台生成报价后，订单会出现在这里。</span>
+            <button class="secondary-button" type="button" id="refreshOrdersButton">刷新订单</button>
+          </div>
+        </div>
+
+        <div class="test-report-list" id="orderList">
+          <article class="library-state">正在读取订单...</article>
+        </div>
+      </section>
+
+      <section class="account-section" id="deliveries" data-account-panel="deliveries" hidden>
+        <div class="section-head compact">
+          <div>
+            <p class="eyebrow">我的交付</p>
+            <h2>已开放领取的后续内容</h2>
+          </div>
+          <div class="section-head-actions">
+            <span id="deliveryCount">合作申请通过后，交付内容会出现在这里。</span>
+            <button class="secondary-button" type="button" id="refreshDeliveriesButton">刷新交付</button>
+          </div>
+        </div>
+
+        <div class="test-report-list" id="deliveryList">
+          <article class="library-state">正在读取交付内容...</article>
+        </div>
+      </section>
+
+      <section class="account-section account-next">
+        <div class="section-head compact">
+          <div>
+            <p class="eyebrow">下一步</p>
+            <h2>下载后最重要的是用数据判断要不要继续。</h2>
+          </div>
+          <span>用户中心下一阶段会补齐测试反馈和后续合作申请。</span>
+        </div>
+        <div class="account-action-grid">
+          <article>
+            <span>01</span>
+            <strong>制作前三集测试视频</strong>
+            <p>先验证开头钩子、完播、评论和账号受众匹配度。</p>
+          </article>
+          <article>
+            <span>02</span>
+            <strong>回传测试数据</strong>
+            <p>记录播放、点赞、评论、涨粉和视频链接。</p>
+          </article>
+          <article>
+            <span>03</span>
+            <strong>选择后续方式</strong>
+            <p>根据数据选择买断、按集购买或版权分成。</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="site-session.js"></script>
+    <script src="account.js"></script>
+  </body>
+</html>

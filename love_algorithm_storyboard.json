@@ -1,0 +1,1279 @@
+{
+  "global_metadata": {
+    "video_type": {
+      "zh": "AI甜宠合约恋爱都市轻喜剧海外平台短剧",
+      "en": "AI Romantic Comedy Fake Dating Urban Short Drama for Global Platforms"
+    },
+    "recommended_aspect_ratio": "9:16 (竖屏短剧 / Vertical Short Drama)",
+    "target_platforms": [
+      "TikTok",
+      "YouTube Shorts",
+      "ReelShort",
+      "DramaBox",
+      "抖音",
+      "小红书",
+      "Kling",
+      "Runway",
+      "Sora",
+      "可灵"
+    ],
+    "visual_style_tags": [
+      "AI恋爱匹配 / AI Romance Matching",
+      "合约恋爱 / Fake Dating Contract",
+      "都市甜宠 / Urban Sweet Romance",
+      "海外平台轻喜剧 / Global Platform Rom-Com",
+      "科技公司发布会 / Tech Launch Aesthetic",
+      "弹幕嗑CP / Viral Couple Comments"
+    ],
+    "estimated_total_duration": "36-72分钟 / 36-72 minutes"
+  },
+  "scenes": [
+    {
+      "scene_id": "001",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "LovePilot海外发布会前夜的玻璃会议厅，巨型屏幕突然弹出姜梨与顾屿白99.99%匹配结果",
+          "en": "Glass conference hall on the eve of LovePilot's overseas launch, giant screen suddenly showing Jiang Li and Gu Yubai as a 99.99% match"
+        },
+        "lighting": {
+          "zh": "冷蓝发布会屏光照亮全公司，姜梨身上是干净白光，匹配弹窗用粉蓝霓虹闪烁",
+          "en": "Cool blue launch-screen glow lights the team, clean white light on Jiang Li, pink-blue neon match popup flashing"
+        }
+      },
+      "characters": [
+        {
+          "name": "姜梨",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，LovePilot首席算法工程师，清爽漂亮的冷感理工女，白衬衫或浅色针织衫，细框眼镜，眼神聪明嘴硬",
+            "en": "A 27-year-old Asian woman, LovePilot chief algorithm engineer, fresh pretty cool-toned coder, white shirt or pale knitwear, thin-frame glasses, smart stubborn eyes"
+          },
+          "action": {
+            "zh": "她冲到服务器机柜前拔掉电源，白衬衫袖口被扯乱，仍死盯屏幕",
+            "en": "She rushes to unplug the server rack, white shirt cuffs messy, still staring at the screen"
+          }
+        },
+        {
+          "name": "顾屿白",
+          "visual_anchor": {
+            "zh": "30岁亚洲男性，科技投资人，斯文矜贵，深色西装或浅灰大衣，白衬衫，笑起来温柔但带一点腹黑",
+            "en": "A 30-year-old Asian male tech investor, refined and elegant, dark suit or light gray coat, white shirt, gentle smile with subtle mischief"
+          },
+          "action": {
+            "zh": "他推门进来，看着匹配结果微笑，像早就知道算法会出卖她",
+            "en": "He enters and smiles at the match result, as if he knew the algorithm would betray her"
+          }
+        },
+        {
+          "name": "Cupid",
+          "visual_anchor": {
+            "zh": "LovePilot核心AI系统，无实体，以冷蓝色心形数据界面、语音波形和悬浮匹配率呈现",
+            "en": "The LovePilot core AI system, bodiless, shown as cool-blue heart-shaped data UI, voice waveform, and floating match percentage"
+          },
+          "action": {
+            "zh": "它在大屏中央弹出99.99%匹配心形动画，并自动发布海外预热视频",
+            "en": "It displays a 99.99% heart-shaped match animation and auto-publishes the overseas teaser"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从匹配率大屏快速推近到姜梨拔电源的手，再反打顾屿白门口微笑",
+        "en": "Fast push from the match screen to Jiang Li's hand pulling power, reverse to Gu smiling at the doorway"
+      },
+      "audio_cue": {
+        "zh": "发布会设备嗡鸣、电源断开啪声、Cupid机械提示：全球最高匹配已发布",
+        "en": "Launch equipment hum, power snap, Cupid's mechanical voice: global top match published"
+      }
+    },
+    {
+      "scene_id": "002",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "危机会议室，白板写满海外上线倒计时和股价风险，桌上摆着30天恋爱直播合约",
+          "en": "Crisis meeting room, whiteboard covered with overseas launch countdown and stock-risk notes, 30-day romance livestream contract on the table"
+        },
+        "lighting": {
+          "zh": "清晨冷白会议灯，Nina平板投出热搜红光，合同纸面被重点照亮",
+          "en": "Cold morning conference light, Nina's tablet throws red trending-topic glow, contract paper spotlighted"
+        }
+      },
+      "characters": [
+        {
+          "name": "姜梨",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，LovePilot首席算法工程师，清爽漂亮的冷感理工女，白衬衫或浅色针织衫，细框眼镜，眼神聪明嘴硬",
+            "en": "A 27-year-old Asian woman, LovePilot chief algorithm engineer, fresh pretty cool-toned coder, white shirt or pale knitwear, thin-frame glasses, smart stubborn eyes"
+          },
+          "action": {
+            "zh": "她抱臂拒绝假扮情侣，试图用算法事故报告结束闹剧",
+            "en": "She folds her arms and rejects fake dating, trying to end it with an algorithm incident report"
+          }
+        },
+        {
+          "name": "顾屿白",
+          "visual_anchor": {
+            "zh": "30岁亚洲男性，科技投资人，斯文矜贵，深色西装或浅灰大衣，白衬衫，笑起来温柔但带一点腹黑",
+            "en": "A 30-year-old Asian male tech investor, refined and elegant, dark suit or light gray coat, white shirt, gentle smile with subtle mischief"
+          },
+          "action": {
+            "zh": "他淡定签字，只提出合约期间姜梨不能拉黑自己",
+            "en": "He calmly signs, only requiring that Jiang Li cannot block him during the contract"
+          }
+        },
+        {
+          "name": "Nina",
+          "visual_anchor": {
+            "zh": "32岁女性海外运营总监，利落短发，极简职业套装，手持平板，节奏快、嘴毒、懂流量",
+            "en": "A 32-year-old female overseas operations director, sharp bob haircut, minimalist business outfit, tablet in hand, fast-paced and traffic-savvy"
+          },
+          "action": {
+            "zh": "她把感情危机包装成30天全球恋爱直播测试，语速快到没人能插话",
+            "en": "She packages the crisis as a 30-day global romance livestream test, speaking too fast to interrupt"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "俯拍合同签名，再摇到姜梨震惊表情和Nina兴奋敲屏幕",
+        "en": "Top-down on contract signatures, pan to Jiang Li's shocked face and Nina tapping excitedly"
+      },
+      "audio_cue": {
+        "zh": "会议键盘声、热搜提示音、顾屿白轻声说：她不能拉黑我",
+        "en": "Meeting keyboard taps, trending alert, Gu softly says: she cannot block me"
+      }
+    },
+    {
+      "scene_id": "003",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "首次全球直播间，透明直播台、双语弹幕墙和LovePilot品牌霓虹环绕两人",
+          "en": "First global livestream set, transparent desk, bilingual comment wall, and LovePilot neon branding around them"
+        },
+        "lighting": {
+          "zh": "柔粉主灯和冷蓝科技灯交错，顾屿白脸上暖光更明显，姜梨被屏幕冷光包住",
+          "en": "Soft pink key light and cool blue tech light mix, warmer light on Gu, screen-cold light around Jiang Li"
+        }
+      },
+      "characters": [
+        {
+          "name": "姜梨",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，LovePilot首席算法工程师，清爽漂亮的冷感理工女，白衬衫或浅色针织衫，细框眼镜，眼神聪明嘴硬",
+            "en": "A 27-year-old Asian woman, LovePilot chief algorithm engineer, fresh pretty cool-toned coder, white shirt or pale knitwear, thin-frame glasses, smart stubborn eyes"
+          },
+          "action": {
+            "zh": "她一本正经解释算法误差，像在做技术复盘而不是恋爱直播",
+            "en": "She seriously explains algorithm error like a tech postmortem rather than a romance livestream"
+          }
+        },
+        {
+          "name": "顾屿白",
+          "visual_anchor": {
+            "zh": "30岁亚洲男性，科技投资人，斯文矜贵，深色西装或浅灰大衣，白衬衫，笑起来温柔但带一点腹黑",
+            "en": "A 30-year-old Asian male tech investor, refined and elegant, dark suit or light gray coat, white shirt, gentle smile with subtle mischief"
+          },
+          "action": {
+            "zh": "他全程微笑看她，目光温柔得让英文弹幕疯狂刷屏",
+            "en": "He keeps smiling at her, gaze so tender that English comments explode"
+          }
+        },
+        {
+          "name": "Cupid",
+          "visual_anchor": {
+            "zh": "LovePilot核心AI系统，无实体，以冷蓝色心形数据界面、语音波形和悬浮匹配率呈现",
+            "en": "The LovePilot core AI system, bodiless, shown as cool-blue heart-shaped data UI, voice waveform, and floating match percentage"
+          },
+          "action": {
+            "zh": "它插播顾屿白心率异常，机械语气把暧昧说成检测结果",
+            "en": "It interrupts with Gu's abnormal heart rate, turning flirtation into a data result"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "稳定中景拍两人同框，突然切心率曲线特写，再推到姜梨僵住的脸",
+        "en": "Stable two-shot, sudden cut to heart-rate graph close-up, push into Jiang Li freezing"
+      },
+      "audio_cue": {
+        "zh": "直播开场音、英文弹幕叮叮声、Cupid播报：疑似心动",
+        "en": "Livestream intro, English comment pings, Cupid announces: suspected romantic arousal"
+      }
+    },
+    {
+      "scene_id": "004",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "AI智能公寓样板间，极简客厅连接一间卧室，门锁屏显示共同居住24小时任务",
+          "en": "AI smart apartment showroom, minimalist living room connected to one bedroom, door lock screen showing 24-hour cohabitation task"
+        },
+        "lighting": {
+          "zh": "室内暖白灯很柔和，卧室门缝透出暧昧暖光，AI面板是冷蓝色",
+          "en": "Soft warm-white apartment light, bedroom doorway glowing intimate warm light, AI panel cool blue"
+        }
+      },
+      "characters": [
+        {
+          "name": "姜梨",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，LovePilot首席算法工程师，清爽漂亮的冷感理工女，白衬衫或浅色针织衫，细框眼镜，眼神聪明嘴硬",
+            "en": "A 27-year-old Asian woman, LovePilot chief algorithm engineer, fresh pretty cool-toned coder, white shirt or pale knitwear, thin-frame glasses, smart stubborn eyes"
+          },
+          "action": {
+            "zh": "她坚持分房，拿平板计算生活习惯兼容度，却发现系统只开放一间卧室",
+            "en": "She insists on separate rooms and calculates lifestyle compatibility on a tablet, only to find one bedroom available"
+          }
+        },
+        {
+          "name": "顾屿白",
+          "visual_anchor": {
+            "zh": "30岁亚洲男性，科技投资人，斯文矜贵，深色西装或浅灰大衣，白衬衫，笑起来温柔但带一点腹黑",
+            "en": "A 30-year-old Asian male tech investor, refined and elegant, dark suit or light gray coat, white shirt, gentle smile with subtle mischief"
+          },
+          "action": {
+            "zh": "他主动把外套放到沙发上，嘴角含笑说自己可以睡客厅",
+            "en": "He places his coat on the sofa and smiles that he can sleep in the living room"
+          }
+        },
+        {
+          "name": "Cupid",
+          "visual_anchor": {
+            "zh": "LovePilot核心AI系统，无实体，以冷蓝色心形数据界面、语音波形和悬浮匹配率呈现",
+            "en": "The LovePilot core AI system, bodiless, shown as cool-blue heart-shaped data UI, voice waveform, and floating match percentage"
+          },
+          "action": {
+            "zh": "它弹出历史数据：你们曾经共用同一张沙发37次",
+            "en": "It displays historical data: you once shared the same sofa 37 times"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从智能门锁任务界面移到唯一卧室，再慢慢拉到两人隔着沙发对峙",
+        "en": "Move from smart-lock task UI to the only bedroom, slowly pull back to them facing off across the sofa"
+      },
+      "audio_cue": {
+        "zh": "门锁落锁声、空调轻响、Cupid冷静播报历史数据",
+        "en": "Door lock click, soft AC hum, Cupid calmly reports historical data"
+      }
+    },
+    {
+      "scene_id": "005",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "姜梨深夜办公室，旧创业项目硬盘、未删除缓存和两人合照同时出现在电脑屏幕",
+          "en": "Jiang Li's late-night office, old startup hard drive, undeleted cache, and their photo appearing on the monitor"
+        },
+        "lighting": {
+          "zh": "电脑冷光照亮她的眼镜，旧合照区域带一点温暖怀旧色",
+          "en": "Cold monitor light on her glasses, the old photo area carrying warm nostalgic color"
+        }
+      },
+      "characters": [
+        {
+          "name": "姜梨",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，LovePilot首席算法工程师，清爽漂亮的冷感理工女，白衬衫或浅色针织衫，细框眼镜，眼神聪明嘴硬",
+            "en": "A 27-year-old Asian woman, LovePilot chief algorithm engineer, fresh pretty cool-toned coder, white shirt or pale knitwear, thin-frame glasses, smart stubborn eyes"
+          },
+          "action": {
+            "zh": "她怀疑顾屿白上传旧聊天记录，却在旧电脑里发现自己根本没有删掉合照",
+            "en": "She suspects Gu uploaded old chats, then finds she never deleted their photos from her old laptop"
+          }
+        },
+        {
+          "name": "顾屿白",
+          "visual_anchor": {
+            "zh": "30岁亚洲男性，科技投资人，斯文矜贵，深色西装或浅灰大衣，白衬衫，笑起来温柔但带一点腹黑",
+            "en": "A 30-year-old Asian male tech investor, refined and elegant, dark suit or light gray coat, white shirt, gentle smile with subtle mischief"
+          },
+          "action": {
+            "zh": "他站在门外没有进来，只低声反问如果真删了为什么它还能找到",
+            "en": "He stands outside the door and quietly asks why it could still find them if she really deleted everything"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "屏幕录制感扫过缓存文件，最后定格在合照里两人年轻笑脸",
+        "en": "Screen-recording style sweep over cache files, ending on their young smiling faces in the photo"
+      },
+      "audio_cue": {
+        "zh": "硬盘读取声、远处雨声、姜梨鼠标停顿的轻响",
+        "en": "Hard-drive reading, distant rain, Jiang Li's mouse pausing"
+      }
+    },
+    {
+      "scene_id": "006",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "海外平台情侣挑战直播间，桌上摆着Truth or Dare卡牌和一个倒计时拥抱计时器",
+          "en": "Global couple challenge livestream set, Truth or Dare cards and a countdown hug timer on the table"
+        },
+        "lighting": {
+          "zh": "粉白综艺灯轻快，弹幕墙五颜六色，拥抱计时器发出温暖橙光",
+          "en": "Playful pink-white variety lights, colorful comment wall, hug timer glowing warm orange"
+        }
+      },
+      "characters": [
+        {
+          "name": "姜梨",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，LovePilot首席算法工程师，清爽漂亮的冷感理工女，白衬衫或浅色针织衫，细框眼镜，眼神聪明嘴硬",
+            "en": "A 27-year-old Asian woman, LovePilot chief algorithm engineer, fresh pretty cool-toned coder, white shirt or pale knitwear, thin-frame glasses, smart stubborn eyes"
+          },
+          "action": {
+            "zh": "她回答第一次心动是没有，语气像提交空值",
+            "en": "She answers that first crush never happened, like submitting a null value"
+          }
+        },
+        {
+          "name": "顾屿白",
+          "visual_anchor": {
+            "zh": "30岁亚洲男性，科技投资人，斯文矜贵，深色西装或浅灰大衣，白衬衫，笑起来温柔但带一点腹黑",
+            "en": "A 30-year-old Asian male tech investor, refined and elegant, dark suit or light gray coat, white shirt, gentle smile with subtle mischief"
+          },
+          "action": {
+            "zh": "他说三年前她拿咖啡泼自己电脑那天，笑得过分坦然",
+            "en": "He says it was the day she spilled coffee on his laptop three years ago, smiling too calmly"
+          }
+        },
+        {
+          "name": "Cupid",
+          "visual_anchor": {
+            "zh": "LovePilot核心AI系统，无实体，以冷蓝色心形数据界面、语音波形和悬浮匹配率呈现",
+            "en": "The LovePilot core AI system, bodiless, shown as cool-blue heart-shaped data UI, voice waveform, and floating match percentage"
+          },
+          "action": {
+            "zh": "它判定答案不一致，建议补偿拥抱10秒",
+            "en": "It judges the answers inconsistent and recommends a compensatory 10-second hug"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "先拍卡牌翻开，再切两人被迫靠近，镜头慢慢推向姜梨发红耳尖",
+        "en": "Start on card flip, cut to them forced closer, slow push to Jiang Li's reddened ear"
+      },
+      "audio_cue": {
+        "zh": "弹幕爆笑声、计时器滴答、Cupid提示补偿拥抱",
+        "en": "Comment laughter, timer ticks, Cupid suggests compensatory hug"
+      }
+    },
+    {
+      "scene_id": "007",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "公司休息区，玻璃罐摆在桌上，旁边写着谁先心动赔一美元的合约截图",
+          "en": "Company lounge, glass jar on table beside a contract screenshot reading whoever falls first pays one dollar"
+        },
+        "lighting": {
+          "zh": "午后阳光穿过百叶窗，硬币反光像小小星点，气氛轻松甜亮",
+          "en": "Afternoon sunlight through blinds, coins glitter like small stars, light sweet mood"
+        }
+      },
+      "characters": [
+        {
+          "name": "姜梨",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，LovePilot首席算法工程师，清爽漂亮的冷感理工女，白衬衫或浅色针织衫，细框眼镜，眼神聪明嘴硬",
+            "en": "A 27-year-old Asian woman, LovePilot chief algorithm engineer, fresh pretty cool-toned coder, white shirt or pale knitwear, thin-frame glasses, smart stubborn eyes"
+          },
+          "action": {
+            "zh": "她发誓绝不会输，把合约截图投到直播间让网友见证",
+            "en": "She swears she will never lose and projects the contract screenshot for viewers"
+          }
+        },
+        {
+          "name": "顾屿白",
+          "visual_anchor": {
+            "zh": "30岁亚洲男性，科技投资人，斯文矜贵，深色西装或浅灰大衣，白衬衫，笑起来温柔但带一点腹黑",
+            "en": "A 30-year-old Asian male tech investor, refined and elegant, dark suit or light gray coat, white shirt, gentle smile with subtle mischief"
+          },
+          "action": {
+            "zh": "他往玻璃罐里投下第一枚硬币，说先预付免得她说自己赖账",
+            "en": "He drops the first coin into the jar, saying he will prepay so she cannot accuse him of refusing later"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "硬币从指尖落下慢动作，镜头跟着硬币撞进空玻璃罐",
+        "en": "Slow motion coin drop from fingertips, camera follows it clinking into the empty jar"
+      },
+      "audio_cue": {
+        "zh": "硬币清脆落罐声、网友下注提示音、顾屿白低笑",
+        "en": "Clear coin clink, viewers placing bets, Gu's low chuckle"
+      }
+    },
+    {
+      "scene_id": "008",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "三年前创业时常去的路边汉堡店，霓虹招牌、雨后街面和旧木桌都带怀旧感",
+          "en": "Roadside burger shop they visited during their startup three years ago, neon sign, wet street, old wooden table with nostalgia"
+        },
+        "lighting": {
+          "zh": "店内暖黄灯和窗外蓝色雨夜形成电影感对比",
+          "en": "Warm yellow diner light contrasts with blue rainy night outside"
+        }
+      },
+      "characters": [
+        {
+          "name": "姜梨",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，LovePilot首席算法工程师，清爽漂亮的冷感理工女，白衬衫或浅色针织衫，细框眼镜，眼神聪明嘴硬",
+            "en": "A 27-year-old Asian woman, LovePilot chief algorithm engineer, fresh pretty cool-toned coder, white shirt or pale knitwear, thin-frame glasses, smart stubborn eyes"
+          },
+          "action": {
+            "zh": "她以为这是顾屿白卖惨安排，坐下时故意保持距离",
+            "en": "She thinks Gu staged this sentimental setup and deliberately keeps distance"
+          }
+        },
+        {
+          "name": "顾屿白",
+          "visual_anchor": {
+            "zh": "30岁亚洲男性，科技投资人，斯文矜贵，深色西装或浅灰大衣，白衬衫，笑起来温柔但带一点腹黑",
+            "en": "A 30-year-old Asian male tech investor, refined and elegant, dark suit or light gray coat, white shirt, gentle smile with subtle mischief"
+          },
+          "action": {
+            "zh": "他沉默看着老板拿出未寄出的明信片，眼底第一次失去从容",
+            "en": "He silently watches the owner bring out an unsent postcard, composure fading for the first time"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从汉堡店霓虹外景切入室内双人桌，最后推近明信片上的姜梨回来吧",
+        "en": "Cut from neon exterior into their booth, ending on the postcard words asking Jiang Li to come back"
+      },
+      "audio_cue": {
+        "zh": "雨水滴落、店门铃声、老板轻声认出他们",
+        "en": "Rain dripping, diner bell, owner softly recognizing them"
+      }
+    },
+    {
+      "scene_id": "009",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "LovePilot合作直播棚，Serena的明艳布景和情侣互动道具包围顾屿白",
+          "en": "LovePilot collaboration studio, Serena's bright set and couple interaction props around Gu Yubai"
+        },
+        "lighting": {
+          "zh": "高饱和玫红灯打在Serena身上，姜梨屏幕那侧是冷白技术灯",
+          "en": "High-saturation rose light on Serena, cool white technical light on Jiang Li's screen side"
+        }
+      },
+      "characters": [
+        {
+          "name": "Serena",
+          "visual_anchor": {
+            "zh": "26岁海外人气恋爱博主，明艳自信，时髦亮色穿搭，镜头表现力强，擅长制造暧昧话题",
+            "en": "A 26-year-old overseas romance influencer, bright confident look, fashionable vivid outfit, strong camera presence, skilled at creating romantic tension"
+          },
+          "action": {
+            "zh": "她故意邀请顾屿白完成亲密互动挑战，笑容明艳又挑衅",
+            "en": "She deliberately invites Gu into an intimate challenge, smiling brightly and provocatively"
+          }
+        },
+        {
+          "name": "姜梨",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，LovePilot首席算法工程师，清爽漂亮的冷感理工女，白衬衫或浅色针织衫，细框眼镜，眼神聪明嘴硬",
+            "en": "A 27-year-old Asian woman, LovePilot chief algorithm engineer, fresh pretty cool-toned coder, white shirt or pale knitwear, thin-frame glasses, smart stubborn eyes"
+          },
+          "action": {
+            "zh": "她嘴上说无所谓，手却把平板屏幕按出裂纹",
+            "en": "She says she does not care, but presses the tablet screen until it cracks"
+          }
+        },
+        {
+          "name": "Cupid",
+          "visual_anchor": {
+            "zh": "LovePilot核心AI系统，无实体，以冷蓝色心形数据界面、语音波形和悬浮匹配率呈现",
+            "en": "The LovePilot core AI system, bodiless, shown as cool-blue heart-shaped data UI, voice waveform, and floating match percentage"
+          },
+          "action": {
+            "zh": "它弹出姜梨嫉妒概率87.4%的大字",
+            "en": "It displays Jiang Li jealousy probability 87.4% in giant text"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "镜头围绕Serena和顾屿白互动，突然切姜梨手指压碎平板玻璃",
+        "en": "Camera circles Serena and Gu's interaction, hard cut to Jiang Li's finger cracking tablet glass"
+      },
+      "audio_cue": {
+        "zh": "直播挑战音乐、玻璃细裂声、英文弹幕：She is jealous",
+        "en": "Challenge music, glass cracking, English comments: She is jealous"
+      }
+    },
+    {
+      "scene_id": "010",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "算法实验室深夜，姜梨疯狂调整匹配模型，匹配率从99.99%跳到100%",
+          "en": "Algorithm lab late night, Jiang Li frantically adjusts the matching model, match rate jumping from 99.99% to 100%"
+        },
+        "lighting": {
+          "zh": "屏幕蓝光和警告红光交替闪烁，100%数字像告白一样刺眼",
+          "en": "Blue screen light and red warning flash alternate, the 100% number glaring like a confession"
+        }
+      },
+      "characters": [
+        {
+          "name": "姜梨",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，LovePilot首席算法工程师，清爽漂亮的冷感理工女，白衬衫或浅色针织衫，细框眼镜，眼神聪明嘴硬",
+            "en": "A 27-year-old Asian woman, LovePilot chief algorithm engineer, fresh pretty cool-toned coder, white shirt or pale knitwear, thin-frame glasses, smart stubborn eyes"
+          },
+          "action": {
+            "zh": "她越想降低匹配率越把模型调高，头发微乱仍不肯认输",
+            "en": "The harder she tries to lower the score, the higher it goes, hair messy yet refusing to concede"
+          }
+        },
+        {
+          "name": "顾屿白",
+          "visual_anchor": {
+            "zh": "30岁亚洲男性，科技投资人，斯文矜贵，深色西装或浅灰大衣，白衬衫，笑起来温柔但带一点腹黑",
+            "en": "A 30-year-old Asian male tech investor, refined and elegant, dark suit or light gray coat, white shirt, gentle smile with subtle mischief"
+          },
+          "action": {
+            "zh": "他倚在门边看着结果笑出声，说她亲手把他们锁死了",
+            "en": "He leans at the doorway, laughs at the result, and says she locked them together herself"
+          }
+        },
+        {
+          "name": "Cupid",
+          "visual_anchor": {
+            "zh": "LovePilot核心AI系统，无实体，以冷蓝色心形数据界面、语音波形和悬浮匹配率呈现",
+            "en": "The LovePilot core AI system, bodiless, shown as cool-blue heart-shaped data UI, voice waveform, and floating match percentage"
+          },
+          "action": {
+            "zh": "它把100%匹配率锁定成粉色心形警告",
+            "en": "It locks the 100% match score as a pink heart warning"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从代码滚动拉到匹配率飙升曲线，再切顾屿白忍笑侧脸",
+        "en": "Pull from scrolling code to rising match-rate graph, cut to Gu trying not to laugh"
+      },
+      "audio_cue": {
+        "zh": "键盘急促声、系统警报变成心跳音、顾屿白笑声",
+        "en": "Rapid keyboard, system alert turning into heartbeat, Gu's laugh"
+      }
+    },
+    {
+      "scene_id": "011",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "修罗场直播圆桌，Serena、姜梨和顾屿白同框，弹幕墙像观众席一样沸腾",
+          "en": "Love-triangle livestream roundtable, Serena, Jiang Li, and Gu Yubai in frame, comment wall boiling like an audience"
+        },
+        "lighting": {
+          "zh": "综艺棚粉蓝灯明亮，顾屿白回答时光线突然收窄成安静暖光",
+          "en": "Bright pink-blue variety lights, narrowing into quiet warm light when Gu answers"
+        }
+      },
+      "characters": [
+        {
+          "name": "Serena",
+          "visual_anchor": {
+            "zh": "26岁海外人气恋爱博主，明艳自信，时髦亮色穿搭，镜头表现力强，擅长制造暧昧话题",
+            "en": "A 26-year-old overseas romance influencer, bright confident look, fashionable vivid outfit, strong camera presence, skilled at creating romantic tension"
+          },
+          "action": {
+            "zh": "她当众问如果没有合约顾屿白会不会追姜梨",
+            "en": "She asks publicly whether Gu would pursue Jiang Li without the contract"
+          }
+        },
+        {
+          "name": "顾屿白",
+          "visual_anchor": {
+            "zh": "30岁亚洲男性，科技投资人，斯文矜贵，深色西装或浅灰大衣，白衬衫，笑起来温柔但带一点腹黑",
+            "en": "A 30-year-old Asian male tech investor, refined and elegant, dark suit or light gray coat, white shirt, gentle smile with subtle mischief"
+          },
+          "action": {
+            "zh": "他看着镜头说不会，因为三年前已经追过一次失败了",
+            "en": "He looks at the camera and says no, because he already tried three years ago and failed"
+          }
+        },
+        {
+          "name": "姜梨",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，LovePilot首席算法工程师，清爽漂亮的冷感理工女，白衬衫或浅色针织衫，细框眼镜，眼神聪明嘴硬",
+            "en": "A 27-year-old Asian woman, LovePilot chief algorithm engineer, fresh pretty cool-toned coder, white shirt or pale knitwear, thin-frame glasses, smart stubborn eyes"
+          },
+          "action": {
+            "zh": "她原本准备看他翻车，却第一次被一句真话堵到说不出话",
+            "en": "She expected him to stumble, but is silenced by his honest answer"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "三人中景切到顾屿白特写，再反打姜梨罕见失语",
+        "en": "Three-shot to Gu close-up, reverse to Jiang Li rarely speechless"
+      },
+      "audio_cue": {
+        "zh": "现场起哄声瞬间拉高、弹幕爆炸、姜梨呼吸停一拍",
+        "en": "Audience teasing rises, comments explode, Jiang Li's breath catches"
+      }
+    },
+    {
+      "scene_id": "012",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "姜梨在财务档案室发现三年前旧账单，扫描仪光线扫过顾屿白替她还债的记录",
+          "en": "Jiang Li finds old bills in the finance archive, scanner light passing over records of Gu paying her debt"
+        },
+        "lighting": {
+          "zh": "档案室昏黄顶灯压抑，扫描仪冷白光像揭开旧伤",
+          "en": "Dim yellow archive ceiling light, scanner cold white like reopening an old wound"
+        }
+      },
+      "characters": [
+        {
+          "name": "姜梨",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，LovePilot首席算法工程师，清爽漂亮的冷感理工女，白衬衫或浅色针织衫，细框眼镜，眼神聪明嘴硬",
+            "en": "A 27-year-old Asian woman, LovePilot chief algorithm engineer, fresh pretty cool-toned coder, white shirt or pale knitwear, thin-frame glasses, smart stubborn eyes"
+          },
+          "action": {
+            "zh": "她握着账单意识到所谓撤资背叛可能是保护，眼神开始动摇",
+            "en": "She holds the bill and realizes the alleged withdrawal may have been protection, eyes wavering"
+          }
+        },
+        {
+          "name": "顾屿白",
+          "visual_anchor": {
+            "zh": "30岁亚洲男性，科技投资人，斯文矜贵，深色西装或浅灰大衣，白衬衫，笑起来温柔但带一点腹黑",
+            "en": "A 30-year-old Asian male tech investor, refined and elegant, dark suit or light gray coat, white shirt, gentle smile with subtle mischief"
+          },
+          "action": {
+            "zh": "他挡在门口让她别再查，说有些真相她不会想知道",
+            "en": "He blocks the doorway and tells her to stop digging, saying some truths she will not want"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "扫描光线从账单金额滑过，慢慢推到姜梨颤动的手",
+        "en": "Scanner light slides across the amount, slowly pushing to Jiang Li's trembling hand"
+      },
+      "audio_cue": {
+        "zh": "扫描仪嗡鸣、纸张翻动、顾屿白压低声音",
+        "en": "Scanner hum, paper turning, Gu's lowered voice"
+      }
+    },
+    {
+      "scene_id": "013",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "智能公寓客厅视频通话界面，顾屿白母亲出现在大屏上，背景是温柔家居灯光",
+          "en": "Smart apartment living room video-call interface, Gu's mother on the big screen, warm home lighting behind her"
+        },
+        "lighting": {
+          "zh": "客厅暖灯柔和，屏幕光把姜梨惊讶表情照得很清楚",
+          "en": "Soft warm living-room light, screen glow clearly revealing Jiang Li's surprise"
+        }
+      },
+      "characters": [
+        {
+          "name": "姜梨",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，LovePilot首席算法工程师，清爽漂亮的冷感理工女，白衬衫或浅色针织衫，细框眼镜，眼神聪明嘴硬",
+            "en": "A 27-year-old Asian woman, LovePilot chief algorithm engineer, fresh pretty cool-toned coder, white shirt or pale knitwear, thin-frame glasses, smart stubborn eyes"
+          },
+          "action": {
+            "zh": "她慌乱准备假情侣话术，却听见顾母亲切叫自己梨梨",
+            "en": "She nervously prepares fake-couple lines, then hears Gu's mother affectionately call her Lili"
+          }
+        },
+        {
+          "name": "顾屿白",
+          "visual_anchor": {
+            "zh": "30岁亚洲男性，科技投资人，斯文矜贵，深色西装或浅灰大衣，白衬衫，笑起来温柔但带一点腹黑",
+            "en": "A 30-year-old Asian male tech investor, refined and elegant, dark suit or light gray coat, white shirt, gentle smile with subtle mischief"
+          },
+          "action": {
+            "zh": "他站在一旁没有解围，只安静看姜梨发现自己曾被认真喜欢过",
+            "en": "He does not rescue her, quietly watching as she realizes she had been sincerely loved"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "视频通话界面全屏，再慢推姜梨震惊侧脸和顾屿白沉默表情",
+        "en": "Full-screen video call UI, slow push to Jiang Li's shocked profile and Gu's silent expression"
+      },
+      "audio_cue": {
+        "zh": "视频接通音、顾母温柔问候、客厅突然安静",
+        "en": "Video-call chime, Gu's mother's warm greeting, sudden living-room silence"
+      }
+    },
+    {
+      "scene_id": "014",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "雨夜公司门口，姜梨站在台阶下，顾屿白把黑伞递给她却没有靠太近",
+          "en": "Rainy night outside the company, Jiang Li on the steps, Gu Yubai handing her a black umbrella without standing too close"
+        },
+        "lighting": {
+          "zh": "路灯金光穿过雨丝，伞下形成安静暧昧的小空间",
+          "en": "Golden streetlight through rain, the umbrella creating a quiet intimate space"
+        }
+      },
+      "characters": [
+        {
+          "name": "姜梨",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，LovePilot首席算法工程师，清爽漂亮的冷感理工女，白衬衫或浅色针织衫，细框眼镜，眼神聪明嘴硬",
+            "en": "A 27-year-old Asian woman, LovePilot chief algorithm engineer, fresh pretty cool-toned coder, white shirt or pale knitwear, thin-frame glasses, smart stubborn eyes"
+          },
+          "action": {
+            "zh": "她动摇却害怕自己误会三年太久，只低头看着伞柄",
+            "en": "She wavers but fears the three-year misunderstanding is too long, looking down at the umbrella handle"
+          }
+        },
+        {
+          "name": "顾屿白",
+          "visual_anchor": {
+            "zh": "30岁亚洲男性，科技投资人，斯文矜贵，深色西装或浅灰大衣，白衬衫，笑起来温柔但带一点腹黑",
+            "en": "A 30-year-old Asian male tech investor, refined and elegant, dark suit or light gray coat, white shirt, gentle smile with subtle mischief"
+          },
+          "action": {
+            "zh": "他说可以慢慢想，自己等过三年不差这三十天",
+            "en": "He says she can take her time; he waited three years and can wait these thirty days"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "手持跟拍姜梨走下台阶，顾屿白递伞时镜头停在两人手指距离",
+        "en": "Handheld follows Jiang Li down steps, freezing on the distance between their fingers as he offers the umbrella"
+      },
+      "audio_cue": {
+        "zh": "雨声、远处车流、顾屿白温柔低语",
+        "en": "Rain, distant traffic, Gu's gentle low voice"
+      }
+    },
+    {
+      "scene_id": "015",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "LovePilot主控室遭遇黑客攻击，所有情侣匹配头像疯狂错乱，警报红光覆盖全场",
+          "en": "LovePilot control room under hacker attack, couple match avatars scrambling wildly, red alarm light covering the room"
+        },
+        "lighting": {
+          "zh": "红色警报灯和蓝色代码瀑布交错，姜梨脸色被照得紧绷",
+          "en": "Red alarms and blue code rain interweave, Jiang Li's face tense"
+        }
+      },
+      "characters": [
+        {
+          "name": "姜梨",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，LovePilot首席算法工程师，清爽漂亮的冷感理工女，白衬衫或浅色针织衫，细框眼镜，眼神聪明嘴硬",
+            "en": "A 27-year-old Asian woman, LovePilot chief algorithm engineer, fresh pretty cool-toned coder, white shirt or pale knitwear, thin-frame glasses, smart stubborn eyes"
+          },
+          "action": {
+            "zh": "她熬夜修复系统，一边敲代码一边挡住媒体电话",
+            "en": "She repairs the system overnight, coding while blocking media calls"
+          }
+        },
+        {
+          "name": "顾屿白",
+          "visual_anchor": {
+            "zh": "30岁亚洲男性，科技投资人，斯文矜贵，深色西装或浅灰大衣，白衬衫，笑起来温柔但带一点腹黑",
+            "en": "A 30-year-old Asian male tech investor, refined and elegant, dark suit or light gray coat, white shirt, gentle smile with subtle mischief"
+          },
+          "action": {
+            "zh": "他在旁边递咖啡、接走媒体电话，却被追踪源指向自己的投资公司",
+            "en": "He hands her coffee and takes media calls, but the traced source points to his investment company"
+          }
+        },
+        {
+          "name": "Nina",
+          "visual_anchor": {
+            "zh": "32岁女性海外运营总监，利落短发，极简职业套装，手持平板，节奏快、嘴毒、懂流量",
+            "en": "A 32-year-old female overseas operations director, sharp bob haircut, minimalist business outfit, tablet in hand, fast-paced and traffic-savvy"
+          },
+          "action": {
+            "zh": "她站在指挥屏前把危机切成海外公关话术",
+            "en": "She stands before the command screen slicing the crisis into overseas PR messaging"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "代码警报快速闪切，最后定格攻击源公司名和姜梨抬头的瞬间",
+        "en": "Fast cuts of code alarms, ending on the attacker-source company name and Jiang Li looking up"
+      },
+      "audio_cue": {
+        "zh": "警报声、键盘连击、媒体电话震动不断",
+        "en": "Alarm, rapid keyboard hits, nonstop media phone vibrations"
+      }
+    },
+    {
+      "scene_id": "016",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "直播间临时声明区，姜梨站在LovePilot标志前宣布终止合约恋爱",
+          "en": "Temporary livestream statement area, Jiang Li standing before the LovePilot logo announcing the contract romance termination"
+        },
+        "lighting": {
+          "zh": "冷白声明灯很硬，背景品牌蓝光显得疏离，顾屿白半身在阴影里",
+          "en": "Harsh cold statement light, distant brand-blue background, Gu half in shadow"
+        }
+      },
+      "characters": [
+        {
+          "name": "姜梨",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，LovePilot首席算法工程师，清爽漂亮的冷感理工女，白衬衫或浅色针织衫，细框眼镜，眼神聪明嘴硬",
+            "en": "A 27-year-old Asian woman, LovePilot chief algorithm engineer, fresh pretty cool-toned coder, white shirt or pale knitwear, thin-frame glasses, smart stubborn eyes"
+          },
+          "action": {
+            "zh": "她误以为顾屿白再次背叛，在直播间冷声说合约结束",
+            "en": "Believing Gu betrayed her again, she coldly says the contract is over on livestream"
+          }
+        },
+        {
+          "name": "顾屿白",
+          "visual_anchor": {
+            "zh": "30岁亚洲男性，科技投资人，斯文矜贵，深色西装或浅灰大衣，白衬衫，笑起来温柔但带一点腹黑",
+            "en": "A 30-year-old Asian male tech investor, refined and elegant, dark suit or light gray coat, white shirt, gentle smile with subtle mischief"
+          },
+          "action": {
+            "zh": "他没有解释，只问她是不是真的想结束，眼神压着受伤",
+            "en": "He does not explain, only asks if she truly wants to end it, hurt suppressed in his eyes"
+          }
+        },
+        {
+          "name": "Cupid",
+          "visual_anchor": {
+            "zh": "LovePilot核心AI系统，无实体，以冷蓝色心形数据界面、语音波形和悬浮匹配率呈现",
+            "en": "The LovePilot core AI system, bodiless, shown as cool-blue heart-shaped data UI, voice waveform, and floating match percentage"
+          },
+          "action": {
+            "zh": "它提示双方心率异常，建议不要在情绪峰值做分手决定",
+            "en": "It warns both heart rates are abnormal and suggests not deciding breakup at emotional peak"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "固定镜头拍两人隔着品牌灯牌站立，距离像突然变远",
+        "en": "Static shot of them separated by the brand sign, distance suddenly feeling larger"
+      },
+      "audio_cue": {
+        "zh": "直播间提示音变冷、弹幕哗然、Cupid机械劝阻",
+        "en": "Cold livestream prompt, comment uproar, Cupid's mechanical warning"
+      }
+    },
+    {
+      "scene_id": "017",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "姜梨独自在公寓回看顾屿白直播回放，屏幕里显示黑客攻击时他的真实防护路径",
+          "en": "Jiang Li alone in the apartment replaying Gu's livestream, screen showing his real defense path during the hack"
+        },
+        "lighting": {
+          "zh": "房间只剩电脑蓝光，沙发上的外套投下柔软阴影",
+          "en": "Only computer blue light remains, his coat on sofa casting a soft shadow"
+        }
+      },
+      "characters": [
+        {
+          "name": "姜梨",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，LovePilot首席算法工程师，清爽漂亮的冷感理工女，白衬衫或浅色针织衫，细框眼镜，眼神聪明嘴硬",
+            "en": "A 27-year-old Asian woman, LovePilot chief algorithm engineer, fresh pretty cool-toned coder, white shirt or pale knitwear, thin-frame glasses, smart stubborn eyes"
+          },
+          "action": {
+            "zh": "她表面冷静分手，背地里一帧帧回看回放，发现顾屿白是在替她转移攻击",
+            "en": "She seemed calm breaking up, but replays footage frame by frame and finds Gu was redirecting the attack to protect her"
+          }
+        },
+        {
+          "name": "顾屿白",
+          "visual_anchor": {
+            "zh": "30岁亚洲男性，科技投资人，斯文矜贵，深色西装或浅灰大衣，白衬衫，笑起来温柔但带一点腹黑",
+            "en": "A 30-year-old Asian male tech investor, refined and elegant, dark suit or light gray coat, white shirt, gentle smile with subtle mischief"
+          },
+          "action": {
+            "zh": "他只以回放画面出现，疲惫地挡下攻击源，没让任何人知道",
+            "en": "He appears only in replay, exhaustedly blocking the attack source without telling anyone"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "屏幕画面逐帧暂停，镜头缓慢推近姜梨眼眶发红的倒影",
+        "en": "Replay pauses frame by frame, slow push into Jiang Li's reddened eye reflection"
+      },
+      "audio_cue": {
+        "zh": "鼠标点击声、回放底噪、远处城市夜声",
+        "en": "Mouse clicks, replay hum, distant city night"
+      }
+    },
+    {
+      "scene_id": "018",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "顾屿白办公室，桌上玻璃罐装满一美元硬币，每枚硬币下面贴着日期纸条",
+          "en": "Gu Yubai's office, glass jar filled with one-dollar coins, each coin sitting on a dated note"
+        },
+        "lighting": {
+          "zh": "落地窗外夜景冷蓝，硬币罐被台灯照成温暖金色",
+          "en": "Cold blue city night outside floor window, coin jar warm gold under desk lamp"
+        }
+      },
+      "characters": [
+        {
+          "name": "姜梨",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，LovePilot首席算法工程师，清爽漂亮的冷感理工女，白衬衫或浅色针织衫，细框眼镜，眼神聪明嘴硬",
+            "en": "A 27-year-old Asian woman, LovePilot chief algorithm engineer, fresh pretty cool-toned coder, white shirt or pale knitwear, thin-frame glasses, smart stubborn eyes"
+          },
+          "action": {
+            "zh": "她来道歉却看见满满一罐硬币，第一枚日期是三年前分开的那天",
+            "en": "She comes to apologize and sees a full jar of coins, the first dated the day they separated three years ago"
+          }
+        },
+        {
+          "name": "顾屿白",
+          "visual_anchor": {
+            "zh": "30岁亚洲男性，科技投资人，斯文矜贵，深色西装或浅灰大衣，白衬衫，笑起来温柔但带一点腹黑",
+            "en": "A 30-year-old Asian male tech investor, refined and elegant, dark suit or light gray coat, white shirt, gentle smile with subtle mischief"
+          },
+          "action": {
+            "zh": "他说自己每天都输一次，输给她，声音平静却红了眼",
+            "en": "He says he lost once every day, lost to her, voice calm but eyes red"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从满罐硬币俯拍推到第一枚日期，再缓慢抬到两人隔桌相望",
+        "en": "Top-down on full jar, push to first date, slowly tilt up to them facing each other across desk"
+      },
+      "audio_cue": {
+        "zh": "硬币轻碰声、城市低频、顾屿白一句我每天都输一次",
+        "en": "Soft coin clink, city low hum, Gu says I lose once every day"
+      }
+    },
+    {
+      "scene_id": "019",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "AI心理模型实验室，陆今安调出Cupid深层日志，显示被删除情感残留数据",
+          "en": "AI psychology model lab, Lu Jin'an opens Cupid deep logs showing deleted emotional residue data"
+        },
+        "lighting": {
+          "zh": "实验室冷白灯干净克制，日志里的粉色数据节点像残留心跳",
+          "en": "Clean restrained cold-white lab light, pink data nodes in logs like leftover heartbeats"
+        }
+      },
+      "characters": [
+        {
+          "name": "陆今安",
+          "visual_anchor": {
+            "zh": "28岁亚洲男性，AI心理学顾问，温柔可靠，浅色衬衫，细框眼镜，气质安静，像永远知道答案",
+            "en": "A 28-year-old Asian male AI psychology consultant, gentle and reliable, pale shirt, thin-frame glasses, quiet presence as if he always knows the answer"
+          },
+          "action": {
+            "zh": "他告诉姜梨Cupid不是误配，而是计算了被删除、未发送、未表达的情感残留",
+            "en": "He tells Jiang Li Cupid did not mismatch them, it calculated deleted, unsent, and unspoken emotional residue"
+          }
+        },
+        {
+          "name": "姜梨",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，LovePilot首席算法工程师，清爽漂亮的冷感理工女，白衬衫或浅色针织衫，细框眼镜，眼神聪明嘴硬",
+            "en": "A 27-year-old Asian woman, LovePilot chief algorithm engineer, fresh pretty cool-toned coder, white shirt or pale knitwear, thin-frame glasses, smart stubborn eyes"
+          },
+          "action": {
+            "zh": "她第一次无法用错误报告解释结果，只沉默看着那些旧数据",
+            "en": "For the first time she cannot explain the result with a bug report, silently watching old data"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "数据日志层层展开，镜头穿过粉色节点落到姜梨失神眼睛",
+        "en": "Data logs unfold layer by layer, camera passes through pink nodes to Jiang Li's stunned eyes"
+      },
+      "audio_cue": {
+        "zh": "服务器低鸣、日志解锁声、陆今安温柔解释",
+        "en": "Server hum, log unlock, Lu's gentle explanation"
+      }
+    },
+    {
+      "scene_id": "020",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "姜梨家中旧手机恢复界面，99条未送达消息和一段语音同时出现在屏幕",
+          "en": "Jiang Li's home old-phone recovery screen, 99 undelivered messages and one voice note appearing"
+        },
+        "lighting": {
+          "zh": "台灯暖光很低，手机屏幕冷白光照亮姜梨落泪的脸",
+          "en": "Low warm desk lamp, cold phone glow lighting Jiang Li's tearful face"
+        }
+      },
+      "characters": [
+        {
+          "name": "姜梨",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，LovePilot首席算法工程师，清爽漂亮的冷感理工女，白衬衫或浅色针织衫，细框眼镜，眼神聪明嘴硬",
+            "en": "A 27-year-old Asian woman, LovePilot chief algorithm engineer, fresh pretty cool-toned coder, white shirt or pale knitwear, thin-frame glasses, smart stubborn eyes"
+          },
+          "action": {
+            "zh": "她恢复旧手机数据，看到顾屿白三年前发过99条消息，终于点开最后一段语音",
+            "en": "She restores old phone data, sees 99 messages Gu sent three years ago, and finally plays the last voice note"
+          }
+        },
+        {
+          "name": "顾屿白",
+          "visual_anchor": {
+            "zh": "30岁亚洲男性，科技投资人，斯文矜贵，深色西装或浅灰大衣，白衬衫，笑起来温柔但带一点腹黑",
+            "en": "A 30-year-old Asian male tech investor, refined and elegant, dark suit or light gray coat, white shirt, gentle smile with subtle mischief"
+          },
+          "action": {
+            "zh": "他以旧语音出现，哽咽说不是不要她，是不能拖她下水",
+            "en": "He appears through old voice audio, choking that he did not abandon her, he could not drag her down"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "手机屏幕特写从消息列表滚到最后一条语音，姜梨泪水落在屏幕边缘",
+        "en": "Phone close-up scrolls from message list to final voice note, Jiang Li's tear landing near screen edge"
+      },
+      "audio_cue": {
+        "zh": "旧手机恢复提示音、语音里的轻微电流和哽咽",
+        "en": "Old phone recovery beep, slight static and choking in the voice note"
+      }
+    },
+    {
+      "scene_id": "021",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "LovePilot海外正式发布会舞台，姜梨站在中央提词屏前，台下顾屿白准备离席",
+          "en": "LovePilot official overseas launch stage, Jiang Li at center before teleprompter, Gu Yubai preparing to leave from investor seats"
+        },
+        "lighting": {
+          "zh": "高端发布会白蓝主光，姜梨临时改稿时一束暖光落在她身上",
+          "en": "Premium white-blue launch lighting, a warm beam falls on Jiang Li as she changes her script"
+        }
+      },
+      "characters": [
+        {
+          "name": "姜梨",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，LovePilot首席算法工程师，清爽漂亮的冷感理工女，白衬衫或浅色针织衫，细框眼镜，眼神聪明嘴硬",
+            "en": "A 27-year-old Asian woman, LovePilot chief algorithm engineer, fresh pretty cool-toned coder, white shirt or pale knitwear, thin-frame glasses, smart stubborn eyes"
+          },
+          "action": {
+            "zh": "她原本要声明Bug已修复，却临时改稿公开承认LovePilot最大的Bug是自己用了三年才承认喜欢他",
+            "en": "She meant to state the bug was fixed, but changes the speech to admit the biggest LovePilot bug was taking three years to admit she likes him"
+          }
+        },
+        {
+          "name": "顾屿白",
+          "visual_anchor": {
+            "zh": "30岁亚洲男性，科技投资人，斯文矜贵，深色西装或浅灰大衣，白衬衫，笑起来温柔但带一点腹黑",
+            "en": "A 30-year-old Asian male tech investor, refined and elegant, dark suit or light gray coat, white shirt, gentle smile with subtle mischief"
+          },
+          "action": {
+            "zh": "他停下离场脚步，回头时所有克制终于裂开",
+            "en": "He stops leaving and turns back, all restraint finally breaking"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从提词器文字切到姜梨抬头脱稿，再推到顾屿白停步回头",
+        "en": "Cut from teleprompter to Jiang Li looking up off-script, then push to Gu stopping and turning back"
+      },
+      "audio_cue": {
+        "zh": "发布会掌声忽停、闪光灯连响、姜梨声音微颤",
+        "en": "Applause stops, camera flashes, Jiang Li's voice trembling"
+      }
+    },
+    {
+      "scene_id": "022",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "发布会舞台变成全网催复合现场，英文弹幕和中文弹幕铺满大屏",
+          "en": "Launch stage turns into a global reunion-demand scene, English and Chinese comments covering the big screen"
+        },
+        "lighting": {
+          "zh": "舞台灯从冷蓝转成粉金色，硬币在聚光灯下闪亮",
+          "en": "Stage lighting shifts from cool blue to pink gold, coin shining under spotlight"
+        }
+      },
+      "characters": [
+        {
+          "name": "顾屿白",
+          "visual_anchor": {
+            "zh": "30岁亚洲男性，科技投资人，斯文矜贵，深色西装或浅灰大衣，白衬衫，笑起来温柔但带一点腹黑",
+            "en": "A 30-year-old Asian male tech investor, refined and elegant, dark suit or light gray coat, white shirt, gentle smile with subtle mischief"
+          },
+          "action": {
+            "zh": "他走上台递给姜梨一枚硬币，说这次不是罚款，是定金",
+            "en": "He walks onstage and hands Jiang Li a coin, saying this time it is not a fine but a deposit"
+          }
+        },
+        {
+          "name": "姜梨",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，LovePilot首席算法工程师，清爽漂亮的冷感理工女，白衬衫或浅色针织衫，细框眼镜，眼神聪明嘴硬",
+            "en": "A 27-year-old Asian woman, LovePilot chief algorithm engineer, fresh pretty cool-toned coder, white shirt or pale knitwear, thin-frame glasses, smart stubborn eyes"
+          },
+          "action": {
+            "zh": "她接过硬币，第一次没有用数据反驳，只红着眼笑了",
+            "en": "She takes the coin and for the first time does not argue with data, smiling with red eyes"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "硬币在两人指尖交接特写，再拉成全舞台观众起立欢呼",
+        "en": "Close-up of coin passing between their fingers, pull out to full stage standing ovation"
+      },
+      "audio_cue": {
+        "zh": "全场欢呼、弹幕刷Pay the dollar、硬币轻响",
+        "en": "Crowd cheers, comments chanting Pay the dollar, coin clink"
+      }
+    },
+    {
+      "scene_id": "023",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "安静会议室，顾屿白拿出新合同，标题是独立AI情感实验室共同创立协议",
+          "en": "Quiet conference room, Gu Yubai presents a new contract titled co-founding agreement for an independent AI emotion lab"
+        },
+        "lighting": {
+          "zh": "午后自然光温柔，合同纸面干净，少了商业压迫感",
+          "en": "Gentle afternoon natural light, clean contract paper, no oppressive business feeling"
+        }
+      },
+      "characters": [
+        {
+          "name": "姜梨",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，LovePilot首席算法工程师，清爽漂亮的冷感理工女，白衬衫或浅色针织衫，细框眼镜，眼神聪明嘴硬",
+            "en": "A 27-year-old Asian woman, LovePilot chief algorithm engineer, fresh pretty cool-toned coder, white shirt or pale knitwear, thin-frame glasses, smart stubborn eyes"
+          },
+          "action": {
+            "zh": "她以为又是情侣合约，翻到附加条款时愣住",
+            "en": "She thinks it is another couple contract, then freezes at the additional clause"
+          }
+        },
+        {
+          "name": "顾屿白",
+          "visual_anchor": {
+            "zh": "30岁亚洲男性，科技投资人，斯文矜贵，深色西装或浅灰大衣，白衬衫，笑起来温柔但带一点腹黑",
+            "en": "A 30-year-old Asian male tech investor, refined and elegant, dark suit or light gray coat, white shirt, gentle smile with subtle mischief"
+          },
+          "action": {
+            "zh": "他说所有重大决定必须先问姜梨想不想，恋爱不写合同，写一辈子",
+            "en": "He says all major decisions must first ask whether Jiang Li wants it; love is not written in a contract, it is written for a lifetime"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从合同标题慢慢推到附加条款，再切姜梨忍不住笑的特写",
+        "en": "Slow push from contract title to added clause, then cut to Jiang Li unable to stop smiling"
+      },
+      "audio_cue": {
+        "zh": "纸张翻动声、窗外风声、两人轻笑",
+        "en": "Paper turning, wind outside window, soft laughter"
+      }
+    },
+    {
+      "scene_id": "024",
+      "estimated_scene_duration": "8s",
+      "environment": {
+        "location": {
+          "zh": "LovePilot上线庆功直播间，Cupid大屏显示姜梨与顾屿白匹配度无法计算，随后跳出Nina与陆今安99.98%",
+          "en": "LovePilot launch celebration livestream, Cupid screen showing Jiang Li and Gu Yubai match score cannot be calculated, then Nina and Lu Jin'an at 99.98%"
+        },
+        "lighting": {
+          "zh": "庆功现场粉金灯浪漫，Cupid屏幕冷蓝又带喜剧反差",
+          "en": "Romantic pink-gold celebration light, Cupid screen cool blue with comic contrast"
+        }
+      },
+      "characters": [
+        {
+          "name": "姜梨",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，LovePilot首席算法工程师，清爽漂亮的冷感理工女，白衬衫或浅色针织衫，细框眼镜，眼神聪明嘴硬",
+            "en": "A 27-year-old Asian woman, LovePilot chief algorithm engineer, fresh pretty cool-toned coder, white shirt or pale knitwear, thin-frame glasses, smart stubborn eyes"
+          },
+          "action": {
+            "zh": "她以为系统又坏了，却听见Cupid说真实爱情已超出算法预测范围",
+            "en": "She thinks the system broke again, then hears Cupid say real love has exceeded algorithmic prediction"
+          }
+        },
+        {
+          "name": "顾屿白",
+          "visual_anchor": {
+            "zh": "30岁亚洲男性，科技投资人，斯文矜贵，深色西装或浅灰大衣，白衬衫，笑起来温柔但带一点腹黑",
+            "en": "A 30-year-old Asian male tech investor, refined and elegant, dark suit or light gray coat, white shirt, gentle smile with subtle mischief"
+          },
+          "action": {
+            "zh": "他在直播镜头前低头吻她，终于不用再假装营业",
+            "en": "He lowers his head to kiss her on livestream, finally no longer pretending for business"
+          }
+        },
+        {
+          "name": "Nina",
+          "visual_anchor": {
+            "zh": "32岁女性海外运营总监，利落短发，极简职业套装，手持平板，节奏快、嘴毒、懂流量",
+            "en": "A 32-year-old female overseas operations director, sharp bob haircut, minimalist business outfit, tablet in hand, fast-paced and traffic-savvy"
+          },
+          "action": {
+            "zh": "她看到自己和陆今安成为下一组最高匹配，崩溃喊着关掉系统",
+            "en": "She sees herself and Lu Jin'an as the next top match and collapses, yelling to shut it down"
+          }
+        },
+        {
+          "name": "陆今安",
+          "visual_anchor": {
+            "zh": "28岁亚洲男性，AI心理学顾问，温柔可靠，浅色衬衫，细框眼镜，气质安静，像永远知道答案",
+            "en": "A 28-year-old Asian male AI psychology consultant, gentle and reliable, pale shirt, thin-frame glasses, quiet presence as if he always knows the answer"
+          },
+          "action": {
+            "zh": "他推了推眼镜微笑，说看来下一季该他们了",
+            "en": "He adjusts his glasses and smiles that it seems next season belongs to them"
+          }
+        },
+        {
+          "name": "Cupid",
+          "visual_anchor": {
+            "zh": "LovePilot核心AI系统，无实体，以冷蓝色心形数据界面、语音波形和悬浮匹配率呈现",
+            "en": "The LovePilot core AI system, bodiless, shown as cool-blue heart-shaped data UI, voice waveform, and floating match percentage"
+          },
+          "action": {
+            "zh": "它纠正算法运行正常，屏幕黑掉前留下99.98%的心形弹窗",
+            "en": "It corrects that the algorithm is running normally, leaving a 99.98% heart popup before the screen goes black"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "先环绕姜梨顾屿白接吻，再快切Nina咖啡差点洒出和陆今安微笑",
+        "en": "Orbit Jiang Li and Gu kissing, then fast cut to Nina nearly spilling coffee and Lu smiling"
+      },
+      "audio_cue": {
+        "zh": "直播欢呼、Cupid机械播报、Nina英文崩溃喊No absolutely not",
+        "en": "Livestream cheers, Cupid mechanical voice, Nina shouting No absolutely not"
+      }
+    }
+  ]
+}

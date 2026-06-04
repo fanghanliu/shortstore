@@ -1,0 +1,1408 @@
+{
+  "schema_version": "1.0.0",
+  "product_type": "AI短剧故事板生产包",
+  "product_metadata": {
+    "product_id": "storypack-lie-scent-001",
+    "title": {
+      "zh": "她闻到谎言",
+      "en": "She Smells Lies"
+    },
+    "logline": {
+      "zh": "能闻到谎言气味的危机公关女王，被一桩豪门前妻死亡案拖入旧案迷雾；她越接近真相，越发现自己才是这场骗局最早的猎物。",
+      "en": "A crisis PR strategist who can smell lies is pulled into the death case of a tycoon's ex-wife, only to realize she may have been the first target of the conspiracy."
+    },
+    "category": {
+      "zh": "现代都市商业悬疑情感反转短剧",
+      "en": "Modern Urban Corporate Suspense Romance Thriller"
+    },
+    "target_buyers": [
+      "AI短剧创作者",
+      "短视频矩阵账号团队",
+      "Runway / Sora / 可灵 / 即梦视频生产者",
+      "ReelShort / TikTok 剧情号操盘手"
+    ],
+    "recommended_platforms": [
+      "即梦",
+      "剪映",
+      "抖音",
+      "快手",
+      "小红书",
+      "TikTok",
+      "Instagram Reels",
+      "YouTube Shorts",
+      "ReelShort",
+      "Runway",
+      "Midjourney",
+      "Sora"
+    ],
+    "recommended_aspect_ratio": "9:16 (竖屏短剧 / Vertical Short Drama)",
+    "estimated_total_duration": "36-72分钟 / 36-72 minutes",
+    "language_versions": [
+      "中文",
+      "English prompt-ready"
+    ],
+    "commercial_positioning": "现代都市商业悬疑情感反转短剧生产包，适合女性向、都市商战、悬疑爱情和竖屏连续剧账号测试。"
+  },
+  "sales_page": {
+    "hero_headline": "买下这套故事板，直接进入AI短剧生产。",
+    "hero_subtitle": "完整剧情、人物关系、24条核心分镜、中英双语视频提示词和视觉样片方向已经打包完成，创作者只需要继续扩集、生成和剪辑。",
+    "key_selling_points": [
+      "主角能力强记忆点：女主能闻到谎言的气味，天然适合短视频前三秒钩子。",
+      "题材有商业感：豪门、危机公关、死亡旧案、情感拉扯，适合做高质感竖屏短剧。",
+      "生产资料完整：每个场景已经包含环境、角色动作、镜头运动、音效和中英双语描述。",
+      "平台适配清晰：可用于抖音、快手、小红书、TikTok、ReelShort 等剧情内容测试。",
+      "适合AI生成：冷调办公室、雨夜、地下车库、豪门空间等场景有明确视觉锚点。"
+    ],
+    "buyer_outcome": "购买后可获得一套可继续扩写、可生成分镜图、可投喂视频生成工具的短剧前期生产资产。",
+    "preview_policy": "公开页只展示剧情梗概、人物设定节选、3-5条分镜样例和水印视觉样片；完整JSON、全量提示词和商用授权购买后交付。"
+  },
+  "story_package": {
+    "synopsis": "苏清妤是业内最冷静的危机公关顾问，也是一个拥有秘密能力的人：她能闻到谎言的气味。雨夜，她接到一桩天价委托，为顾氏集团继承人顾宴臣洗清前妻死亡疑云。可顾宴臣身上残留的医用消毒水味，和当年母亲失踪案现场一模一样。苏清妤表面接案，暗中调查，却发现前妻、疗养院、集团股权和自己的身世被同一条线牵住。顾宴臣似乎是嫌疑人，又像是唯一拼命保护她的人。当她终于闻到最浓烈的谎言时，才发现真正撒谎的人不是顾宴臣，而是她记忆里最亲近的人。",
+    "core_hook": "女主能闻到谎言，每一次气味变化都代表一层真相反转。",
+    "genre_tags": [
+      "现代悬疑",
+      "都市商战",
+      "情感拉扯",
+      "豪门旧案",
+      "女性向反转"
+    ],
+    "emotional_engine": "女主查案复仇与男女主危险互信同步推进，每一次亲近都伴随新的嫌疑。",
+    "conflict_engine": "表面是顾宴臣前妻死亡危机公关，深层是疗养院旧案、集团权斗和女主身世真相。",
+    "episode_count_recommendation": {
+      "miniseries": "24集核心版",
+      "commercial_short_drama": "36-48集扩展版",
+      "overseas_vertical": "60集以内，每集45-75秒"
+    },
+    "first_three_episode_hooks": [
+      "第1集：女主闻到男主身上与母亲失踪案相同的消毒水味，却必须接下他的委托。",
+      "第2集：前妻死亡档案出现疗养院记录，男主警告女主不要查，却替她挡下第一次袭击。",
+      "第3集：女主发现前妻生前留下的香水样本，气味指向顾氏集团董事会成员。"
+    ],
+    "major_reversals": [
+      "顾宴臣不是杀前妻的人，他一直在追查前妻被当作试验对象的真相。",
+      "苏清妤母亲的失踪不是意外，而是当年疗养院项目的关键证人灭口。",
+      "女主闻到谎言的能力并非天赋，而是童年实验留下的感官后遗症。",
+      "最终反派隐藏在女主信任的长辈身边，并长期操控她对过去的记忆。"
+    ],
+    "ending_direction": "苏清妤公开顾氏疗养院黑幕，顾宴臣放弃继承权换取证据链完整曝光。两人没有立刻甜蜜和解，而是在新的危机公关现场重新并肩。"
+  },
+  "characters": [
+    {
+      "name": "苏清妤",
+      "role": "女主 / 危机公关顾问",
+      "age": 28,
+      "archetype": "冷静理性、感官异常、带伤复仇的女性调查者",
+      "visual_anchor": "清冷精致，黑色微卷短发，象牙白真丝衬衫，细框眼镜，左锁骨旧银色小项链。",
+      "ability_or_secret": "能通过气味分辨谎言、恐惧和被掩盖的记忆触发物。",
+      "desire": "查清母亲失踪真相，同时证明自己不是任何人的棋子。",
+      "fear": "自己的记忆和判断被人长期操控。",
+      "production_note": "表演重点是克制、停顿、轻微吸气和眼神骤冷，适合做短视频强特写。"
+    },
+    {
+      "name": "顾宴臣",
+      "role": "男主 / 顾氏集团继承人",
+      "age": 31,
+      "archetype": "高压冷感、背负嫌疑、以危险方式保护女主的权力玩家",
+      "visual_anchor": "深炭灰定制西装，黑衬衫无领带，银色机械腕表，身形挺拔，轮廓冷峻。",
+      "ability_or_secret": "暗中调查顾氏疗养院项目多年，前妻死亡前曾向他求救。",
+      "desire": "摧毁顾氏内部黑幕，同时保护苏清妤不重蹈前妻覆辙。",
+      "fear": "自己越靠近女主，越会把她拖进致命权斗。",
+      "production_note": "表演重点是低声压迫、沉默停顿、突然靠近和视线审讯感。"
+    },
+    {
+      "name": "林晚棠",
+      "role": "关键死者 / 顾宴臣前妻",
+      "archetype": "看似豪门牺牲品，实则留下证据链的旧案追踪者",
+      "visual_anchor": "病弱优雅，珍珠耳钉，旧香水瓶，疗养院白色病号服。",
+      "ability_or_secret": "死前将证据拆散藏进香水、病例和遗嘱附件。",
+      "production_note": "主要以照片、回忆、监控影像和物件气味出现。"
+    },
+    {
+      "name": "沈知衡",
+      "role": "反派候选 / 顾氏法律顾问",
+      "archetype": "温和可靠的长辈型操盘手",
+      "visual_anchor": "灰色西装，金丝眼镜，永远干净的白手套。",
+      "ability_or_secret": "掌握疗养院旧项目法律文件，是长期操控证据流向的人。",
+      "production_note": "前期要像可靠盟友，后期逐渐暴露控制欲。"
+    }
+  ],
+  "episode_outline": [
+    {
+      "arc": "开局钩子",
+      "episodes": "1-6",
+      "summary": "苏清妤接下顾宴臣前妻死亡公关案，通过气味发现男主和母亲旧案有关。两人在调查中互相试探，前妻疗养院记录浮出水面。"
+    },
+    {
+      "arc": "危险互信",
+      "episodes": "7-14",
+      "summary": "女主追查香水样本和疗养院旧档，遭遇跟踪与数据删除。顾宴臣多次阻止她，却也多次救她，嫌疑与保护同时加深。"
+    },
+    {
+      "arc": "旧案回潮",
+      "episodes": "15-24",
+      "summary": "女主发现自己的童年病历也出现在疗养院项目中。前妻真正死因指向顾氏董事会，顾宴臣被迫成为公开嫌疑人。"
+    },
+    {
+      "arc": "身份反转",
+      "episodes": "25-36",
+      "summary": "女主能力来源曝光，她的记忆被人为改写。沈知衡作为可靠盟友的身份开始崩塌，顾宴臣前妻留下的遗嘱成为关键证据。"
+    },
+    {
+      "arc": "终局曝光",
+      "episodes": "37-48",
+      "summary": "苏清妤用一场危机公关发布会反向设局，让真正反派在直播中说出无法被气味掩盖的谎言。顾宴臣交出继承权，换取证据链公开。"
+    }
+  ],
+  "production_package": {
+    "included_assets": [
+      "完整商品版JSON",
+      "24条核心分镜故事板",
+      "人物设定与视觉锚点",
+      "分集大纲与反转节奏",
+      "中英双语AI视频提示词",
+      "封面与样片方向说明",
+      "平台适配与投流钩子",
+      "商用授权说明"
+    ],
+    "suggested_workflow": [
+      "先用人物视觉锚点生成角色定妆图。",
+      "再按分镜JSON逐条生成关键镜头图。",
+      "将关键镜头图作为参考输入视频生成工具。",
+      "用每集钩子扩写成45-75秒竖屏短剧脚本。",
+      "剪辑时保留气味触发、眼神特写、证据物件三类重复记忆点。"
+    ],
+    "buyer_work_remaining": [
+      "根据账号风格扩写完整台词。",
+      "选择具体AI视频工具并调整提示词长度。",
+      "生成、剪辑、配音、字幕和平台发布。",
+      "如用于商业投放，需要自行确认平台素材合规。"
+    ]
+  },
+  "prompt_library": {
+    "global_style_prompt_zh": "现代都市商业悬疑短剧，雨夜城市霓虹，冷蓝色电影级光影，高反差明暗法，玻璃反射，压迫感构图，人物表演克制，情绪张力强，竖屏9:16，高质感短剧画面。",
+    "global_style_prompt_en": "Modern urban corporate suspense short drama, rainy neon city night, cold blue cinematic lighting, high-contrast chiaroscuro, glass reflections, tense composition, restrained acting, intense emotional tension, vertical 9:16 premium drama frame.",
+    "character_consistency_prompts": [
+      {
+        "character": "苏清妤",
+        "zh": "28岁亚洲女性，清冷精致五官，黑色齐肩微卷发，象牙白真丝衬衫，黑色高腰西装裤，细框金属眼镜，左锁骨旧银色小项链，妆容干净克制。",
+        "en": "A 28-year-old Asian woman with refined icy features, shoulder-length slightly wavy black hair, ivory silk blouse, black high-waisted tailored trousers, thin metal-frame glasses, an old silver pendant necklace on her left collarbone, restrained clean makeup."
+      },
+      {
+        "character": "顾宴臣",
+        "zh": "31岁亚洲男性，身形高挑挺拔，轮廓冷峻，黑色短发向后梳理，深炭灰定制西装，黑色衬衫，无领带，左手银色机械腕表，气场克制压迫。",
+        "en": "A 31-year-old Asian man, tall and upright, severe facial contours, slicked-back short black hair, dark charcoal bespoke suit, black shirt, no tie, silver mechanical wristwatch on his left wrist, controlled intimidating presence."
+      }
+    ],
+    "negative_prompt": "不要卡通风，不要低清晰度，不要夸张表情，不要多余文字，不要水印，不要畸形手指，不要脸部崩坏，不要无关角色，不要血腥暴力画面。",
+    "platform_prompt_notes": {
+      "Sora / Runway": "使用英文场景提示词，保留camera_movement和lighting字段，减少抽象剧情解释。",
+      "可灵 / 即梦": "优先使用中文环境、角色动作、镜头运动字段，强调人物一致性和竖屏构图。",
+      "Midjourney": "用角色视觉锚点 + 场景环境 + 电影光影生成封面和关键帧。",
+      "剪映 / CapCut": "用于后期字幕、配乐、转场和短剧节奏包装。"
+    }
+  },
+  "visual_samples": {
+    "cover_image": "assets/cover-lie-scent.png",
+    "suggested_sample_shots": [
+      "雨夜危机公关会议室，女主闻到男主身上的消毒水味。",
+      "地下车库冷光中，前妻死亡档案被车灯照亮。",
+      "疗养院白色走廊，香水瓶滚落到病历旁。",
+      "集团发布会现场，女主在镜头前反向设局。"
+    ],
+    "public_preview_count": 4,
+    "watermark_recommendation": "公开展示图建议加半透明站点水印，完整高清图仅购买后交付。"
+  },
+  "pricing_and_license": {
+    "suggested_price_tiers": [
+      {
+        "tier": "体验版",
+        "price_cny": 199,
+        "includes": [
+          "剧情简介",
+          "人物设定节选",
+          "5条分镜样例",
+          "部分提示词"
+        ],
+        "license": "仅供学习与内部测试，不含商用发布授权。"
+      },
+      {
+        "tier": "标准版",
+        "price_cny": 599,
+        "includes": [
+          "完整商品JSON",
+          "24条核心分镜",
+          "提示词库",
+          "平台适配建议",
+          "单项目商用授权"
+        ],
+        "license": "允许用于一个短剧项目的制作、发布和商业化，不允许原样转售素材包。"
+      },
+      {
+        "tier": "定制版",
+        "price_cny": 1999,
+        "includes": [
+          "标准版全部内容",
+          "定制人设/题材",
+          "新增10条分镜",
+          "一次结构修改",
+          "投流钩子优化"
+        ],
+        "license": "按定制合同约定，可选买断或单项目授权。"
+      }
+    ],
+    "refund_note": "数字内容交付后不支持无理由退款；如文件损坏或缺项，可补发修正版本。"
+  },
+  "delivery": {
+    "file_manifest": [
+      "product-template.json",
+      "storyboard.json",
+      "characters.md",
+      "episode-outline.md",
+      "prompts-zh-en.md",
+      "sample-cover.png",
+      "license.txt"
+    ],
+    "delivery_method": "站内下载、网盘链接或人工邮件交付均可。",
+    "versioning_note": "建议每次修改递增schema_version或release_version，方便客户拿到更新版。"
+  },
+  "source_storyboard_summary": {
+    "scene_count": 24,
+    "original_metadata": {
+      "video_type": {
+        "zh": "现代都市商业悬疑情感反转短剧",
+        "en": "Modern Urban Corporate Suspense Romance Thriller"
+      },
+      "recommended_aspect_ratio": "9:16 (竖屏短剧 / Vertical Short Drama)",
+      "target_platforms": [
+        "即梦",
+        "剪映",
+        "抖音",
+        "快手",
+        "小红书",
+        "TikTok",
+        "Instagram Reels",
+        "YouTube Shorts",
+        "ReelShort",
+        "Runway",
+        "Midjourney",
+        "Sora"
+      ],
+      "visual_style_tags": [
+        "都市冷调悬疑 / Urban Cold-Tone Suspense",
+        "电影级光影 / Cinematic Lighting",
+        "高反差明暗法 / High-Contrast Chiaroscuro",
+        "商业权谋质感 / Corporate Power-Play Aesthetic",
+        "气味记忆视觉化 / Scent-Memory Visualization",
+        "情感拉扯特写 / Intense Romantic Close-Up",
+        "反转爽剧节奏 / Twist-Driven Vertical Drama"
+      ],
+      "estimated_total_duration": "36-72分钟 / 36-72 minutes"
+    }
+  },
+  "scenes": [
+    {
+      "scene_id": "001",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "深夜，顶级危机公关公司会议室，落地窗外是雨夜城市霓虹",
+          "en": "Late-night crisis PR agency conference room with rain-streaked floor-to-ceiling windows and neon city lights"
+        },
+        "lighting": {
+          "zh": "冷蓝色电脑屏光映在玻璃桌面上，窗外霓虹和雨痕形成压迫感，人物脸部半明半暗",
+          "en": "Cold blue monitor glow reflected on a glass table, neon rain streaks outside, half-lit faces with high-contrast chiaroscuro lighting"
+        }
+      },
+      "characters": [
+        {
+          "name": "苏清妤",
+          "visual_anchor": {
+            "zh": "28岁亚洲女性，清冷精致五官，黑色齐肩微卷发，身穿象牙白真丝衬衫、黑色高腰西装裤、细框金属眼镜，左锁骨戴一枚旧银色小项链，妆容干净克制",
+            "en": "A 28-year-old Asian woman with refined icy features, shoulder-length slightly wavy black hair, ivory silk blouse, black high-waisted tailored trousers, thin metal-frame glasses, an old silver pendant necklace on her left collarbone, restrained clean makeup"
+          },
+          "action": {
+            "zh": "她冷静合上委托文件，正要拒绝天价公关案，忽然抬眼看向走进会议室的男人，鼻翼轻动，眼神骤然变冷",
+            "en": "She calmly closes the commission file, about to refuse the high-priced PR case, then looks up at the man entering the room, subtly inhales, her gaze turning cold"
+          }
+        },
+        {
+          "name": "顾宴臣",
+          "visual_anchor": {
+            "zh": "31岁亚洲男性，身形高挑挺拔，轮廓冷峻，黑色短发向后梳理，身穿深炭灰定制西装、黑色衬衫、无领带，左手戴银色机械腕表，气场克制压迫",
+            "en": "A 31-year-old Asian man, tall and upright, severe facial contours, slicked-back short black hair, dark charcoal bespoke suit, black shirt, no tie, silver mechanical wristwatch on his left wrist, controlled and intimidating presence"
+          },
+          "action": {
+            "zh": "他把外套搭在椅背上，沉默站定，身上残留的医用级过氧乙酸消毒水味让苏清妤瞬间僵住",
+            "en": "He drapes his coat over a chair and stands in silence, the lingering medical-grade peracetic acid disinfectant scent making Su Qingyu freeze"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从文件特写慢速上摇到苏清妤眼睛，再快速切到顾宴臣西装袖口的雨滴",
+        "en": "Slow tilt-up from the document close-up to Su Qingyu's eyes, then a sharp cut to raindrops on Gu Yanchen's suit cuff"
+      },
+      "audio_cue": {
+        "zh": "低频压迫弦乐，雨声敲窗，苏清妤吸气声被放大，结尾一记沉闷心跳",
+        "en": "Low-frequency tense strings, rain tapping against glass, amplified inhale from Su Qingyu, ending with a muffled heartbeat hit"
+      }
+    },
+    {
+      "scene_id": "002",
+      "estimated_scene_duration": "5s",
+      "environment": {
+        "location": {
+          "zh": "顾氏集团地下停车场，黑色商务车旁，水泥墙面潮湿冰冷",
+          "en": "Gu Group underground parking garage beside a black executive sedan, damp concrete walls and cold industrial air"
+        },
+        "lighting": {
+          "zh": "顶灯忽明忽暗，车灯切出锋利光束，地面水迹反射出诡异冷光",
+          "en": "Flickering overhead fluorescents, sharp beams from car headlights, wet concrete reflections creating an eerie cold sheen"
+        }
+      },
+      "characters": [
+        {
+          "name": "苏清妤",
+          "visual_anchor": {
+            "zh": "28岁亚洲女性，清冷精致五官，黑色齐肩微卷发，身穿象牙白真丝衬衫、黑色高腰西装裤、细框金属眼镜，左锁骨戴一枚旧银色小项链，妆容干净克制",
+            "en": "A 28-year-old Asian woman with refined icy features, shoulder-length slightly wavy black hair, ivory silk blouse, black high-waisted tailored trousers, thin metal-frame glasses, an old silver pendant necklace on her left collarbone, restrained clean makeup"
+          },
+          "action": {
+            "zh": "她拿着前妻坠楼资料站在车旁，指尖划过疗养院入住记录，神情冷静却暗藏戒备",
+            "en": "She stands beside the car holding the ex-wife death file, her fingertip tracing a sanatorium admission record, calm yet guarded"
+          }
+        },
+        {
+          "name": "顾宴臣",
+          "visual_anchor": {
+            "zh": "31岁亚洲男性，身形高挑挺拔，轮廓冷峻，黑色短发向后梳理，身穿深炭灰定制西装、黑色衬衫、无领带，左手戴银色机械腕表，气场克制压迫",
+            "en": "A 31-year-old Asian man, tall and upright, severe facial contours, slicked-back short black hair, dark charcoal bespoke suit, black shirt, no tie, silver mechanical wristwatch on his left wrist, controlled and intimidating presence"
+          },
+          "action": {
+            "zh": "他从阴影里走近，低声打断她的调查，目光像审讯一样落在她脸上",
+            "en": "He steps out of the shadows, quietly interrupts her investigation, his gaze landing on her face like an interrogation"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "手持跟拍苏清妤翻资料，随后横移露出顾宴臣站在车灯后方",
+        "en": "Handheld tracking on Su Qingyu reviewing files, then lateral reveal of Gu Yanchen standing behind the headlights"
+      },
+      "audio_cue": {
+        "zh": "空旷停车场回声，远处电流滋滋声，顾宴臣台词前音乐骤停",
+        "en": "Hollow garage reverb, distant electrical buzzing, music abruptly dropping before Gu Yanchen's line"
+      }
+    },
+    {
+      "scene_id": "003",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "白天，顾氏集团发布会大厅，媒体长枪短炮与巨型舆情屏幕包围讲台",
+          "en": "Daytime Gu Group press hall, podium surrounded by cameras, microphones, and a giant public-opinion analytics screen"
+        },
+        "lighting": {
+          "zh": "高亮新闻发布会灯光刺眼，屏幕红色热搜数据在人物脸上跳动",
+          "en": "Harsh press-conference key lights, red trending-topic data flickering across faces from the LED wall"
+        }
+      },
+      "characters": [
+        {
+          "name": "苏清妤",
+          "visual_anchor": {
+            "zh": "28岁亚洲女性，清冷精致五官，黑色齐肩微卷发，身穿象牙白真丝衬衫、黑色高腰西装裤、细框金属眼镜，左锁骨戴一枚旧银色小项链，妆容干净克制",
+            "en": "A 28-year-old Asian woman with refined icy features, shoulder-length slightly wavy black hair, ivory silk blouse, black high-waisted tailored trousers, thin metal-frame glasses, an old silver pendant necklace on her left collarbone, restrained clean makeup"
+          },
+          "action": {
+            "zh": "她站在屏幕前，当众逐帧拆解家暴视频剪辑痕迹，冷声指出水军矩阵的统一发布时间",
+            "en": "She stands before the screen, publicly dissecting edit marks frame by frame and coldly exposing the synchronized posting time of the bot network"
+          }
+        },
+        {
+          "name": "沈知夏",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，短黑发利落贴耳，身穿墨绿色风衣、白色T恤、深色牛仔裤，胸前挂记者证，右手常握黑色录音笔，眼神聪明但疲惫",
+            "en": "A 29-year-old Asian woman with neat ear-length black hair, moss-green trench coat, white T-shirt, dark jeans, press badge on her chest, often holding a black voice recorder in her right hand, intelligent yet tired eyes"
+          },
+          "action": {
+            "zh": "她站在媒体区最外侧，看到自己媒体账号出现在追踪结果上，脸色瞬间发白",
+            "en": "She stands at the edge of the press area, her face turning pale as her own media account appears in the tracking results"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "快速推近舆情屏幕上的账号名单，再甩镜到沈知夏震惊的脸",
+        "en": "Fast push-in on the account list on the public-opinion screen, then whip-pan to Shen Zhixia's shocked face"
+      },
+      "audio_cue": {
+        "zh": "密集快门声、记者低语声、数据弹窗音效，账号出现时加入尖锐电子音",
+        "en": "Rapid camera shutters, murmuring reporters, digital notification ticks, with a sharp electronic sting when the account appears"
+      }
+    },
+    {
+      "scene_id": "004",
+      "estimated_scene_duration": "5s",
+      "environment": {
+        "location": {
+          "zh": "雨后街边咖啡馆角落，玻璃外是模糊车流，桌上放着两杯未动的黑咖啡",
+          "en": "Corner booth in a post-rain street cafe, blurred traffic outside the glass, two untouched black coffees on the table"
+        },
+        "lighting": {
+          "zh": "室内暖光与窗外冷雨光交错，亲密空间里透出不安裂痕",
+          "en": "Warm interior practicals crossing with cold rainy window light, creating unease within an intimate space"
+        }
+      },
+      "characters": [
+        {
+          "name": "苏清妤",
+          "visual_anchor": {
+            "zh": "28岁亚洲女性，清冷精致五官，黑色齐肩微卷发，身穿象牙白真丝衬衫、黑色高腰西装裤、细框金属眼镜，左锁骨戴一枚旧银色小项链，妆容干净克制",
+            "en": "A 28-year-old Asian woman with refined icy features, shoulder-length slightly wavy black hair, ivory silk blouse, black high-waisted tailored trousers, thin metal-frame glasses, an old silver pendant necklace on her left collarbone, restrained clean makeup"
+          },
+          "action": {
+            "zh": "她靠近沈知夏的袖口轻轻吸气，闻到疗养院消毒水味后，眼神从信任变成审视",
+            "en": "She leans near Shen Zhixia's cuff and subtly inhales; after detecting sanatorium disinfectant, her eyes shift from trust to scrutiny"
+          }
+        },
+        {
+          "name": "沈知夏",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，短黑发利落贴耳，身穿墨绿色风衣、白色T恤、深色牛仔裤，胸前挂记者证，右手常握黑色录音笔，眼神聪明但疲惫",
+            "en": "A 29-year-old Asian woman with neat ear-length black hair, moss-green trench coat, white T-shirt, dark jeans, press badge on her chest, often holding a black voice recorder in her right hand, intelligent yet tired eyes"
+          },
+          "action": {
+            "zh": "她慌乱解释账号被盗，手指紧紧攥住录音笔，杯中咖啡微微震动",
+            "en": "She anxiously explains the account was hacked, fingers clenching the recorder, the coffee cup trembling slightly"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从咖啡液面颤动的微距特写，缓慢拉到两人对峙的中近景",
+        "en": "Macro close-up on the trembling coffee surface, slowly pulling back to a medium close-up confrontation"
+      },
+      "audio_cue": {
+        "zh": "咖啡馆环境声被压低，只保留雨滴、呼吸和手机匿名短信提示音",
+        "en": "Cafe ambience muffled down, isolating raindrops, breathing, and an anonymous text notification tone"
+      }
+    },
+    {
+      "scene_id": "005",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "私人档案室，金属档案柜成排延伸，桌上摊开十年前死亡报告",
+          "en": "Private archive room with rows of metal filing cabinets, a ten-year-old death report spread across the desk"
+        },
+        "lighting": {
+          "zh": "单盏台灯照亮泛黄纸页，四周陷入深暗，报告签名处被冷光切中",
+          "en": "A single desk lamp illuminates yellowed pages, surrounding darkness, cold light slicing across the signature line"
+        }
+      },
+      "characters": [
+        {
+          "name": "苏清妤",
+          "visual_anchor": {
+            "zh": "28岁亚洲女性，清冷精致五官，黑色齐肩微卷发，身穿象牙白真丝衬衫、黑色高腰西装裤、细框金属眼镜，左锁骨戴一枚旧银色小项链，妆容干净克制",
+            "en": "A 28-year-old Asian woman with refined icy features, shoulder-length slightly wavy black hair, ivory silk blouse, black high-waisted tailored trousers, thin metal-frame glasses, an old silver pendant necklace on her left collarbone, restrained clean makeup"
+          },
+          "action": {
+            "zh": "她用放大镜比对死亡报告签字，发现笔迹伪造，手背青筋微微绷起",
+            "en": "She compares the death-report signature with a magnifier, discovering forgery, veins tightening on the back of her hand"
+          }
+        },
+        {
+          "name": "顾宴臣",
+          "visual_anchor": {
+            "zh": "31岁亚洲男性，身形高挑挺拔，轮廓冷峻，黑色短发向后梳理，身穿深炭灰定制西装、黑色衬衫、无领带，左手戴银色机械腕表，气场克制压迫",
+            "en": "A 31-year-old Asian man, tall and upright, severe facial contours, slicked-back short black hair, dark charcoal bespoke suit, black shirt, no tie, silver mechanical wristwatch on his left wrist, controlled and intimidating presence"
+          },
+          "action": {
+            "zh": "他从黑暗中递出另一份相同报告，声音压低，像把秘密放上审判台",
+            "en": "He extends an identical report from the darkness, voice lowered, placing the secret on trial"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "死亡报告签名极近特写，镜头随顾宴臣的手平移到第二份报告",
+        "en": "Extreme close-up on the death-report signature, camera sliding with Gu Yanchen's hand to reveal the second report"
+      },
+      "audio_cue": {
+        "zh": "纸张摩擦声、台灯电流声、低沉悬疑鼓点，报告重叠时出现低频轰鸣",
+        "en": "Paper rustle, desk-lamp electrical hum, low suspense percussion, deep sub-bass swell as the reports overlap"
+      }
+    },
+    {
+      "scene_id": "006",
+      "estimated_scene_duration": "5s",
+      "environment": {
+        "location": {
+          "zh": "顾氏集团顶层空中走廊，玻璃两侧俯瞰城市夜景",
+          "en": "Top-floor skybridge inside Gu Group headquarters overlooking the city at night through glass walls"
+        },
+        "lighting": {
+          "zh": "城市霓虹从脚下反射上来，冷白走廊灯拉长两人的影子",
+          "en": "City neon reflecting upward from below, cold white corridor lights stretching both shadows"
+        }
+      },
+      "characters": [
+        {
+          "name": "苏清妤",
+          "visual_anchor": {
+            "zh": "28岁亚洲女性，清冷精致五官，黑色齐肩微卷发，身穿象牙白真丝衬衫、黑色高腰西装裤、细框金属眼镜，左锁骨戴一枚旧银色小项链，妆容干净克制",
+            "en": "A 28-year-old Asian woman with refined icy features, shoulder-length slightly wavy black hair, ivory silk blouse, black high-waisted tailored trousers, thin metal-frame glasses, an old silver pendant necklace on her left collarbone, restrained clean makeup"
+          },
+          "action": {
+            "zh": "她伸手接过合作协议，却没有松开警惕，目光锋利地盯着顾宴臣",
+            "en": "She takes the temporary alliance agreement without lowering her guard, staring sharply at Gu Yanchen"
+          }
+        },
+        {
+          "name": "顾宴臣",
+          "visual_anchor": {
+            "zh": "31岁亚洲男性，身形高挑挺拔，轮廓冷峻，黑色短发向后梳理，身穿深炭灰定制西装、黑色衬衫、无领带，左手戴银色机械腕表，气场克制压迫",
+            "en": "A 31-year-old Asian man, tall and upright, severe facial contours, slicked-back short black hair, dark charcoal bespoke suit, black shirt, no tie, silver mechanical wristwatch on his left wrist, controlled and intimidating presence"
+          },
+          "action": {
+            "zh": "他隔着一纸协议低声提醒她，身边有人正在替幕后者盯着她",
+            "en": "Across the thin agreement paper, he warns her in a low voice that someone close to her is watching for the hidden operators"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "环绕两人半圈，玻璃倒影里形成互相试探的双重构图",
+        "en": "Half-circle dolly around them, using glass reflections to create a double-composition of mutual suspicion"
+      },
+      "audio_cue": {
+        "zh": "空中走廊轻微风声，远处城市车流低鸣，签字笔落下时音乐短促收紧",
+        "en": "Subtle skybridge wind, distant city traffic drone, music tightening briefly as the pen touches paper"
+      }
+    },
+    {
+      "scene_id": "007",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "顾氏医疗数据机房，蓝色服务器灯光映出十年前疗养院名单",
+          "en": "Gu Medical data server room, blue server lights illuminating a ten-year-old sanatorium patient list"
+        },
+        "lighting": {
+          "zh": "服务器蓝光闪烁，名单投影在两人脸上，红色警告弹窗像危险信号",
+          "en": "Flickering server-blue light, the list projected across their faces, red warning pop-ups pulsing like danger signals"
+        }
+      },
+      "characters": [
+        {
+          "name": "苏清妤",
+          "visual_anchor": {
+            "zh": "28岁亚洲女性，清冷精致五官，黑色齐肩微卷发，身穿象牙白真丝衬衫、黑色高腰西装裤、细框金属眼镜，左锁骨戴一枚旧银色小项链，妆容干净克制",
+            "en": "A 28-year-old Asian woman with refined icy features, shoulder-length slightly wavy black hair, ivory silk blouse, black high-waisted tailored trousers, thin metal-frame glasses, an old silver pendant necklace on her left collarbone, restrained clean makeup"
+          },
+          "action": {
+            "zh": "她盯着入住名单，发现母亲名字后呼吸停住，因为身份栏写着项目负责人",
+            "en": "She stares at the admission list and stops breathing when her mother's name appears, listed as project director"
+          }
+        },
+        {
+          "name": "傅明修",
+          "visual_anchor": {
+            "zh": "35岁亚洲男性，温和儒雅面容，金丝眼镜，身穿浅灰三件套西装、酒红色领带，手持黑色皮质文件夹，笑容克制却带算计",
+            "en": "A 35-year-old Asian man with a gentle scholarly face, gold-rimmed glasses, light gray three-piece suit, burgundy tie, black leather folder in hand, restrained calculated smile"
+          },
+          "action": {
+            "zh": "他站在董事会远程画面里，平静主张切割顾氏医疗资产，语气像早已准备好棋局",
+            "en": "On the remote boardroom feed, he calmly argues for divesting Gu Medical assets, sounding as if the move was prepared long ago"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从服务器灯阵快速穿行到名单屏幕，最后定格在苏清妤瞳孔里的母亲姓名倒影",
+        "en": "Fast glide through server light arrays to the list screen, ending on the mother's name reflected in Su Qingyu's pupil"
+      },
+      "audio_cue": {
+        "zh": "服务器风扇轰鸣、键盘急促敲击、红色警告弹窗提示音连续叠加",
+        "en": "Server fan roar, rapid keyboard taps, layered red-alert notification beeps"
+      }
+    },
+    {
+      "scene_id": "008",
+      "estimated_scene_duration": "5s",
+      "environment": {
+        "location": {
+          "zh": "苏清妤家中昏暗客厅，墙上贴满母亲旧照片和疗养院线索",
+          "en": "Dim living room in Su Qingyu's apartment, walls covered with her mother's old photos and sanatorium clues"
+        },
+        "lighting": {
+          "zh": "台灯暖光照着照片，窗外冷月光切开房间，形成亲情与真相撕裂感",
+          "en": "Warm desk-lamp light on the photos, cold moonlight cutting through the room, creating a fractured family-truth contrast"
+        }
+      },
+      "characters": [
+        {
+          "name": "苏清妤",
+          "visual_anchor": {
+            "zh": "28岁亚洲女性，清冷精致五官，黑色齐肩微卷发，身穿象牙白真丝衬衫、黑色高腰西装裤、细框金属眼镜，左锁骨戴一枚旧银色小项链，妆容干净克制",
+            "en": "A 28-year-old Asian woman with refined icy features, shoulder-length slightly wavy black hair, ivory silk blouse, black high-waisted tailored trousers, thin metal-frame glasses, an old silver pendant necklace on her left collarbone, restrained clean makeup"
+          },
+          "action": {
+            "zh": "她撕下母亲照片又重新按回墙上，眼中含泪却不肯崩溃，冷声宣告自己只要真相",
+            "en": "She tears down her mother's photo then presses it back onto the wall, tearful but refusing to break, declaring she only needs the truth"
+          }
+        },
+        {
+          "name": "顾宴臣",
+          "visual_anchor": {
+            "zh": "31岁亚洲男性，身形高挑挺拔，轮廓冷峻，黑色短发向后梳理，身穿深炭灰定制西装、黑色衬衫、无领带，左手戴银色机械腕表，气场克制压迫",
+            "en": "A 31-year-old Asian man, tall and upright, severe facial contours, slicked-back short black hair, dark charcoal bespoke suit, black shirt, no tie, silver mechanical wristwatch on his left wrist, controlled and intimidating presence"
+          },
+          "action": {
+            "zh": "他站在门边沉默看着她，想阻止却没有靠近，眼底压着复杂保护欲",
+            "en": "He stands silently by the door, wanting to stop her but not stepping closer, a complicated protective instinct held in his eyes"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "慢速推近线索墙，穿过照片缝隙落到苏清妤含泪的侧脸",
+        "en": "Slow cinematic push-in on the clue wall, moving through gaps between photos to Su Qingyu's tearful profile"
+      },
+      "audio_cue": {
+        "zh": "低沉钢琴单音，胶带撕裂声清晰突出，最后只剩她压抑的呼吸",
+        "en": "Low single-note piano, crisp tape-tearing sound emphasized, ending on her suppressed breathing"
+      }
+    },
+    {
+      "scene_id": "009",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "顾氏集团董事会会议室，长桌两侧坐满高管，实时股价屏幕悬挂墙面",
+          "en": "Gu Group boardroom, executives lining both sides of a long table, real-time stock screen mounted on the wall"
+        },
+        "lighting": {
+          "zh": "冷白顶灯压迫感强，股价红绿跳动映在高管脸上，像一场商业审判",
+          "en": "Oppressive cold-white overhead lighting, red and green stock ticks flickering over executives' faces like a corporate trial"
+        }
+      },
+      "characters": [
+        {
+          "name": "苏清妤",
+          "visual_anchor": {
+            "zh": "28岁亚洲女性，清冷精致五官，黑色齐肩微卷发，身穿象牙白真丝衬衫、黑色高腰西装裤、细框金属眼镜，左锁骨戴一枚旧银色小项链，妆容干净克制",
+            "en": "A 28-year-old Asian woman with refined icy features, shoulder-length slightly wavy black hair, ivory silk blouse, black high-waisted tailored trousers, thin metal-frame glasses, an old silver pendant necklace on her left collarbone, restrained clean makeup"
+          },
+          "action": {
+            "zh": "她把傅明修暗中做空顾氏的证据投到大屏，语气平静却一击致命",
+            "en": "She projects evidence of Fu Mingxiu secretly shorting Gu Group onto the screen, calm but devastating"
+          }
+        },
+        {
+          "name": "傅明修",
+          "visual_anchor": {
+            "zh": "35岁亚洲男性，温和儒雅面容，金丝眼镜，身穿浅灰三件套西装、酒红色领带，手持黑色皮质文件夹，笑容克制却带算计",
+            "en": "A 35-year-old Asian man with a gentle scholarly face, gold-rimmed glasses, light gray three-piece suit, burgundy tie, black leather folder in hand, restrained calculated smile"
+          },
+          "action": {
+            "zh": "他的笑容第一次僵住，手指压在文件夹边缘，低声反咬顾宴臣并不干净",
+            "en": "His smile stiffens for the first time, fingers pressing the folder edge as he quietly bites back that Gu Yanchen is not clean either"
+          }
+        },
+        {
+          "name": "顾宴臣",
+          "visual_anchor": {
+            "zh": "31岁亚洲男性，身形高挑挺拔，轮廓冷峻，黑色短发向后梳理，身穿深炭灰定制西装、黑色衬衫、无领带，左手戴银色机械腕表，气场克制压迫",
+            "en": "A 31-year-old Asian man, tall and upright, severe facial contours, slicked-back short black hair, dark charcoal bespoke suit, black shirt, no tie, silver mechanical wristwatch on his left wrist, controlled and intimidating presence"
+          },
+          "action": {
+            "zh": "他坐在主位一言不发，第一次把主动权完全交给苏清妤",
+            "en": "He sits at the head of the table in silence, for the first time giving Su Qingyu full control of the room"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从长桌尽头低机位推进，经过高管震惊表情，最后停在傅明修僵硬的笑容",
+        "en": "Low-angle push-in from the end of the table, passing stunned executive faces, ending on Fu Mingxiu's frozen smile"
+      },
+      "audio_cue": {
+        "zh": "股价提示音急促跳动，会议室低语爆开，证据投屏时加入强烈低鼓",
+        "en": "Rapid stock alert ticks, boardroom murmurs erupting, heavy low drum hit as the evidence appears"
+      }
+    },
+    {
+      "scene_id": "010",
+      "estimated_scene_duration": "5s",
+      "environment": {
+        "location": {
+          "zh": "顾宴臣私人书房，黑胡桃木书架前播放前妻遗留录音",
+          "en": "Gu Yanchen's private study, audio recording from his late ex-wife playing before dark walnut bookshelves"
+        },
+        "lighting": {
+          "zh": "壁炉暗橙火光与书桌冷光交织，录音设备上的红点像一只窥视的眼睛",
+          "en": "Dim orange fireplace glow crossing with cold desk light, the red recording dot like a watching eye"
+        }
+      },
+      "characters": [
+        {
+          "name": "苏清妤",
+          "visual_anchor": {
+            "zh": "28岁亚洲女性，清冷精致五官，黑色齐肩微卷发，身穿象牙白真丝衬衫、黑色高腰西装裤、细框金属眼镜，左锁骨戴一枚旧银色小项链，妆容干净克制",
+            "en": "A 28-year-old Asian woman with refined icy features, shoulder-length slightly wavy black hair, ivory silk blouse, black high-waisted tailored trousers, thin metal-frame glasses, an old silver pendant necklace on her left collarbone, restrained clean makeup"
+          },
+          "action": {
+            "zh": "她听见录音背景里熟悉的童谣，瞳孔骤缩，手指不自觉按住项链",
+            "en": "She hears a familiar nursery tune in the recording background, pupils tightening, fingers instinctively gripping her necklace"
+          }
+        },
+        {
+          "name": "顾宴臣",
+          "visual_anchor": {
+            "zh": "31岁亚洲男性，身形高挑挺拔，轮廓冷峻，黑色短发向后梳理，身穿深炭灰定制西装、黑色衬衫、无领带，左手戴银色机械腕表，气场克制压迫",
+            "en": "A 31-year-old Asian man, tall and upright, severe facial contours, slicked-back short black hair, dark charcoal bespoke suit, black shirt, no tie, silver mechanical wristwatch on his left wrist, controlled and intimidating presence"
+          },
+          "action": {
+            "zh": "他站在阴影里观察她的反应，表情冷峻却明显压着隐痛",
+            "en": "He observes her reaction from the shadows, his expression severe yet visibly suppressing old pain"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "录音机红点特写缓慢推近，声音中童谣响起时切到苏清妤瞳孔特写",
+        "en": "Slow push-in on the recorder's red light, cutting to an extreme close-up of Su Qingyu's pupil when the nursery tune emerges"
+      },
+      "audio_cue": {
+        "zh": "老旧录音底噪、前妻颤抖声音、远处若隐若现的童谣，最后出现刺耳磁带停顿",
+        "en": "Old recording hiss, trembling voice of the ex-wife, faint nursery tune in the distance, ending with a sharp tape-stop glitch"
+      }
+    },
+    {
+      "scene_id": "011",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "废弃私人疗养院，没有门牌的隐藏病房，旧病床、密封档案柜、墙上密密麻麻的人脸照片",
+          "en": "Abandoned private sanatorium, hidden ward with no room number, old hospital bed, sealed file cabinets, walls covered in dense face photographs"
+        },
+        "lighting": {
+          "zh": "冷白灯管频闪，尘埃在光束里漂浮，旧病床投下锋利阴影",
+          "en": "Flickering cold-white fluorescent tubes, dust floating in light shafts, old hospital bed casting sharp shadows"
+        }
+      },
+      "characters": [
+        {
+          "name": "苏清妤",
+          "visual_anchor": {
+            "zh": "28岁亚洲女性，清冷精致五官，黑色齐肩微卷发，身穿象牙白真丝衬衫、黑色高腰西装裤、细框金属眼镜，左锁骨戴一枚旧银色小项链，妆容干净克制",
+            "en": "A 28-year-old Asian woman with refined icy features, shoulder-length slightly wavy black hair, ivory silk blouse, black high-waisted tailored trousers, thin metal-frame glasses, an old silver pendant necklace on her left collarbone, restrained clean makeup"
+          },
+          "action": {
+            "zh": "她戴着黑色手套推开档案柜，看到墙上一张与自己一模一样的女人照片，身体僵住",
+            "en": "Wearing black gloves, she opens the file cabinet and freezes upon seeing a wall photo of a woman identical to herself"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "手电筒视角扫过病床和照片墙，突然停在与苏清妤相同的脸上，急速推近",
+        "en": "Flashlight POV scanning the bed and photo wall, abruptly stopping on a face identical to Su Qingyu, then a rapid push-in"
+      },
+      "audio_cue": {
+        "zh": "废楼风声、灯管滋滋声、档案柜金属摩擦声，照片出现时心跳声骤然放大",
+        "en": "Abandoned-building wind, fluorescent buzzing, metal file-cabinet scrape, heartbeat swelling sharply when the photo appears"
+      }
+    },
+    {
+      "scene_id": "012",
+      "estimated_scene_duration": "5s",
+      "environment": {
+        "location": {
+          "zh": "废弃疗养院走廊尽头，地面散落童年病例和被篡改的身份档案",
+          "en": "End of an abandoned sanatorium corridor, childhood medical files and altered identity records scattered across the floor"
+        },
+        "lighting": {
+          "zh": "走廊尽头逆光强烈，纸页在冷风中翻动，像记忆被撕开",
+          "en": "Strong backlight at the corridor end, papers flipping in the cold draft like torn-open memories"
+        }
+      },
+      "characters": [
+        {
+          "name": "苏清妤",
+          "visual_anchor": {
+            "zh": "28岁亚洲女性，清冷精致五官，黑色齐肩微卷发，身穿象牙白真丝衬衫、黑色高腰西装裤、细框金属眼镜，左锁骨戴一枚旧银色小项链，妆容干净克制",
+            "en": "A 28-year-old Asian woman with refined icy features, shoulder-length slightly wavy black hair, ivory silk blouse, black high-waisted tailored trousers, thin metal-frame glasses, an old silver pendant necklace on her left collarbone, restrained clean makeup"
+          },
+          "action": {
+            "zh": "她举起篡改过的童年病例质问顾宴臣，声音发颤却强撑冷静",
+            "en": "She raises the altered childhood case file and confronts Gu Yanchen, her voice trembling while forcing calm"
+          }
+        },
+        {
+          "name": "顾宴臣",
+          "visual_anchor": {
+            "zh": "31岁亚洲男性，身形高挑挺拔，轮廓冷峻，黑色短发向后梳理，身穿深炭灰定制西装、黑色衬衫、无领带，左手戴银色机械腕表，气场克制压迫",
+            "en": "A 31-year-old Asian man, tall and upright, severe facial contours, slicked-back short black hair, dark charcoal bespoke suit, black shirt, no tie, silver mechanical wristwatch on his left wrist, controlled and intimidating presence"
+          },
+          "action": {
+            "zh": "他承认十年前就见过她，眼神第一次失去绝对控制",
+            "en": "He admits he first saw her ten years ago, his gaze losing absolute control for the first time"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "低角度跟随纸页被风吹过地面，抬升到两人近距离对峙",
+        "en": "Low-angle tracking with papers blown across the floor, rising into a close confrontation between them"
+      },
+      "audio_cue": {
+        "zh": "走廊风声拉长，纸页翻飞声密集，顾宴臣承认时加入低沉弦乐下坠",
+        "en": "Elongated corridor wind, dense paper-flutter sounds, descending low strings as Gu Yanchen confesses"
+      }
+    },
+    {
+      "scene_id": "013",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "十年前疗养院记忆闪回，儿童病房门缝外，年少顾宴臣看见幼年苏清妤被带走",
+          "en": "Ten-year flashback in the sanatorium, outside a children's ward door crack, young Gu Yanchen seeing young Su Qingyu being taken away"
+        },
+        "lighting": {
+          "zh": "泛绿病房灯光带有旧胶片颗粒感，门缝光像一道无法越过的伤口",
+          "en": "Green-tinted ward lighting with vintage film grain, the door-crack light like an unreachable wound"
+        }
+      },
+      "characters": [
+        {
+          "name": "顾宴臣",
+          "visual_anchor": {
+            "zh": "31岁亚洲男性，身形高挑挺拔，轮廓冷峻，黑色短发向后梳理，身穿深炭灰定制西装、黑色衬衫、无领带，左手戴银色机械腕表，气场克制压迫",
+            "en": "A 31-year-old Asian man, tall and upright, severe facial contours, slicked-back short black hair, dark charcoal bespoke suit, black shirt, no tie, silver mechanical wristwatch on his left wrist, controlled and intimidating presence"
+          },
+          "action": {
+            "zh": "成年顾宴臣站在现实阴影里讲述往事，声音克制，闪回中少年版的他躲在门后发抖",
+            "en": "Adult Gu Yanchen recounts the past from present-day shadows, voice controlled, while flashback young Gu trembles behind the door"
+          }
+        },
+        {
+          "name": "苏清妤",
+          "visual_anchor": {
+            "zh": "28岁亚洲女性，清冷精致五官，黑色齐肩微卷发，身穿象牙白真丝衬衫、黑色高腰西装裤、细框金属眼镜，左锁骨戴一枚旧银色小项链，妆容干净克制",
+            "en": "A 28-year-old Asian woman with refined icy features, shoulder-length slightly wavy black hair, ivory silk blouse, black high-waisted tailored trousers, thin metal-frame glasses, an old silver pendant necklace on her left collarbone, restrained clean makeup"
+          },
+          "action": {
+            "zh": "她摘下旧银色项链，打开暗格后发现里面空无一物，信任刚升起又被击碎",
+            "en": "She removes the old silver necklace and opens its hidden compartment, finding it empty, her newly formed trust shattering"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "闪回与现实交叉剪辑，门缝视角切到项链空腔极近特写",
+        "en": "Intercut flashback and present day, from door-crack POV to an extreme close-up of the empty necklace compartment"
+      },
+      "audio_cue": {
+        "zh": "童年病房远处哭声、心电监护滴答、项链弹开时清脆金属声",
+        "en": "Distant child crying in the ward, cardiac monitor beeps, crisp metallic click as the necklace opens"
+      }
+    },
+    {
+      "scene_id": "014",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "林曼殊心理诊所，木质书架、香薰、柔软沙发构成过度温柔的空间",
+          "en": "Lin Manshu's psychology clinic, wooden bookshelves, aromatherapy, soft sofa forming an overly gentle space"
+        },
+        "lighting": {
+          "zh": "暖黄色疗愈灯光表面温柔，角落阴影厚重，暗示亲情背后的控制",
+          "en": "Warm therapeutic amber lighting on the surface, heavy corner shadows suggesting control behind family affection"
+        }
+      },
+      "characters": [
+        {
+          "name": "苏清妤",
+          "visual_anchor": {
+            "zh": "28岁亚洲女性，清冷精致五官，黑色齐肩微卷发，身穿象牙白真丝衬衫、黑色高腰西装裤、细框金属眼镜，左锁骨戴一枚旧银色小项链，妆容干净克制",
+            "en": "A 28-year-old Asian woman with refined icy features, shoulder-length slightly wavy black hair, ivory silk blouse, black high-waisted tailored trousers, thin metal-frame glasses, an old silver pendant necklace on her left collarbone, restrained clean makeup"
+          },
+          "action": {
+            "zh": "她把空项链拍在桌上质问小姨，眼底是被亲情割开的痛",
+            "en": "She slams the empty necklace onto the table and confronts her aunt, pain from family betrayal cutting through her eyes"
+          }
+        },
+        {
+          "name": "林曼殊",
+          "visual_anchor": {
+            "zh": "45岁亚洲女性，温柔端庄面容，黑发低盘，身穿米白色针织开衫、浅灰长裙、珍珠耳钉，手腕戴细金表，笑容柔和却有心理操控感",
+            "en": "A 45-year-old Asian woman with a gentle composed face, low black hair bun, ivory knit cardigan, light gray long skirt, pearl stud earrings, slim gold wristwatch, soft smile with a psychologically controlling undertone"
+          },
+          "action": {
+            "zh": "她慢慢拿出一张旧照片，说出苏清妤母亲当年求她杀了自己的话，语气温柔得可怕",
+            "en": "She slowly produces an old photo and says Su Qingyu's mother once begged to be killed, her tone terrifyingly gentle"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从香薰烟雾前景缓慢推进，绕过照片停在林曼殊温柔的微笑",
+        "en": "Slow push-in through foreground aromatherapy smoke, gliding past the photo to Lin Manshu's gentle smile"
+      },
+      "audio_cue": {
+        "zh": "安静香薰机水声、墙上时钟滴答、照片放下时低音突然压住",
+        "en": "Quiet humidifier water sound, wall clock ticking, sudden bass pressure as the photo is placed down"
+      }
+    },
+    {
+      "scene_id": "015",
+      "estimated_scene_duration": "5s",
+      "environment": {
+        "location": {
+          "zh": "苏清妤公寓深夜，手机免提亮在桌面，窗外城市灯光遥远模糊",
+          "en": "Su Qingyu's apartment late at night, speakerphone glowing on the table, distant blurred city lights outside"
+        },
+        "lighting": {
+          "zh": "手机冷光照亮她苍白的脸，房间其余部分沉入黑暗",
+          "en": "Cold phone light illuminating her pale face while the rest of the room sinks into darkness"
+        }
+      },
+      "characters": [
+        {
+          "name": "苏清妤",
+          "visual_anchor": {
+            "zh": "28岁亚洲女性，清冷精致五官，黑色齐肩微卷发，身穿象牙白真丝衬衫、黑色高腰西装裤、细框金属眼镜，左锁骨戴一枚旧银色小项链，妆容干净克制",
+            "en": "A 28-year-old Asian woman with refined icy features, shoulder-length slightly wavy black hair, ivory silk blouse, black high-waisted tailored trousers, thin metal-frame glasses, an old silver pendant necklace on her left collarbone, restrained clean makeup"
+          },
+          "action": {
+            "zh": "她听完林曼殊关于母亲假死的解释，正要崩溃时，陌生来电里响起母亲声音，警告她不要相信林曼殊",
+            "en": "After hearing Lin Manshu's explanation of her mother's staged death, she nearly breaks, until an unknown caller speaks in her mother's voice warning her not to trust Lin Manshu"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "固定长镜头看她独坐黑暗中，手机来电瞬间快速推近她震惊的眼睛",
+        "en": "Static long take of her sitting alone in darkness, then a rapid push-in to her shocked eyes when the call arrives"
+      },
+      "audio_cue": {
+        "zh": "室内死寂、电话电流杂音、母亲声音带着旧录音质感，尾声音乐悬停",
+        "en": "Dead room silence, phone static, mother's voice with aged-recording texture, ending on suspended music"
+      }
+    },
+    {
+      "scene_id": "016",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "顾氏旗下私人康复中心门口，清晨薄雾中安保森严，媒体车突然围堵",
+          "en": "Entrance of a Gu-owned private rehabilitation center at dawn, heavy security in thin mist, media vans suddenly blocking the gate"
+        },
+        "lighting": {
+          "zh": "清晨冷雾柔光与闪光灯疯狂交错，安静康复中心瞬间变成舆论战场",
+          "en": "Soft cold dawn mist violently crossed by camera flashes, turning the quiet rehab center into a media battlefield"
+        }
+      },
+      "characters": [
+        {
+          "name": "苏清妤",
+          "visual_anchor": {
+            "zh": "28岁亚洲女性，清冷精致五官，黑色齐肩微卷发，身穿象牙白真丝衬衫、黑色高腰西装裤、细框金属眼镜，左锁骨戴一枚旧银色小项链，妆容干净克制",
+            "en": "A 28-year-old Asian woman with refined icy features, shoulder-length slightly wavy black hair, ivory silk blouse, black high-waisted tailored trousers, thin metal-frame glasses, an old silver pendant necklace on her left collarbone, restrained clean makeup"
+          },
+          "action": {
+            "zh": "她冲过媒体围堵直奔病房方向，眼神里第一次出现不加掩饰的急切",
+            "en": "She pushes through the media blockade toward the ward, urgency finally visible in her eyes"
+          }
+        },
+        {
+          "name": "顾宴臣",
+          "visual_anchor": {
+            "zh": "31岁亚洲男性，身形高挑挺拔，轮廓冷峻，黑色短发向后梳理，身穿深炭灰定制西装、黑色衬衫、无领带，左手戴银色机械腕表，气场克制压迫",
+            "en": "A 31-year-old Asian man, tall and upright, severe facial contours, slicked-back short black hair, dark charcoal bespoke suit, black shirt, no tie, silver mechanical wristwatch on his left wrist, controlled and intimidating presence"
+          },
+          "action": {
+            "zh": "他挡在记者和苏清妤之间，用身体替她隔开镜头，自己被舆论爆料拖住",
+            "en": "He steps between reporters and Su Qingyu, shielding her from cameras with his body while being trapped by the media exposé"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "手持混乱穿越闪光灯和话筒，跟随苏清妤冲进康复中心玻璃门",
+        "en": "Chaotic handheld movement through flashes and microphones, following Su Qingyu as she rushes through the rehab center glass doors"
+      },
+      "audio_cue": {
+        "zh": "记者追问声、快门爆闪声、安保喊声叠加，进入室内后声音骤然闷住",
+        "en": "Reporters shouting questions, camera flashes popping, security calls layered together, then abruptly muffled indoors"
+      }
+    },
+    {
+      "scene_id": "017",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "私人康复中心病房，白色窗帘、病床、输液架，床上躺着与母亲极像的女人",
+          "en": "Private rehab center ward with white curtains, hospital bed, IV stand, and a woman on the bed who closely resembles Su Qingyu's mother"
+        },
+        "lighting": {
+          "zh": "过度干净的冷白医疗光，空气像被消毒水洗过，缺少真实生命感",
+          "en": "Overly sterile cold-white medical lighting, air seemingly washed in disinfectant, lacking genuine life warmth"
+        }
+      },
+      "characters": [
+        {
+          "name": "苏清妤",
+          "visual_anchor": {
+            "zh": "28岁亚洲女性，清冷精致五官，黑色齐肩微卷发，身穿象牙白真丝衬衫、黑色高腰西装裤、细框金属眼镜，左锁骨戴一枚旧银色小项链，妆容干净克制",
+            "en": "A 28-year-old Asian woman with refined icy features, shoulder-length slightly wavy black hair, ivory silk blouse, black high-waisted tailored trousers, thin metal-frame glasses, an old silver pendant necklace on her left collarbone, restrained clean makeup"
+          },
+          "action": {
+            "zh": "她靠近病床闻到长期镇静药和廉价仿香，立刻收起眼泪，打开录音反向逼供负责人",
+            "en": "She leans toward the bed, detects long-term sedatives and cheap imitation perfume, instantly dries her tears, turns on recording, and corners the director into confessing"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从病床女人模糊面容缓慢拉焦到苏清妤冷下来的眼睛，再切录音笔红灯",
+        "en": "Rack focus from the blurred face on the bed to Su Qingyu's cooling eyes, then cut to the red light of the recorder"
+      },
+      "audio_cue": {
+        "zh": "输液滴答声、监护仪低鸣、录音笔开启的轻响，负责人供词声逐渐清晰",
+        "en": "IV drip ticks, monitor hum, soft recorder click, director's confession gradually becoming clear"
+      }
+    },
+    {
+      "scene_id": "018",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "夜晚天桥下，湿冷路面反射车灯，沈知夏把U盘塞进苏清妤手里",
+          "en": "Under an overpass at night, wet pavement reflecting headlights, Shen Zhixia pressing a USB drive into Su Qingyu's hand"
+        },
+        "lighting": {
+          "zh": "来往车灯形成忽明忽暗的切割光，人物面部在信任与背叛之间闪烁",
+          "en": "Passing headlights create slicing intermittent light, faces flickering between trust and betrayal"
+        }
+      },
+      "characters": [
+        {
+          "name": "苏清妤",
+          "visual_anchor": {
+            "zh": "28岁亚洲女性，清冷精致五官，黑色齐肩微卷发，身穿象牙白真丝衬衫、黑色高腰西装裤、细框金属眼镜，左锁骨戴一枚旧银色小项链，妆容干净克制",
+            "en": "A 28-year-old Asian woman with refined icy features, shoulder-length slightly wavy black hair, ivory silk blouse, black high-waisted tailored trousers, thin metal-frame glasses, an old silver pendant necklace on her left collarbone, restrained clean makeup"
+          },
+          "action": {
+            "zh": "她接过U盘，眼神复杂地看着承认被控制的闺蜜，愤怒和心疼同时压在脸上",
+            "en": "She takes the USB drive and looks at her friend confessing she was controlled, anger and pity pressing across her face at once"
+          }
+        },
+        {
+          "name": "沈知夏",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，短黑发利落贴耳，身穿墨绿色风衣、白色T恤、深色牛仔裤，胸前挂记者证，右手常握黑色录音笔，眼神聪明但疲惫",
+            "en": "A 29-year-old Asian woman with neat ear-length black hair, moss-green trench coat, white T-shirt, dark jeans, press badge on her chest, often holding a black voice recorder in her right hand, intelligent yet tired eyes"
+          },
+          "action": {
+            "zh": "她哭着承认自己替林曼殊传递消息，转身离开时被刺眼车灯吞没",
+            "en": "She tearfully admits passing information for Lin Manshu, then turns away and is swallowed by blinding headlights"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "U盘交接手部特写，随后跟随沈知夏背影，车灯冲入镜头形成白场切断",
+        "en": "Close-up on the USB handoff, then tracking Shen Zhixia's back as headlights rush into frame and smash to white"
+      },
+      "audio_cue": {
+        "zh": "桥下车流轰鸣、沈知夏颤抖哭声、刹车尖啸和撞击前的瞬间静音",
+        "en": "Overpass traffic roar, Shen Zhixia's trembling sobs, screeching brakes and a sudden silence before impact"
+      }
+    },
+    {
+      "scene_id": "019",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "顾氏安全屋，墙面大屏播放U盘里的疗养院实验资料和股权控制链路",
+          "en": "Gu Group safehouse, wall screens displaying sanatorium experiment files and equity-control networks from the USB drive"
+        },
+        "lighting": {
+          "zh": "多屏冷光映出密密麻麻的人名与资金流，红色线条像血管一样蔓延",
+          "en": "Multi-screen cold glow revealing dense names and money flows, red network lines spreading like veins"
+        }
+      },
+      "characters": [
+        {
+          "name": "苏清妤",
+          "visual_anchor": {
+            "zh": "28岁亚洲女性，清冷精致五官，黑色齐肩微卷发，身穿象牙白真丝衬衫、黑色高腰西装裤、细框金属眼镜，左锁骨戴一枚旧银色小项链，妆容干净克制",
+            "en": "A 28-year-old Asian woman with refined icy features, shoulder-length slightly wavy black hair, ivory silk blouse, black high-waisted tailored trousers, thin metal-frame glasses, an old silver pendant necklace on her left collarbone, restrained clean makeup"
+          },
+          "action": {
+            "zh": "她把受害继承人、遗嘱、股权转让线索串成证据链，动作快得像在反向操盘舆论",
+            "en": "She connects victim heirs, wills, and equity transfers into an evidence chain, moving as fast as if reverse-engineering public opinion"
+          }
+        },
+        {
+          "name": "顾宴臣",
+          "visual_anchor": {
+            "zh": "31岁亚洲男性，身形高挑挺拔，轮廓冷峻，黑色短发向后梳理，身穿深炭灰定制西装、黑色衬衫、无领带，左手戴银色机械腕表，气场克制压迫",
+            "en": "A 31-year-old Asian man, tall and upright, severe facial contours, slicked-back short black hair, dark charcoal bespoke suit, black shirt, no tie, silver mechanical wristwatch on his left wrist, controlled and intimidating presence"
+          },
+          "action": {
+            "zh": "他看到最后一份受控名单上出现自己的名字，脸色瞬间沉下",
+            "en": "He sees his own name on the final controlled-subject list, his face darkening instantly"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "高速扫描屏幕证据链，沿红色关系线一路推到顾宴臣名字",
+        "en": "High-speed scan across the evidence wall, following the red connection line directly to Gu Yanchen's name"
+      },
+      "audio_cue": {
+        "zh": "数据加载声、电子低频脉冲、名单滚动到顾宴臣名字时音乐骤然坠落",
+        "en": "Data-loading sounds, electronic low-frequency pulses, music dropping hard when the list scrolls to Gu Yanchen's name"
+      }
+    },
+    {
+      "scene_id": "020",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "顾家旧宅书房，父亲遗像、封存病历、破碎记忆同时压向顾宴臣",
+          "en": "Old Gu family study, father's portrait, sealed medical files, and fractured memories pressing in on Gu Yanchen"
+        },
+        "lighting": {
+          "zh": "老宅昏黄吊灯摇晃，窗外闪电短暂照亮父亲遗像，氛围像家族审判",
+          "en": "Dim old-house chandelier swaying, lightning briefly illuminating the father's portrait, creating a family-trial atmosphere"
+        }
+      },
+      "characters": [
+        {
+          "name": "顾宴臣",
+          "visual_anchor": {
+            "zh": "31岁亚洲男性，身形高挑挺拔，轮廓冷峻，黑色短发向后梳理，身穿深炭灰定制西装、黑色衬衫、无领带，左手戴银色机械腕表，气场克制压迫",
+            "en": "A 31-year-old Asian man, tall and upright, severe facial contours, slicked-back short black hair, dark charcoal bespoke suit, black shirt, no tie, silver mechanical wristwatch on his left wrist, controlled and intimidating presence"
+          },
+          "action": {
+            "zh": "他握着父亲真实死因资料，记忆碎片冲击下终于失控，眼中有压抑多年的痛",
+            "en": "He grips the file revealing his father's true death, finally losing control under memory fragments, long-buried pain in his eyes"
+          }
+        },
+        {
+          "name": "苏清妤",
+          "visual_anchor": {
+            "zh": "28岁亚洲女性，清冷精致五官，黑色齐肩微卷发，身穿象牙白真丝衬衫、黑色高腰西装裤、细框金属眼镜，左锁骨戴一枚旧银色小项链，妆容干净克制",
+            "en": "A 28-year-old Asian woman with refined icy features, shoulder-length slightly wavy black hair, ivory silk blouse, black high-waisted tailored trousers, thin metal-frame glasses, an old silver pendant necklace on her left collarbone, restrained clean makeup"
+          },
+          "action": {
+            "zh": "她站在他身旁，没有安慰式拥抱，只把证据文件和自己的项链一起放到桌上",
+            "en": "She stands beside him without offering a sentimental embrace, placing the evidence file and her necklace together on the desk"
+          }
+        },
+        {
+          "name": "林曼殊",
+          "visual_anchor": {
+            "zh": "45岁亚洲女性，温柔端庄面容，黑发低盘，身穿米白色针织开衫、浅灰长裙、珍珠耳钉，手腕戴细金表，笑容柔和却有心理操控感",
+            "en": "A 45-year-old Asian woman with a gentle composed face, low black hair bun, ivory knit cardigan, light gray long skirt, pearl stud earrings, slim gold wristwatch, soft smile with a psychologically controlling undertone"
+          },
+          "action": {
+            "zh": "她出现在发布会直播预告画面里，公开暗示苏清妤有精神异常",
+            "en": "She appears in a press-conference livestream preview, publicly implying Su Qingyu is mentally unstable"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "围绕顾宴臣旋转制造记忆眩晕感，突然切到直播预告里林曼殊温柔微笑",
+        "en": "Rotating shot around Gu Yanchen to create memory vertigo, abruptly cutting to Lin Manshu's gentle smile in the livestream preview"
+      },
+      "audio_cue": {
+        "zh": "雷声、破碎记忆耳鸣、旧宅木地板吱呀，直播预告声冷静刺入",
+        "en": "Thunder, tinnitus-like fractured memory sounds, old wooden floor creaks, calm livestream preview audio cutting in"
+      }
+    },
+    {
+      "scene_id": "021",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "林曼殊公开发布会现场，大屏展示苏清妤童年病例，媒体席全场哗然",
+          "en": "Lin Manshu's public press conference, giant screen displaying Su Qingyu's childhood psychiatric files, media seats erupting"
+        },
+        "lighting": {
+          "zh": "刺眼白光像审讯灯，病例页面的冷蓝色覆盖苏清妤名字，舆论压迫感极强",
+          "en": "Blinding white light like interrogation lamps, cold-blue case-file pages covering Su Qingyu's name, heavy public-opinion pressure"
+        }
+      },
+      "characters": [
+        {
+          "name": "林曼殊",
+          "visual_anchor": {
+            "zh": "45岁亚洲女性，温柔端庄面容，黑发低盘，身穿米白色针织开衫、浅灰长裙、珍珠耳钉，手腕戴细金表，笑容柔和却有心理操控感",
+            "en": "A 45-year-old Asian woman with a gentle composed face, low black hair bun, ivory knit cardigan, light gray long skirt, pearl stud earrings, slim gold wristwatch, soft smile with a psychologically controlling undertone"
+          },
+          "action": {
+            "zh": "她含泪把苏清妤定义为妄想症患者，用温柔语气完成最锋利的公开审判",
+            "en": "With tears in her eyes, she defines Su Qingyu as delusional, delivering the sharpest public trial in the gentlest tone"
+          }
+        },
+        {
+          "name": "苏清妤",
+          "visual_anchor": {
+            "zh": "28岁亚洲女性，清冷精致五官，黑色齐肩微卷发，身穿象牙白真丝衬衫、黑色高腰西装裤、细框金属眼镜，左锁骨戴一枚旧银色小项链，妆容干净克制",
+            "en": "A 28-year-old Asian woman with refined icy features, shoulder-length slightly wavy black hair, ivory silk blouse, black high-waisted tailored trousers, thin metal-frame glasses, an old silver pendant necklace on her left collarbone, restrained clean makeup"
+          },
+          "action": {
+            "zh": "她站在后台显示器前看着舆论反转，没有崩溃，反而对镜头露出极轻的微笑",
+            "en": "She watches the public opinion turn against her from a backstage monitor, not breaking down, instead giving the camera the faintest smile"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "发布会现场广角扫过媒体骚动，再切后台显示器反光中的苏清妤微笑",
+        "en": "Wide sweep across the agitated press conference, then cut to Su Qingyu's smile reflected in a backstage monitor"
+      },
+      "audio_cue": {
+        "zh": "媒体哗然声、病例翻页音效、闪光灯密集爆发，苏清妤微笑时音乐突然静止",
+        "en": "Media uproar, case-file page-turn sound design, dense camera flashes, music freezing when Su Qingyu smiles"
+      }
+    },
+    {
+      "scene_id": "022",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "发布会大屏被反向直播劫持，疗养院黑账、受害者证词、药物记录同步滚动",
+          "en": "Press conference screen hijacked by a counter-livestream, sanatorium black accounts, victim testimonies, and drug records scrolling in sync"
+        },
+        "lighting": {
+          "zh": "大屏红白交替闪烁，林曼殊被刺目的证据光包围，现场从掌控变成失控",
+          "en": "The giant screen flashes red and white, surrounding Lin Manshu in blinding evidence light as the room shifts from controlled to chaotic"
+        }
+      },
+      "characters": [
+        {
+          "name": "苏清妤",
+          "visual_anchor": {
+            "zh": "28岁亚洲女性，清冷精致五官，黑色齐肩微卷发，身穿象牙白真丝衬衫、黑色高腰西装裤、细框金属眼镜，左锁骨戴一枚旧银色小项链，妆容干净克制",
+            "en": "A 28-year-old Asian woman with refined icy features, shoulder-length slightly wavy black hair, ivory silk blouse, black high-waisted tailored trousers, thin metal-frame glasses, an old silver pendant necklace on her left collarbone, restrained clean makeup"
+          },
+          "action": {
+            "zh": "她走上发布会舞台，逐条公布黑账、证词和药物记录，像把舆论猎场重新夺回手中",
+            "en": "She walks onto the press stage and releases black accounts, testimonies, and drug records one by one, reclaiming the public-opinion battlefield"
+          }
+        },
+        {
+          "name": "林曼殊",
+          "visual_anchor": {
+            "zh": "45岁亚洲女性，温柔端庄面容，黑发低盘，身穿米白色针织开衫、浅灰长裙、珍珠耳钉，手腕戴细金表，笑容柔和却有心理操控感",
+            "en": "A 45-year-old Asian woman with a gentle composed face, low black hair bun, ivory knit cardigan, light gray long skirt, pearl stud earrings, slim gold wristwatch, soft smile with a psychologically controlling undertone"
+          },
+          "action": {
+            "zh": "她温柔面具碎裂，急声抛出最后炸弹，说苏清妤根本不是她母亲的女儿",
+            "en": "Her gentle mask cracks as she desperately throws out the final bombshell: Su Qingyu is not her mother's daughter"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从被劫持的大屏俯冲到舞台中央，绕拍苏清妤与林曼殊正面对峙",
+        "en": "Dive from the hijacked giant screen down to center stage, orbiting the face-off between Su Qingyu and Lin Manshu"
+      },
+      "audio_cue": {
+        "zh": "直播弹幕音效、观众惊呼、证据页面连续弹出声，最终炸弹时所有音轨短暂抽空",
+        "en": "Livestream comment pings, audience gasps, rapid evidence pop-up sounds, all audio briefly sucked out on the final bombshell"
+      }
+    },
+    {
+      "scene_id": "023",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "发布会后台冷色走廊，警戒线外媒体喧嚣，苏清妤独自面对身份真相",
+          "en": "Cold backstage corridor after the press conference, media chaos beyond police tape, Su Qingyu alone facing her identity truth"
+        },
+        "lighting": {
+          "zh": "走廊顶灯一格一格延伸，冷光把她的影子拉得很长，像被重写的人生",
+          "en": "Corridor ceiling lights receding one by one, cold light stretching her shadow long like a rewritten life"
+        }
+      },
+      "characters": [
+        {
+          "name": "苏清妤",
+          "visual_anchor": {
+            "zh": "28岁亚洲女性，清冷精致五官，黑色齐肩微卷发，身穿象牙白真丝衬衫、黑色高腰西装裤、细框金属眼镜，左锁骨戴一枚旧银色小项链，妆容干净克制",
+            "en": "A 28-year-old Asian woman with refined icy features, shoulder-length slightly wavy black hair, ivory silk blouse, black high-waisted tailored trousers, thin metal-frame glasses, an old silver pendant necklace on her left collarbone, restrained clean makeup"
+          },
+          "action": {
+            "zh": "她得知自己是实验唯一未被成功清除记忆的孩子，眼泪落下却没有退缩，追问亲生父母是谁",
+            "en": "She learns she was the only experimental child whose memory was not successfully erased; tears fall, but she does not retreat, asking who her birth parents are"
+          }
+        },
+        {
+          "name": "林曼殊",
+          "visual_anchor": {
+            "zh": "45岁亚洲女性，温柔端庄面容，黑发低盘，身穿米白色针织开衫、浅灰长裙、珍珠耳钉，手腕戴细金表，笑容柔和却有心理操控感",
+            "en": "A 45-year-old Asian woman with a gentle composed face, low black hair bun, ivory knit cardigan, light gray long skirt, pearl stud earrings, slim gold wristwatch, soft smile with a psychologically controlling undertone"
+          },
+          "action": {
+            "zh": "她被警员带走前停下脚步，回头露出最后一个怜悯又残忍的笑",
+            "en": "Before being taken away by police, she stops and looks back with one final smile, both pitying and cruel"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "长焦压缩走廊空间，苏清妤站在画面中央，林曼殊被带离时逐渐虚焦",
+        "en": "Telephoto compression of the corridor space, Su Qingyu centered as Lin Manshu is led away and gradually falls out of focus"
+      },
+      "audio_cue": {
+        "zh": "远处媒体喧哗被墙体隔绝，警戒线摩擦声，苏清妤最后一句追问清晰刺出",
+        "en": "Distant media chaos muffled by walls, police tape rustle, Su Qingyu's final question cutting through clearly"
+      }
+    },
+    {
+      "scene_id": "024",
+      "estimated_scene_duration": "8s",
+      "environment": {
+        "location": {
+          "zh": "高端慈善晚宴大厅，水晶灯、香槟塔、衣香鬓影中隐藏第二轮实验的气味",
+          "en": "Luxury charity gala ballroom with crystal chandeliers, champagne tower, elegant guests, and the hidden scent of the second experiment"
+        },
+        "lighting": {
+          "zh": "金色宴会灯光华丽耀眼，角落却有冷白医疗感反光，繁华表面下暗流涌动",
+          "en": "Lavish golden gala lighting, with subtle cold-white medical reflections in the corners, danger moving beneath opulence"
+        }
+      },
+      "characters": [
+        {
+          "name": "苏清妤",
+          "visual_anchor": {
+            "zh": "28岁亚洲女性，清冷精致五官，黑色齐肩微卷发，身穿象牙白真丝衬衫、黑色高腰西装裤、细框金属眼镜，左锁骨戴一枚旧银色小项链，妆容干净克制",
+            "en": "A 28-year-old Asian woman with refined icy features, shoulder-length slightly wavy black hair, ivory silk blouse, black high-waisted tailored trousers, thin metal-frame glasses, an old silver pendant necklace on her left collarbone, restrained clean makeup"
+          },
+          "action": {
+            "zh": "她听完母亲真正录音，站在人群中忽然闻到熟悉消毒水味，缓缓转头，眼神重新变成猎手",
+            "en": "After hearing her mother's true recording, she stands among the crowd and suddenly detects the familiar disinfectant scent, slowly turning as her eyes become a hunter's again"
+          }
+        },
+        {
+          "name": "顾宴臣",
+          "visual_anchor": {
+            "zh": "31岁亚洲男性，身形高挑挺拔，轮廓冷峻，黑色短发向后梳理，身穿深炭灰定制西装、黑色衬衫、无领带，左手戴银色机械腕表，气场克制压迫",
+            "en": "A 31-year-old Asian man, tall and upright, severe facial contours, slicked-back short black hair, dark charcoal bespoke suit, black shirt, no tie, silver mechanical wristwatch on his left wrist, controlled and intimidating presence"
+          },
+          "action": {
+            "zh": "他站在她半步之后，把另一份DNA报告递给她，证明林曼殊最后的病历仍是心理操控",
+            "en": "He stands half a step behind her and hands over another DNA report, proving Lin Manshu's final medical file was still psychological manipulation"
+          }
+        },
+        {
+          "name": "神秘举杯者",
+          "visual_anchor": {
+            "zh": "身份不明的亚洲中年人，剪影优雅，黑色礼服、白色衬衫、银色袖扣，面容被水晶灯反光遮住，举杯时带着本该死去之人的从容",
+            "en": "An unidentified middle-aged Asian figure, elegant silhouette, black formal suit, white shirt, silver cufflinks, face obscured by chandelier glare, raising a glass with the calm of someone presumed dead"
+          },
+          "action": {
+            "zh": "他在人群尽头朝苏清妤举杯微笑，身上散出乌木沉香、冷皮革和过氧乙酸消毒水的混合气味",
+            "en": "At the far end of the crowd, he raises a glass and smiles at Su Qingyu, carrying a scent blend of agarwood, cold leather, and peracetic acid disinfectant"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "宴会全景缓慢穿过香槟塔和宾客肩头，跟随苏清妤转头，最后定格神秘举杯者的微笑剪影",
+        "en": "Slow gala wide shot gliding past the champagne tower and guests' shoulders, following Su Qingyu's turn, ending on the mysterious figure's smiling silhouette"
+      },
+      "audio_cue": {
+        "zh": "优雅弦乐晚宴曲、酒杯轻碰声、母亲录音残响，熟悉气味出现时音乐转为冰冷低频",
+        "en": "Elegant gala strings, champagne glass clinks, lingering echo of the mother's recording, music shifting into icy sub-bass when the familiar scent returns"
+      }
+    }
+  ]
+}

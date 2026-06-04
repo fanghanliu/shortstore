@@ -1,0 +1,16 @@
+{
+  "slug": "blind-date-algorithm",
+  "mode": "ai_short_drama",
+  "tasks": [
+    {
+      "id": "blind-date-algorithm-cover",
+      "episodeNumber": null,
+      "assetType": "cover",
+      "mode": "ai_short_drama",
+      "promptZh": "竖屏AI短剧封面，相亲算法把我推给仇人，都市甜悬题材，现代短剧电影感，冷暖对比，证据特写，强情绪表演，核心道具相亲算法后台，场景科技公司，无水印，无真实IP。",
+      "promptEn": "vertical AI短剧 cover, 都市甜悬 story, symbolic key prop, cinematic lighting, no watermark, no existing IP",
+      "outputPath": "public/site/assets/covers/hot-catalog/cover-blind-date-algorithm.svg",
+      "status": "generated_svg"
+    }
+  ]
+}

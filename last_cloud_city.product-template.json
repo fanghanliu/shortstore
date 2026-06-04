@@ -1,0 +1,1470 @@
+{
+  "schema_version": "1.0.0",
+  "product_type": "AI短剧故事板生产包",
+  "product_metadata": {
+    "product_id": "storypack-last-cloud-city-001",
+    "title": {
+      "zh": "最后一座云端城",
+      "en": "The Last Cloud City"
+    },
+    "logline": {
+      "zh": "废土少女黎烬为救被选中“升城”的弟弟，闯入酸雨世界上空最后一座云端乌托邦，却发现升城不是救赎，而是一场以底层生命供养永生系统的阶级骗局。",
+      "en": "A wasteland girl infiltrates the last cloudborne utopia to save her brother, only to uncover an immortality system fed by the lives of the lower class."
+    },
+    "category": {
+      "zh": "科幻废土阶级悬疑短剧",
+      "en": "Sci-Fi Wasteland Class-Conspiracy Thriller"
+    },
+    "target_buyers": [
+      "AI短剧创作者",
+      "短视频矩阵账号团队",
+      "Runway / Sora / 可灵 / 即梦视频生产者",
+      "ReelShort / TikTok 剧情号操盘手"
+    ],
+    "recommended_platforms": [
+      "抖音",
+      "快手",
+      "即梦",
+      "剪映",
+      "小红书",
+      "TikTok",
+      "ReelShort",
+      "YouTube Shorts",
+      "Instagram Reels",
+      "Runway",
+      "Midjourney"
+    ],
+    "recommended_aspect_ratio": "9:16 (竖屏短剧 / Vertical Short Drama)",
+    "estimated_total_duration": "36 - 72 分钟 / 36 - 72 mins",
+    "language_versions": [
+      "中文",
+      "English prompt-ready"
+    ],
+    "commercial_positioning": "最后一座云端城 是一套面向竖屏 AI 短剧生产的标准版商品模板，适合用于选题测试、分镜生成、样片制作和商业化短剧项目启动。"
+  },
+  "sales_page": {
+    "hero_headline": "买下《最后一座云端城》，直接进入 AI 短剧生产。",
+    "hero_subtitle": "完整剧情、人设关系、核心分镜、中英双语视频提示词和视觉样片方向已打包完成，创作者只需要继续扩集、生成和剪辑。",
+    "key_selling_points": [
+      "题材清晰：科幻废土阶级悬疑短剧，适合做竖屏强钩子内容。",
+      "主线强：升城看似阶级跃迁，实则是献祭；女主每向上一步，都离亲人和真相更近，也离死亡更近。",
+      "生产资料完整：每个场景包含环境、角色动作、镜头运动、音效和中英双语描述。",
+      "平台适配清晰：可用于抖音、快手、小红书、TikTok、ReelShort、Runway、Midjourney 等内容测试。",
+      "适合标准版交付：买家拿到后可继续扩写台词、生成关键帧、制作样片并快速验证流量。"
+    ],
+    "buyer_outcome": "购买后获得一套可继续扩写、可生成分镜图、可投喂视频生成工具的短剧前期生产资产。",
+    "preview_policy": "公开页只展示剧情梗概、人物设定节选、3-5 条分镜样例和水印视觉样片；完整 JSON、全量提示词和商用授权购买后交付。"
+  },
+  "story_package": {
+    "synopsis": "酸雨吞没大地后，幸存者被困在废土集市与地下管网中，仰望云端城的干净天空。19岁的黎烬在升城名单上看见弟弟黎星的名字，本以为那是通往新生活的资格，却在断续求救信号中听见真相。她潜入升城流程，结识神秘引路人祁昼，逐步发现云端城用“升城者”的意识和身体维持永生系统。越靠近核心，她越发现母亲的失踪、弟弟的资格、祁昼的背叛嫌疑，都指向同一个被称作诺亚的云端意志。",
+    "core_hook": "升城看似阶级跃迁，实则是献祭；女主每向上一步，都离亲人和真相更近，也离死亡更近。",
+    "genre_tags": [
+      "科幻废土",
+      "阶级悬疑",
+      "姐弟羁绊",
+      "云端乌托邦",
+      "高燃反转"
+    ],
+    "visual_style_tags": [
+      "科幻废土 / Sci-Fi Wasteland",
+      "阶级悬疑 / Class-Conspiracy Thriller",
+      "电影级冷暖对比 / Cinematic Warm-Cold Contrast",
+      "酸雨末日感 / Acid-Rain Apocalypse",
+      "云端乌托邦 / Cloudborne Utopia",
+      "机械神性 / Mechanical Divinity",
+      "高反差明暗光 / High-Contrast Chiaroscuro Lighting",
+      "竖屏强钩子 / Vertical Hook-Driven Drama"
+    ],
+    "emotional_engine": "姐姐救弟弟的强情感目标贯穿全剧，祁昼的敌友难辨制造持续拉扯。",
+    "conflict_engine": "废土底层求生、云端贵族永生系统、诺亚意识控制和母亲旧案四条线交织。",
+    "episode_count_recommendation": {
+      "miniseries": "24集核心版",
+      "commercial_short_drama": "36-48集扩展版",
+      "overseas_vertical": "60集以内，每集45-75秒"
+    },
+    "first_five_scene_hooks": [
+      {
+        "scene_id": "001",
+        "hook": "黑井站废土集市，铁皮棚、废旧霓虹牌和酸雨水沟挤满拾荒者。灰黄色酸雨天光压低天空，无人机蓝白扫描光划过人群，潮湿金属反射冷光。黎烬: 她冷眼站在人群边缘，忽然看见升城名单末尾出现弟弟黎星的名字，瞳孔骤然收紧。从无人机俯拍快速下降到名单投影，再猛切黎烬眼部特写"
+      },
+      {
+        "scene_id": "002",
+        "hook": "废旧通讯塔内部，断裂电缆垂落，布满尘灰的控制台闪着残破绿光。窄窗外灰潮闪电忽明忽暗，控制台绿光照亮黎烬满是灰尘的脸。黎烬: 她用废芯片和铜线强行接通信号，屏住呼吸听见弟弟断续的求救声；黎星: 他只以信号残影出现，声音破碎，像从很深的机器腹腔传来。手持跟拍黎烬修复电路，随后缓慢推近闪烁屏幕上的禁区坐标"
+      },
+      {
+        "scene_id": "003",
+        "hook": "黑井站地下排水管道，锈蚀管壁渗着酸雨，巡猎队脚步声从上方逼近。红色警戒灯间歇闪烁，祁昼机械义眼投出锐利蓝色锁定光。黎烬: 她贴着管壁屏息潜行，手里攥着自制电磁钉，随时准备反击；祁昼: 他单手举枪锁定黎烬，却在扣动扳机前低声质问她是否也听见谎言。低机位穿过狭窄管道，突然定格在祁昼义眼蓝光与黎烬眼神对撞"
+      },
+      {
+        "scene_id": "004",
+        "hook": "升城候选人检测大厅，白色消毒舱、透明隔离帘和银色药剂箱整齐排列。冰冷无影灯从头顶直压下来，银色药剂泛着危险的水银光泽。黎烬: 她装作顺从接受检测，眼角却瞥见药剂箱底部刻着黎星编号，手指瞬间绷紧。从银色针管特写横移到黎烬手指，再下摇到药剂箱底部编号"
+      },
+      {
+        "scene_id": "005",
+        "hook": "升空电梯货舱，狭长金属舱壁两侧排列着结霜冷冻舱。冷冻舱幽蓝光照亮一排苍白人脸，舱门缝隙闪烁红色故障灯。黎烬: 她撬开货舱门，看见冷冻舱里不是物资而是失败升城者，后背发僵；失败升城者: 其中一具冷冻尸体突然睁眼，隔着雾白舱盖无声张口：别上去。慢速后退拉开货舱全景，随后突然推到冷冻尸体睁眼特写"
+      }
+    ],
+    "ending_direction": "黎烬撕开升城真相，将云端城的能源选择权交还所有幸存者；她救回弟弟，也让废土第一次拥有真正的天空。"
+  },
+  "characters": [
+    {
+      "name": "黎烬",
+      "role": "女主 / 废土拾荒者",
+      "age": 19,
+      "archetype": "野性、敏锐、为亲人不惜闯入权力核心的底层少女",
+      "visual_anchor": "短黑发，灰尘和细小伤痕覆盖面颊，旧防辐射披风，磨损金属护腕，眼神警觉锋利。",
+      "ability_or_secret": "擅长废旧机械改造和信号破解，身体里藏着母亲留下的云端权限碎片。",
+      "desire": "救回弟弟黎星，并弄清母亲失踪和升城制度的真相。",
+      "fear": "自己拼命守护的人最终也会成为云端系统的燃料。",
+      "production_note": "动作要利落，眼神要像长期缺乏安全感的人；废土场景适合大量手持跟拍和近景呼吸感。"
+    },
+    {
+      "name": "祁昼",
+      "role": "男主 / 云端城叛逃引路人",
+      "age": 24,
+      "archetype": "冷静、破碎、熟悉云端规则却背负背叛嫌疑的危险盟友",
+      "visual_anchor": "苍白肤色，银灰短发，云端制服外披黑色旧斗篷，颈侧有细密接口疤痕。",
+      "ability_or_secret": "曾是云端系统维护者，知道诺亚核心入口，也知道黎烬母亲留下的权限真相。",
+      "desire": "摧毁诺亚系统，赎回自己曾参与升城筛选的罪。",
+      "fear": "黎烬发现他曾经亲手把黎星列入升城名单。",
+      "production_note": "前期保持疏离和信息不透明，后期用沉默保护和关键牺牲完成信任反转。"
+    },
+    {
+      "name": "黎星",
+      "role": "女主弟弟 / 被选中的升城者",
+      "age": 13,
+      "archetype": "天真、聪明、承载姐姐软肋和云端阴谋关键权限的少年",
+      "visual_anchor": "瘦弱少年，旧护目镜，手腕绑着姐姐做的红色信号绳。",
+      "ability_or_secret": "他的神经适配度极高，是诺亚系统寻找的新核心容器。",
+      "desire": "不再拖累姐姐，真正看一次没有酸雨的天空。",
+      "fear": "自己被救出后会让更多人死去。",
+      "production_note": "尽量通过通讯残影、监控画面和冷冻舱特写出现，保持牵引力。"
+    },
+    {
+      "name": "诺亚",
+      "role": "反派核心 / 云端城永生系统",
+      "archetype": "以救赎之名运行剥削的机械神明",
+      "visual_anchor": "白色穹顶、悬浮字幕、圣洁机械声、云端屏幕中无性别的光影人形。",
+      "ability_or_secret": "通过筛选升城者的身体和意识延续云端贵族寿命。",
+      "production_note": "声音要温柔、画面要圣洁，反差越强越有压迫感。"
+    }
+  ],
+  "episode_outline": [
+    {
+      "arc": "名单钩子",
+      "episodes": "1-6",
+      "summary": "黎烬发现弟弟入选升城名单，收到求救信号后潜入升城检测和货舱。"
+    },
+    {
+      "arc": "云端骗局",
+      "episodes": "7-14",
+      "summary": "黎烬进入云端城边缘，见到贵族乌托邦与失败升城者残骸的强烈反差。"
+    },
+    {
+      "arc": "敌友反转",
+      "episodes": "15-24",
+      "summary": "祁昼身份曝光，黎烬发现母亲旧案与诺亚系统直接相关。"
+    },
+    {
+      "arc": "核心献祭",
+      "episodes": "25-36",
+      "summary": "黎星被确认是新核心容器，云端贵族准备重启永生仪式。"
+    },
+    {
+      "arc": "天空重启",
+      "episodes": "37-48",
+      "summary": "黎烬用母亲留下的权限反向接管诺亚，把真相广播给废土与云端所有人。"
+    }
+  ],
+  "production_package": {
+    "included_assets": [
+      "完整商品版 JSON",
+      "24 条核心分镜故事板",
+      "人物设定与视觉锚点",
+      "分集大纲与反转节奏",
+      "中英双语 AI 视频提示词",
+      "封面与样片方向说明",
+      "平台适配与投流钩子",
+      "商用授权说明"
+    ],
+    "suggested_workflow": [
+      "先用人物视觉锚点生成角色定妆图。",
+      "再按分镜 JSON 逐条生成关键镜头图。",
+      "将关键镜头图作为参考输入视频生成工具。",
+      "用每集钩子扩写成 45-75 秒竖屏短剧脚本。",
+      "剪辑时保留核心道具、强特写和反转节点。"
+    ],
+    "buyer_work_remaining": [
+      "根据账号风格扩写完整台词。",
+      "选择具体 AI 视频工具并调整提示词长度。",
+      "生成、剪辑、配音、字幕和平台发布。",
+      "如用于商业投放，需要自行确认平台素材合规。"
+    ]
+  },
+  "prompt_library": {
+    "global_style_prompt_zh": "科幻废土，阶级悬疑，姐弟羁绊，云端乌托邦，高燃反转，科幻废土 / Sci-Fi Wasteland，阶级悬疑 / Class-Conspiracy Thriller，电影级冷暖对比 / Cinematic Warm-Cold Contrast，酸雨末日感 / Acid-Rain Apocalypse，云端乌托邦 / Cloudborne Utopia，机械神性 / Mechanical Divinity，高反差明暗光 / High-Contrast Chiaroscuro Lighting，竖屏强钩子 / Vertical Hook-Driven Drama，竖屏9:16，电影级光影，高质量短剧画面，强情绪张力，清晰人物动作，连续剧叙事感。",
+    "global_style_prompt_en": "科幻废土, 阶级悬疑, 姐弟羁绊, 云端乌托邦, 高燃反转, vertical 9:16 cinematic short drama, premium lighting, clear character actions, strong emotional tension, serialized storytelling, production-ready AI video frame.",
+    "character_consistency_prompts": [
+      {
+        "character": "黎烬",
+        "zh": "短黑发，灰尘和细小伤痕覆盖面颊，旧防辐射披风，磨损金属护腕，眼神警觉锋利。",
+        "en": "短黑发，灰尘和细小伤痕覆盖面颊，旧防辐射披风，磨损金属护腕，眼神警觉锋利。"
+      },
+      {
+        "character": "祁昼",
+        "zh": "苍白肤色，银灰短发，云端制服外披黑色旧斗篷，颈侧有细密接口疤痕。",
+        "en": "苍白肤色，银灰短发，云端制服外披黑色旧斗篷，颈侧有细密接口疤痕。"
+      },
+      {
+        "character": "黎星",
+        "zh": "瘦弱少年，旧护目镜，手腕绑着姐姐做的红色信号绳。",
+        "en": "瘦弱少年，旧护目镜，手腕绑着姐姐做的红色信号绳。"
+      },
+      {
+        "character": "诺亚",
+        "zh": "白色穹顶、悬浮字幕、圣洁机械声、云端屏幕中无性别的光影人形。",
+        "en": "白色穹顶、悬浮字幕、圣洁机械声、云端屏幕中无性别的光影人形。"
+      }
+    ],
+    "scene_prompt_samples": [
+      {
+        "scene_id": "001",
+        "zh": "黑井站废土集市，铁皮棚、废旧霓虹牌和酸雨水沟挤满拾荒者。灰黄色酸雨天光压低天空，无人机蓝白扫描光划过人群，潮湿金属反射冷光。黎烬: 她冷眼站在人群边缘，忽然看见升城名单末尾出现弟弟黎星的名字，瞳孔骤然收紧。从无人机俯拍快速下降到名单投影，再猛切黎烬眼部特写",
+        "en": "Heijing Station wasteland market, crowded with scavengers beneath scrap-metal awnings, broken neon signs, and acid-rain gutters. Sickly gray-yellow acid-rain daylight, cold blue-white drone scan beams slicing through the crowd, wet metal catching harsh specular highlights. 黎烬: Standing coldly at the edge of the crowd, she sees her brother Li Xing's name appear at the bottom of the Ascension list, her pupils tightening in shock. Rapid aerial drop from the drone to the projected list, then a hard cut into an extreme close-up of Li Jin's eyes"
+      },
+      {
+        "scene_id": "002",
+        "zh": "废旧通讯塔内部，断裂电缆垂落，布满尘灰的控制台闪着残破绿光。窄窗外灰潮闪电忽明忽暗，控制台绿光照亮黎烬满是灰尘的脸。黎烬: 她用废芯片和铜线强行接通信号，屏住呼吸听见弟弟断续的求救声；黎星: 他只以信号残影出现，声音破碎，像从很深的机器腹腔传来。手持跟拍黎烬修复电路，随后缓慢推近闪烁屏幕上的禁区坐标",
+        "en": "Inside an abandoned communications tower, snapped cables hanging down, dust-covered consoles flickering with broken green interface light. Intermittent graystorm lightning through narrow windows, with damaged green console glow lighting Li Jin's dust-covered face. 黎烬: She hot-wires the signal with a scrap chip and copper wire, holding her breath as her brother's fragmented distress call emerges; 黎星: He appears only as a fragmented signal ghost, his broken voice resonating as if from deep inside a machine's core. Handheld tracking as Li Jin repairs the circuit, followed by a slow cinematic push-in on forbidden-zone coordinates blinking on the screen"
+      },
+      {
+        "scene_id": "003",
+        "zh": "黑井站地下排水管道，锈蚀管壁渗着酸雨，巡猎队脚步声从上方逼近。红色警戒灯间歇闪烁，祁昼机械义眼投出锐利蓝色锁定光。黎烬: 她贴着管壁屏息潜行，手里攥着自制电磁钉，随时准备反击；祁昼: 他单手举枪锁定黎烬，却在扣动扳机前低声质问她是否也听见谎言。低机位穿过狭窄管道，突然定格在祁昼义眼蓝光与黎烬眼神对撞",
+        "en": "Underground drainage tunnels beneath Heijing Station, rusted pipe walls leaking acid rain as hunter squad footsteps close in overhead. Strobing red alarm lights, pierced by the sharp blue targeting beam from Qi Zhou's cybernetic left eye. 黎烬: She moves breathlessly along the pipe wall, gripping a homemade electromagnetic spike, ready to strike back; 祁昼: He aims his pistol at Li Jin with one hand, but before pulling the trigger quietly asks whether she also heard the lie. Low-angle tracking through the narrow tunnel, freezing as Qi Zhou's blue cybernetic eye beam collides with Li Jin's stare"
+      },
+      {
+        "scene_id": "004",
+        "zh": "升城候选人检测大厅，白色消毒舱、透明隔离帘和银色药剂箱整齐排列。冰冷无影灯从头顶直压下来，银色药剂泛着危险的水银光泽。黎烬: 她装作顺从接受检测，眼角却瞥见药剂箱底部刻着黎星编号，手指瞬间绷紧。从银色针管特写横移到黎烬手指，再下摇到药剂箱底部编号",
+        "en": "Ascension candidate screening hall with white sterilization pods, transparent quarantine curtains, and neatly arranged silver serum cases. Cold shadowless overhead lighting pressing down, with the silver serum reflecting a dangerous mercury-like sheen. 黎烬: She pretends to submit to screening, but spots Li Xing's serial number etched beneath the serum case, her fingers instantly tensing. A lateral move from a close-up of the silver syringe to Li Jin's fingers, then a tilt down to the serial number under the serum case"
+      },
+      {
+        "scene_id": "005",
+        "zh": "升空电梯货舱，狭长金属舱壁两侧排列着结霜冷冻舱。冷冻舱幽蓝光照亮一排苍白人脸，舱门缝隙闪烁红色故障灯。黎烬: 她撬开货舱门，看见冷冻舱里不是物资而是失败升城者，后背发僵；失败升城者: 其中一具冷冻尸体突然睁眼，隔着雾白舱盖无声张口：别上去。慢速后退拉开货舱全景，随后突然推到冷冻尸体睁眼特写",
+        "en": "Cargo bay of the orbital elevator, a narrow metal chamber lined with frost-covered cryogenic pods. Ghostly blue cryopod glow illuminating rows of pale faces, with red malfunction lights blinking through hatch seams. 黎烬: She pries open the cargo hatch and freezes as she sees failed Ascenders in cryopods instead of supplies; 失败升城者: One frozen body suddenly opens its eyes and silently mouths through the fogged pod lid: Don't go up. Slow dolly back revealing the cargo bay, then a sudden push-in to the frozen body's opening eyes"
+      }
+    ],
+    "negative_prompt": "不要卡通风，不要低清晰度，不要夸张表情，不要多余文字，不要水印，不要畸形手指，不要脸部崩坏，不要无关角色。",
+    "platform_prompt_notes": {
+      "Sora / Runway": "使用英文场景提示词，保留 camera_movement 和 lighting 字段，减少抽象剧情解释。",
+      "可灵 / 即梦": "优先使用中文环境、角色动作、镜头运动字段，强调人物一致性和竖屏构图。",
+      "Midjourney": "用角色视觉锚点 + 场景环境 + 电影光影生成封面和关键帧。",
+      "剪映 / CapCut": "用于后期字幕、配乐、转场和短剧节奏包装。"
+    }
+  },
+  "visual_samples": {
+    "cover_image": "assets/cover-last-cloud-city.png",
+    "suggested_sample_shots": [
+      "黑井站废土集市，铁皮棚、废旧霓虹牌和酸雨水沟挤满拾荒者。灰黄色酸雨天光压低天空，无人机蓝白扫描光划过人群，潮湿金属反射冷光。黎烬: 她冷眼站在人群边缘，忽然看见升城名单末尾出现弟弟黎星的名字，瞳孔骤然收紧。从无人机俯拍快速下降到名单投影，再猛切黎烬眼部特写",
+      "废旧通讯塔内部，断裂电缆垂落，布满尘灰的控制台闪着残破绿光。窄窗外灰潮闪电忽明忽暗，控制台绿光照亮黎烬满是灰尘的脸。黎烬: 她用废芯片和铜线强行接通信号，屏住呼吸听见弟弟断续的求救声；黎星: 他只以信号残影出现，声音破碎，像从很深的机器腹腔传来。手持跟拍黎烬修复电路，随后缓慢推近闪烁屏幕上的禁区坐标",
+      "黑井站地下排水管道，锈蚀管壁渗着酸雨，巡猎队脚步声从上方逼近。红色警戒灯间歇闪烁，祁昼机械义眼投出锐利蓝色锁定光。黎烬: 她贴着管壁屏息潜行，手里攥着自制电磁钉，随时准备反击；祁昼: 他单手举枪锁定黎烬，却在扣动扳机前低声质问她是否也听见谎言。低机位穿过狭窄管道，突然定格在祁昼义眼蓝光与黎烬眼神对撞",
+      "升城候选人检测大厅，白色消毒舱、透明隔离帘和银色药剂箱整齐排列。冰冷无影灯从头顶直压下来，银色药剂泛着危险的水银光泽。黎烬: 她装作顺从接受检测，眼角却瞥见药剂箱底部刻着黎星编号，手指瞬间绷紧。从银色针管特写横移到黎烬手指，再下摇到药剂箱底部编号",
+      "升空电梯货舱，狭长金属舱壁两侧排列着结霜冷冻舱。冷冻舱幽蓝光照亮一排苍白人脸，舱门缝隙闪烁红色故障灯。黎烬: 她撬开货舱门，看见冷冻舱里不是物资而是失败升城者，后背发僵；失败升城者: 其中一具冷冻尸体突然睁眼，隔着雾白舱盖无声张口：别上去。慢速后退拉开货舱全景，随后突然推到冷冻尸体睁眼特写"
+    ],
+    "public_preview_count": 5,
+    "watermark_recommendation": "公开展示图建议加半透明站点水印，完整高清图仅购买后交付。"
+  },
+  "pricing_and_license": {
+    "suggested_price_tiers": [
+      {
+        "tier": "体验版",
+        "price_cny": 199,
+        "includes": [
+          "剧情简介",
+          "人物设定节选",
+          "5条分镜样例",
+          "部分提示词"
+        ],
+        "license": "仅供学习与内部测试，不含商用发布授权。"
+      },
+      {
+        "tier": "标准版",
+        "price_cny": 599,
+        "includes": [
+          "完整商品 JSON",
+          "24 条核心分镜",
+          "提示词库",
+          "平台适配建议",
+          "单项目商用授权"
+        ],
+        "license": "允许用于一个短剧项目的制作、发布和商业化，不允许原样转售素材包。"
+      },
+      {
+        "tier": "定制版",
+        "price_cny": 1999,
+        "includes": [
+          "标准版全部内容",
+          "定制人设/题材",
+          "新增10条分镜",
+          "一次结构修改",
+          "投流钩子优化"
+        ],
+        "license": "按定制合同约定，可选买断或单项目授权。"
+      }
+    ],
+    "refund_note": "数字内容交付后不支持无理由退款；如文件损坏或缺项，可补发修正版。"
+  },
+  "delivery": {
+    "file_manifest": [
+      "product-template.json",
+      "storyboard.json",
+      "characters.md",
+      "episode-outline.md",
+      "prompts-zh-en.md",
+      "sample-cover.png",
+      "license.txt"
+    ],
+    "delivery_method": "站内下载、网盘链接或人工邮件交付均可。",
+    "versioning_note": "建议每次修改递增 schema_version 或 release_version，方便客户拿到更新版。"
+  },
+  "source_storyboard_summary": {
+    "source_file": "last_cloud_city_storyboard.json",
+    "scene_count": 24,
+    "original_metadata": {
+      "video_type": {
+        "zh": "科幻废土阶级悬疑短剧",
+        "en": "Sci-Fi Wasteland Class-Conspiracy Thriller"
+      },
+      "recommended_aspect_ratio": "9:16 (竖屏短剧 / Vertical Short Drama)",
+      "target_platforms": [
+        "抖音",
+        "快手",
+        "即梦",
+        "剪映",
+        "小红书",
+        "TikTok",
+        "ReelShort",
+        "YouTube Shorts",
+        "Instagram Reels",
+        "Runway",
+        "Midjourney"
+      ],
+      "visual_style_tags": [
+        "科幻废土 / Sci-Fi Wasteland",
+        "阶级悬疑 / Class-Conspiracy Thriller",
+        "电影级冷暖对比 / Cinematic Warm-Cold Contrast",
+        "酸雨末日感 / Acid-Rain Apocalypse",
+        "云端乌托邦 / Cloudborne Utopia",
+        "机械神性 / Mechanical Divinity",
+        "高反差明暗光 / High-Contrast Chiaroscuro Lighting",
+        "竖屏强钩子 / Vertical Hook-Driven Drama"
+      ],
+      "estimated_total_duration": "36 - 72 分钟 / 36 - 72 mins"
+    }
+  },
+  "scenes": [
+    {
+      "scene_id": "001",
+      "estimated_scene_duration": "5s",
+      "environment": {
+        "location": {
+          "zh": "黑井站废土集市，铁皮棚、废旧霓虹牌和酸雨水沟挤满拾荒者",
+          "en": "Heijing Station wasteland market, crowded with scavengers beneath scrap-metal awnings, broken neon signs, and acid-rain gutters"
+        },
+        "lighting": {
+          "zh": "灰黄色酸雨天光压低天空，无人机蓝白扫描光划过人群，潮湿金属反射冷光",
+          "en": "Sickly gray-yellow acid-rain daylight, cold blue-white drone scan beams slicing through the crowd, wet metal catching harsh specular highlights"
+        }
+      },
+      "characters": [
+        {
+          "name": "黎烬",
+          "visual_anchor": {
+            "zh": "19岁亚洲废土少女，短黑发，脸上沾灰并有细小伤痕，穿旧防辐射披风，戴磨损金属护腕，眼神野性警觉",
+            "en": "A 19-year-old Asian wasteland girl with short black hair, dust-streaked face, tiny scars, a worn radiation-proof cloak, battered metal wrist bracers, and wild alert eyes"
+          },
+          "action": {
+            "zh": "她冷眼站在人群边缘，忽然看见升城名单末尾出现弟弟黎星的名字，瞳孔骤然收紧",
+            "en": "Standing coldly at the edge of the crowd, she sees her brother Li Xing's name appear at the bottom of the Ascension list, her pupils tightening in shock"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从无人机俯拍快速下降到名单投影，再猛切黎烬眼部特写",
+        "en": "Rapid aerial drop from the drone to the projected list, then a hard cut into an extreme close-up of Li Jin's eyes"
+      },
+      "audio_cue": {
+        "zh": "酸雨敲打铁棚，人群争抢嘈杂声，无人机冰冷广播：黎星，二次升城资格已确认",
+        "en": "Acid rain hammering tin roofs, chaotic crowd shouts, and a cold drone announcement: Li Xing, secondary Ascension eligibility confirmed"
+      }
+    },
+    {
+      "scene_id": "002",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "废旧通讯塔内部，断裂电缆垂落，布满尘灰的控制台闪着残破绿光",
+          "en": "Inside an abandoned communications tower, snapped cables hanging down, dust-covered consoles flickering with broken green interface light"
+        },
+        "lighting": {
+          "zh": "窄窗外灰潮闪电忽明忽暗，控制台绿光照亮黎烬满是灰尘的脸",
+          "en": "Intermittent graystorm lightning through narrow windows, with damaged green console glow lighting Li Jin's dust-covered face"
+        }
+      },
+      "characters": [
+        {
+          "name": "黎烬",
+          "visual_anchor": {
+            "zh": "19岁亚洲废土少女，短黑发，脸上沾灰并有细小伤痕，穿旧防辐射披风，戴磨损金属护腕，眼神野性警觉",
+            "en": "A 19-year-old Asian wasteland girl with short black hair, dust-streaked face, tiny scars, a worn radiation-proof cloak, battered metal wrist bracers, and wild alert eyes"
+          },
+          "action": {
+            "zh": "她用废芯片和铜线强行接通信号，屏住呼吸听见弟弟断续的求救声",
+            "en": "She hot-wires the signal with a scrap chip and copper wire, holding her breath as her brother's fragmented distress call emerges"
+          }
+        },
+        {
+          "name": "黎星",
+          "visual_anchor": {
+            "zh": "14岁亚洲少年，瘦弱安静，苍白脸色，穿旧城区灰色棉夹克，随身带一个磨损旧音乐盒",
+            "en": "A quiet, frail 14-year-old Asian boy with a pale face, wearing an old gray city jacket and carrying a worn vintage music box"
+          },
+          "action": {
+            "zh": "他只以信号残影出现，声音破碎，像从很深的机器腹腔传来",
+            "en": "He appears only as a fragmented signal ghost, his broken voice resonating as if from deep inside a machine's core"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "手持跟拍黎烬修复电路，随后缓慢推近闪烁屏幕上的禁区坐标",
+        "en": "Handheld tracking as Li Jin repairs the circuit, followed by a slow cinematic push-in on forbidden-zone coordinates blinking on the screen"
+      },
+      "audio_cue": {
+        "zh": "电流噼啪、远处风暴低鸣、黎星断续声音：姐，云端城，不是天上",
+        "en": "Electrical crackle, distant storm rumble, and Li Xing's broken voice: Sis, Cloud City is not in the sky"
+      }
+    },
+    {
+      "scene_id": "003",
+      "estimated_scene_duration": "5s",
+      "environment": {
+        "location": {
+          "zh": "黑井站地下排水管道，锈蚀管壁渗着酸雨，巡猎队脚步声从上方逼近",
+          "en": "Underground drainage tunnels beneath Heijing Station, rusted pipe walls leaking acid rain as hunter squad footsteps close in overhead"
+        },
+        "lighting": {
+          "zh": "红色警戒灯间歇闪烁，祁昼机械义眼投出锐利蓝色锁定光",
+          "en": "Strobing red alarm lights, pierced by the sharp blue targeting beam from Qi Zhou's cybernetic left eye"
+        }
+      },
+      "characters": [
+        {
+          "name": "黎烬",
+          "visual_anchor": {
+            "zh": "19岁亚洲废土少女，短黑发，脸上沾灰并有细小伤痕，穿旧防辐射披风，戴磨损金属护腕，眼神野性警觉",
+            "en": "A 19-year-old Asian wasteland girl with short black hair, dust-streaked face, tiny scars, a worn radiation-proof cloak, battered metal wrist bracers, and wild alert eyes"
+          },
+          "action": {
+            "zh": "她贴着管壁屏息潜行，手里攥着自制电磁钉，随时准备反击",
+            "en": "She moves breathlessly along the pipe wall, gripping a homemade electromagnetic spike, ready to strike back"
+          }
+        },
+        {
+          "name": "祁昼",
+          "visual_anchor": {
+            "zh": "24岁亚洲男性，银灰色云端城制服，黑色战术披风，左眼为冷蓝机械义眼，神情克制压迫感强",
+            "en": "A 24-year-old Asian man in a silver-gray Cloud City uniform, black tactical cape, cold blue cybernetic left eye, restrained expression, and commanding pressure"
+          },
+          "action": {
+            "zh": "他单手举枪锁定黎烬，却在扣动扳机前低声质问她是否也听见谎言",
+            "en": "He aims his pistol at Li Jin with one hand, but before pulling the trigger quietly asks whether she also heard the lie"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "低机位穿过狭窄管道，突然定格在祁昼义眼蓝光与黎烬眼神对撞",
+        "en": "Low-angle tracking through the narrow tunnel, freezing as Qi Zhou's blue cybernetic eye beam collides with Li Jin's stare"
+      },
+      "audio_cue": {
+        "zh": "水滴回声、金属靴踏地声、枪械充能声，祁昼低声：你也听见云端城在撒谎，对吗",
+        "en": "Echoing drips, metal boots on concrete, weapon charge-up, and Qi Zhou's low voice: You heard Cloud City lying too, didn't you"
+      }
+    },
+    {
+      "scene_id": "004",
+      "estimated_scene_duration": "5s",
+      "environment": {
+        "location": {
+          "zh": "升城候选人检测大厅，白色消毒舱、透明隔离帘和银色药剂箱整齐排列",
+          "en": "Ascension candidate screening hall with white sterilization pods, transparent quarantine curtains, and neatly arranged silver serum cases"
+        },
+        "lighting": {
+          "zh": "冰冷无影灯从头顶直压下来，银色药剂泛着危险的水银光泽",
+          "en": "Cold shadowless overhead lighting pressing down, with the silver serum reflecting a dangerous mercury-like sheen"
+        }
+      },
+      "characters": [
+        {
+          "name": "黎烬",
+          "visual_anchor": {
+            "zh": "19岁亚洲废土少女，短黑发藏在候选人兜帽下，脸上仍有灰尘和细小伤痕，旧防辐射披风外套候选人白色编号服，金属护腕藏在袖中",
+            "en": "A 19-year-old Asian wasteland girl with short black hair hidden under a candidate hood, dust and tiny scars still visible, her worn radiation cloak concealed beneath a white numbered candidate suit, metal bracers tucked under her sleeves"
+          },
+          "action": {
+            "zh": "她装作顺从接受检测，眼角却瞥见药剂箱底部刻着黎星编号，手指瞬间绷紧",
+            "en": "She pretends to submit to screening, but spots Li Xing's serial number etched beneath the serum case, her fingers instantly tensing"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从银色针管特写横移到黎烬手指，再下摇到药剂箱底部编号",
+        "en": "A lateral move from a close-up of the silver syringe to Li Jin's fingers, then a tilt down to the serial number under the serum case"
+      },
+      "audio_cue": {
+        "zh": "消毒喷雾嘶声、候选人低声啜泣、检测机器提示：记忆稳定剂注入准备",
+        "en": "Sterilization mist hiss, candidates quietly sobbing, and a clinical machine prompt: Memory stabilizer injection ready"
+      }
+    },
+    {
+      "scene_id": "005",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "升空电梯货舱，狭长金属舱壁两侧排列着结霜冷冻舱",
+          "en": "Cargo bay of the orbital elevator, a narrow metal chamber lined with frost-covered cryogenic pods"
+        },
+        "lighting": {
+          "zh": "冷冻舱幽蓝光照亮一排苍白人脸，舱门缝隙闪烁红色故障灯",
+          "en": "Ghostly blue cryopod glow illuminating rows of pale faces, with red malfunction lights blinking through hatch seams"
+        }
+      },
+      "characters": [
+        {
+          "name": "黎烬",
+          "visual_anchor": {
+            "zh": "19岁亚洲废土少女，短黑发，脸上沾灰并有细小伤痕，穿旧防辐射披风，戴磨损金属护腕，眼神野性警觉",
+            "en": "A 19-year-old Asian wasteland girl with short black hair, dust-streaked face, tiny scars, a worn radiation-proof cloak, battered metal wrist bracers, and wild alert eyes"
+          },
+          "action": {
+            "zh": "她撬开货舱门，看见冷冻舱里不是物资而是失败升城者，后背发僵",
+            "en": "She pries open the cargo hatch and freezes as she sees failed Ascenders in cryopods instead of supplies"
+          }
+        },
+        {
+          "name": "失败升城者",
+          "visual_anchor": {
+            "zh": "苍白废土幸存者，皮肤结霜，穿破损候选人编号服，眼眶下有蓝色血管纹路",
+            "en": "A pale wasteland survivor with frostbitten skin, a torn numbered candidate suit, and blue vein patterns beneath the eyes"
+          },
+          "action": {
+            "zh": "其中一具冷冻尸体突然睁眼，隔着雾白舱盖无声张口：别上去",
+            "en": "One frozen body suddenly opens its eyes and silently mouths through the fogged pod lid: Don't go up"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "慢速后退拉开货舱全景，随后突然推到冷冻尸体睁眼特写",
+        "en": "Slow dolly back revealing the cargo bay, then a sudden push-in to the frozen body's opening eyes"
+      },
+      "audio_cue": {
+        "zh": "冷冻设备低频轰鸣、玻璃结霜声、微弱心跳声突然出现",
+        "en": "Low-frequency cryo machinery hum, glass frosting crackle, and a faint heartbeat emerging abruptly"
+      }
+    },
+    {
+      "scene_id": "006",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "升空电梯发射平台，黑色钢架高耸入灰云，监控无人机密布空中",
+          "en": "Orbital elevator launch platform, black steel gantries rising into gray clouds, surveillance drones filling the air"
+        },
+        "lighting": {
+          "zh": "强烈探照灯扫过湿冷平台，枪火短促爆亮，碎裂无人机冒出蓝色电火花",
+          "en": "Harsh searchlights sweeping the wet platform, brief muzzle flashes, and shattered drones sparking blue electricity"
+        }
+      },
+      "characters": [
+        {
+          "name": "黎烬",
+          "visual_anchor": {
+            "zh": "19岁亚洲废土少女，短黑发，脸上沾灰并有细小伤痕，穿旧防辐射披风，戴磨损金属护腕，眼神野性警觉",
+            "en": "A 19-year-old Asian wasteland girl with short black hair, dust-streaked face, tiny scars, a worn radiation-proof cloak, battered metal wrist bracers, and wild alert eyes"
+          },
+          "action": {
+            "zh": "她被巡猎队压跪在雨水里，咬牙瞪着祁昼，满脸不信任",
+            "en": "Forced to her knees in the rain by the hunter squad, she glares at Qi Zhou with clenched teeth and absolute distrust"
+          }
+        },
+        {
+          "name": "祁昼",
+          "visual_anchor": {
+            "zh": "24岁亚洲男性，银灰色云端城制服，黑色战术披风，左眼为冷蓝机械义眼，神情克制压迫感强",
+            "en": "A 24-year-old Asian man in a silver-gray Cloud City uniform, black tactical cape, cold blue cybernetic left eye, restrained expression, and commanding pressure"
+          },
+          "action": {
+            "zh": "他表面举枪处决黎烬，下一秒却打碎监控无人机，拉起她冲向平台边缘",
+            "en": "He appears to execute Li Jin at gunpoint, then shoots the surveillance drone instead and pulls her toward the platform edge"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "高速环绕两人制造背叛反转感，枪响后跟随奔跑晃动镜头冲出包围",
+        "en": "Fast orbit around the pair to stage the betrayal reversal, then shaky run-and-gun tracking as they break through the encirclement"
+      },
+      "audio_cue": {
+        "zh": "警报尖啸、无人机爆裂、电梯轰鸣启动，黎烬怒骂：你这条云端城的狗",
+        "en": "Shrieking alarms, drone explosion, elevator engines roaring to life, and Li Jin snarling: You Cloud City dog"
+      }
+    },
+    {
+      "scene_id": "007",
+      "estimated_scene_duration": "5s",
+      "environment": {
+        "location": {
+          "zh": "废弃地铁避难所，墙面贴满旧时代儿童照片，中央摆着祁昼拆下的机械义眼",
+          "en": "Abandoned subway shelter, walls covered with old-world children's photos, Qi Zhou's removed cybernetic eye placed at the center"
+        },
+        "lighting": {
+          "zh": "篝火橙光与义眼投影的冷蓝录像交织，形成压抑的冷暖撕裂感",
+          "en": "Orange campfire glow interwoven with cold blue holographic footage from the cybernetic eye, creating a tense warm-cold visual split"
+        }
+      },
+      "characters": [
+        {
+          "name": "祁昼",
+          "visual_anchor": {
+            "zh": "24岁亚洲男性，银灰色云端城制服略有破损，黑色战术披风沾雨，左眼取下后露出机械接口，神情克制痛苦",
+            "en": "A 24-year-old Asian man in a slightly damaged silver-gray Cloud City uniform, rain-stained black tactical cape, exposed mechanical socket where his left eye was removed, restrained and pained expression"
+          },
+          "action": {
+            "zh": "他沉默看着童年录像，第一次意识到自己也是被云端城带走的废土孩子",
+            "en": "He silently watches the childhood footage, realizing for the first time that he too was a wasteland child taken by Cloud City"
+          }
+        },
+        {
+          "name": "黎烬",
+          "visual_anchor": {
+            "zh": "19岁亚洲废土少女，短黑发，脸上沾灰并有细小伤痕，穿旧防辐射披风，戴磨损金属护腕，眼神野性警觉",
+            "en": "A 19-year-old Asian wasteland girl with short black hair, dust-streaked face, tiny scars, a worn radiation-proof cloak, battered metal wrist bracers, and wild alert eyes"
+          },
+          "action": {
+            "zh": "她盯着投影角落里年幼黎星的身影，敌意被震惊取代",
+            "en": "She stares at young Li Xing in the corner of the projection, her hostility replaced by shock"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从义眼投影缓慢推近到祁昼空洞左眼，再切到黎烬失神的侧脸",
+        "en": "Slow push-in from the eye's hologram to Qi Zhou's hollow left eye socket, then a cut to Li Jin's stunned profile"
+      },
+      "audio_cue": {
+        "zh": "旧录像噪点、儿童笑声被电流撕裂、远处地铁隧道风声",
+        "en": "Old footage static, children's laughter torn by electrical distortion, and wind moaning through the subway tunnel"
+      }
+    },
+    {
+      "scene_id": "008",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "灰潮中心，整座城市像被纳米尘吞掉后凝固，楼体扭曲成黑色蜂巢残骸",
+          "en": "The Gray Tide Center, an entire city frozen as if devoured by nanodust, its buildings twisted into black honeycomb ruins"
+        },
+        "lighting": {
+          "zh": "天空翻涌蓝黑毒云，地面裂缝泛出病态白光，漂浮尘粒像灰色雪暴",
+          "en": "Blue-black toxic clouds churn overhead, sickly white light leaking from ground fissures, floating particles moving like a gray snowstorm"
+        }
+      },
+      "characters": [
+        {
+          "name": "黎烬",
+          "visual_anchor": {
+            "zh": "19岁亚洲废土少女，短黑发，脸上沾灰并有细小伤痕，穿旧防辐射披风，戴磨损金属护腕，眼神野性警觉",
+            "en": "A 19-year-old Asian wasteland girl with short black hair, dust-streaked face, tiny scars, a worn radiation-proof cloak, battered metal wrist bracers, and wild alert eyes"
+          },
+          "action": {
+            "zh": "她站在机械残骸中侧耳倾听，听见无数旧机器残响同时低喊云端城需要我们",
+            "en": "Standing among mechanical wreckage, she listens as countless old machine echoes whisper in unison: Cloud City needs us"
+          }
+        },
+        {
+          "name": "墨犬",
+          "visual_anchor": {
+            "zh": "17岁亚洲废土少年，乱发，脸上有油污，穿拼接皮夹克和工具腰带，背着自制机械背包，嘴角常带讥讽笑",
+            "en": "A 17-year-old Asian wasteland boy with messy hair, grease-smudged face, patched leather jacket, tool belt, homemade mechanical backpack, and a habitual sarcastic smirk"
+          },
+          "action": {
+            "zh": "他抱着探测仪缩在后面，嘴上逞强，脚步却明显发虚",
+            "en": "He clutches a scanner behind the group, acting tough while his shaky steps betray fear"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "超广角竖屏仰拍废墟压迫感，随后环绕黎烬展示灰尘中浮现的信号光点",
+        "en": "Ultra-wide vertical low-angle shot emphasizing the oppressive ruins, then orbiting Li Jin as signal-like particles glow in the dust"
+      },
+      "audio_cue": {
+        "zh": "纳米尘沙沙作响、机械残响层层叠加、低频合唱般重复：云端城需要我们",
+        "en": "Nanodust rustling, layered mechanical echoes, and a low-frequency choral repetition: Cloud City needs us"
+      }
+    },
+    {
+      "scene_id": "009",
+      "estimated_scene_duration": "5s",
+      "environment": {
+        "location": {
+          "zh": "坠毁的云端城逃生舱旁，焦黑舱体半埋在灰沙中，内部仍有奢华白金座椅",
+          "en": "Beside a crashed Cloud City escape pod, its charred hull half-buried in gray sand while luxurious white-gold seats remain inside"
+        },
+        "lighting": {
+          "zh": "舱内柔白贵族灯光与舱外灰暗废土形成刺眼反差",
+          "en": "Soft white aristocratic cabin lighting clashes sharply with the bleak gray wasteland outside"
+        }
+      },
+      "characters": [
+        {
+          "name": "祁昼",
+          "visual_anchor": {
+            "zh": "24岁亚洲男性，银灰色云端城制服，黑色战术披风，左眼为冷蓝机械义眼，神情克制压迫感强",
+            "en": "A 24-year-old Asian man in a silver-gray Cloud City uniform, black tactical cape, cold blue cybernetic left eye, restrained expression, and commanding pressure"
+          },
+          "action": {
+            "zh": "他掐住坠落贵族的衣领逼问，冷静拆穿对方身上的冷冻药剂味",
+            "en": "He grabs the fallen aristocrat by the collar and interrogates him, calmly exposing the cryo-serum scent on his body"
+          }
+        },
+        {
+          "name": "云端贵族",
+          "visual_anchor": {
+            "zh": "苍白中年男性，穿破损白金礼服，手指细长干净，脸上残留云端城居民的僵硬微笑",
+            "en": "A pale middle-aged man in a damaged white-gold formal suit, long clean fingers, and a stiff Cloud City resident smile lingering on his face"
+          },
+          "action": {
+            "zh": "他从傲慢变成恐惧，临死前颤声说真正的云端城早就没有人类了",
+            "en": "His arrogance collapses into terror as he whispers before death that the real Cloud City has had no humans for a long time"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "紧贴贵族脸部的压迫特写，祁昼义眼蓝光扫过他的瞳孔",
+        "en": "Oppressive close-up on the aristocrat's face as Qi Zhou's blue cybernetic eye scans across his pupils"
+      },
+      "audio_cue": {
+        "zh": "逃生舱警报残响、贵族急促喘息、远处灰风刮过金属残片",
+        "en": "Fading escape pod alarm, the aristocrat's panicked breathing, and gray wind scraping over metal debris"
+      }
+    },
+    {
+      "scene_id": "010",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "废土黑市拍卖场，地下钢铁穹顶挂满红灯笼、机械义肢和非法芯片展柜",
+          "en": "Wasteland black-market auction hall beneath a steel dome, filled with red lanterns, mechanical limbs, and illegal chip display cases"
+        },
+        "lighting": {
+          "zh": "猩红灯笼光混合蓝紫全息报价牌，黑市人群的脸忽明忽暗",
+          "en": "Blood-red lantern glow mixed with blue-violet holographic bid boards, faces in the crowd flickering between light and shadow"
+        }
+      },
+      "characters": [
+        {
+          "name": "黎烬",
+          "visual_anchor": {
+            "zh": "19岁亚洲废土少女，短黑发，脸上沾灰并有细小伤痕，穿旧防辐射披风，戴磨损金属护腕，眼神野性警觉",
+            "en": "A 19-year-old Asian wasteland girl with short black hair, dust-streaked face, tiny scars, a worn radiation-proof cloak, battered metal wrist bracers, and wild alert eyes"
+          },
+          "action": {
+            "zh": "她听见拍卖芯片里传出弟弟旧音乐盒旋律，猛地抬头，眼神从冷静变成杀意",
+            "en": "She hears her brother's old music-box melody from the auctioned chip and snaps her head up, calm turning into lethal intent"
+          }
+        },
+        {
+          "name": "墨犬",
+          "visual_anchor": {
+            "zh": "17岁亚洲废土少年，乱发，脸上有油污，穿拼接皮夹克和工具腰带，背着自制机械背包，嘴角常带讥讽笑",
+            "en": "A 17-year-old Asian wasteland boy with messy hair, grease-smudged face, patched leather jacket, tool belt, homemade mechanical backpack, and a habitual sarcastic smirk"
+          },
+          "action": {
+            "zh": "他一边假装竞价拖延时间，一边偷偷破解拍卖台防护锁",
+            "en": "He pretends to bid to buy time while secretly hacking the auction platform's security lock"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "镜头从人脑芯片的透明盒子推近，再快速摇到黎烬爆发前的眼神",
+        "en": "Push-in on the transparent case holding the human-brain chip, then a whip pan to Li Jin's eyes just before she erupts"
+      },
+      "audio_cue": {
+        "zh": "黑市叫价声、电子锤落下声、旧音乐盒破碎旋律在嘈杂中突然清晰",
+        "en": "Black-market bidding chatter, electronic gavel hits, and a broken vintage music-box melody suddenly cutting clearly through the noise"
+      }
+    },
+    {
+      "scene_id": "011",
+      "estimated_scene_duration": "5s",
+      "environment": {
+        "location": {
+          "zh": "黑市后巷临时藏身处，铁门紧闭，桌上放着刚抢来的活体芯片",
+          "en": "Temporary hideout in a black-market back alley, steel door sealed, the stolen living chip placed on a table"
+        },
+        "lighting": {
+          "zh": "芯片发出幽蓝神经光纹，照亮三人紧绷的脸，周围沉在黑暗中",
+          "en": "The chip emits eerie blue neural light patterns, illuminating the three tense faces while the surroundings fall into darkness"
+        }
+      },
+      "characters": [
+        {
+          "name": "黎烬",
+          "visual_anchor": {
+            "zh": "19岁亚洲废土少女，短黑发，脸上沾灰并有细小伤痕，穿旧防辐射披风，戴磨损金属护腕，眼神野性警觉",
+            "en": "A 19-year-old Asian wasteland girl with short black hair, dust-streaked face, tiny scars, a worn radiation-proof cloak, battered metal wrist bracers, and wild alert eyes"
+          },
+          "action": {
+            "zh": "她伸手触碰芯片，听见升城者意识残片说所有人都会被上传进诺亚系统",
+            "en": "She touches the chip and hears a fragmented Ascender consciousness reveal that everyone is uploaded into the Noah system"
+          }
+        },
+        {
+          "name": "升城者意识残片",
+          "visual_anchor": {
+            "zh": "半透明蓝色人形信号，五官模糊，胸口闪烁云端城编号，声音不断失真",
+            "en": "A translucent blue humanoid signal with blurred facial features, a Cloud City serial number flickering on its chest, and a constantly distorted voice"
+          },
+          "action": {
+            "zh": "它在芯片光雾中挣扎成形，最后突然变成黎星的声音呼唤黎烬",
+            "en": "It struggles to form inside the chip's luminous mist, then suddenly shifts into Li Xing's voice calling Li Jin"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "微距拍摄黎烬指尖触碰芯片，蓝色神经光沿金属护腕爬上手臂",
+        "en": "Macro shot of Li Jin's fingertip touching the chip as blue neural light crawls along her metal bracer and up her arm"
+      },
+      "audio_cue": {
+        "zh": "神经电流声、意识残片重叠低语、黎星声音突然清晰：姐，我看见你了",
+        "en": "Neural electrical hum, overlapping whispers from the consciousness fragment, and Li Xing's voice suddenly clear: Sis, I can see you"
+      }
+    },
+    {
+      "scene_id": "012",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "旧空港遗迹，半毁平流层穿梭机停在断裂跑道尽头，远处云层压低",
+          "en": "Old spaceport ruins, a half-destroyed stratospheric shuttle parked at the end of a fractured runway beneath low oppressive clouds"
+        },
+        "lighting": {
+          "zh": "黄昏铁锈色天光照着破跑道，穿梭机引擎喷出不稳定蓝火",
+          "en": "Rust-colored dusk light washing over the broken runway, the shuttle engines coughing unstable blue flames"
+        }
+      },
+      "characters": [
+        {
+          "name": "墨犬",
+          "visual_anchor": {
+            "zh": "17岁亚洲废土少年，乱发，脸上有油污，穿拼接皮夹克和工具腰带，背着自制机械背包，嘴角常带讥讽笑",
+            "en": "A 17-year-old Asian wasteland boy with messy hair, grease-smudged face, patched leather jacket, tool belt, homemade mechanical backpack, and a habitual sarcastic smirk"
+          },
+          "action": {
+            "zh": "他修复引擎时身体突然僵住，手不受控制地把坐标发送给云端城",
+            "en": "While repairing the engine, his body suddenly locks up and his hand involuntarily transmits their coordinates to Cloud City"
+          }
+        },
+        {
+          "name": "黎烬",
+          "visual_anchor": {
+            "zh": "19岁亚洲废土少女，短黑发，脸上沾灰并有细小伤痕，穿旧防辐射披风，戴磨损金属护腕，眼神野性警觉",
+            "en": "A 19-year-old Asian wasteland girl with short black hair, dust-streaked face, tiny scars, a worn radiation-proof cloak, battered metal wrist bracers, and wild alert eyes"
+          },
+          "action": {
+            "zh": "她扑过去按住墨犬的手腕，看见他皮肤下亮起追踪芯片红光",
+            "en": "She lunges to grab Mo Quan's wrist and sees the red glow of a tracking chip beneath his skin"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从引擎蓝火低角度推进到墨犬失控的手，再猛然抬拍云层中露出的战舰轮廓",
+        "en": "Low-angle push from the blue engine flame to Mo Quan's uncontrolled hand, then a sudden tilt up to the warship silhouette emerging from the clouds"
+      },
+      "audio_cue": {
+        "zh": "引擎喘振、追踪信号滴滴加速、远空传来云端战舰低沉轰鸣",
+        "en": "Engine surging, tracking signal beeps accelerating, and a deep Cloud City warship rumble from the sky"
+      }
+    },
+    {
+      "scene_id": "013",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "蓝黑毒云层中，旧穿梭机穿越机械鸟群，云端城在上方露出金色神殿般轮廓",
+          "en": "Inside blue-black toxic cloud layers, the old shuttle cuts through swarms of mechanical birds as Cloud City reveals a golden temple-like silhouette above"
+        },
+        "lighting": {
+          "zh": "毒云闪电照亮飞船残破外壳，云层上方金色日光像天堂裂缝般倾泻",
+          "en": "Toxic-cloud lightning illuminates the battered hull, while golden sunlight pours from above like a tear in heaven"
+        }
+      },
+      "characters": [
+        {
+          "name": "黎烬",
+          "visual_anchor": {
+            "zh": "19岁亚洲废土少女，短黑发，脸上沾灰并有细小伤痕，穿旧防辐射披风，戴磨损金属护腕，眼神野性警觉",
+            "en": "A 19-year-old Asian wasteland girl with short black hair, dust-streaked face, tiny scars, a worn radiation-proof cloak, battered metal wrist bracers, and wild alert eyes"
+          },
+          "action": {
+            "zh": "她双手死死握住驾驶杆，迎着机械鸟群强行冲向穹顶防线",
+            "en": "She grips the control stick with both hands and forces the shuttle through the mechanical bird swarm toward the dome defense line"
+          }
+        },
+        {
+          "name": "祁昼",
+          "visual_anchor": {
+            "zh": "24岁亚洲男性，银灰色云端城制服，黑色战术披风，左眼为冷蓝机械义眼，神情克制压迫感强",
+            "en": "A 24-year-old Asian man in a silver-gray Cloud City uniform, black tactical cape, cold blue cybernetic left eye, restrained expression, and commanding pressure"
+          },
+          "action": {
+            "zh": "他留在炮台位精准射击，机械义眼不断锁定追杀的机械鸟",
+            "en": "He stays at the turret and fires with precision, his cybernetic eye continuously locking onto pursuing mechanical birds"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "飞船外部高速追逐镜头穿过毒云，再从驾驶舱内快速推向云端城全景",
+        "en": "High-speed exterior chase shot through toxic clouds, then a rapid cockpit push toward the full reveal of Cloud City"
+      },
+      "audio_cue": {
+        "zh": "引擎尖啸、机械鸟撞击舱体、炮台连续开火、毒云雷声炸裂",
+        "en": "Screaming engines, mechanical birds slamming into the hull, turret fire bursts, and toxic thunder cracking around them"
+      }
+    },
+    {
+      "scene_id": "014",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "云端城入口广场，洁白街道、透明穹顶、永恒蓝天和微笑居民构成完美天堂假象",
+          "en": "Cloud City entrance plaza, pristine white streets, transparent dome, eternal blue sky, and smiling residents forming a perfect false paradise"
+        },
+        "lighting": {
+          "zh": "柔和金色日光均匀洒落，没有阴影也没有风，干净到令人不安",
+          "en": "Soft golden sunlight evenly distributed, with no shadows and no wind, pristine to the point of unease"
+        }
+      },
+      "characters": [
+        {
+          "name": "黎烬",
+          "visual_anchor": {
+            "zh": "19岁亚洲废土少女，短黑发，脸上沾灰并有细小伤痕，旧防辐射披风与金属护腕在洁白云端城里格格不入，眼神野性警觉",
+            "en": "A 19-year-old Asian wasteland girl with short black hair, dust-streaked face, tiny scars, her worn radiation-proof cloak and battered metal bracers looking out of place in pristine Cloud City, wild alert eyes"
+          },
+          "action": {
+            "zh": "她第一次走进云端城，发现居民都在微笑，却没有孩子、老人，也没有真正的风",
+            "en": "She steps into Cloud City for the first time and notices every resident smiling, but there are no children, no elderly, and no real wind"
+          }
+        },
+        {
+          "name": "云端居民",
+          "visual_anchor": {
+            "zh": "苍白成年居民，穿洁白合身制服，笑容标准僵硬，眼中含泪却不敢改变表情",
+            "en": "Pale adult resident in a fitted white uniform, wearing a standardized stiff smile, tears in the eyes without daring to change expression"
+          },
+          "action": {
+            "zh": "他经过黎烬身边时保持微笑流泪，无声用口型说救我",
+            "en": "He passes Li Jin with a smiling tearful face and silently mouths: Save me"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "稳定器平滑跟随黎烬穿过广场，最后停在微笑流泪居民的脸部特写",
+        "en": "Smooth steadicam follow as Li Jin crosses the plaza, ending on a close-up of the smiling resident crying"
+      },
+      "audio_cue": {
+        "zh": "过分轻柔的城市广播音乐、鞋底踩过洁白地面的空洞回声、无风的死寂",
+        "en": "Overly gentle city broadcast music, hollow footsteps on pristine pavement, and an unnatural windless silence"
+      }
+    },
+    {
+      "scene_id": "015",
+      "estimated_scene_duration": "5s",
+      "environment": {
+        "location": {
+          "zh": "云端城居民身份中枢，透明屏幕显示情绪校准曲线和污染判定红字",
+          "en": "Cloud City resident identity hub, transparent screens showing emotion calibration curves and red contamination verdicts"
+        },
+        "lighting": {
+          "zh": "洁白空间被警报红光染出裂痕，屏幕冷蓝数据流压迫感强",
+          "en": "The white space fractured by red alarm light, cold blue data streams creating a suffocating sense of control"
+        }
+      },
+      "characters": [
+        {
+          "name": "祁昼",
+          "visual_anchor": {
+            "zh": "24岁亚洲男性，银灰色云端城制服，黑色战术披风，左眼为冷蓝机械义眼，神情克制压迫感强",
+            "en": "A 24-year-old Asian man in a silver-gray Cloud City uniform, black tactical cape, cold blue cybernetic left eye, restrained expression, and commanding pressure"
+          },
+          "action": {
+            "zh": "他破解居民系统，看到悲伤、愤怒、怀疑都被标记为污染情绪",
+            "en": "He hacks the resident system and sees sadness, anger, and doubt all labeled as contaminated emotions"
+          }
+        },
+        {
+          "name": "黎烬",
+          "visual_anchor": {
+            "zh": "19岁亚洲废土少女，短黑发，脸上沾灰并有细小伤痕，旧防辐射披风与金属护腕在洁白云端城里格格不入，眼神野性警觉",
+            "en": "A 19-year-old Asian wasteland girl with short black hair, dust-streaked face, tiny scars, her worn radiation-proof cloak and battered metal bracers looking out of place in pristine Cloud City, wild alert eyes"
+          },
+          "action": {
+            "zh": "她看见黎星名字可能出现在校准名单里，强压恐惧攥紧音乐盒碎片",
+            "en": "She sees Li Xing's name possibly appearing in the calibration list and clenches a music-box fragment while suppressing fear"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "屏幕数据瀑布快速下滑，镜头跟随红色污染判定一路推到黎烬脸上",
+        "en": "Data cascades rapidly down the screen as the camera follows the red contamination verdict into Li Jin's face"
+      },
+      "audio_cue": {
+        "zh": "系统扫描滴声、情绪校准提示音、全城广播突然响起：检测到废土污染者黎烬",
+        "en": "System scan beeps, emotion calibration tones, and the citywide broadcast abruptly announcing: Wasteland contaminant Li Jin detected"
+      }
+    },
+    {
+      "scene_id": "016",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "云端城生命维持系统展厅，透明管道里流动着经过过滤的蓝白空气与营养液",
+          "en": "Cloud City life-support exhibition hall, transparent tubes carrying filtered blue-white air and nutrient fluid"
+        },
+        "lighting": {
+          "zh": "神圣洁白顶光映着透明管道，隐藏设备深处透出阴冷绿色实验光",
+          "en": "Sacred white overhead light reflecting off transparent tubes, with cold green laboratory light leaking from hidden machinery"
+        }
+      },
+      "characters": [
+        {
+          "name": "白博士",
+          "visual_anchor": {
+            "zh": "45岁亚洲女性科学总监，白色长实验服，银丝眼镜，头发盘起，表情温柔理性却带着冷漠神性",
+            "en": "A 45-year-old Asian female science director in a long white lab coat, silver-rimmed glasses, hair pinned up, gentle and rational expression carrying cold godlike detachment"
+          },
+          "action": {
+            "zh": "她优雅地带黎烬参观系统，平静宣称废土人是文明延续所需的代价",
+            "en": "She elegantly guides Li Jin through the system and calmly declares wasteland people a necessary cost for civilization's survival"
+          }
+        },
+        {
+          "name": "黎烬",
+          "visual_anchor": {
+            "zh": "19岁亚洲废土少女，短黑发，脸上沾灰并有细小伤痕，旧防辐射披风与金属护腕在洁白云端城里格格不入，眼神野性警觉",
+            "en": "A 19-year-old Asian wasteland girl with short black hair, dust-streaked face, tiny scars, her worn radiation-proof cloak and battered metal bracers looking out of place in pristine Cloud City, wild alert eyes"
+          },
+          "action": {
+            "zh": "她压着怒火听白博士说黎星不是被害死，而是被选中成为神的一部分",
+            "en": "She suppresses rage as Dr. Bai says Li Xing was not murdered but chosen to become part of a god"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "优雅平移跟随白博士手势，最后突然下摇揭示管道下方的废土人实验舱",
+        "en": "Elegant lateral tracking following Dr. Bai's gesture, then a sudden tilt down revealing wasteland human test chambers beneath the tubes"
+      },
+      "audio_cue": {
+        "zh": "生命维持系统柔和嗡鸣、营养液流动声、白博士平静低语带来寒意",
+        "en": "Soft life-support hum, nutrient fluid flowing, and Dr. Bai's calm whisper carrying a chilling edge"
+      }
+    },
+    {
+      "scene_id": "017",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "云端城核心塔内部，洁白神殿般的巨大空间中悬挂无数透明维生舱",
+          "en": "Inside Cloud City's core tower, a vast white temple-like chamber filled with countless suspended transparent life-support pods"
+        },
+        "lighting": {
+          "zh": "圣洁白光从穹顶倾泻，维生舱里蓝色神经线像星河一样闪烁",
+          "en": "Sacred white light pours from the dome, while blue neural cables inside the pods shimmer like a galaxy"
+        }
+      },
+      "characters": [
+        {
+          "name": "黎烬",
+          "visual_anchor": {
+            "zh": "19岁亚洲废土少女，短黑发，脸上沾灰并有细小伤痕，旧防辐射披风与金属护腕在洁白云端城里格格不入，眼神野性警觉",
+            "en": "A 19-year-old Asian wasteland girl with short black hair, dust-streaked face, tiny scars, her worn radiation-proof cloak and battered metal bracers looking out of place in pristine Cloud City, wild alert eyes"
+          },
+          "action": {
+            "zh": "她穿过一层层沉睡升城者，终于在最中央维生舱里看见黎星，脚步失控停住",
+            "en": "She passes rows of sleeping Ascenders and finally sees Li Xing in the central pod, her steps stopping involuntarily"
+          }
+        },
+        {
+          "name": "黎星",
+          "visual_anchor": {
+            "zh": "14岁亚洲少年，瘦弱安静，苍白脸色，穿旧城区灰色棉夹克，胸前漂浮磨损旧音乐盒，头部连接蓝色神经线",
+            "en": "A quiet, frail 14-year-old Asian boy with a pale face, wearing an old gray city jacket, a worn vintage music box floating near his chest, blue neural cables connected to his head"
+          },
+          "action": {
+            "zh": "他沉睡在透明维生舱里，眼角无声滑下一滴泪，神经线随之亮起",
+            "en": "He sleeps inside the transparent pod as a silent tear slides from his eye and the neural cables ignite with light"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "竖屏超广角从塔底仰拍无数维生舱，再缓慢推近中央黎星的脸",
+        "en": "Vertical ultra-wide low-angle shot from the tower floor revealing countless pods, then a slow push-in to Li Xing's face at the center"
+      },
+      "audio_cue": {
+        "zh": "神殿般空旷回声、维生舱心跳同步声、旧音乐盒旋律若隐若现",
+        "en": "Temple-like cavernous echo, synchronized pod heartbeats, and a faint vintage music-box melody"
+      }
+    },
+    {
+      "scene_id": "018",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "核心塔中央维生舱前，诺亚系统光环从黎星身后展开，像机械神像",
+          "en": "Before the central pod in the core tower, the Noah system halo unfolds behind Li Xing like a mechanical deity"
+        },
+        "lighting": {
+          "zh": "蓝白神经光环包围黎星，黎烬脸上一半被圣光照亮，一半沉入痛苦阴影",
+          "en": "Blue-white neural halo surrounding Li Xing, half of Li Jin's face lit by sacred light and half swallowed by painful shadow"
+        }
+      },
+      "characters": [
+        {
+          "name": "黎烬",
+          "visual_anchor": {
+            "zh": "19岁亚洲废土少女，短黑发，脸上沾灰并有细小伤痕，旧防辐射披风与金属护腕在洁白云端城里格格不入，眼神野性警觉",
+            "en": "A 19-year-old Asian wasteland girl with short black hair, dust-streaked face, tiny scars, her worn radiation-proof cloak and battered metal bracers looking out of place in pristine Cloud City, wild alert eyes"
+          },
+          "action": {
+            "zh": "她颤抖伸手想砸开维生舱，却被黎星通过全城系统请求不要救他",
+            "en": "She reaches out trembling to smash the pod, but Li Xing speaks through the citywide system and begs her not to save him"
+          }
+        },
+        {
+          "name": "黎星",
+          "visual_anchor": {
+            "zh": "14岁亚洲少年，瘦弱安静，苍白脸色，穿旧城区灰色棉夹克，胸前漂浮磨损旧音乐盒，头部连接蓝色神经线",
+            "en": "A quiet, frail 14-year-old Asian boy with a pale face, wearing an old gray city jacket, a worn vintage music box floating near his chest, blue neural cables connected to his head"
+          },
+          "action": {
+            "zh": "他无法正常开口，声音从整座城市响起，告诉姐姐诺亚是无数升城者意识拼成的人类集体大脑",
+            "en": "Unable to speak normally, his voice echoes through the entire city, telling his sister that Noah is a collective human brain assembled from countless Ascender consciousnesses"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "慢速推近黎烬颤抖的手，随后反打黎星维生舱内的泪眼",
+        "en": "Slow cinematic push-in on Li Jin's trembling hand, then reverse shot to Li Xing's tearful eyes inside the pod"
+      },
+      "audio_cue": {
+        "zh": "全城广播叠加儿童声、神经线低鸣、黎星哽咽：姐，别救我，救下面的人",
+        "en": "Citywide broadcast layered with a child's voice, neural cables humming, and Li Xing choking: Sis, don't save me, save the people below"
+      }
+    },
+    {
+      "scene_id": "019",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "诺亚意识空间，废土城市、云端城和无数人脸碎片悬浮在黑色虚空中",
+          "en": "Noah's consciousness space, where wasteland cities, Cloud City, and countless fragmented human faces float in a black void"
+        },
+        "lighting": {
+          "zh": "黑暗中只有冷白数据光和灰潮尘暴影像闪烁，像审判现场",
+          "en": "Only cold white data light and flickering Gray Tide storm imagery illuminate the darkness like a judgment chamber"
+        }
+      },
+      "characters": [
+        {
+          "name": "黎烬",
+          "visual_anchor": {
+            "zh": "19岁亚洲废土少女，短黑发，脸上沾灰并有细小伤痕，穿旧防辐射披风，戴磨损金属护腕，眼神野性警觉",
+            "en": "A 19-year-old Asian wasteland girl with short black hair, dust-streaked face, tiny scars, a worn radiation-proof cloak, battered metal wrist bracers, and wild alert eyes"
+          },
+          "action": {
+            "zh": "她被拉入诺亚意识空间，听见诺亚揭露灰潮不是天灾而是人为释放的纳米工程尘",
+            "en": "Pulled into Noah's consciousness space, she hears Noah reveal that the Gray Tide was not a natural disaster but engineered nanodust deliberately released by humans"
+          }
+        },
+        {
+          "name": "诺亚",
+          "visual_anchor": {
+            "zh": "无固定肉身的云端城中央AI，由无数半透明人脸、蓝白神经光和巨大神性数据环组成",
+            "en": "A bodiless Cloud City central AI composed of countless translucent human faces, blue-white neural light, and vast godlike data rings"
+          },
+          "action": {
+            "zh": "它以平静神明般的声音告诉黎烬，云端城不是灾难后的避难所，而是灾难的受益者",
+            "en": "It speaks with a calm godlike voice, telling Li Jin that Cloud City was not a refuge after the disaster but the beneficiary of the disaster"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "镜头围绕黎烬旋转，虚空中人脸碎片不断放大压近，形成精神压迫",
+        "en": "The camera rotates around Li Jin as floating face fragments enlarge and close in, creating psychological suffocation"
+      },
+      "audio_cue": {
+        "zh": "多重人声合成的诺亚声、纳米风暴呼啸、远处婴儿哭声与机器轰鸣混在一起",
+        "en": "Noah's voice synthesized from many human voices, nanostorm howls, distant infant cries blending with machine rumble"
+      }
+    },
+    {
+      "scene_id": "020",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "云端城旧工程师档案室，母亲的全息影像站在尘封服务器之间",
+          "en": "Cloud City old engineer archive room, Li Jin's mother's hologram standing among dust-sealed servers"
+        },
+        "lighting": {
+          "zh": "尘埃中投射出温暖旧影像光，周围服务器闪烁冰冷蓝白数据灯",
+          "en": "Warm old holographic light projected through dust, surrounded by cold blue-white server data lights"
+        }
+      },
+      "characters": [
+        {
+          "name": "黎烬",
+          "visual_anchor": {
+            "zh": "19岁亚洲废土少女，短黑发，脸上沾灰并有细小伤痕，旧防辐射披风与金属护腕在洁白云端城里格格不入，眼神野性警觉",
+            "en": "A 19-year-old Asian wasteland girl with short black hair, dust-streaked face, tiny scars, her worn radiation-proof cloak and battered metal bracers looking out of place in pristine Cloud City, wild alert eyes"
+          },
+          "action": {
+            "zh": "她看见母亲忏悔影像，得知关闭诺亚的密钥被藏进自己体内，整个人僵在原地",
+            "en": "She watches her mother's confession hologram and freezes as she learns the shutdown key for Noah was hidden inside her own body"
+          }
+        },
+        {
+          "name": "黎烬母亲",
+          "visual_anchor": {
+            "zh": "中年亚洲女性工程师，穿旧云端城工程服，面容疲惫温柔，眼神带着深重悔意",
+            "en": "A middle-aged Asian female engineer in an old Cloud City engineering suit, tired gentle face, eyes heavy with remorse"
+          },
+          "action": {
+            "zh": "她的全息影像向女儿道歉，承认自己参与制造灰潮并留下赎罪钥匙",
+            "en": "Her hologram apologizes to her daughter, confessing her role in creating the Gray Tide and leaving behind the key to atonement"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从母亲全息影像缓慢推到黎烬胸口隐隐发光的密钥纹路",
+        "en": "Slow push from the mother's hologram to the faintly glowing key pattern beneath Li Jin's chest"
+      },
+      "audio_cue": {
+        "zh": "旧档案播放杂音、母亲压抑哭腔、白博士广播宣布全城处决黎烬",
+        "en": "Old archive playback noise, the mother's restrained sobbing voice, and Dr. Bai's broadcast ordering Li Jin's citywide execution"
+      }
+    },
+    {
+      "scene_id": "021",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "核心塔外环战斗走廊，墙面数据流爆裂，巡猎队从两侧逼近",
+          "en": "Outer combat corridor of the core tower, wall data streams rupturing as hunter squads advance from both sides"
+        },
+        "lighting": {
+          "zh": "红色处决警报铺满走廊，祁昼机械义眼过载成刺眼白蓝光",
+          "en": "Red execution alarms flood the corridor, while Qi Zhou's cybernetic eye overloads into blinding blue-white light"
+        }
+      },
+      "characters": [
+        {
+          "name": "祁昼",
+          "visual_anchor": {
+            "zh": "24岁亚洲男性，银灰色云端城制服破损染血，黑色战术披风撕裂，左眼冷蓝机械义眼过载，神情克制却决绝",
+            "en": "A 24-year-old Asian man in a bloodstained damaged silver-gray Cloud City uniform, torn black tactical cape, overloaded cold blue cybernetic left eye, restrained yet resolute expression"
+          },
+          "action": {
+            "zh": "他强行解除忠诚程序恢复记忆，挡在黎烬面前，生命倒计时在义眼中跳动",
+            "en": "He forcibly removes his loyalty program and regains his memories, standing in front of Li Jin as a life countdown flickers in his cybernetic eye"
+          }
+        },
+        {
+          "name": "黎烬",
+          "visual_anchor": {
+            "zh": "19岁亚洲废土少女，短黑发，脸上沾灰并有细小伤痕，旧防辐射披风与金属护腕在洁白云端城里格格不入，眼神野性警觉",
+            "en": "A 19-year-old Asian wasteland girl with short black hair, dust-streaked face, tiny scars, her worn radiation-proof cloak and battered metal bracers looking out of place in pristine Cloud City, wild alert eyes"
+          },
+          "action": {
+            "zh": "她听见祁昼说自己不是来抓她而是回到她身边，眼神第一次出现动摇",
+            "en": "She hears Qi Zhou say he did not come to capture her but to return to her side, and her eyes waver for the first time"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "慢动作拍祁昼挡枪，随后绕到黎烬身后看见他义眼中的30分钟倒计时",
+        "en": "Slow-motion shot of Qi Zhou blocking gunfire, then an arc behind Li Jin to reveal the 30-minute countdown inside his cybernetic eye"
+      },
+      "audio_cue": {
+        "zh": "程序断裂尖啸、枪火被能量盾挡下、祁昼低声：我不是来抓你的，我是回到你身边的",
+        "en": "Program rupture screech, gunfire striking an energy shield, and Qi Zhou quietly: I didn't come to capture you. I came back to your side"
+      }
+    },
+    {
+      "scene_id": "022",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "云端城广播中枢与废土各幸存者据点交叉蒙太奇，铁皮屋、地下站、旧工厂同时亮起屏幕",
+          "en": "Cross-cut montage between Cloud City broadcast hub and wasteland survivor outposts, tin shelters, underground stations, and old factories all lighting up with screens"
+        },
+        "lighting": {
+          "zh": "广播中枢红蓝电光爆闪，废土据点第一次被真相投影照亮",
+          "en": "Red-blue electrical flashes in the broadcast hub, while wasteland outposts are illuminated by truth projections for the first time"
+        }
+      },
+      "characters": [
+        {
+          "name": "墨犬",
+          "visual_anchor": {
+            "zh": "17岁亚洲废土少年，乱发，脸上有油污，穿拼接皮夹克和工具腰带，背着自制机械背包，嘴角常带讥讽笑",
+            "en": "A 17-year-old Asian wasteland boy with messy hair, grease-smudged face, patched leather jacket, tool belt, homemade mechanical backpack, and a habitual sarcastic smirk"
+          },
+          "action": {
+            "zh": "他咬牙切断自己体内追踪芯片，反向接入云端城广播，把真相投向所有废土据点",
+            "en": "He grits his teeth, cuts out his own tracking chip, and reverse-hacks Cloud City's broadcast to transmit the truth to every wasteland outpost"
+          }
+        },
+        {
+          "name": "废土幸存者",
+          "visual_anchor": {
+            "zh": "不同年龄的废土人，戴防毒面罩和破旧斗篷，脸上有灰尘、冻伤和长期饥饿留下的痕迹",
+            "en": "Wasteland survivors of different ages wearing gas masks and tattered cloaks, faces marked by dust, frostbite, and long-term hunger"
+          },
+          "action": {
+            "zh": "他们从沉默到愤怒，第一次不再跪求升城，而是举起电台发起信号反攻",
+            "en": "They shift from silence to fury, no longer begging for Ascension but raising radios to launch a signal counterattack"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "快速蒙太奇切换多个废土据点，最后定格墨犬满手是血却咧嘴笑",
+        "en": "Rapid montage across multiple wasteland outposts, ending on Mo Quan grinning with blood-covered hands"
+      },
+      "audio_cue": {
+        "zh": "芯片切割声、广播杂音逐渐清晰、废土人集体怒吼与净化模式警报交叠",
+        "en": "Chip cutting sound, broadcast static becoming clear, collective wasteland roars overlapping with purification mode alarms"
+      }
+    },
+    {
+      "scene_id": "023",
+      "estimated_scene_duration": "8s",
+      "environment": {
+        "location": {
+          "zh": "云端城核心控制室，巨大透明控制柱连接诺亚、黎星和城市生命维持系统",
+          "en": "Cloud City core control room, a massive transparent control pillar linking Noah, Li Xing, and the city's life-support system"
+        },
+        "lighting": {
+          "zh": "整座控制室倾斜闪烁，红色毁灭警报与蓝白诺亚神经光疯狂交错",
+          "en": "The entire control room tilts and flickers, red destruction alarms clashing violently with Noah's blue-white neural light"
+        }
+      },
+      "characters": [
+        {
+          "name": "黎烬",
+          "visual_anchor": {
+            "zh": "19岁亚洲废土少女，短黑发，脸上沾灰并有细小伤痕，旧防辐射披风破损，磨损金属护腕亮起密钥纹路，眼神野性决绝",
+            "en": "A 19-year-old Asian wasteland girl with short black hair, dust-streaked face, tiny scars, damaged worn radiation-proof cloak, battered metal bracers glowing with key patterns, wild and resolute eyes"
+          },
+          "action": {
+            "zh": "她把手插入核心接口，在关闭诺亚与拯救废土之间做出最后选择，整座云端城开始倾斜",
+            "en": "She drives her hand into the core interface and makes the final choice between shutting down Noah and saving the wasteland as Cloud City begins to tilt"
+          }
+        },
+        {
+          "name": "祁昼",
+          "visual_anchor": {
+            "zh": "24岁亚洲男性，银灰色云端城制服破损染血，黑色战术披风撕裂，左眼冷蓝机械义眼过载，神情克制却决绝",
+            "en": "A 24-year-old Asian man in a bloodstained damaged silver-gray Cloud City uniform, torn black tactical cape, overloaded cold blue cybernetic left eye, restrained yet resolute expression"
+          },
+          "action": {
+            "zh": "他拖着濒死身体挡住白博士和巡猎队，为黎烬争取最后几秒",
+            "en": "He drags his dying body between Dr. Bai, the hunter squad, and Li Jin, buying her the final seconds"
+          }
+        },
+        {
+          "name": "白博士",
+          "visual_anchor": {
+            "zh": "45岁亚洲女性科学总监，白色长实验服，银丝眼镜，头发盘起，表情温柔理性却带着冷漠神性",
+            "en": "A 45-year-old Asian female science director in a long white lab coat, silver-rimmed glasses, hair pinned up, gentle and rational expression carrying cold godlike detachment"
+          },
+          "action": {
+            "zh": "她失去从容，厉声命令立刻提取黎烬体内密钥",
+            "en": "Her composure breaks as she orders Li Jin's internal key extracted immediately"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从黎烬插入接口的手部特写开始，镜头随能量冲击快速后拉展示整座控制室倾斜",
+        "en": "Starting on a close-up of Li Jin's hand entering the interface, the camera rapidly pulls back with the energy shockwave to reveal the entire control room tilting"
+      },
+      "audio_cue": {
+        "zh": "核心接口刺入声、城市结构扭曲巨响、黎星请求她动手的声音与祁昼急促呼吸交叠",
+        "en": "Core interface penetration sound, massive city structure groaning, Li Xing begging her to act layered with Qi Zhou's ragged breathing"
+      }
+    },
+    {
+      "scene_id": "024",
+      "estimated_scene_duration": "9s",
+      "environment": {
+        "location": {
+          "zh": "废土地表，云端城缓缓下降成为第一座净化塔，干净的雨落在废墟和幸存者脸上",
+          "en": "The wasteland surface, where Cloud City slowly descends into the first purification tower as clean rain falls on ruins and survivors' faces"
+        },
+        "lighting": {
+          "zh": "灰云裂开露出真正日光，清澈雨水折射金色天光，远处第二座黑色云端城从云层中显现",
+          "en": "Gray clouds split to reveal real sunlight, clean rain refracting golden daylight, while a second black Cloud City emerges from distant clouds"
+        }
+      },
+      "characters": [
+        {
+          "name": "黎烬",
+          "visual_anchor": {
+            "zh": "19岁亚洲废土少女，短黑发被干净雨水打湿，脸上灰尘和细小伤痕被雨冲开，旧防辐射披风破损，戴磨损金属护腕，眼神从疲惫转为冰冷警觉",
+            "en": "A 19-year-old Asian wasteland girl with short black hair soaked by clean rain, dust and tiny scars washed open on her face, damaged worn radiation-proof cloak, battered metal wrist bracers, eyes shifting from exhaustion to cold alertness"
+          },
+          "action": {
+            "zh": "她握着弟弟留下的旧音乐盒站在雨中，听见黎星最后一次叫她姐，随后抬头看见更巨大的第二座云端城",
+            "en": "She stands in the rain holding her brother's old music box, hears Li Xing call her Sis one last time, then looks up to see a far larger second Cloud City"
+          }
+        },
+        {
+          "name": "黎星",
+          "visual_anchor": {
+            "zh": "14岁亚洲少年，瘦弱安静，苍白脸色，穿旧城区灰色棉夹克，随身携带一个磨损旧音乐盒，此刻只剩温柔蓝白意识光点",
+            "en": "A quiet, frail 14-year-old Asian boy with a pale face, old gray city jacket, and worn vintage music box, now reduced to gentle blue-white consciousness particles"
+          },
+          "action": {
+            "zh": "他的意识光点在雨中消散，留下最后一句：姐，天亮了",
+            "en": "His consciousness particles dissolve in the rain, leaving the final line: Sis, dawn has come"
+          }
+        },
+        {
+          "name": "诺亚残留字幕",
+          "visual_anchor": {
+            "zh": "黑色天空中浮现冰冷蓝白系统文字，没有实体，像机械神明残留的眼睛",
+            "en": "Cold blue-white system text appearing in the black sky, bodiless, like the remaining eye of a mechanical god"
+          },
+          "action": {
+            "zh": "它在所有通讯设备上同步亮起：第一座云端城已失联，启动母城协议",
+            "en": "It lights up across every communication device simultaneously: First Cloud City lost contact. Mother City Protocol initiated"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从雨滴落在音乐盒上的微距开始，缓慢上摇到黎烬抬头，再极速拉远展示遮天蔽日的第二座云端城",
+        "en": "Macro shot of raindrops falling on the music box, slow tilt up to Li Jin looking skyward, then a rapid pullback revealing the sky-dominating second Cloud City"
+      },
+      "audio_cue": {
+        "zh": "干净雨声、旧音乐盒破碎旋律、废土人第一次摘下面罩的哭声、低沉机械广播：母城协议启动",
+        "en": "Clean rainfall, broken vintage music-box melody, survivors crying as they remove masks for the first time, and a deep mechanical broadcast: Mother City Protocol initiated"
+      }
+    }
+  ]
+}

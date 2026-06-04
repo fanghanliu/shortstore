@@ -1,0 +1,17 @@
+{
+  "slug": "office-reversal-room",
+  "primaryMode": "ai_short_drama",
+  "supportedModes": [
+    "ai_short_drama"
+  ],
+  "defaultAspectRatio": "9:16",
+  "episodeDurationSeconds": {
+    "min": 45,
+    "max": 75
+  },
+  "panelCount": {
+    "min": 6,
+    "max": 9
+  },
+  "visualStyle": "职场悬疑题材，现代短剧电影感，冷暖对比，证据特写，强情绪表演"
+}

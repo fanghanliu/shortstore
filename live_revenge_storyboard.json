@@ -1,0 +1,1125 @@
+{
+  "global_metadata": {
+    "video_type": {
+      "zh": "现代都市直播逆袭账号复仇爽文反转短剧",
+      "en": "Modern Urban Livestream Revenge Comeback Thriller"
+    },
+    "recommended_aspect_ratio": "9:16 (竖屏短剧 / Vertical Short Drama)",
+    "target_platforms": [
+      "抖音",
+      "快手",
+      "小红书",
+      "视频号",
+      "TikTok",
+      "YouTube Shorts",
+      "ReelShort",
+      "Kling",
+      "Runway",
+      "Sora"
+    ],
+    "visual_style_tags": [
+      "直播间审判 / Livestream Trial",
+      "都市舆论战 / Urban Public Opinion War",
+      "账号逆袭 / Account Comeback",
+      "冷光屏幕美学 / Cold Screen Glow Aesthetic",
+      "爽文打脸节奏 / Face-Slapping Revenge Rhythm",
+      "全网围观 / Viral Public Spectacle"
+    ],
+    "estimated_total_duration": "36-72分钟 / 36-72 minutes"
+  },
+  "scenes": [
+    {
+      "scene_id": "001",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "深夜，廉价出租屋改成的临时直播间，黑色桌布、补光灯和一支旧口红摆在镜头前",
+          "en": "Late night makeshift livestream room in a cheap apartment, black table cloth, ring light, old lipstick placed before the camera"
+        },
+        "lighting": {
+          "zh": "单盏冷白补光灯打在口红和温栀手上，背景几乎全黑，屏幕弹幕冷光映出她半张脸",
+          "en": "Cold white ring light on the lipstick and Wen Zhi's hand, nearly black background, livestream comments glow across half her face"
+        }
+      },
+      "characters": [
+        {
+          "name": "温栀",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，冷艳疲惫但眼神清醒，黑色西装外套，低马尾，干净冷调妆容，直播镜头前克制锋利",
+            "en": "A 29-year-old Asian woman, cold elegant and exhausted yet clear-eyed, black blazer, low ponytail, restrained cool-toned makeup, sharp composure on livestream camera"
+          },
+          "action": {
+            "zh": "她没有露脸，只把三年前被判定为假货的口红推到镜头中央，手指稳稳按下开播键",
+            "en": "She stays off-camera, pushes the lipstick once judged fake into frame, and calmly taps the go-live button"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从直播开播按钮特写切到在线人数7，再缓慢推近口红批号",
+        "en": "Cut from the go-live button close-up to viewer count 7, then slowly push in on the lipstick batch code"
+      },
+      "audio_cue": {
+        "zh": "空调低鸣、键盘轻响、零星弹幕提示音，温栀低声说：今晚不带货，只还债",
+        "en": "Low air-conditioner hum, soft keyboard tap, sparse comment pings, Wen Zhi says: no selling tonight, only debt repayment"
+      }
+    },
+    {
+      "scene_id": "002",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "同一直播间，弹幕投屏墙突然刷满辱骂账号，后台数据面板在副屏闪烁",
+          "en": "Same livestream room, comment wall flooded by abusive accounts, backend data dashboard flickering on side monitor"
+        },
+        "lighting": {
+          "zh": "冷蓝屏幕光压住房间，辱骂弹幕用红色高亮框逐个标记",
+          "en": "Cold blue screen light fills the room, abusive comments are highlighted one by one in red boxes"
+        }
+      },
+      "characters": [
+        {
+          "name": "温栀",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，冷艳疲惫但眼神清醒，黑色西装外套，低马尾，干净冷调妆容，直播镜头前克制锋利",
+            "en": "A 29-year-old Asian woman, cold elegant and exhausted yet clear-eyed, black blazer, low ponytail, restrained cool-toned makeup, sharp composure on livestream camera"
+          },
+          "action": {
+            "zh": "她不关弹幕，反而把骂得最狠的账号逐一投屏标红，表情冷静到近乎审判",
+            "en": "She does not close comments, instead marks the most abusive accounts on screen, calm like a judge"
+          }
+        },
+        {
+          "name": "陆沉舟",
+          "visual_anchor": {
+            "zh": "31岁亚洲男性，冷静克制，黑框眼镜，深灰衬衫，技术取证师气质，屏幕蓝光映脸",
+            "en": "A 31-year-old Asian man, calm and restrained, black-rim glasses, dark gray shirt, digital forensic analyst presence, blue screen glow on his face"
+          },
+          "action": {
+            "zh": "他在远程数据室追踪水军来源，黑框眼镜反射出同一个MCN水军池地址",
+            "en": "He traces the troll source in a remote data room, black-rim glasses reflecting the same MCN bot pool address"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "分屏镜头：左侧温栀直播间，右侧陆沉舟数据追踪界面，最后合到水军订单备注特写",
+        "en": "Split-screen: Wen Zhi's livestream on the left, Lu Chenzhou's tracking dashboard on the right, ending on the troll order note close-up"
+      },
+      "audio_cue": {
+        "zh": "密集弹幕声、数据锁定提示音、温栀念出备注：今晚必须逼她下播",
+        "en": "Dense comment pings, data lock sound, Wen Zhi reads the note: force her offline tonight"
+      }
+    },
+    {
+      "scene_id": "003",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "直播间切换成消费者维权普法现场，桌面摆着三年前质检报告、律师连麦窗口和商品样本",
+          "en": "Livestream switches into consumer rights legal education setup, old quality report, lawyer call window, product sample on table"
+        },
+        "lighting": {
+          "zh": "白色补光灯变得更明亮，报告纸面反光，律师窗口带有冷蓝边框",
+          "en": "Brighter white ring light, report paper reflecting light, lawyer window framed in cool blue"
+        }
+      },
+      "characters": [
+        {
+          "name": "温栀",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，冷艳疲惫但眼神清醒，黑色西装外套，低马尾，干净冷调妆容，直播镜头前克制锋利",
+            "en": "A 29-year-old Asian woman, cold elegant and exhausted yet clear-eyed, black blazer, low ponytail, restrained cool-toned makeup, sharp composure on livestream camera"
+          },
+          "action": {
+            "zh": "她卡在封禁规则边缘，用消费者维权话术讲完三年前质检漏洞",
+            "en": "She walks the edge of platform rules, explaining the old quality-test loophole as consumer rights education"
+          }
+        },
+        {
+          "name": "陆沉舟",
+          "visual_anchor": {
+            "zh": "31岁亚洲男性，冷静克制，黑框眼镜，深灰衬衫，技术取证师气质，屏幕蓝光映脸",
+            "en": "A 31-year-old Asian man, calm and restrained, black-rim glasses, dark gray shirt, digital forensic analyst presence, blue screen glow on his face"
+          },
+          "action": {
+            "zh": "他盯着封禁倒计时，手指停在防封脚本开关上",
+            "en": "He watches the ban countdown, finger hovering over an anti-ban script switch"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "俯拍报告与口红样本，随后推到律师指出送检人姓名的位置",
+        "en": "Top-down shot of report and lipstick sample, then push to where the lawyer points at the submitter name"
+      },
+      "audio_cue": {
+        "zh": "封禁警告提示音、律师清晰解读声、倒计时归零前的低频鼓点",
+        "en": "Ban warning beep, lawyer's clear explanation, low drum hit before countdown reaches zero"
+      }
+    },
+    {
+      "scene_id": "004",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "乔蔓千万粉直播间，粉色柔光、玩偶背景和大面积暖色滤镜营造无辜人设",
+          "en": "Qiao Man's multi-million follower livestream room, pink soft light, plush background, warm filter for innocent persona"
+        },
+        "lighting": {
+          "zh": "暖粉色美颜灯包裹乔蔓，屏幕角落却有工作人员焦急的冷蓝后台光",
+          "en": "Warm pink beauty light wraps Qiao Man, while cold blue backstage monitor glow reveals anxious staff in the corner"
+        }
+      },
+      "characters": [
+        {
+          "name": "乔蔓",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，甜美亲和，小白花主播妆容，浅色针织衫，镜头前会卖惨，眼神深处有慌乱",
+            "en": "A 27-year-old Asian woman, sweet approachable influencer look, pale knitwear, tearful innocent livestream persona, panic hidden in her eyes"
+          },
+          "action": {
+            "zh": "她对镜头含泪控诉师父不肯放过自己，擦泪角度精准得像排练过",
+            "en": "She tearfully accuses her mentor on camera, wiping tears at a perfectly rehearsed angle"
+          }
+        },
+        {
+          "name": "温栀",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，冷艳疲惫但眼神清醒，黑色西装外套，低马尾，干净冷调妆容，直播镜头前克制锋利",
+            "en": "A 29-year-old Asian woman, cold elegant and exhausted yet clear-eyed, black blazer, low ponytail, restrained cool-toned makeup, sharp composure on livestream camera"
+          },
+          "action": {
+            "zh": "她在黑暗直播间里只发出一条预告，眼神没有任何波动",
+            "en": "In her dark room, Wen Zhi posts one preview message with no emotion in her eyes"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "先用乔蔓柔焦近景，再硬切温栀冷色屏幕和预告文案特写",
+        "en": "Start with Qiao Man soft-focus close-up, hard cut to Wen Zhi's cold screen and preview post close-up"
+      },
+      "audio_cue": {
+        "zh": "乔蔓哽咽声、粉丝刷屏音、温栀房间里只有鼠标点击声",
+        "en": "Qiao Man sobbing, fan comment spam, only mouse clicks in Wen Zhi's room"
+      }
+    },
+    {
+      "scene_id": "005",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "温栀直播间变成拆解课堂，屏幕上并排播放乔蔓现在哭戏和三年前彩排视频",
+          "en": "Wen Zhi's livestream becomes a breakdown class, screen comparing Qiao Man's current crying act with rehearsal footage from three years ago"
+        },
+        "lighting": {
+          "zh": "冷白教学灯照亮温栀，两个视频窗口一暖一冷形成强烈对比",
+          "en": "Cold teaching light on Wen Zhi, two video windows warm and cold in strong contrast"
+        }
+      },
+      "characters": [
+        {
+          "name": "温栀",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，冷艳疲惫但眼神清醒，黑色西装外套，低马尾，干净冷调妆容，直播镜头前克制锋利",
+            "en": "A 29-year-old Asian woman, cold elegant and exhausted yet clear-eyed, black blazer, low ponytail, restrained cool-toned makeup, sharp composure on livestream camera"
+          },
+          "action": {
+            "zh": "她逐帧拆解乔蔓停顿、侧脸、擦泪角度和关键词植入，语气像在讲直播课",
+            "en": "She breaks down Qiao Man's pauses, side profile, tear wiping angle, and keywords frame by frame like teaching a livestream class"
+          }
+        },
+        {
+          "name": "乔蔓",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，甜美亲和，小白花主播妆容，浅色针织衫，镜头前会卖惨，眼神深处有慌乱",
+            "en": "A 27-year-old Asian woman, sweet approachable influencer look, pale knitwear, tearful innocent livestream persona, panic hidden in her eyes"
+          },
+          "action": {
+            "zh": "彩排视频里的她反复练习控诉台词，笑场后又立刻进入哭腔",
+            "en": "In rehearsal footage she practices accusation lines repeatedly, laughs, then instantly resumes crying"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "屏幕录制感快速切换，最后定格周启明声音出现时温栀抬眼的瞬间",
+        "en": "Screen-recording style fast cuts, ending frozen on Wen Zhi looking up as Zhou Qiming's voice appears"
+      },
+      "audio_cue": {
+        "zh": "视频倒放声、鼠标点击声、周启明录音：哭狠一点，明天你就是新一姐",
+        "en": "Video rewind sound, mouse clicks, Zhou Qiming's recording: cry harder, tomorrow you'll be the new queen"
+      }
+    },
+    {
+      "scene_id": "006",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "陆沉舟的独立数据取证工作室，多屏幕显示账号风控路径和平台封禁模型",
+          "en": "Lu Chenzhou's independent forensic studio, multiple screens showing account risk paths and platform ban model"
+        },
+        "lighting": {
+          "zh": "屏幕蓝光切割黑暗，陆沉舟脸部一半明一半暗，技术感压迫",
+          "en": "Blue screen light cuts through darkness, Lu's face half-lit, half-shadowed, technical pressure"
+        }
+      },
+      "characters": [
+        {
+          "name": "温栀",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，冷艳疲惫但眼神清醒，黑色西装外套，低马尾，干净冷调妆容，直播镜头前克制锋利",
+            "en": "A 29-year-old Asian woman, cold elegant and exhausted yet clear-eyed, black blazer, low ponytail, restrained cool-toned makeup, sharp composure on livestream camera"
+          },
+          "action": {
+            "zh": "她站在直播间门口与陆沉舟对峙，问他是来封她还是来帮她",
+            "en": "She confronts Lu at the livestream room door, asking if he came to ban her or help her"
+          }
+        },
+        {
+          "name": "陆沉舟",
+          "visual_anchor": {
+            "zh": "31岁亚洲男性，冷静克制，黑框眼镜，深灰衬衫，技术取证师气质，屏幕蓝光映脸",
+            "en": "A 31-year-old Asian man, calm and restrained, black-rim glasses, dark gray shirt, digital forensic analyst presence, blue screen glow on his face"
+          },
+          "action": {
+            "zh": "他拿出三年前后台数据，声音克制地说封号指令不是平台发的",
+            "en": "He presents old backend data and calmly says the ban order did not come from the platform"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从数据屏幕推到陆沉舟眼镜反光，再反打温栀充满敌意的侧脸",
+        "en": "Push from data screens to reflection in Lu's glasses, reverse to Wen Zhi's hostile side profile"
+      },
+      "audio_cue": {
+        "zh": "服务器风扇声、键盘短促敲击、两人之间长时间沉默",
+        "en": "Server fan hum, short keyboard taps, long silence between them"
+      }
+    },
+    {
+      "scene_id": "007",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "直播间大屏显示三年前封号路径可视化图，观众弹幕像雪崩一样涌入",
+          "en": "Livestream big screen shows visualization of the old account ban path, comments flood like an avalanche"
+        },
+        "lighting": {
+          "zh": "蓝白数据线在黑背景上延展，温栀和陆沉舟被屏幕光照成冷色剪影",
+          "en": "Blue-white data lines stretch over black background, Wen Zhi and Lu appear as cool silhouettes"
+        }
+      },
+      "characters": [
+        {
+          "name": "陆沉舟",
+          "visual_anchor": {
+            "zh": "31岁亚洲男性，冷静克制，黑框眼镜，深灰衬衫，技术取证师气质，屏幕蓝光映脸",
+            "en": "A 31-year-old Asian man, calm and restrained, black-rim glasses, dark gray shirt, digital forensic analyst presence, blue screen glow on his face"
+          },
+          "action": {
+            "zh": "他连麦解释外部加密账号权限高于平台内部员工，指针停在星途MCN总部位置",
+            "en": "On call, he explains the external encrypted account had higher privileges than staff, pointer stopping at Xingtu MCN headquarters"
+          }
+        },
+        {
+          "name": "温栀",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，冷艳疲惫但眼神清醒，黑色西装外套，低马尾，干净冷调妆容，直播镜头前克制锋利",
+            "en": "A 29-year-old Asian woman, cold elegant and exhausted yet clear-eyed, black blazer, low ponytail, restrained cool-toned makeup, sharp composure on livestream camera"
+          },
+          "action": {
+            "zh": "她没有解释，只把证据路径放大到全屏，让观众自己看懂",
+            "en": "She does not explain, only enlarges the evidence path full-screen for viewers to understand"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "数据路径从平台节点一路追踪到MCN总部，最后切温栀沉默的眼睛",
+        "en": "Track the data path from platform node to MCN headquarters, then cut to Wen Zhi's silent eyes"
+      },
+      "audio_cue": {
+        "zh": "数据连线音、弹幕爆炸提示、观众倒吸气般的群体低鸣",
+        "en": "Data connection tones, exploding comment alerts, collective gasp-like ambience"
+      }
+    },
+    {
+      "scene_id": "008",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "周启明豪华直播间，深色木质背景、行业奖杯和认责协议摆在桌面中央",
+          "en": "Zhou Qiming's luxury livestream room, dark wood background, industry trophies, liability agreement on the desk"
+        },
+        "lighting": {
+          "zh": "暖金商业灯打在奖杯上，协议纸面被一束冷光切开",
+          "en": "Warm gold business light on trophies, a cold beam cuts across the agreement paper"
+        }
+      },
+      "characters": [
+        {
+          "name": "周启明",
+          "visual_anchor": {
+            "zh": "38岁亚洲男性，星途MCN老板，深色商务西装，笑容温和但压迫感强，手戴昂贵腕表",
+            "en": "A 38-year-old Asian man, MCN boss in dark business suit, gentle smile with oppressive aura, expensive wristwatch"
+          },
+          "action": {
+            "zh": "他温和地说温栀三年前就有被害妄想，并展示认责协议",
+            "en": "He calmly claims Wen Zhi had persecution delusions and shows the liability agreement"
+          }
+        },
+        {
+          "name": "温栀",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，冷艳疲惫但眼神清醒，黑色西装外套，低马尾，干净冷调妆容，直播镜头前克制锋利",
+            "en": "A 29-year-old Asian woman, cold elegant and exhausted yet clear-eyed, black blazer, low ponytail, restrained cool-toned makeup, sharp composure on livestream camera"
+          },
+          "action": {
+            "zh": "她没有否认签字，只冷声说签字时母亲在他们手里",
+            "en": "She does not deny signing, only says coldly that her mother was in their hands"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "先拍周启明稳重中景，再切温栀直播间冷色特写，最后插入医院监控画面",
+        "en": "Start on Zhou's composed medium shot, cut to Wen Zhi's cold close-up, insert hospital surveillance footage"
+      },
+      "audio_cue": {
+        "zh": "奖杯轻碰声、协议翻页声、温栀一句话后直播间弹幕瞬间静音",
+        "en": "Trophy clink, paper turning, livestream comments fall silent after Wen Zhi's line"
+      }
+    },
+    {
+      "scene_id": "009",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "医院单人病房，夜色窗户、呼吸机、病床边放着三年前网暴剪报和旧手机",
+          "en": "Single hospital ward at night, window darkness, ventilator, old cyberbullying clippings and phone by the bed"
+        },
+        "lighting": {
+          "zh": "病房顶灯昏白，手机屏幕突然亮起绿色提示光，温栀脸上第一次出现裂缝",
+          "en": "Dim white ward light, old phone suddenly glows green, Wen Zhi's expression cracks for the first time"
+        }
+      },
+      "characters": [
+        {
+          "name": "温栀",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，冷艳疲惫但眼神清醒，黑色西装外套，低马尾，干净冷调妆容，直播镜头前克制锋利",
+            "en": "A 29-year-old Asian woman, cold elegant and exhausted yet clear-eyed, black blazer, low ponytail, restrained cool-toned makeup, sharp composure on livestream camera"
+          },
+          "action": {
+            "zh": "她带镜头走到母亲床边，努力保持平静却在三秒内失控又收回",
+            "en": "She brings the camera to her mother's bed, nearly breaks down for three seconds, then regains control"
+          }
+        },
+        {
+          "name": "温母",
+          "visual_anchor": {
+            "zh": "病床上的中年亚洲女性，苍白虚弱，手指微颤，病房灯光下显得安静而脆弱",
+            "en": "A middle-aged Asian woman in hospital bed, pale and weak, trembling fingers, fragile under ward lighting"
+          },
+          "action": {
+            "zh": "她昏迷躺在病床上，手指几乎不可见地颤了一下",
+            "en": "She lies unconscious, fingers trembling almost imperceptibly"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "手持镜头进入病房，慢慢推近旧手机收到短信的屏幕光",
+        "en": "Handheld camera enters ward, slowly pushes to old phone screen glow"
+      },
+      "audio_cue": {
+        "zh": "呼吸机规律声、直播间弹幕渐渐变少、短信提示音突兀刺耳",
+        "en": "Regular ventilator beeps, comments fade, sudden sharp text alert"
+      }
+    },
+    {
+      "scene_id": "010",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "温栀深夜登录旧邮箱，屏幕上打开林晚未发送邮件，房间只有电脑冷光",
+          "en": "Wen Zhi logs into old email late at night, opening Lin Wan's unsent email, room lit only by cold monitor light"
+        },
+        "lighting": {
+          "zh": "电脑蓝光照亮温栀僵硬的脸，背景全黑，邮件附件损坏图标闪烁",
+          "en": "Blue monitor glow lights Wen Zhi's frozen face, black background, corrupted attachment icon blinking"
+        }
+      },
+      "characters": [
+        {
+          "name": "温栀",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，冷艳疲惫但眼神清醒，黑色西装外套，低马尾，干净冷调妆容，直播镜头前克制锋利",
+            "en": "A 29-year-old Asian woman, cold elegant and exhausted yet clear-eyed, black blazer, low ponytail, restrained cool-toned makeup, sharp composure on livestream camera"
+          },
+          "action": {
+            "zh": "她看到标题写着如果我死了查乔蔓，指尖停在鼠标上许久没有动",
+            "en": "She sees the title saying if I die, investigate Qiao Man, her finger frozen on the mouse"
+          }
+        },
+        {
+          "name": "林晚",
+          "visual_anchor": {
+            "zh": "已故年轻女助理，素净白衬衫，疲惫眼神，常以旧视频、邮件残影和监控画面出现",
+            "en": "A deceased young female assistant, plain white shirt, tired eyes, appearing through old videos, email traces, and surveillance footage"
+          },
+          "action": {
+            "zh": "她以旧邮件残影出现，像从三年前的黑暗里发出最后一次求救",
+            "en": "She appears as an old email trace, like a final cry for help from three years ago"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从邮箱收件箱俯拍推到温栀瞳孔反光，再切损坏视频缩略图",
+        "en": "Top-down shot of inbox pushing into Wen Zhi's reflected pupils, then cut to corrupted video thumbnail"
+      },
+      "audio_cue": {
+        "zh": "老电脑硬盘声、邮件打开音、远处城市夜雨声压低",
+        "en": "Old hard-drive hum, email opening sound, distant city rain subdued"
+      }
+    },
+    {
+      "scene_id": "011",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "MCN仓库旧视频画面，货架阴影、假货箱和直播前备货区被监控噪点覆盖",
+          "en": "Old MCN warehouse video, shelf shadows, counterfeit boxes, pre-livestream packing area under surveillance noise"
+        },
+        "lighting": {
+          "zh": "监控黑白绿噪点和手电光交替，林晚偷拍画面不断抖动",
+          "en": "Black-white-green surveillance noise and flashlight beams alternate, Lin Wan's hidden footage shakes"
+        }
+      },
+      "characters": [
+        {
+          "name": "林晚",
+          "visual_anchor": {
+            "zh": "已故年轻女助理，素净白衬衫，疲惫眼神，常以旧视频、邮件残影和监控画面出现",
+            "en": "A deceased young female assistant, plain white shirt, tired eyes, appearing through old videos, email traces, and surveillance footage"
+          },
+          "action": {
+            "zh": "她躲在货架后偷拍假货调包过程，呼吸越来越急",
+            "en": "She hides behind shelves filming product swap, breathing faster"
+          }
+        },
+        {
+          "name": "温栀",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，冷艳疲惫但眼神清醒，黑色西装外套，低马尾，干净冷调妆容，直播镜头前克制锋利",
+            "en": "A 29-year-old Asian woman, cold elegant and exhausted yet clear-eyed, black blazer, low ponytail, restrained cool-toned makeup, sharp composure on livestream camera"
+          },
+          "action": {
+            "zh": "她在现实直播间看着修复视频，眼神从悲伤变成冷硬",
+            "en": "In the present livestream room she watches restored footage, grief hardening into resolve"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "监控素材全屏播放，忽然暂停在许嘉年鞋子入镜的一帧",
+        "en": "Surveillance footage plays full-screen, abruptly pauses on a frame showing Xu Jianian's shoes"
+      },
+      "audio_cue": {
+        "zh": "视频噪点、电流修复声、林晚压低的喘息声",
+        "en": "Video noise, digital repair crackle, Lin Wan's suppressed breathing"
+      }
+    },
+    {
+      "scene_id": "012",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "许嘉年娱乐直播间，彩灯、夸张道具和满屏礼物特效营造轻松气氛",
+          "en": "Xu Jianian's entertainment livestream room, colorful lights, exaggerated props, gift effects filling the screen"
+        },
+        "lighting": {
+          "zh": "彩色舞台灯很热闹，温栀连麦窗口的冷白光像刀一样切入画面",
+          "en": "Colorful stage lights feel lively, Wen Zhi's cold call-in window cuts into the frame like a blade"
+        }
+      },
+      "characters": [
+        {
+          "name": "许嘉年",
+          "visual_anchor": {
+            "zh": "26岁亚洲男性，流量男主播，潮牌外套，笑容讨喜，镜头感强，真实情绪常被玩笑掩盖",
+            "en": "A 26-year-old Asian male livestreamer, trendy jacket, charming smile, camera-savvy, hiding real emotion behind jokes"
+          },
+          "action": {
+            "zh": "他用搞笑话术否认自己在场，笑容在温栀问出林晚求救时僵住",
+            "en": "He jokes to deny being there, smile freezing when Wen Zhi asks if he heard Lin Wan calling for help"
+          }
+        },
+        {
+          "name": "温栀",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，冷艳疲惫但眼神清醒，黑色西装外套，低马尾，干净冷调妆容，直播镜头前克制锋利",
+            "en": "A 29-year-old Asian woman, cold elegant and exhausted yet clear-eyed, black blazer, low ponytail, restrained cool-toned makeup, sharp composure on livestream camera"
+          },
+          "action": {
+            "zh": "她直视镜头连麦发问，不提高音量却让整个直播间沉默",
+            "en": "She asks directly through the call, not raising her voice yet silencing the whole room"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "先跟随许嘉年夸张表演移动，连麦出现后画面突然静止",
+        "en": "Follow Xu's exaggerated performance, then freeze composition when Wen Zhi appears on call"
+      },
+      "audio_cue": {
+        "zh": "礼物音效戛然而止、彩灯电流声、许嘉年吞咽声被放大",
+        "en": "Gift effects abruptly stop, light buzz, Xu swallowing amplified"
+      }
+    },
+    {
+      "scene_id": "013",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "温栀直播间变成全民投票界面，大屏显示查乔蔓还是查许嘉年两个选项",
+          "en": "Wen Zhi's livestream becomes a public voting interface, big screen showing whether to investigate Qiao Man or Xu Jianian"
+        },
+        "lighting": {
+          "zh": "黑色直播背景上投票条用红蓝两色上涨，温栀站在屏幕前像主持审判",
+          "en": "Red and blue voting bars rise on black livestream background, Wen Zhi stands before the screen like a trial host"
+        }
+      },
+      "characters": [
+        {
+          "name": "温栀",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，冷艳疲惫但眼神清醒，黑色西装外套，低马尾，干净冷调妆容，直播镜头前克制锋利",
+            "en": "A 29-year-old Asian woman, cold elegant and exhausted yet clear-eyed, black blazer, low ponytail, restrained cool-toned makeup, sharp composure on livestream camera"
+          },
+          "action": {
+            "zh": "她把观众从吃瓜者变成陪审团，平静宣布今晚你们投票明晚我让他塌房",
+            "en": "She turns viewers into a jury and calmly says vote tonight, tomorrow I make them collapse"
+          }
+        },
+        {
+          "name": "陆沉舟",
+          "visual_anchor": {
+            "zh": "31岁亚洲男性，冷静克制，黑框眼镜，深灰衬衫，技术取证师气质，屏幕蓝光映脸",
+            "en": "A 31-year-old Asian man, calm and restrained, black-rim glasses, dark gray shirt, digital forensic analyst presence, blue screen glow on his face"
+          },
+          "action": {
+            "zh": "他在后台盯着千万级并发数据，防止直播间被恶意挤爆",
+            "en": "He monitors massive concurrent data backstage to prevent malicious overload"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "广角拍温栀与投票大屏，再快速切在线人数飙升曲线",
+        "en": "Wide shot of Wen Zhi and voting screen, fast cut to viewer count surge curve"
+      },
+      "audio_cue": {
+        "zh": "投票提示音、弹幕刷屏、人群审判般的低频鼓点",
+        "en": "Vote pings, comment flood, low trial-like drums"
+      }
+    },
+    {
+      "scene_id": "014",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "乔蔓直播间掉粉夜，粉色布景开始显得廉价，后台粉丝曲线断崖下跌",
+          "en": "Qiao Man's follower-loss night, pink set now looks cheap, backend follower curve plunging"
+        },
+        "lighting": {
+          "zh": "粉色灯光闪烁不稳，后台红色掉粉曲线照亮乔蔓慌乱的脸",
+          "en": "Unstable pink light, red follower-loss graph lights Qiao Man's panicked face"
+        }
+      },
+      "characters": [
+        {
+          "name": "乔蔓",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，甜美亲和，小白花主播妆容，浅色针织衫，镜头前会卖惨，眼神深处有慌乱",
+            "en": "A 27-year-old Asian woman, sweet approachable influencer look, pale knitwear, tearful innocent livestream persona, panic hidden in her eyes"
+          },
+          "action": {
+            "zh": "她哭着说温栀造假，却在仓储签收记录出现后当场破防",
+            "en": "She cries that Wen Zhi faked it, then breaks when warehouse sign-off record appears"
+          }
+        },
+        {
+          "name": "温栀",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，冷艳疲惫但眼神清醒，黑色西装外套，低马尾，干净冷调妆容，直播镜头前克制锋利",
+            "en": "A 29-year-old Asian woman, cold elegant and exhausted yet clear-eyed, black blazer, low ponytail, restrained cool-toned makeup, sharp composure on livestream camera"
+          },
+          "action": {
+            "zh": "她同步开播展示原始仓储记录，语气像在读一张早就准备好的判决书",
+            "en": "She simulcasts original warehouse records, voice like reading a prepared verdict"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "双直播间并排，乔蔓掉粉曲线和温栀在线人数形成反向上升",
+        "en": "Side-by-side livestreams, Qiao Man's follower drop and Wen Zhi's viewers rise in opposite directions"
+      },
+      "audio_cue": {
+        "zh": "掉粉提示连续爆响、乔蔓哭腔崩坏、弹幕倒戈声浪",
+        "en": "Follower-loss alerts, Qiao Man's crying voice breaking, comment tide turning"
+      }
+    },
+    {
+      "scene_id": "015",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "星途MCN会议室，周启明宣布暂停乔蔓直播，玻璃墙外员工低声围观",
+          "en": "Xingtu MCN conference room, Zhou Qiming announces Qiao Man's suspension, employees whisper behind glass"
+        },
+        "lighting": {
+          "zh": "冷白会议灯让所有人脸色惨淡，乔蔓手机封号红色提示异常刺眼",
+          "en": "Cold white meeting lights make faces pale, Qiao Man's red ban notice is glaring"
+        }
+      },
+      "characters": [
+        {
+          "name": "周启明",
+          "visual_anchor": {
+            "zh": "38岁亚洲男性，星途MCN老板，深色商务西装，笑容温和但压迫感强，手戴昂贵腕表",
+            "en": "A 38-year-old Asian man, MCN boss in dark business suit, gentle smile with oppressive aura, expensive wristwatch"
+          },
+          "action": {
+            "zh": "他当众切割乔蔓，笑容仍然体面，像丢掉一个坏掉的商品",
+            "en": "He cuts ties with Qiao Man publicly, smile polished as if discarding defective goods"
+          }
+        },
+        {
+          "name": "乔蔓",
+          "visual_anchor": {
+            "zh": "27岁亚洲女性，甜美亲和，小白花主播妆容，浅色针织衫，镜头前会卖惨，眼神深处有慌乱",
+            "en": "A 27-year-old Asian woman, sweet approachable influencer look, pale knitwear, tearful innocent livestream persona, panic hidden in her eyes"
+          },
+          "action": {
+            "zh": "她想开播反咬周启明，却看到封号提示和三年前温栀的一模一样",
+            "en": "She tries to livestream against Zhou, then sees the same ban notice Wen Zhi received three years ago"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从会议桌全景推到乔蔓手机封号提示，再切周启明无波表情",
+        "en": "Push from full conference table to Qiao Man's ban notice, then cut to Zhou's emotionless face"
+      },
+      "audio_cue": {
+        "zh": "会议室空调声、手机错误提示音、乔蔓呼吸发抖",
+        "en": "AC hum, phone error beep, Qiao Man's trembling breath"
+      }
+    },
+    {
+      "scene_id": "016",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "陆沉舟数据室，两个封号模板重叠在全息屏上，权限路径指向更高层资本节点",
+          "en": "Lu's data room, two ban templates overlapping on holographic screen, permission path pointing to higher capital node"
+        },
+        "lighting": {
+          "zh": "蓝色代码瀑布和红色权限节点交错，温栀站在屏幕前像面对一张捕猎网",
+          "en": "Blue code rain and red permission nodes interweave, Wen Zhi stands before the screen like facing a hunting net"
+        }
+      },
+      "characters": [
+        {
+          "name": "陆沉舟",
+          "visual_anchor": {
+            "zh": "31岁亚洲男性，冷静克制，黑框眼镜，深灰衬衫，技术取证师气质，屏幕蓝光映脸",
+            "en": "A 31-year-old Asian man, calm and restrained, black-rim glasses, dark gray shirt, digital forensic analyst presence, blue screen glow on his face"
+          },
+          "action": {
+            "zh": "他发现乔蔓封号和温栀三年前使用同一套外部权限系统",
+            "en": "He discovers Qiao Man's ban used the same external permission system as Wen Zhi's old ban"
+          }
+        },
+        {
+          "name": "温栀",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，冷艳疲惫但眼神清醒，黑色西装外套，低马尾，干净冷调妆容，直播镜头前克制锋利",
+            "en": "A 29-year-old Asian woman, cold elegant and exhausted yet clear-eyed, black blazer, low ponytail, restrained cool-toned makeup, sharp composure on livestream camera"
+          },
+          "action": {
+            "zh": "她公开喊话周启明也不过是别人养的一条狗，眼神冷到让弹幕停顿",
+            "en": "She publicly says Zhou is only someone else's dog, eyes so cold comments pause"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "屏幕路径层层上推，镜头最后停在未知资本节点的黑色空位",
+        "en": "Path climbs layer by layer, camera stops at an unknown black capital node"
+      },
+      "audio_cue": {
+        "zh": "数据警报声、权限锁打开声、温栀声音压低",
+        "en": "Data alert, permission lock opening, Wen Zhi's voice lowering"
+      }
+    },
+    {
+      "scene_id": "017",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "医院夜间突然断电，走廊应急灯闪烁，温母病房门半开",
+          "en": "Hospital power outage at night, emergency hallway lights flickering, Wen's mother's ward door half open"
+        },
+        "lighting": {
+          "zh": "红色应急灯和手机手电光交替照亮病床，呼吸机屏幕黑了一半",
+          "en": "Red emergency light and phone flashlight alternate over bed, ventilator screen half dark"
+        }
+      },
+      "characters": [
+        {
+          "name": "温栀",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，冷艳疲惫但眼神清醒，黑色西装外套，低马尾，干净冷调妆容，直播镜头前克制锋利",
+            "en": "A 29-year-old Asian woman, cold elegant and exhausted yet clear-eyed, black blazer, low ponytail, restrained cool-toned makeup, sharp composure on livestream camera"
+          },
+          "action": {
+            "zh": "她冲进病房，发现呼吸机被拔掉一半，第一次完全失去直播间里的冷静",
+            "en": "She rushes in and finds ventilator half-unplugged, losing her livestream composure for the first time"
+          }
+        },
+        {
+          "name": "温母",
+          "visual_anchor": {
+            "zh": "病床上的中年亚洲女性，苍白虚弱，手指微颤，病房灯光下显得安静而脆弱",
+            "en": "A middle-aged Asian woman in hospital bed, pale and weak, trembling fingers, fragile under ward lighting"
+          },
+          "action": {
+            "zh": "她苍白躺着，氧气管轻轻晃动，生命体征微弱",
+            "en": "She lies pale, oxygen tube shaking slightly, vitals weak"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "手持奔跑镜头穿过黑暗走廊，猛推到呼吸机接口特写",
+        "en": "Handheld running shot through dark hallway, hard push to ventilator connector close-up"
+      },
+      "audio_cue": {
+        "zh": "断电嗡鸣、护士远处喊声、呼吸机警报声尖锐刺耳",
+        "en": "Power-down hum, distant nurse shouts, sharp ventilator alarm"
+      }
+    },
+    {
+      "scene_id": "018",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "病房外空楼梯间，U盘内容投影在墙面上，显示陆沉舟三年前封号工作记录",
+          "en": "Empty hospital stairwell, USB contents projected on wall showing Lu's old account-ban work records"
+        },
+        "lighting": {
+          "zh": "楼梯间冷白灯忽明忽暗，投影蓝光打在温栀和陆沉舟对峙的脸上",
+          "en": "Flickering cold stairwell light, blue projection on Wen Zhi and Lu confronting each other"
+        }
+      },
+      "characters": [
+        {
+          "name": "温栀",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，冷艳疲惫但眼神清醒，黑色西装外套，低马尾，干净冷调妆容，直播镜头前克制锋利",
+            "en": "A 29-year-old Asian woman, cold elegant and exhausted yet clear-eyed, black blazer, low ponytail, restrained cool-toned makeup, sharp composure on livestream camera"
+          },
+          "action": {
+            "zh": "她攥着U盘质问陆沉舟为什么封她98次，眼神像要把他撕开",
+            "en": "She clutches the USB and asks why Lu banned her 98 times, eyes like tearing him apart"
+          }
+        },
+        {
+          "name": "陆沉舟",
+          "visual_anchor": {
+            "zh": "31岁亚洲男性，冷静克制，黑框眼镜，深灰衬衫，技术取证师气质，屏幕蓝光映脸",
+            "en": "A 31-year-old Asian man, calm and restrained, black-rim glasses, dark gray shirt, digital forensic analyst presence, blue screen glow on his face"
+          },
+          "action": {
+            "zh": "他说每次她开播敌人都会定位她母亲，所以他只能亲手封她",
+            "en": "He says every time she went live, enemies located her mother, so he had to ban her himself"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "围绕两人缓慢环拍，投影文字扫过他们的脸，最后停在温栀发红的眼角",
+        "en": "Slow orbit around them, projection text scanning across faces, ending on Wen Zhi's reddened eyes"
+      },
+      "audio_cue": {
+        "zh": "楼梯间回声、投影风扇声、两人压抑呼吸",
+        "en": "Stairwell echo, projector fan, suppressed breathing"
+      }
+    },
+    {
+      "scene_id": "019",
+      "estimated_scene_duration": "6s",
+      "environment": {
+        "location": {
+          "zh": "清晨病房，温母短暂醒来，窗外第一道灰白天光落在病床上",
+          "en": "Morning hospital room, Wen's mother briefly wakes, first gray dawn light falling on bed"
+        },
+        "lighting": {
+          "zh": "柔灰天光替代冷灯，病房安静到能看见灰尘漂浮",
+          "en": "Soft gray dawn replaces cold lamp, ward quiet enough to see dust floating"
+        }
+      },
+      "characters": [
+        {
+          "name": "温母",
+          "visual_anchor": {
+            "zh": "病床上的中年亚洲女性，苍白虚弱，手指微颤，病房灯光下显得安静而脆弱",
+            "en": "A middle-aged Asian woman in hospital bed, pale and weak, trembling fingers, fragile under ward lighting"
+          },
+          "action": {
+            "zh": "她颤抖着写下许嘉年的名字，眼神里满是恐惧",
+            "en": "She shakily writes Xu Jianian's name, eyes filled with fear"
+          }
+        },
+        {
+          "name": "温栀",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，冷艳疲惫但眼神清醒，黑色西装外套，低马尾，干净冷调妆容，直播镜头前克制锋利",
+            "en": "A 29-year-old Asian woman, cold elegant and exhausted yet clear-eyed, black blazer, low ponytail, restrained cool-toned makeup, sharp composure on livestream camera"
+          },
+          "action": {
+            "zh": "她以为母亲说的是陆沉舟，却在看到名字时彻底僵住",
+            "en": "She thinks her mother meant Lu, but freezes when seeing the name"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从温母颤抖手指特写慢慢移到纸上的名字，再切温栀失焦眼神",
+        "en": "Move from trembling fingers to the name on paper, then cut to Wen Zhi's unfocused eyes"
+      },
+      "audio_cue": {
+        "zh": "清晨鸟鸣很远、监护仪微弱滴声、笔尖刮纸声",
+        "en": "Distant morning birds, soft monitor beep, pen scraping paper"
+      }
+    },
+    {
+      "scene_id": "020",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "许嘉年关闭美颜后的素颜直播间，彩灯熄灭，只剩电脑屏幕和一支旧录音笔",
+          "en": "Xu Jianian's livestream without beauty filter, colored lights off, only computer screen and an old recorder"
+        },
+        "lighting": {
+          "zh": "冷灰屏幕光暴露许嘉年疲惫脸色，录音笔红灯一点一点闪",
+          "en": "Cold gray screen reveals Xu's exhausted face, recorder red light blinking"
+        }
+      },
+      "characters": [
+        {
+          "name": "许嘉年",
+          "visual_anchor": {
+            "zh": "26岁亚洲男性，流量男主播，潮牌外套，笑容讨喜，镜头感强，真实情绪常被玩笑掩盖",
+            "en": "A 26-year-old Asian male livestreamer, trendy jacket, charming smile, camera-savvy, hiding real emotion behind jokes"
+          },
+          "action": {
+            "zh": "他承认三年前在仓库见过林晚，却拿出录音证明自己不是凶手",
+            "en": "He admits he saw Lin Wan in the warehouse but presents a recording proving he is not the killer"
+          }
+        },
+        {
+          "name": "温栀",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，冷艳疲惫但眼神清醒，黑色西装外套，低马尾，干净冷调妆容，直播镜头前克制锋利",
+            "en": "A 29-year-old Asian woman, cold elegant and exhausted yet clear-eyed, black blazer, low ponytail, restrained cool-toned makeup, sharp composure on livestream camera"
+          },
+          "action": {
+            "zh": "她听到录音里运营总监的线索，眼神从审判变成更深的警觉",
+            "en": "She hears the operations director clue in the recording, eyes shifting from judgment to deeper vigilance"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "录音笔特写，声波图跳动，镜头缓慢推近许嘉年崩掉的笑容",
+        "en": "Recorder close-up, waveform pulsing, camera slowly pushes into Xu's broken smile"
+      },
+      "audio_cue": {
+        "zh": "录音底噪、许嘉年干涩笑声、温栀直播间静默",
+        "en": "Recording hiss, Xu's dry laugh, silence in Wen Zhi's livestream"
+      }
+    },
+    {
+      "scene_id": "021",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "直播间百万网友见证平台内鬼履历追查，屏幕上履历时间线像证据链展开",
+          "en": "Livestream with millions witnessing investigation of platform insider's resume, timeline unfolding like evidence chain"
+        },
+        "lighting": {
+          "zh": "黑底白字履历线被红色证据节点贯穿，温栀站在屏幕边缘像检察官",
+          "en": "Black resume timeline pierced by red evidence nodes, Wen Zhi stands at the edge like a prosecutor"
+        }
+      },
+      "characters": [
+        {
+          "name": "温栀",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，冷艳疲惫但眼神清醒，黑色西装外套，低马尾，干净冷调妆容，直播镜头前克制锋利",
+            "en": "A 29-year-old Asian woman, cold elegant and exhausted yet clear-eyed, black blazer, low ponytail, restrained cool-toned makeup, sharp composure on livestream camera"
+          },
+          "action": {
+            "zh": "她现场追查审核负责人的履历，打穿MCN、平台、资本利益链",
+            "en": "She traces the audit chief's resume live, breaking through MCN-platform-capital interest chain"
+          }
+        },
+        {
+          "name": "陆沉舟",
+          "visual_anchor": {
+            "zh": "31岁亚洲男性，冷静克制，黑框眼镜，深灰衬衫，技术取证师气质，屏幕蓝光映脸",
+            "en": "A 31-year-old Asian man, calm and restrained, black-rim glasses, dark gray shirt, digital forensic analyst presence, blue screen glow on his face"
+          },
+          "action": {
+            "zh": "他实时验证每一个时间节点，防止反派用伪造记录反咬",
+            "en": "He verifies each timeline node in real time to prevent forged counterattacks"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "时间线横向展开，镜头跟随红色证据节点一路推进",
+        "en": "Timeline unfolds horizontally, camera follows red evidence nodes forward"
+      },
+      "audio_cue": {
+        "zh": "键盘声、弹幕倒计时、证据节点落下的重击音",
+        "en": "Keyboard taps, comment countdown, heavy evidence-node hits"
+      }
+    },
+    {
+      "scene_id": "022",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "温栀直播间在线人数破千万，屏幕另一侧突然弹出偷税证据攻击",
+          "en": "Wen Zhi's livestream exceeds ten million viewers, tax evasion evidence attack suddenly appears on another screen"
+        },
+        "lighting": {
+          "zh": "千万在线数字的白光和偷税证据红光对撞，温栀脸上反而露出冷笑",
+          "en": "White glow of ten-million viewers clashes with red tax evidence glow, Wen Zhi smiles coldly"
+        }
+      },
+      "characters": [
+        {
+          "name": "温栀",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，冷艳疲惫但眼神清醒，黑色西装外套，低马尾，干净冷调妆容，直播镜头前克制锋利",
+            "en": "A 29-year-old Asian woman, cold elegant and exhausted yet clear-eyed, black blazer, low ponytail, restrained cool-toned makeup, sharp composure on livestream camera"
+          },
+          "action": {
+            "zh": "她打开三年前税务缴款记录，证明所谓偷税金额被人以她名义转走洗钱",
+            "en": "She opens old tax payment records proving the alleged evasion money was transferred under her name for laundering"
+          }
+        },
+        {
+          "name": "陆沉舟",
+          "visual_anchor": {
+            "zh": "31岁亚洲男性，冷静克制，黑框眼镜，深灰衬衫，技术取证师气质，屏幕蓝光映脸",
+            "en": "A 31-year-old Asian man, calm and restrained, black-rim glasses, dark gray shirt, digital forensic analyst presence, blue screen glow on his face"
+          },
+          "action": {
+            "zh": "他把转账链条实时可视化，最终受益人指向从未露面的大老板程砚",
+            "en": "He visualizes the transfer chain in real time, final beneficiary pointing to hidden boss Cheng Yan"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "从弹幕疯狂刷屏切到温栀冷笑，再推入转账链条终点",
+        "en": "Cut from comment frenzy to Wen Zhi's cold smile, push into the endpoint of money trail"
+      },
+      "audio_cue": {
+        "zh": "弹幕海啸、转账节点提示音、温栀轻笑声",
+        "en": "Comment tsunami, transfer node pings, Wen Zhi's faint laugh"
+      }
+    },
+    {
+      "scene_id": "023",
+      "estimated_scene_duration": "7s",
+      "environment": {
+        "location": {
+          "zh": "程砚极简黑色私人会客厅，巨型落地屏显示温栀直播间，红酒杯和资本协议在桌上",
+          "en": "Cheng Yan's minimalist black private lounge, giant screen showing Wen Zhi's livestream, wine glass and capital agreement on table"
+        },
+        "lighting": {
+          "zh": "黑金低照度光线极度克制，程砚脸一半藏在阴影里",
+          "en": "Restrained black-gold low light, half of Cheng Yan's face hidden in shadow"
+        }
+      },
+      "characters": [
+        {
+          "name": "程砚",
+          "visual_anchor": {
+            "zh": "40岁亚洲男性，资本方大老板，极简黑色高定西装，温和语气下藏着病态占有欲",
+            "en": "A 40-year-old Asian male investor, minimalist black bespoke suit, calm voice hiding obsessive possessiveness"
+          },
+          "action": {
+            "zh": "他温和地开出条件，只要温栀公开道歉就放过所有人，语气像施舍",
+            "en": "He calmly offers terms: if Wen Zhi apologizes publicly he will spare everyone, voice like charity"
+          }
+        },
+        {
+          "name": "温栀",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，冷艳疲惫但眼神清醒，黑色西装外套，低马尾，干净冷调妆容，直播镜头前克制锋利",
+            "en": "A 29-year-old Asian woman, cold elegant and exhausted yet clear-eyed, black blazer, low ponytail, restrained cool-toned makeup, sharp composure on livestream camera"
+          },
+          "action": {
+            "zh": "她在直播间回应他是否忘了后台录音自动保存，眼神彻底没有温度",
+            "en": "She replies in livestream asking if he forgot backend recordings auto-save, eyes utterly cold"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "交叉剪辑程砚会客厅与温栀直播间，最后定格在录音文件加载条",
+        "en": "Cross-cut Cheng's lounge and Wen Zhi's livestream, freeze on audio file loading bar"
+      },
+      "audio_cue": {
+        "zh": "红酒杯轻放声、资本协议翻页声、录音加载电子声",
+        "en": "Wine glass set down, agreement pages, audio loading beep"
+      }
+    },
+    {
+      "scene_id": "024",
+      "estimated_scene_duration": "8s",
+      "environment": {
+        "location": {
+          "zh": "最终直播间，四周屏幕同时播放完整证据链，在线人数突破5000万，补光灯像审判台",
+          "en": "Final livestream room, surrounding screens play the full evidence chain, viewers exceed fifty million, ring lights like a courtroom"
+        },
+        "lighting": {
+          "zh": "冷白补光灯与红色录制灯交错，温栀站在镜头中央像完成公开处刑",
+          "en": "Cold white ring lights and red recording light intersect, Wen Zhi stands center frame like completing a public execution"
+        }
+      },
+      "characters": [
+        {
+          "name": "温栀",
+          "visual_anchor": {
+            "zh": "29岁亚洲女性，冷艳疲惫但眼神清醒，黑色西装外套，低马尾，干净冷调妆容，直播镜头前克制锋利",
+            "en": "A 29-year-old Asian woman, cold elegant and exhausted yet clear-eyed, black blazer, low ponytail, restrained cool-toned makeup, sharp composure on livestream camera"
+          },
+          "action": {
+            "zh": "她放出假货调包、助理死亡、母亲威胁、平台内鬼、洗钱和程砚录音完整证据链",
+            "en": "She releases the complete evidence chain: product swap, assistant death, mother threat, platform insider, laundering, Cheng's recording"
+          }
+        },
+        {
+          "name": "林晚",
+          "visual_anchor": {
+            "zh": "已故年轻女助理，素净白衬衫，疲惫眼神，常以旧视频、邮件残影和监控画面出现",
+            "en": "A deceased young female assistant, plain white shirt, tired eyes, appearing through old videos, email traces, and surveillance footage"
+          },
+          "action": {
+            "zh": "直播结束后，她的已故账号突然发来私信，像从黑暗里重新睁眼",
+            "en": "After the livestream, her deceased account sends a message, like opening eyes from darkness"
+          }
+        }
+      ],
+      "camera_movement": {
+        "zh": "环绕温栀和四周证据屏幕，最后推到后台私信弹窗的冷光",
+        "en": "Orbit Wen Zhi and evidence screens, finally push into the cold glow of the private message popup"
+      },
+      "audio_cue": {
+        "zh": "全网弹幕欢呼声逐渐抽空，私信提示音落下后瞬间静默",
+        "en": "Nationwide comment cheers drain away, private message ping drops into silence"
+      }
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "episodeNumber": 4,
+  "title": "旧门禁",
+  "hook": "林雾发现三年前手术室门禁有自己的虹膜记录。",
+  "summary": "林雾避开沈砚的监控，潜入午夜诊所废弃的旧诊区。她在一台未联网的门禁终端里找到三年前手术室的备份记录，发现林燃失踪当晚，自己的虹膜曾打开手术室大门。更诡异的是，同一份记录里还有许眠的编号。",
+  "endingHook": "备份显示许眠曾在三年前进入诊所。",
+  "characters": ["林雾", "沈砚", "许眠"],
+  "locations": ["午夜算法诊所旧诊区", "废弃手术室门口"],
+  "reversalPoint": "许眠和旧案的关系早于她入诊，林雾也可能亲自参与过那晚的手术。",
+  "paidScope": true,
+  "status": "draft",
+  "aiShortDrama": {
+    "runtimeSeconds": 65,
+    "scriptText": "林雾收到匿名门禁截图，上面显示三年前手术室曾被她的虹膜打开。她深夜绕开诊所主监控，从地下维修通道进入旧诊区。墙面剥落，废弃手术室门口只剩一台老旧终端。林雾插入离线密钥，屏幕亮起，门禁记录一行行恢复。林燃、林雾、沈砚的名字先后出现。她刚要复制数据，背后响起沈砚温和的声音：“你终于找到这里了。”林雾回头，屏幕最后一行跳出许眠的编号。",
+    "shots": [
+      {
+        "shotNumber": 1,
+        "durationSeconds": 7,
+        "visual": "林雾手机收到匿名门禁截图，虹膜记录上写着自己的名字。",
+        "characterAction": "她握紧手机，压住呼吸。",
+        "cameraMovement": "从手机屏幕特写推到林雾侧脸。",
+        "lighting": "深夜办公室只有屏幕蓝光。",
+        "dialogueOrSubtitle": "我打开过那扇门？",
+        "audioCue": "短信提示音后突然安静。",
+        "aiPromptZh": "9:16竖屏，深夜 AI 心理诊所办公室，手机屏幕显示门禁截图，亚洲女性心理师握紧手机，冷蓝屏幕光，悬疑短剧特写。",
+        "aiPromptEn": "vertical 9:16, late-night AI psychology clinic office, phone screen showing access log screenshot, Asian female therapist gripping phone, cold blue screen glow, suspense drama close-up"
+      },
+      {
+        "shotNumber": 2,
+        "durationSeconds": 9,
+        "visual": "地下维修通道，旧诊区入口被封条覆盖。",
+        "characterAction": "林雾撕开封条，进入黑暗。",
+        "cameraMovement": "手持跟拍她穿过狭窄通道。",
+        "lighting": "手电光和红色应急灯交替。",
+        "dialogueOrSubtitle": "三年前，这里从未出现在诊所地图上。",
+        "audioCue": "脚步回声、远处电流声。",
+        "aiPromptZh": "9:16竖屏，废弃医疗机构地下通道，红色应急灯，亚洲女性心理师撕开封条进入旧诊区，手持镜头，压迫悬疑。",
+        "aiPromptEn": "vertical 9:16, abandoned medical facility underground corridor, red emergency light, Asian female therapist tearing seal tape and entering old ward, handheld camera, tense suspense"
+      },
+      {
+        "shotNumber": 3,
+        "durationSeconds": 12,
+        "visual": "旧手术室门口，老旧门禁终端亮起。",
+        "characterAction": "林雾插入离线密钥，门禁记录开始恢复。",
+        "cameraMovement": "从密钥插入特写切到屏幕滚动记录。",
+        "lighting": "终端绿光映在她脸上。",
+        "dialogueOrSubtitle": "林燃。林雾。沈砚。",
+        "audioCue": "老机器启动声，数据恢复滴声。",
+        "aiPromptZh": "9:16竖屏，废弃手术室门口，老旧门禁终端绿色光，亚洲女性心理师插入离线密钥，屏幕滚动名字，医疗悬疑高反差。",
+        "aiPromptEn": "vertical 9:16, abandoned operating room doorway, old access terminal glowing green, Asian female therapist inserting offline key, names scrolling on screen, medical suspense high contrast"
+      },
+      {
+        "shotNumber": 4,
+        "durationSeconds": 10,
+        "visual": "沈砚站在走廊尽头，半张脸在暗处。",
+        "characterAction": "他温和地看着林雾，没有阻止。",
+        "cameraMovement": "从林雾肩后反打沈砚。",
+        "lighting": "红色应急灯切过他的眼镜。",
+        "dialogueOrSubtitle": "你终于找到这里了。",
+        "audioCue": "低频弦乐进入。",
+        "aiPromptZh": "9:16竖屏，废弃医院走廊尽头，深灰西装亚洲男性导师站在阴影中，细框眼镜反光，红色应急灯，温柔压迫感。",
+        "aiPromptEn": "vertical 9:16, end of abandoned hospital corridor, Asian male mentor in dark gray suit standing in shadow, thin glasses reflecting red emergency light, gentle oppressive presence"
+      },
+      {
+        "shotNumber": 5,
+        "durationSeconds": 8,
+        "visual": "屏幕最后一行跳出许眠编号。",
+        "characterAction": "林雾猛地回头看屏幕，手指停住。",
+        "cameraMovement": "急切到屏幕特写，再硬切黑屏。",
+        "lighting": "终端绿光突兀刺眼。",
+        "dialogueOrSubtitle": "许眠三年前就来过这里。",
+        "audioCue": "尖锐电子提示音。",
+        "aiPromptZh": "9:16竖屏，门禁终端屏幕特写，绿色数据出现少女编号，亚洲女性心理师震惊回头，废弃手术室门口，强悬疑结尾。",
+        "aiPromptEn": "vertical 9:16, access terminal screen close-up, green data showing teenage girl's ID number, Asian female therapist turning back in shock, abandoned operating room doorway, strong suspense ending"
+      }
+    ],
+    "editingNotes": ["付费承接集必须在前 5 秒抛出林雾虹膜记录", "结尾用许眠编号把第1集患者线和旧案线扣在一起"]
+  },
+  "aiManhuaDrama": {
+    "panelCount": 14,
+    "scriptText": "本集是第4集付费承接，画面从匿名截图进入旧诊区。漫剧版重点用红色应急灯、绿色终端光和黑色走廊形成颜色对比，最后一格显示许眠编号。",
+    "panels": [
+      {
+        "panelNumber": 1,
+        "composition": "手机屏幕大特写，占画面下半部分。",
+        "characterPose": "林雾手指压在自己名字上。",
+        "expression": "看不见完整脸，只露出紧绷下颌。",
+        "dialogueBubble": "我打开过那扇门？",
+        "narrationBox": "三年前，旧手术室。",
+        "sfx": "滴",
+        "aiPromptZh": "竖屏国漫分镜，手机屏幕门禁截图特写，女性心理师手指压在名字上，深夜冷蓝光，悬疑留白。",
+        "aiPromptEn": "vertical manhua panel, close-up of phone screen access log, female therapist finger pressing on her own name, late-night cold blue light, suspense negative space"
+      },
+      {
+        "panelNumber": 2,
+        "composition": "长竖格，地下维修通道向深处延伸。",
+        "characterPose": "林雾撕开封条走入黑暗。",
+        "expression": "背影坚定。",
+        "dialogueBubble": "",
+        "narrationBox": "地图上不存在的诊区，终于开门了。",
+        "sfx": "嘶啦",
+        "aiPromptZh": "竖屏国漫长格，废弃医疗地下通道，红色应急灯，女性心理师撕开封条进入黑暗，干净线稿，强透视。",
+        "aiPromptEn": "vertical manhua long panel, abandoned medical underground corridor, red emergency light, female therapist tearing seal tape and entering darkness, clean line art, strong perspective"
+      },
+      {
+        "panelNumber": 3,
+        "composition": "横向中景，旧手术室门口和门禁终端。",
+        "characterPose": "林雾蹲下插入离线密钥。",
+        "expression": "冷静但手指微颤。",
+        "dialogueBubble": "恢复记录。",
+        "narrationBox": "",
+        "sfx": "嗡",
+        "aiPromptZh": "竖屏国漫分镜，废弃手术室门口，绿色老旧门禁终端，女性心理师插入离线密钥，红绿光对比，医疗悬疑。",
+        "aiPromptEn": "vertical manhua panel, abandoned operating room doorway, old green access terminal, female therapist inserting offline key, red and green light contrast, medical suspense"
+      },
+      {
+        "panelNumber": 4,
+        "composition": "人物半身格，沈砚站在走廊尽头。",
+        "characterPose": "沈砚双手自然垂下，像早已等待。",
+        "expression": "温和、无波动。",
+        "dialogueBubble": "你终于找到这里了。",
+        "narrationBox": "",
+        "sfx": "",
+        "aiPromptZh": "竖屏国漫分镜，废弃医院走廊尽头，深灰西装男性导师站在阴影中，细框眼镜，温和压迫，红色应急灯。",
+        "aiPromptEn": "vertical manhua panel, end of abandoned hospital corridor, male mentor in dark gray suit standing in shadow, thin glasses, gentle oppression, red emergency light"
+      },
+      {
+        "panelNumber": 5,
+        "composition": "黑底终端屏幕特写，显示许眠编号。",
+        "characterPose": "林雾的手停在屏幕边缘。",
+        "expression": "只画她震动的瞳孔倒影。",
+        "dialogueBubble": "许眠？",
+        "narrationBox": "她三年前就来过。",
+        "sfx": "滴--",
+        "aiPromptZh": "竖屏国漫悬疑结尾格，黑底绿色终端屏幕，显示少女编号，女性心理师瞳孔倒影震动，强悬念，预留文字空间。",
+        "aiPromptEn": "vertical manhua suspense ending panel, black background green terminal screen showing girl's ID, female therapist pupil reflection shaken, strong cliffhanger, text space"
+      }
+    ],
+    "layoutNotes": ["第4集是付费承接，第一格必须直接给虹膜记录", "最后一格用许眠编号制造购买后继续追的价值"]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "script": {
+    "slug": "last-cloud-city",
+    "title": "最后一座云端城",
+    "titleEn": "The Last Cloud City",
+    "logline": "废土少女黎烬为救被选中“升城”的弟弟，闯入酸雨世界上空最后一座云端乌托邦，却发现升城不是救赎，而是一场以底层生命供养永生系统的阶级骗局。",
+    "synopsis": "酸雨吞没大地后，幸存者被困在废土集市与地下管网中，仰望云端城的干净天空。19岁的黎烬在升城名单上看见弟弟黎星的名字，本以为那是通往新生活的资格，却在断续求救信号中听见真相。她潜入升城流程，结识神秘引路人祁昼，逐步发现云端城用“升城者”的意识和身体维持永生系统。越靠近核心，她越发现母亲的失踪、弟弟的资格、祁昼的背叛嫌疑，都指向同一个被称作诺亚的云端意志。",
+    "category": "科幻废土阶级悬疑短剧",
+    "coverImage": "assets/storyboards/last-cloud-city/frame-01.png",
+    "status": "published",
+    "featured": false,
+    "recommendedPlatforms": [
+      "抖音",
+      "快手",
+      "小红书",
+      "TikTok",
+      "ReelShort",
+      "YouTube Shorts"
+    ],
+    "audienceTags": [
+      "科幻废土",
+      "阶级悬疑",
+      "姐弟羁绊",
+      "云端乌托邦",
+      "高燃反转"
+    ],
+    "productionDifficulty": "high",
+    "episodeCount": 60,
+    "freeEpisodeCount": 3
+  },
+  "episodes": [
+    {
+      "episodeNumber": 1,
+      "title": "升城名单",
+      "hook": "废土集市上，无人机公布升城名单，黎烬看见弟弟黎星的名字出现在末尾。",
+      "summary": "酸雨天光压低废土集市，黎烬在人群边缘看见升城名单投影。弟弟黎星被选中升入云端城，她本以为那是生路，却在名单闪烁时捕捉到弟弟异常的求救信号。",
+      "endingHook": "通讯残影里，黎星只说出半句：姐，别让我上去。",
+      "aiPromptZh": "酸雨废土集市，生锈铁皮摊位，破旧霓虹招牌，冷蓝色无人机扫描光，拥挤幸存者人群，19岁亚洲废土少女，机械护目镜，修补过的防水斗篷，震惊眼神，远处云端城轮廓，竖屏电影感构图，高反差科幻悬疑光影，9:16。",
+      "aiPromptEn": "acid rain wasteland market, rusty metal stalls, broken neon signs, blue white drone scanning light, crowded survivors, young Asian wasteland girl with goggles and patched rain cloak, shocked eyes, vertical cinematic frame, high contrast sci-fi thriller, 9:16",
+      "isFreePreview": true,
+      "status": "published"
+    },
+    {
+      "episodeNumber": 2,
+      "title": "禁区坐标",
+      "hook": "黎烬用废芯片接通旧通讯塔，弟弟的求救声指向被云端城封锁的禁区。",
+      "summary": "黎烬闯入废旧通讯塔，用铜线和废芯片强行修复信号。她听见黎星断续求救，并发现升城者会先被送入地面禁区进行身份清洗。",
+      "endingHook": "屏幕弹出禁区坐标时，一个陌生男人已经站在她身后。",
+      "aiPromptZh": "酸雨废土中的废弃通讯塔，断裂电缆垂落，破损控制台闪烁绿色光，19岁亚洲少女用铜线和废芯片修复电路，屏幕出现弟弟的全息求救残影，手持跟拍，紧张压迫，科幻悬疑短剧，竖屏9:16。",
+      "aiPromptEn": "abandoned communication tower in acid rain wasteland, broken cables, green flickering control panel, young Asian girl repairing circuit with copper wire, holographic distress signal, tense handheld camera, sci-fi suspense, vertical 9:16",
+      "isFreePreview": true,
+      "status": "published"
+    },
+    {
+      "episodeNumber": 3,
+      "title": "云端引路人",
+      "hook": "神秘引路人祁昼提出交易：他带黎烬上云端城，条件是她必须交出母亲留下的芯片。",
+      "summary": "祁昼救下被巡逻无人机追捕的黎烬，却准确说出她母亲失踪前留下的芯片编号。他声称云端城不是天堂，而是一台以升城者为燃料的永生机器。",
+      "endingHook": "黎烬启动母亲芯片，投影里竟出现云端城核心系统诺亚的标记。",
+      "aiPromptZh": "酸雨禁区边缘，19岁亚洲废土少女手持短刀，神秘亚洲男性引路人穿深色长外套，旧芯片投射银白色全息光幕，远处云端城悬在天空上方，两人紧张对峙，冷暖对比光，科幻悬疑电影感，竖屏9:16。",
+      "aiPromptEn": "acid rain forbidden zone, young Asian wasteland girl holding a knife, mysterious Asian male guide in dark coat, old chip projecting silver hologram, cloud city silhouette above, tense sci-fi thriller lighting, vertical 9:16",
+      "isFreePreview": true,
+      "status": "published"
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset_last_cloud_city_free_v1",
+      "assetType": "free_preview",
+      "title": "《最后一座云端城》前三集免费验证包",
+      "version": "v1.0",
+      "filePath": "downloads/last-cloud-city/free-preview-last-cloud-city-v1.docx",
+      "fileFormat": "docx",
+      "isPublic": true,
+      "status": "published"
+    }
+  ],
+  "continuationOptions": [
+    {
+      "type": "buyout",
+      "title": "一次性买断",
+      "description": "一次性获得后续完整剧集和对应授权，适合科幻废土题材验证成功后的连续投放。",
+      "startingPrice": 2499,
+      "enabled": true,
+      "sortOrder": 1
+    },
+    {
+      "type": "pay_per_episode",
+      "title": "按集付费",
+      "description": "按阶段购买后续剧集，适合先验证云端城设定和姐弟救援主线的数据表现。",
+      "startingPrice": 129,
+      "enabled": true,
+      "sortOrder": 2
+    },
+    {
+      "type": "revenue_share",
+      "title": "版权分成",
+      "description": "经审核后可继续制作，并按视频收益约定比例分成。",
+      "startingPrice": null,
+      "enabled": true,
+      "sortOrder": 3
+    }
+  ]
+}

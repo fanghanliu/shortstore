@@ -1,0 +1,16 @@
+{
+  "slug": "rain-night-witness",
+  "mode": "ai_short_drama",
+  "tasks": [
+    {
+      "id": "rain-night-witness-cover",
+      "episodeNumber": null,
+      "assetType": "cover",
+      "mode": "ai_short_drama",
+      "promptZh": "竖屏AI短剧封面，雨夜证人：她的行车记录仪说谎，雨夜探案题材，现代短剧电影感，冷暖对比，证据特写，强情绪表演，核心道具行车记录仪，场景雨夜高架桥，无水印，无真实IP。",
+      "promptEn": "vertical AI短剧 cover, 雨夜探案 story, symbolic key prop, cinematic lighting, no watermark, no existing IP",
+      "outputPath": "public/site/assets/covers/hot-catalog/cover-rain-night-witness.svg",
+      "status": "generated_svg"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "script": {
+    "slug": "sample-script",
+    "title": "午夜算法诊所",
+    "titleEn": "Midnight Algorithm Clinic",
+    "logline": "一名能修复人类记忆漏洞的 AI 心理师，在午夜诊所接诊失忆女孩，却发现她的记忆缺口里藏着自己三年前被删除的死亡记录。",
+    "synopsis": "近未来都市里，情绪崩溃和记忆损伤可以被 AI 心理诊所修复。林雾是一名午夜算法诊所的女心理师，擅长通过算法重建患者的碎片记忆。某个雨夜，17 岁女孩许眠被送进诊所。她每晚零点都会忘记当天发生的事，只记得一句话：不要相信林雾。治疗推进后，林雾在许眠的记忆碎片里看见哥哥失踪当晚的手术室、被涂黑的病例编号，以及一段属于自己的死亡记录。她必须在继续治疗、保护许眠和追查哥哥之间做选择。",
+    "category": "近未来都市AI悬疑记忆疗愈短剧",
+    "coverImage": "assets/covers/cover-sample-script.png",
+    "status": "draft",
+    "featured": false,
+    "recommendedPlatforms": [
+      "抖音",
+      "快手",
+      "小红书",
+      "TikTok",
+      "YouTube Shorts"
+    ],
+    "audienceTags": [
+      "AI悬疑",
+      "都市反转",
+      "女性成长",
+      "记忆疗愈",
+      "医疗黑幕"
+    ],
+    "productionDifficulty": "medium",
+    "episodeCount": 24,
+    "freeEpisodeCount": 3
+  },
+  "episodes": [
+    {
+      "episodeNumber": 1,
+      "title": "午夜患者",
+      "hook": "失忆女孩醒来第一句话是“不要相信林雾”。",
+      "summary": "午夜暴雨中，林雾接诊被送入诊所的许眠。许眠每晚零点都会重置记忆，却在看到林雾时本能后退，并写下“不要相信林雾”。林雾启动记忆修复系统，发现许眠脑内反复闪现一个被删除的名字：林燃。",
+      "endingHook": "许眠在治疗屏幕上写下林雾哥哥的名字。",
+      "aiPromptZh": "9:16竖屏，近未来都市午夜 AI 心理诊所，暴雨街道，冷蓝医疗招牌，亚洲女性心理师推门进入，电影感高反差光影。",
+      "aiPromptEn": "vertical 9:16, near-future midnight AI psychology clinic, rainy street, cold blue medical sign, Asian female therapist entering the door, cinematic high-contrast lighting",
+      "isFreePreview": true,
+      "status": "draft"
+    },
+    {
+      "episodeNumber": 2,
+      "title": "被删除的病例",
+      "hook": "不存在的病例编号打开最高权限档案。",
+      "summary": "林雾查到三年前删除记录。",
+      "endingHook": "档案显示林雾死亡。",
+      "aiPromptZh": "近未来都市 AI 心理诊所，午夜雨夜，冷蓝医疗光，记忆碎片可视化，亚洲女性 AI 心理师，失忆少女，高反差电影光影，9:16 竖屏短剧。",
+      "aiPromptEn": "near-future urban AI psychology clinic, midnight rain, cold blue medical lighting, visualized memory fragments, Asian female AI therapist, amnesiac teenage girl, high-contrast cinematic lighting, vertical 9:16 short drama.",
+      "isFreePreview": true,
+      "status": "draft"
+    },
+    {
+      "episodeNumber": 3,
+      "title": "记忆里的手术室",
+      "hook": "许眠记忆里出现林燃求救声。",
+      "summary": "林雾进入记忆场景。",
+      "endingHook": "沈砚强行关闭系统。",
+      "aiPromptZh": "近未来都市 AI 心理诊所，午夜雨夜，冷蓝医疗光，记忆碎片可视化，亚洲女性 AI 心理师，失忆少女，高反差电影光影，9:16 竖屏短剧。",
+      "aiPromptEn": "near-future urban AI psychology clinic, midnight rain, cold blue medical lighting, visualized memory fragments, Asian female AI therapist, amnesiac teenage girl, high-contrast cinematic lighting, vertical 9:16 short drama.",
+      "isFreePreview": true,
+      "status": "draft"
+    },
+    {
+      "episodeNumber": 4,
+      "title": "旧门禁",
+      "hook": "林雾发现三年前手术室门禁有自己的虹膜记录。",
+      "summary": "林雾避开沈砚的监控，潜入午夜诊所废弃的旧诊区。她在一台未联网的门禁终端里找到三年前手术室的备份记录，发现林燃失踪当晚，自己的虹膜曾打开手术室大门。更诡异的是，同一份记录里还有许眠的编号。",
+      "endingHook": "备份显示许眠曾在三年前进入诊所。",
+      "aiPromptZh": "9:16竖屏，深夜 AI 心理诊所办公室，手机屏幕显示门禁截图，亚洲女性心理师握紧手机，冷蓝屏幕光，悬疑短剧特写。",
+      "aiPromptEn": "vertical 9:16, late-night AI psychology clinic office, phone screen showing access log screenshot, Asian female therapist gripping phone, cold blue screen glow, suspense drama close-up",
+      "isFreePreview": false,
+      "status": "draft"
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset_sample_script_free_v1",
+      "assetType": "free_preview",
+      "title": "《午夜算法诊所》前三集免费验证包",
+      "version": "v1.0",
+      "filePath": "downloads/sample-script/free-preview-sample-script-v1.docx",
+      "fileFormat": "docx",
+      "isPublic": true,
+      "status": "draft"
+    }
+  ],
+  "continuationOptions": [
+    {
+      "type": "buyout",
+      "title": "一次性买断",
+      "description": "一次性开放第 4-24 集。",
+      "startingPrice": 1999,
+      "enabled": true,
+      "sortOrder": 1
+    },
+    {
+      "type": "pay_per_episode",
+      "title": "按集付费",
+      "description": "优先开放第 4-6 集作为第一批付费承接。",
+      "startingPrice": 99,
+      "enabled": true,
+      "sortOrder": 2
+    },
+    {
+      "type": "revenue_share",
+      "title": "版权分成",
+      "description": "开放第 4-10 集作为第一批分成合作内容。",
+      "startingPrice": null,
+      "enabled": true,
+      "sortOrder": 3
+    }
+  ]
+}

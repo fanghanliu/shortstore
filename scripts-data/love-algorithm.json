@@ -1,0 +1,104 @@
+{
+  "script": {
+    "slug": "love-algorithm",
+    "title": "恋爱算法失控中",
+    "titleEn": "Love Algorithm Out of Control",
+    "logline": "专门拆穿恋爱骗局的女程序员，被自家AI恋爱算法错配给最大投资人兼前任死对头，被迫开启30天全球直播合约恋爱。",
+    "synopsis": "近未来都市，LovePilot海外版上线前夜，首席算法工程师姜梨被自家AI系统Cupid推成全球最高匹配对象，另一半却是她三年前创业失败后互相拉黑的投资人顾屿白。为了挽救发布会和海外热度，两人签下30天恋爱直播合约，每天完成AI恋爱任务，从同居、一美元心动罚款、情侣挑战到发布会告白事故。姜梨以为算法失控，后来才发现Cupid调用的是被删除、未发送、未表达的情感残留；真正失控的不是算法，而是他们从未停止的心动。",
+    "category": "AI甜宠合约恋爱都市轻喜剧海外平台短剧",
+    "coverImage": "assets/storyboards/love-algorithm/frame-01.png",
+    "status": "published",
+    "featured": false,
+    "recommendedPlatforms": [
+      "TikTok",
+      "YouTube Shorts",
+      "ReelShort",
+      "DramaBox",
+      "抖音",
+      "小红书"
+    ],
+    "audienceTags": [
+      "AI甜宠",
+      "合约恋爱",
+      "都市轻喜剧",
+      "海外平台短剧",
+      "先婚后爱式误配"
+    ],
+    "productionDifficulty": "medium",
+    "episodeCount": 60,
+    "freeEpisodeCount": 3
+  },
+  "episodes": [
+    {
+      "episodeNumber": 1,
+      "title": "99.99%匹配",
+      "hook": "LovePilot海外发布会前夜，大屏突然宣布姜梨和顾屿白的匹配率高达99.99%。",
+      "summary": "姜梨冲向服务器机柜拔掉电源，仍没能阻止 AI 系统 Cupid 自动发布预热视频。顾屿白推门进来，看着匹配结果微笑，像早就知道算法会出卖她。",
+      "endingHook": "海外预热视频冲上热搜，投资方要求两人立刻开始30天恋爱直播。",
+      "aiPromptZh": "近未来科技发布会玻璃会议厅，巨型大屏显示99.99%恋爱匹配率，27岁亚洲女算法工程师穿白衬衫冲向服务器机柜拔电源，英俊亚洲投资人站在门口微笑，粉蓝霓虹AI界面，甜宠轻喜剧张力，竖屏9:16。",
+      "aiPromptEn": "futuristic tech launch conference room, giant screen showing 99.99 percent romance match, Asian female engineer in white shirt unplugging server, handsome Asian investor at doorway smiling, pink blue neon AI interface, romantic comedy tension, vertical 9:16",
+      "isFreePreview": true,
+      "status": "published"
+    },
+    {
+      "episodeNumber": 2,
+      "title": "恋爱直播合约",
+      "hook": "危机会议室里，30天恋爱直播合约被摆到姜梨面前，顾屿白只提出一个条件：合约期间不能拉黑他。",
+      "summary": "姜梨试图用算法事故报告结束闹剧，公关负责人却把危机包装成全球恋爱测试。顾屿白淡定签字，逼她在发布会和公司生死之间做选择。",
+      "endingHook": "Cupid 自动生成第一天任务：共同入住 AI 智能公寓。",
+      "aiPromptZh": "现代科技公司危机会议室，桌上摆着30天恋爱直播合约，亚洲女算法工程师抱臂拒绝，亚洲男性投资人冷静签字，会议屏幕弹出AI Cupid任务窗口，合约恋爱都市轻喜剧，冷蓝科技灯，竖屏9:16。",
+      "aiPromptEn": "modern crisis meeting room, 30 day fake dating livestream contract, Asian female engineer refusing with arms crossed, calm Asian investor signing contract, AI cupid task popup, tech company romantic comedy, vertical 9:16",
+      "isFreePreview": true,
+      "status": "published"
+    },
+    {
+      "episodeNumber": 3,
+      "title": "心率异常",
+      "hook": "首次全球直播中，Cupid 当众插播顾屿白心率异常，把暧昧说成检测结果。",
+      "summary": "姜梨一本正经解释算法误差，顾屿白却全程温柔看她。双语弹幕疯狂刷屏，Cupid 用机械语气判定两人存在高强度情绪同步。",
+      "endingHook": "系统调出三年前旧聊天缓存，显示姜梨从未真正删除顾屿白。",
+      "aiPromptZh": "全球直播演播室，双语弹幕墙，亚洲女算法工程师认真解释算法误差，英俊投资人温柔微笑看着她，AI心率异常弹窗突然出现，三年前旧聊天缓存显示在屏幕上，甜宠轻喜剧暧昧张力，竖屏9:16。",
+      "aiPromptEn": "global livestream studio, bilingual comments wall, Asian female engineer explaining algorithm error, handsome investor smiling warmly, AI heartbeat popup, old chat cache on screen, sweet romantic comedy tension, vertical 9:16",
+      "isFreePreview": true,
+      "status": "published"
+    }
+  ],
+  "assets": [
+    {
+      "id": "asset_love_algorithm_free_v1",
+      "assetType": "free_preview",
+      "title": "《恋爱算法失控中》前三集免费验证包",
+      "version": "v1.0",
+      "filePath": "downloads/love-algorithm/free-preview-love-algorithm-v1.docx",
+      "fileFormat": "docx",
+      "isPublic": true,
+      "status": "published"
+    }
+  ],
+  "continuationOptions": [
+    {
+      "type": "buyout",
+      "title": "一次性买断",
+      "description": "一次性获得后续完整剧集和对应授权，适合甜宠轻喜剧数据验证成功后的连续投放。",
+      "startingPrice": 1999,
+      "enabled": true,
+      "sortOrder": 1
+    },
+    {
+      "type": "pay_per_episode",
+      "title": "按集付费",
+      "description": "按阶段购买后续剧集，适合根据 CP 感、弹幕互动和完播率逐步制作。",
+      "startingPrice": 99,
+      "enabled": true,
+      "sortOrder": 2
+    },
+    {
+      "type": "revenue_share",
+      "title": "版权分成",
+      "description": "经审核后可继续制作，并按视频收益约定比例分成。",
+      "startingPrice": null,
+      "enabled": true,
+      "sortOrder": 3
+    }
+  ]
+}

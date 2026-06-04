@@ -1,0 +1,16 @@
+{
+  "slug": "mountain-sea-delivery",
+  "mode": "ai_manhua_drama",
+  "tasks": [
+    {
+      "id": "mountain-sea-delivery-cover",
+      "episodeNumber": null,
+      "assetType": "cover",
+      "mode": "ai_manhua_drama",
+      "promptZh": "竖屏AI漫剧封面，山海快递：我送错包裹救了三界，山海快递题材，竖屏国漫，强光影，符号化道具，人物眼神特写，核心道具错投包裹，场景山海驿道，无水印，无真实IP。",
+      "promptEn": "vertical AI漫剧 cover, 山海快递 story, symbolic key prop, cinematic lighting, no watermark, no existing IP",
+      "outputPath": "public/site/assets/covers/hot-catalog/cover-mountain-sea-delivery.svg",
+      "status": "generated_svg"
+    }
+  ]
+}

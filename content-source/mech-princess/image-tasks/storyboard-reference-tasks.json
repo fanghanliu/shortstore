@@ -1,0 +1,16 @@
+{
+  "slug": "mech-princess",
+  "mode": "ai_manhua_drama",
+  "tasks": [
+    {
+      "id": "mech-princess-cover",
+      "episodeNumber": null,
+      "assetType": "cover",
+      "mode": "ai_manhua_drama",
+      "promptZh": "竖屏AI漫剧封面，铁甲郡主：我在古代造出第一台战甲，古代机甲题材，竖屏国漫，强光影，符号化道具，人物眼神特写，核心道具战甲蓝图，场景王朝工坊，无水印，无真实IP。",
+      "promptEn": "vertical AI漫剧 cover, 古代机甲 story, symbolic key prop, cinematic lighting, no watermark, no existing IP",
+      "outputPath": "public/site/assets/covers/hot-catalog/cover-mech-princess.svg",
+      "status": "generated_svg"
+    }
+  ]
+}

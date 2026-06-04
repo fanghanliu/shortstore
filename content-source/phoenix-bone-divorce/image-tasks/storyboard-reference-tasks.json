@@ -1,0 +1,16 @@
+{
+  "slug": "phoenix-bone-divorce",
+  "mode": "ai_manhua_drama",
+  "tasks": [
+    {
+      "id": "phoenix-bone-divorce-cover",
+      "episodeNumber": null,
+      "assetType": "cover",
+      "mode": "ai_manhua_drama",
+      "promptZh": "竖屏AI漫剧封面，凤骨和离：前夫求我救全宗，和离修仙题材，竖屏国漫，强光影，符号化道具，人物眼神特写，核心道具凤骨灵印，场景雪山宗门，无水印，无真实IP。",
+      "promptEn": "vertical AI漫剧 cover, 和离修仙 story, symbolic key prop, cinematic lighting, no watermark, no existing IP",
+      "outputPath": "public/site/assets/covers/hot-catalog/cover-phoenix-bone-divorce.svg",
+      "status": "generated_svg"
+    }
+  ]
+}

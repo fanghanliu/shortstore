@@ -1,0 +1,20 @@
+{
+  "slug": "bullet-screen-prophecy",
+  "primaryMode": "ai_short_drama",
+  "supportedModes": [
+    "ai_short_drama"
+  ],
+  "defaultAspectRatio": "9:16",
+  "episodeDurationSeconds": {
+    "min": 45,
+    "max": 75
+  },
+  "panelCount": {
+    "min": 10,
+    "max": 14
+  },
+  "visualStyle": {
+    "ai_short_drama": "现代都市冷光舆论战，热搜红色数据、手机弹幕和直播大屏。",
+    "ai_manhua_drama": ""
+  }
+}

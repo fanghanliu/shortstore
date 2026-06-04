@@ -1,0 +1,16 @@
+{
+  "slug": "ghost-market-heir",
+  "mode": "ai_manhua_drama",
+  "tasks": [
+    {
+      "id": "ghost-market-heir-cover",
+      "episodeNumber": null,
+      "assetType": "cover",
+      "mode": "ai_manhua_drama",
+      "promptZh": "竖屏AI漫剧封面，鬼市少主：我在阴阳铺收万界欠条，民俗鬼市题材，竖屏国漫，强光影，符号化道具，人物眼神特写，核心道具万界欠条，场景午夜鬼市，无水印，无真实IP。",
+      "promptEn": "vertical AI漫剧 cover, 民俗鬼市 story, symbolic key prop, cinematic lighting, no watermark, no existing IP",
+      "outputPath": "public/site/assets/covers/hot-catalog/cover-ghost-market-heir.svg",
+      "status": "generated_svg"
+    }
+  ]
+}

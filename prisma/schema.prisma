@@ -1,0 +1,413 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Script {
+  id                   String               @id @default(cuid())
+  slug                 String               @unique
+  title                String
+  titleEn              String?
+  logline              String
+  synopsis             String
+  category             String
+  coverImage           String?
+  status               String               @default("draft")
+  featured             Boolean              @default(false)
+  recommendedPlatforms String               @default("[]")
+  audienceTags         String               @default("[]")
+  productionDifficulty String?
+  episodeCount         Int?
+  freeEpisodeCount     Int                  @default(3)
+  createdAt            DateTime             @default(now())
+  updatedAt            DateTime             @updatedAt
+  assets               ScriptAsset[]
+  episodes             ScriptEpisode[]
+  downloads            Download[]
+  testReports          TestReport[]
+  continuationRequests ContinuationRequest[]
+  continuationOptions  ContinuationOption[]
+  deliveries           Delivery[]
+  orders               Order[]
+  revenueShareProjects RevenueShareProject[]
+  revenueShareStatements RevenueShareStatement[]
+}
+
+model User {
+  id            String     @id @default(cuid())
+  email         String     @unique
+  passwordHash  String
+  displayName   String?
+  contactWechat String?
+  contactPhone  String?
+  role          String     @default("user")
+  status        String     @default("active")
+  createdAt     DateTime   @default(now())
+  updatedAt     DateTime   @updatedAt
+  downloads     Download[]
+  testReports   TestReport[]
+  continuationRequests ContinuationRequest[]
+  deliveries     Delivery[]
+  orders         Order[]
+  revenueShareProjects RevenueShareProject[]
+  revenueShareStatements RevenueShareStatement[]
+}
+
+model ScriptAsset {
+  id         String     @id @default(cuid())
+  scriptId   String
+  assetType  String
+  title      String
+  version    String
+  filePath   String
+  fileFormat String
+  fileSize   Int?
+  isPublic   Boolean    @default(false)
+  status     String     @default("draft")
+  createdAt  DateTime   @default(now())
+  updatedAt  DateTime   @updatedAt
+  script     Script     @relation(fields: [scriptId], references: [id], onDelete: Cascade)
+  downloads  Download[]
+
+  @@index([scriptId])
+}
+
+model ScriptEpisode {
+  id             String   @id @default(cuid())
+  scriptId       String
+  episodeNumber  Int
+  title          String
+  hook           String?
+  summary        String
+  endingHook     String?
+  aiPromptZh     String?
+  aiPromptEn     String?
+  isFreePreview  Boolean  @default(false)
+  status         String   @default("draft")
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+  script         Script   @relation(fields: [scriptId], references: [id], onDelete: Cascade)
+
+  @@unique([scriptId, episodeNumber])
+  @@index([scriptId])
+}
+
+model Download {
+  id               String      @id @default(cuid())
+  scriptId         String
+  assetId          String
+  visitorId        String?
+  userId           String?
+  ipAddress        String?
+  userAgent        String?
+  referrer         String?
+  licenseConfirmed Boolean     @default(false)
+  createdAt        DateTime    @default(now())
+  script           Script      @relation(fields: [scriptId], references: [id], onDelete: Cascade)
+  asset            ScriptAsset @relation(fields: [assetId], references: [id], onDelete: Cascade)
+  user             User?       @relation(fields: [userId], references: [id], onDelete: SetNull)
+  testReports      TestReport[]
+  continuationRequests ContinuationRequest[]
+
+  @@index([scriptId])
+  @@index([assetId])
+  @@index([visitorId])
+  @@index([userId])
+}
+
+model TestReport {
+  id            String    @id @default(cuid())
+  userId        String
+  scriptId      String
+  downloadId    String?
+  platform      String
+  videoUrl      String
+  viewCount     Int?
+  likeCount     Int?
+  commentCount  Int?
+  followerDelta Int?
+  publishTime   DateTime?
+  notes         String?
+  status        String    @default("submitted")
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  user          User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  script        Script    @relation(fields: [scriptId], references: [id], onDelete: Cascade)
+  download      Download? @relation(fields: [downloadId], references: [id], onDelete: SetNull)
+  continuationRequests ContinuationRequest[]
+
+  @@index([userId])
+  @@index([scriptId])
+  @@index([downloadId])
+}
+
+model ContinuationRequest {
+  id                String      @id @default(cuid())
+  userId            String
+  scriptId          String
+  downloadId        String?
+  testReportId      String?
+  type              String
+  episodeRange      String?
+  message           String?
+  contactPreference String?
+  status            String      @default("submitted")
+  adminNote         String?
+  userVisibleNote   String?
+  reviewedAt        DateTime?
+  createdAt         DateTime    @default(now())
+  updatedAt         DateTime    @updatedAt
+  user              User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  script            Script      @relation(fields: [scriptId], references: [id], onDelete: Cascade)
+  download          Download?   @relation(fields: [downloadId], references: [id], onDelete: SetNull)
+  testReport        TestReport? @relation(fields: [testReportId], references: [id], onDelete: SetNull)
+  deliveries        Delivery[]
+  orders            Order[]
+  revenueShareProjects RevenueShareProject[]
+
+  @@index([userId])
+  @@index([scriptId])
+  @@index([downloadId])
+  @@index([testReportId])
+  @@index([type])
+  @@index([status])
+}
+
+model Delivery {
+  id                    String              @id @default(cuid())
+  userId                String
+  scriptId              String
+  continuationRequestId String?
+  orderId               String?
+  deliveryType          String
+  title                 String
+  note                  String?
+  status                String              @default("ready")
+  createdAt             DateTime            @default(now())
+  updatedAt             DateTime            @updatedAt
+  user                  User                @relation(fields: [userId], references: [id], onDelete: Cascade)
+  script                Script              @relation(fields: [scriptId], references: [id], onDelete: Cascade)
+  continuationRequest   ContinuationRequest? @relation(fields: [continuationRequestId], references: [id], onDelete: SetNull)
+  order                 Order?              @relation(fields: [orderId], references: [id], onDelete: SetNull)
+  revenueShareBatch     RevenueShareBatch?
+  assets                DeliveryAsset[]
+
+  @@index([userId])
+  @@index([scriptId])
+  @@index([continuationRequestId])
+  @@index([orderId])
+  @@index([status])
+}
+
+model Order {
+  id                    String              @id @default(cuid())
+  userId                String
+  scriptId              String
+  continuationRequestId String?
+  orderType             String
+  title                 String
+  amountCents           Int
+  currency              String              @default("CNY")
+  status                String              @default("pending_payment")
+  paymentNote           String?
+  adminNote             String?
+  userVisibleNote       String?
+  paidAt                DateTime?
+  deliveredAt           DateTime?
+  cancelledAt           DateTime?
+  createdAt             DateTime            @default(now())
+  updatedAt             DateTime            @updatedAt
+  user                  User                @relation(fields: [userId], references: [id], onDelete: Cascade)
+  script                Script              @relation(fields: [scriptId], references: [id], onDelete: Cascade)
+  continuationRequest   ContinuationRequest? @relation(fields: [continuationRequestId], references: [id], onDelete: SetNull)
+  deliveries            Delivery[]
+
+  @@index([userId])
+  @@index([scriptId])
+  @@index([continuationRequestId])
+  @@index([status])
+}
+
+model DeliveryAsset {
+  id         String   @id @default(cuid())
+  deliveryId String
+  title      String
+  filePath   String
+  fileFormat String
+  fileSize   Int?
+  sortOrder  Int      @default(0)
+  createdAt  DateTime @default(now())
+  delivery   Delivery @relation(fields: [deliveryId], references: [id], onDelete: Cascade)
+
+  @@index([deliveryId])
+}
+
+model ContinuationOption {
+  id            String   @id @default(cuid())
+  scriptId      String
+  type          String
+  title         String
+  description   String
+  startingPrice Int?
+  enabled       Boolean  @default(true)
+  sortOrder     Int      @default(0)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  script        Script   @relation(fields: [scriptId], references: [id], onDelete: Cascade)
+
+  @@unique([scriptId, type])
+  @@index([scriptId])
+}
+
+model RevenueShareProject {
+  id                    String              @id @default(cuid())
+  userId                String
+  scriptId              String
+  continuationRequestId String?
+  status                String              @default("active")
+  contractStatus        String              @default("not_uploaded")
+  contractFilePath      String?
+  shareRatioPlatform    Int                 @default(30)
+  shareRatioUser        Int                 @default(70)
+  settlementCycle       String              @default("monthly")
+  authorizedPlatforms   String              @default("[]")
+  authorizedAccounts    String              @default("[]")
+  revenueDefinition     String?
+  firstEpisodeNumber    Int                 @default(4)
+  currentEpisodeEnd     Int                 @default(10)
+  riskStatus            String              @default("normal")
+  adminNote             String?
+  userVisibleNote       String?
+  startedAt             DateTime?
+  endedAt               DateTime?
+  createdAt             DateTime            @default(now())
+  updatedAt             DateTime            @updatedAt
+  user                  User                @relation(fields: [userId], references: [id], onDelete: Cascade)
+  script                Script              @relation(fields: [scriptId], references: [id], onDelete: Cascade)
+  continuationRequest   ContinuationRequest? @relation(fields: [continuationRequestId], references: [id], onDelete: SetNull)
+  batches               RevenueShareBatch[]
+  statements            RevenueShareStatement[]
+  videos                RevenueShareVideo[]
+  evidence              RevenueShareEvidence[]
+
+  @@index([userId])
+  @@index([scriptId])
+  @@index([continuationRequestId])
+  @@index([status])
+  @@index([riskStatus])
+}
+
+model RevenueShareBatch {
+  id               String              @id @default(cuid())
+  projectId        String
+  deliveryId       String?             @unique
+  batchNumber      Int
+  episodeStart     Int
+  episodeEnd       Int
+  status           String              @default("released")
+  releaseCondition String?
+  lockedReason     String?
+  releasedAt       DateTime?
+  createdAt        DateTime            @default(now())
+  updatedAt        DateTime            @updatedAt
+  project          RevenueShareProject @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  delivery         Delivery?           @relation(fields: [deliveryId], references: [id], onDelete: SetNull)
+  videos           RevenueShareVideo[]
+
+  @@index([projectId])
+  @@index([status])
+}
+
+model RevenueShareStatement {
+  id                    String              @id @default(cuid())
+  projectId             String
+  userId                String
+  scriptId              String
+  periodStart           DateTime
+  periodEnd             DateTime
+  status                String              @default("draft")
+  reportedRevenueCents  Int                 @default(0)
+  confirmedRevenueCents Int?
+  platformShareRatio    Int                 @default(30)
+  platformShareCents    Int?
+  userShareCents        Int?
+  videoCount            Int                 @default(0)
+  evidenceCount         Int                 @default(0)
+  userNote              String?
+  adminNote             String?
+  settlementProofPath   String?
+  paymentReference      String?
+  submittedAt           DateTime?
+  reviewedAt            DateTime?
+  paidAt                DateTime?
+  createdAt             DateTime            @default(now())
+  updatedAt             DateTime            @updatedAt
+  project               RevenueShareProject @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  user                  User                @relation(fields: [userId], references: [id], onDelete: Cascade)
+  script                Script              @relation(fields: [scriptId], references: [id], onDelete: Cascade)
+  videos                RevenueShareVideo[]
+  evidence              RevenueShareEvidence[]
+
+  @@index([projectId])
+  @@index([userId])
+  @@index([scriptId])
+  @@index([status])
+}
+
+model RevenueShareVideo {
+  id                   String                 @id @default(cuid())
+  projectId            String
+  statementId          String?
+  batchId              String?
+  episodeNumber        Int
+  title                String
+  videoUrl             String
+  platform             String
+  accountName          String
+  publishedAt          DateTime
+  viewCount            Int?
+  likeCount            Int?
+  commentCount         Int?
+  reportedRevenueCents Int                   @default(0)
+  revenueType          String
+  status               String                @default("submitted")
+  note                 String?
+  adminNote            String?
+  createdAt            DateTime              @default(now())
+  updatedAt            DateTime              @updatedAt
+  project              RevenueShareProject   @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  statement            RevenueShareStatement? @relation(fields: [statementId], references: [id], onDelete: Cascade)
+  batch                RevenueShareBatch?    @relation(fields: [batchId], references: [id], onDelete: SetNull)
+  evidence             RevenueShareEvidence[]
+
+  @@index([projectId])
+  @@index([statementId])
+  @@index([batchId])
+  @@index([status])
+}
+
+model RevenueShareEvidence {
+  id               String                 @id @default(cuid())
+  projectId        String
+  statementId      String?
+  videoId          String?
+  evidenceType     String
+  filePath         String
+  originalFileName String?
+  uploadedBy       String
+  reviewStatus     String                 @default("pending")
+  adminNote        String?
+  createdAt        DateTime               @default(now())
+  project          RevenueShareProject    @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  statement        RevenueShareStatement? @relation(fields: [statementId], references: [id], onDelete: Cascade)
+  video            RevenueShareVideo?     @relation(fields: [videoId], references: [id], onDelete: SetNull)
+
+  @@index([projectId])
+  @@index([statementId])
+  @@index([videoId])
+  @@index([reviewStatus])
+}

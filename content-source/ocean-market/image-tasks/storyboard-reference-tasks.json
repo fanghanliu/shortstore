@@ -1,0 +1,16 @@
+{
+  "slug": "ocean-market",
+  "mode": "ai_manhua_drama",
+  "tasks": [
+    {
+      "id": "ocean-market-cover",
+      "episodeNumber": null,
+      "assetType": "cover",
+      "mode": "ai_manhua_drama",
+      "promptZh": "竖屏AI漫剧封面，海市赊刀人：我卖的刀只斩未来，海市预言题材，竖屏国漫，强光影，符号化道具，人物眼神特写，核心道具未来刀契，场景雾上海市，无水印，无真实IP。",
+      "promptEn": "vertical AI漫剧 cover, 海市预言 story, symbolic key prop, cinematic lighting, no watermark, no existing IP",
+      "outputPath": "public/site/assets/covers/hot-catalog/cover-ocean-market.svg",
+      "status": "generated_svg"
+    }
+  ]
+}

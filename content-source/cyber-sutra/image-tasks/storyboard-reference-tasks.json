@@ -1,0 +1,16 @@
+{
+  "slug": "cyber-sutra",
+  "mode": "ai_manhua_drama",
+  "tasks": [
+    {
+      "id": "cyber-sutra-cover",
+      "episodeNumber": null,
+      "assetType": "cover",
+      "mode": "ai_manhua_drama",
+      "promptZh": "竖屏AI漫剧封面，赛博经卷：废柴程序员修成机械佛，赛博修行题材，竖屏国漫，强光影，符号化道具，人物眼神特写，核心道具机械经卷，场景霓虹数据寺，无水印，无真实IP。",
+      "promptEn": "vertical AI漫剧 cover, 赛博修行 story, symbolic key prop, cinematic lighting, no watermark, no existing IP",
+      "outputPath": "public/site/assets/covers/hot-catalog/cover-cyber-sutra.svg",
+      "status": "generated_svg"
+    }
+  ]
+}

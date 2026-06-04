@@ -1,0 +1,16 @@
+{
+  "slug": "snowfield-caravan",
+  "mode": "ai_manhua_drama",
+  "tasks": [
+    {
+      "id": "snowfield-caravan-cover",
+      "episodeNumber": null,
+      "assetType": "cover",
+      "mode": "ai_manhua_drama",
+      "promptZh": "竖屏AI漫剧封面，雪原商队：我把破车队养成北境王庭，雪原商战题材，竖屏国漫，强光影，符号化道具，人物眼神特写，核心道具北境通行印，场景暴雪商路，无水印，无真实IP。",
+      "promptEn": "vertical AI漫剧 cover, 雪原商战 story, symbolic key prop, cinematic lighting, no watermark, no existing IP",
+      "outputPath": "public/site/assets/covers/hot-catalog/cover-snowfield-caravan.svg",
+      "status": "generated_svg"
+    }
+  ]
+}

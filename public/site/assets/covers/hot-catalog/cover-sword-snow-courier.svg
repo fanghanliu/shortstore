@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="941" height="1672" viewBox="0 0 941 1672">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#172554"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="58%">
+      <stop offset="0" stop-color="#c4b5fd" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#172554" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="softShadow"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#020617" flood-opacity="0.48"/></filter>
+  </defs>
+  <rect width="941" height="1672" fill="url(#bg)"/>
+  <rect width="941" height="1672" fill="url(#glow)" opacity="0.82"/>
+  <circle cx="780" cy="286" r="210" fill="#60a5fa" opacity="0.14" filter="url(#blur)"/>
+  <circle cx="158" cy="1160" r="270" fill="#c4b5fd" opacity="0.12" filter="url(#blur)"/>
+  
+    <circle cx="144" cy="240" r="3" fill="#eff6ff" opacity="0.42"/>
+    <circle cx="735" cy="188" r="4" fill="#60a5fa" opacity="0.48"/>
+    <circle cx="812" cy="482" r="3" fill="#c4b5fd" opacity="0.42"/>
+    <path d="M0 1035 L190 760 L324 1035 L510 692 L690 1035 L842 815 L941 1035 L941 1672 L0 1672 Z" fill="#e0f2fe" opacity="0.2"/>
+    <path d="M0 1205 C180 1135 310 1180 470 1120 C650 1054 780 1100 941 1015 L941 1672 L0 1672 Z" fill="#f8fafc" opacity="0.18"/>
+    <g stroke="#eff6ff" opacity="0.34" stroke-width="3"><path d="M160 324 l28 48 l28 -48"/><path d="M710 396 l24 40 l24 -40"/><path d="M806 690 l18 30 l18 -30"/></g>
+  <rect x="68" y="82" width="805" height="1508" rx="30" fill="none" stroke="#60a5fa" stroke-width="4" opacity="0.66"/>
+  <rect x="92" y="108" width="757" height="1458" rx="22" fill="#020617" opacity="0.12"/>
+  <text x="104" y="168" fill="#60a5fa" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="800">AI MANHUA ORIGINAL COVER</text>
+  <text x="104" y="214" fill="#eff6ff" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" opacity="0.72">雪国送信 · 北境驿站</text>
+  <g filter="url(#softShadow)">
+    <path d="M470 330 L530 775 L470 950 L410 775 Z" fill="#60a5fa" opacity="0.78"/>
+    <path d="M430 770 L540 770" stroke="#eff6ff" stroke-width="18" opacity="0.75"/>
+    <path d="M470 366 L470 918" stroke="#eff6ff" stroke-width="5" opacity="0.46"/>
+    <text x="470" y="1015" text-anchor="middle" fill="#eff6ff" font-family="Microsoft YaHei, Arial, sans-serif" font-size="38" font-weight="800">亡者信匣</text>
+    <g opacity="0.92">
+    <ellipse cx="470" cy="922" rx="122" ry="40" fill="#020617" opacity="0.42"/>
+    <circle cx="470" cy="702" r="74" fill="#111827" stroke="#60a5fa" stroke-width="6"/>
+    <path d="M330 1040 C350 870 402 788 470 788 C538 788 590 870 610 1040 Z" fill="#111827" stroke="#60a5fa" stroke-width="6"/>
+    <path d="M408 680 C440 715 505 715 538 680" fill="none" stroke="#c4b5fd" stroke-width="7" opacity="0.7"/>
+    <path d="M332 912 C244 906 208 836 188 750 M608 912 C696 906 732 836 752 750" fill="none" stroke="#60a5fa" stroke-width="12" opacity="0.52"/>
+    <text x="470" y="1130" text-anchor="middle" fill="#eff6ff" font-family="Microsoft YaHei, Arial, sans-serif" font-size="30" font-weight="700" opacity="0.9">雪原驿使</text>
+  </g>
+  </g>
+  <rect x="92" y="1156" width="757" height="328" rx="24" fill="#020617" opacity="0.58"/>
+  <text x="122" y="1198" fill="#eff6ff" font-family="Microsoft YaHei, Arial, sans-serif" font-size="61" font-weight="900">雪剑驿站：我替死人</text>
+  <text x="122" y="1274" fill="#eff6ff" font-family="Microsoft YaHei, Arial, sans-serif" font-size="61" font-weight="900">送最后一封信</text>
+  <text x="122" y="1430" fill="#60a5fa" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" font-weight="800">核心道具：亡者信匣</text>
+  <text x="122" y="1476" fill="#eff6ff" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" opacity="0.78">AI雪国送信漫剧 / 边军统领压迫局</text>
+  <path d="M122 1518 L816 1518" stroke="#60a5fa" stroke-width="3" opacity="0.46"/>
+  <text x="122" y="1558" fill="#eff6ff" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" opacity="0.62">前三集验证包 · 买断 · 按集 · 分成</text>
+</svg>

@@ -1,0 +1,17 @@
+{
+  "slug": "forbidden-library",
+  "primaryMode": "ai_manhua_drama",
+  "supportedModes": [
+    "ai_manhua_drama"
+  ],
+  "defaultAspectRatio": "9:16",
+  "episodeDurationSeconds": {
+    "min": 45,
+    "max": 75
+  },
+  "panelCount": {
+    "min": 6,
+    "max": 9
+  },
+  "visualStyle": "弹幕修仙题材，竖屏国漫，强光影，符号化道具，人物眼神特写"
+}

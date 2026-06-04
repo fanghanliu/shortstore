@@ -1,0 +1,16 @@
+{
+  "slug": "midnight-hotline",
+  "mode": "ai_short_drama",
+  "tasks": [
+    {
+      "id": "midnight-hotline-cover",
+      "episodeNumber": null,
+      "assetType": "cover",
+      "mode": "ai_short_drama",
+      "promptZh": "竖屏AI短剧封面，午夜热线：她接到十年前的自己，时间悬疑题材，现代短剧电影感，冷暖对比，证据特写，强情绪表演，核心道具午夜来电录音，场景深夜热线室，无水印，无真实IP。",
+      "promptEn": "vertical AI短剧 cover, 时间悬疑 story, symbolic key prop, cinematic lighting, no watermark, no existing IP",
+      "outputPath": "public/site/assets/covers/hot-catalog/cover-midnight-hotline.svg",
+      "status": "generated_svg"
+    }
+  ]
+}

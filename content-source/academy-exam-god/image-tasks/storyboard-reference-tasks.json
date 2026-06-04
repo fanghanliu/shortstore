@@ -1,0 +1,16 @@
+{
+  "slug": "academy-exam-god",
+  "mode": "ai_manhua_drama",
+  "tasks": [
+    {
+      "id": "academy-exam-god-cover",
+      "episodeNumber": null,
+      "assetType": "cover",
+      "mode": "ai_manhua_drama",
+      "promptZh": "竖屏AI漫剧封面，科举神榜：我把考场变成修罗副本，科举副本题材，竖屏国漫，强光影，符号化道具，人物眼神特写，核心道具神榜墨卷，场景贡院考场，无水印，无真实IP。",
+      "promptEn": "vertical AI漫剧 cover, 科举副本 story, symbolic key prop, cinematic lighting, no watermark, no existing IP",
+      "outputPath": "public/site/assets/covers/hot-catalog/cover-academy-exam-god.svg",
+      "status": "generated_svg"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "fog-city-countdown",
+  "title": {
+    "zh": "雾城倒计时",
+    "en": "Fog City Countdown"
+  },
+  "primaryMode": "ai_short_drama",
+  "supportedModes": [
+    "ai_short_drama"
+  ],
+  "logline": "全城断电前三小时，女记者收到一条来自未来的直播弹幕，弹幕说她会成为第一名替罪羊。",
+  "synopsis": "女记者林听雾一直追查城市电网事故。一次深夜直播中，她突然看见只有自己能看到的未来弹幕，弹幕准确预告了三小时后的全城断电和第一起死亡。她试图报警，却被同事、警方和平台认定为制造恐慌。随着倒计时逼近，林听雾发现弹幕并不是预言，而是有人提前写好的舆论剧本。她必须在断电前找出操盘者，否则自己会被推成事故元凶。",
+  "category": "AI都市悬疑断电短剧",
+  "recommendedPlatforms": [
+    "抖音",
+    "快手",
+    "小红书",
+    "TikTok",
+    "YouTube Shorts"
+  ],
+  "audienceTags": [
+    "都市悬疑",
+    "未来弹幕",
+    "舆论反转",
+    "强钩子短剧"
+  ],
+  "productionDifficulty": "medium",
+  "episodeCount": 6,
+  "freeEpisodeCount": 3,
+  "commercialPolicy": {
+    "buyout": "一次性买断后续完整剧集和对应授权，适合已经验证数据、准备连续更新的团队。",
+    "payPerEpisode": "按集购买后续内容，适合边生产边观察播放和转化数据的账号。",
+    "revenueShare": "不预付剧集费用，经审核后可继续制作，并按视频收益约定比例分成。"
+  }
+}

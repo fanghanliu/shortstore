@@ -1,0 +1,16 @@
+{
+  "slug": "paper-army-girl",
+  "mode": "ai_manhua_drama",
+  "tasks": [
+    {
+      "id": "paper-army-girl-cover",
+      "episodeNumber": null,
+      "assetType": "cover",
+      "mode": "ai_manhua_drama",
+      "promptZh": "竖屏AI漫剧封面，纸甲少女：我折出一支阴兵军团，纸术阴兵题材，竖屏国漫，强光影，符号化道具，人物眼神特写，核心道具纸甲兵符，场景白事街，无水印，无真实IP。",
+      "promptEn": "vertical AI漫剧 cover, 纸术阴兵 story, symbolic key prop, cinematic lighting, no watermark, no existing IP",
+      "outputPath": "public/site/assets/covers/hot-catalog/cover-paper-army-girl.svg",
+      "status": "generated_svg"
+    }
+  ]
+}

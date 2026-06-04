@@ -1,0 +1,228 @@
+{
+  "schemaVersion": "1.0.0",
+  "slug": "sample-script",
+  "title": {
+    "zh": "午夜算法诊所",
+    "en": "Midnight Algorithm Clinic"
+  },
+  "primaryMode": "dual",
+  "supportedModes": ["ai_short_drama", "ai_manhua_drama"],
+  "freeEpisodeCount": 3,
+  "episodeCount": 24,
+  "logline": "一名能修复人类记忆漏洞的 AI 心理师，在午夜诊所接诊失忆女孩，却发现她的记忆缺口里藏着自己三年前被删除的死亡记录。",
+  "synopsis": "近未来都市里，情绪崩溃和记忆损伤可以被 AI 心理诊所修复。林雾是一名午夜算法诊所的女心理师，擅长通过算法重建患者的碎片记忆。某个雨夜，17 岁女孩许眠被送进诊所。她每晚零点都会忘记当天发生的事，只记得一句话：不要相信林雾。治疗推进后，林雾在许眠的记忆碎片里看见哥哥失踪当晚的手术室、被涂黑的病例编号，以及一段属于自己的死亡记录。她必须在继续治疗、保护许眠和追查哥哥之间做选择。",
+  "category": "近未来都市AI悬疑记忆疗愈短剧",
+  "recommendedPlatforms": ["抖音", "快手", "小红书", "TikTok", "YouTube Shorts"],
+  "audienceTags": ["AI悬疑", "都市反转", "女性成长", "记忆疗愈", "医疗黑幕"],
+  "characters": [
+    {
+      "name": "林雾",
+      "role": "女主 / 午夜算法诊所 AI 心理师",
+      "age": 29,
+      "visualAnchor": "亚洲女性，黑色短发，冷白皮，白色诊疗外套，银色耳骨夹，眼神冷静疲惫。",
+      "desire": "查清哥哥三年前失踪真相。",
+      "fear": "自己赖以判断世界的记忆也是假的。",
+      "secret": "她曾被系统判定死亡，但记录被删除。",
+      "arc": "从修复患者记忆的人，变成敢于承认自己创伤的人。"
+    },
+    {
+      "name": "许眠",
+      "role": "失忆女孩 / 活体证据",
+      "age": 17,
+      "visualAnchor": "亚洲少女，苍白瘦弱，黑色长发，宽大灰色卫衣，手腕有诊所编号腕带。",
+      "desire": "保住自己每晚都会消失的记忆。",
+      "fear": "醒来后忘记自己为什么要逃。",
+      "secret": "她的大脑里存着林燃失踪案的原始证据。",
+      "arc": "从被治疗对象变成主动选择记住痛苦的人。"
+    },
+    {
+      "name": "沈砚",
+      "role": "林雾导师 / 医疗集团首席算法顾问",
+      "age": 38,
+      "visualAnchor": "亚洲男性，深灰西装，细框眼镜，温和嗓音，永远干净得没有情绪。",
+      "desire": "让 Mnemosyne 成为城市级情绪管理系统。",
+      "fear": "林雾恢复被删除的记忆。",
+      "secret": "他参与了林燃失踪手术，也亲手修改过林雾记忆。",
+      "arc": "从可信导师滑向温柔反派。"
+    }
+  ],
+  "storyWorld": {
+    "setting": "近未来都市，情绪医疗和记忆修复商业化。",
+    "coreSystem": "Mnemosyne 记忆修复系统，可以读取患者神经影像并生成可视化记忆场景。",
+    "hiddenRule": "每个被治好的患者都会失去一段最痛苦也最真实的记忆。"
+  },
+  "conflictDesign": {
+    "surfaceConflict": "林雾必须治疗每晚零点失忆的许眠，找出她记忆崩溃的原因。",
+    "deepConflict": "许眠的记忆不是损坏，而是被人为切割，碎片指向林雾哥哥失踪和林雾本人死亡记录。",
+    "antagonistPressure": "医疗集团不允许许眠恢复完整记忆，沈砚以保护林雾为名引导她停止治疗。",
+    "emotionalTension": "林雾越想治好许眠，越会让许眠想起痛苦；越想保护许眠，越必须让她承受真相。"
+  },
+  "arcOutline": [
+    {
+      "arc": "开局钩子",
+      "episodes": "1-3",
+      "purpose": "免费验证",
+      "event": "许眠入诊，记忆警告，林雾发现自己的死亡记录。",
+      "reversal": "患者记忆里藏着医生的秘密。"
+    },
+    {
+      "arc": "第一轮升级",
+      "episodes": "4-10",
+      "purpose": "付费承接",
+      "event": "门禁、病例、旧手术室逐步曝光。",
+      "reversal": "林雾哥哥不是失踪，而是被用于模型训练。"
+    },
+    {
+      "arc": "中段爆点",
+      "episodes": "11-16",
+      "purpose": "拉高追更",
+      "event": "许眠恢复完整证词，林雾被暂停执业。",
+      "reversal": "沈砚不是旁观者，而是旧案操盘人之一。"
+    },
+    {
+      "arc": "身份反转",
+      "episodes": "17-21",
+      "purpose": "重构认知",
+      "event": "林雾发现自己也曾接受记忆修复。",
+      "reversal": "她对哥哥的最后记忆是被植入的。"
+    },
+    {
+      "arc": "终局兑现",
+      "episodes": "22-24",
+      "purpose": "情绪收束",
+      "event": "林雾和许眠公开记忆证据，摧毁午夜诊所。",
+      "reversal": "痛苦记忆不是故障，是人仍然真实的证明。"
+    }
+  ],
+  "freePreviewDesign": [
+    {
+      "episodeNumber": 1,
+      "title": "午夜患者",
+      "hook": "失忆女孩醒来第一句话是“不要相信林雾”。",
+      "summary": "林雾接诊许眠，发现她每晚零点都会重置记忆。",
+      "endingHook": "许眠在治疗屏幕上写下林雾哥哥的名字。",
+      "validationGoal": "验证 AI 诊所和失忆设定是否抓人。"
+    },
+    {
+      "episodeNumber": 2,
+      "title": "被删除的病例",
+      "hook": "许眠的病例编号不存在，却能打开最高权限档案。",
+      "summary": "林雾追查病例，发现三年前同编号档案被删除。",
+      "endingHook": "档案最后一页显示“林雾，死亡”。",
+      "validationGoal": "验证女主死亡记录能否制造追更。"
+    },
+    {
+      "episodeNumber": 3,
+      "title": "记忆里的手术室",
+      "hook": "许眠记忆碎片出现林雾哥哥的声音。",
+      "summary": "林雾进入记忆场景，看见哥哥在手术室求她快逃。",
+      "endingHook": "沈砚关闭系统，说这段记忆是伪造的。",
+      "validationGoal": "验证导师反派嫌疑和情绪拉扯。"
+    }
+  ],
+  "paidContinuationDesign": [
+    {
+      "episodes": "4-10",
+      "progression": "旧诊所门禁、手术室和林燃档案曝光。",
+      "paidValue": "追查前三集埋下的死亡记录和哥哥失踪。",
+      "reversal": "林燃是模型训练第一批样本。"
+    },
+    {
+      "episodes": "11-16",
+      "progression": "许眠恢复证词，集团开始反击。",
+      "paidValue": "许眠从病人变证人，冲突升级。",
+      "reversal": "沈砚参与旧案。"
+    },
+    {
+      "episodes": "17-21",
+      "progression": "林雾发现自己记忆被修复。",
+      "paidValue": "女主身份反转，重构前面所有线索。",
+      "reversal": "林雾曾主动要求删除某段记忆。"
+    },
+    {
+      "episodes": "22-24",
+      "progression": "公开记忆证据，摧毁诊所。",
+      "paidValue": "情绪终局和社会议题兑现。",
+      "reversal": "痛苦记忆成为反击武器。"
+    }
+  ],
+  "episodeOutline": [
+    {
+      "episodeNumber": 1,
+      "title": "午夜患者",
+      "hook": "失忆女孩醒来第一句话是“不要相信林雾”。",
+      "summary": "林雾接诊许眠，发现她每晚零点都会重置记忆。",
+      "endingHook": "许眠写下林燃的名字。",
+      "arc": "开局钩子",
+      "isFreePreview": true,
+      "paidValue": "",
+      "reversalPoint": "患者认识林雾哥哥。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 2,
+      "title": "被删除的病例",
+      "hook": "不存在的病例编号打开最高权限档案。",
+      "summary": "林雾查到三年前删除记录。",
+      "endingHook": "档案显示林雾死亡。",
+      "arc": "开局钩子",
+      "isFreePreview": true,
+      "paidValue": "",
+      "reversalPoint": "女主也在旧案里。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 3,
+      "title": "记忆里的手术室",
+      "hook": "许眠记忆里出现林燃求救声。",
+      "summary": "林雾进入记忆场景。",
+      "endingHook": "沈砚强行关闭系统。",
+      "arc": "开局钩子",
+      "isFreePreview": true,
+      "paidValue": "",
+      "reversalPoint": "导师可能在隐瞒真相。",
+      "productionPriority": "high"
+    },
+    {
+      "episodeNumber": 4,
+      "title": "旧门禁",
+      "hook": "林雾发现三年前手术室门禁有自己的虹膜记录。",
+      "summary": "她潜入旧诊区，找到被清洗过的门禁备份。",
+      "endingHook": "备份显示许眠曾在三年前进入诊所。",
+      "arc": "第一轮升级",
+      "isFreePreview": false,
+      "paidValue": "承接前三集死亡记录，开启第4集以后付费调查主线。",
+      "reversalPoint": "许眠和旧案的关系早于她入诊。",
+      "productionPriority": "high"
+    }
+  ],
+  "modeAdaptation": {
+    "aiShortDrama": {
+      "aspectRatio": "9:16",
+      "episodeDurationSeconds": {
+        "min": 45,
+        "max": 75
+      },
+      "visualStyle": "冷蓝医疗空间、雨夜霓虹、半透明记忆界面、高反差电影光影。",
+      "globalPromptZh": "近未来都市 AI 心理诊所，午夜雨夜，冷蓝医疗光，记忆碎片可视化，亚洲女性 AI 心理师，失忆少女，高反差电影光影，9:16 竖屏短剧。",
+      "globalPromptEn": "near-future urban AI psychology clinic, midnight rain, cold blue medical lighting, visualized memory fragments, Asian female AI therapist, amnesiac teenage girl, high-contrast cinematic lighting, vertical 9:16 short drama."
+    },
+    "aiManhuaDrama": {
+      "aspectRatio": "9:16",
+      "panelCount": {
+        "min": 10,
+        "max": 14
+      },
+      "visualStyle": "近未来都市悬疑国漫，干净线稿，冷蓝灰色调，强表情特写。",
+      "globalPromptZh": "竖屏国漫分镜，近未来 AI 心理诊所，冷蓝光，记忆碎片，女性心理师，失忆少女，悬疑氛围，干净线稿，强情绪特写，预留对白气泡空间。",
+      "globalPromptEn": "vertical manhua storyboard, near-future AI psychology clinic, cold blue lighting, memory fragments, female therapist, amnesiac girl, suspense atmosphere, clean line art, emotional close-up, speech bubble space."
+    }
+  },
+  "commercialPolicy": {
+    "freeScope": "第 1-3 集验证包。",
+    "buyout": "一次性开放第 4-24 集。",
+    "payPerEpisode": "优先开放第 4-6 集作为第一批付费承接。",
+    "revenueShare": "开放第 4-10 集作为第一批分成合作内容。",
+    "forbidden": ["不得转售母版", "不得二次分发完整生产稿", "不得把第 4 集以后内容伪装成自有版权资源包"]
+  }
+}

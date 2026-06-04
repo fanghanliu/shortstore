@@ -1,0 +1,44 @@
+{
+  "name": "ai-short-drama-script-marketplace",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI短剧剧本售卖网站的后端数据库 MVP。",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push",
+    "db:init": "node scripts/init-sqlite.js",
+    "db:seed": "prisma db seed",
+    "db:studio": "prisma studio",
+    "make:admin": "node scripts/make-admin.js",
+    "import:script": "node scripts/import-script-data.js",
+    "build:script-data": "node scripts/build-script-data-from-source.js",
+    "generate:production-content": "node scripts/generate-production-content-fixtures.js && node scripts/enrich-production-script-content.js",
+    "enrich:production-content": "node scripts/enrich-production-script-content.js",
+    "run:daily-script-production": "node scripts/run-daily-script-production.js",
+    "generate:hot-catalog": "node scripts/generate-hot-script-catalog.js",
+    "generate:cover-task-list": "node scripts/write-cover-generation-task-list.js",
+    "check:covers": "node scripts/check-hot-catalog-png-covers.js",
+    "sync:covers": "node scripts/sync-hot-catalog-png-covers.js",
+    "generate:docx": "node scripts/generate-docx-deliveries.js",
+    "test:api": "node scripts/smoke-api.js",
+    "test:staging": "node scripts/staging-smoke-check.js",
+    "check:text": "node scripts/check-text-encoding.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.8.2",
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "docx": "^9.7.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.3"
+  },
+  "devDependencies": {
+    "prisma": "^6.8.2"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "wasteland-zoo",
+  "mode": "ai_manhua_drama",
+  "tasks": [
+    {
+      "id": "wasteland-zoo-cover",
+      "episodeNumber": null,
+      "assetType": "cover",
+      "mode": "ai_manhua_drama",
+      "promptZh": "竖屏AI漫剧封面，末日动物园：我把变异兽养成护城军，末日异兽题材，竖屏国漫，强光影，符号化道具，人物眼神特写，核心道具异兽饲养册，场景废城动物园，无水印，无真实IP。",
+      "promptEn": "vertical AI漫剧 cover, 末日异兽 story, symbolic key prop, cinematic lighting, no watermark, no existing IP",
+      "outputPath": "public/site/assets/covers/hot-catalog/cover-wasteland-zoo.svg",
+      "status": "generated_svg"
+    }
+  ]
+}

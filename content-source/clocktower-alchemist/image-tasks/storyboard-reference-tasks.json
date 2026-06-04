@@ -1,0 +1,16 @@
+{
+  "slug": "clocktower-alchemist",
+  "mode": "ai_manhua_drama",
+  "tasks": [
+    {
+      "id": "clocktower-alchemist-cover",
+      "episodeNumber": null,
+      "assetType": "cover",
+      "mode": "ai_manhua_drama",
+      "promptZh": "竖屏AI漫剧封面，钟楼炼金师：我偷走明天的三分钟，时间炼金题材，竖屏国漫，强光影，符号化道具，人物眼神特写，核心道具三分钟怀表，场景旧城钟楼，无水印，无真实IP。",
+      "promptEn": "vertical AI漫剧 cover, 时间炼金 story, symbolic key prop, cinematic lighting, no watermark, no existing IP",
+      "outputPath": "public/site/assets/covers/hot-catalog/cover-clocktower-alchemist.svg",
+      "status": "generated_svg"
+    }
+  ]
+}

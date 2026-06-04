@@ -1,0 +1,16 @@
+{
+  "slug": "cloud-circus",
+  "mode": "ai_manhua_drama",
+  "tasks": [
+    {
+      "id": "cloud-circus-cover",
+      "episodeNumber": null,
+      "assetType": "cover",
+      "mode": "ai_manhua_drama",
+      "promptZh": "竖屏AI漫剧封面，云端戏班：我演完一出戏改了王朝，戏班权谋题材，竖屏国漫，强光影，符号化道具，人物眼神特写，核心道具改命戏谱，场景云上戏台，无水印，无真实IP。",
+      "promptEn": "vertical AI漫剧 cover, 戏班权谋 story, symbolic key prop, cinematic lighting, no watermark, no existing IP",
+      "outputPath": "public/site/assets/covers/hot-catalog/cover-cloud-circus.svg",
+      "status": "generated_svg"
+    }
+  ]
+}

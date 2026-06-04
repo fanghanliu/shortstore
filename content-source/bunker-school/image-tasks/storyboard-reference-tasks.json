@@ -1,0 +1,16 @@
+{
+  "slug": "bunker-school",
+  "mode": "ai_manhua_drama",
+  "tasks": [
+    {
+      "id": "bunker-school-cover",
+      "episodeNumber": null,
+      "assetType": "cover",
+      "mode": "ai_manhua_drama",
+      "promptZh": "竖屏AI漫剧封面，末世学院：我把废校改成避难城，废校避难题材，竖屏国漫，强光影，符号化道具，人物眼神特写，核心道具地下校规核心，场景废弃中学，无水印，无真实IP。",
+      "promptEn": "vertical AI漫剧 cover, 废校避难 story, symbolic key prop, cinematic lighting, no watermark, no existing IP",
+      "outputPath": "public/site/assets/covers/hot-catalog/cover-bunker-school.svg",
+      "status": "generated_svg"
+    }
+  ]
+}

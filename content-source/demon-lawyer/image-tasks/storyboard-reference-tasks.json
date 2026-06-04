@@ -1,0 +1,16 @@
+{
+  "slug": "demon-lawyer",
+  "mode": "ai_manhua_drama",
+  "tasks": [
+    {
+      "id": "demon-lawyer-cover",
+      "episodeNumber": null,
+      "assetType": "cover",
+      "mode": "ai_manhua_drama",
+      "promptZh": "竖屏AI漫剧封面，魔门律所：我替反派打赢天道官司，魔门律政题材，竖屏国漫，强光影，符号化道具，人物眼神特写，核心道具天道案卷，场景魔门律所，无水印，无真实IP。",
+      "promptEn": "vertical AI漫剧 cover, 魔门律政 story, symbolic key prop, cinematic lighting, no watermark, no existing IP",
+      "outputPath": "public/site/assets/covers/hot-catalog/cover-demon-lawyer.svg",
+      "status": "generated_svg"
+    }
+  ]
+}

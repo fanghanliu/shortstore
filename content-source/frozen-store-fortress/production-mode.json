@@ -1,0 +1,20 @@
+{
+  "slug": "frozen-store-fortress",
+  "primaryMode": "ai_manhua_drama",
+  "supportedModes": [
+    "ai_manhua_drama"
+  ],
+  "defaultAspectRatio": "9:16",
+  "episodeDurationSeconds": {
+    "min": 45,
+    "max": 75
+  },
+  "panelCount": {
+    "min": 10,
+    "max": 14
+  },
+  "visualStyle": {
+    "ai_short_drama": "",
+    "ai_manhua_drama": "冰雪末世国漫，移动便利店堡垒，冷白雪雾和暖黄店灯对比。"
+  }
+}

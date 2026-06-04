@@ -1,0 +1,16 @@
+{
+  "slug": "bullet-screen-prophecy",
+  "mode": "ai_short_drama",
+  "tasks": [
+    {
+      "id": "bullet-screen-prophecy-cover",
+      "episodeNumber": null,
+      "assetType": "cover",
+      "mode": "ai_short_drama",
+      "promptZh": "9:16竖屏，现代都市舆论悬疑短剧，热搜红色数据，未来弹幕，危机公关女性，数据取证师，冷蓝屏幕光，高反差电影光影，强反转。",
+      "promptEn": "vertical 9:16, modern urban public-opinion suspense short drama, red trending-topic data, future bullet comments, female crisis PR strategist, digital forensic analyst, cold blue screen glow, high-contrast cinematic lighting, strong twist.",
+      "outputPath": "public/site/assets/covers/cover-bullet-screen-prophecy.png",
+      "status": "planned"
+    }
+  ]
+}

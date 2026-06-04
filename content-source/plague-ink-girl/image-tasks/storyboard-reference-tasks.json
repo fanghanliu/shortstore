@@ -1,0 +1,16 @@
+{
+  "slug": "plague-ink-girl",
+  "mode": "ai_manhua_drama",
+  "tasks": [
+    {
+      "id": "plague-ink-girl-cover",
+      "episodeNumber": null,
+      "assetType": "cover",
+      "mode": "ai_manhua_drama",
+      "promptZh": "竖屏AI漫剧封面，疫墨少女：我用毒画封住全城鬼门，毒画民俗题材，竖屏国漫，强光影，符号化道具，人物眼神特写，核心道具疫墨画轴，场景瘟城画院，无水印，无真实IP。",
+      "promptEn": "vertical AI漫剧 cover, 毒画民俗 story, symbolic key prop, cinematic lighting, no watermark, no existing IP",
+      "outputPath": "public/site/assets/covers/hot-catalog/cover-plague-ink-girl.svg",
+      "status": "generated_svg"
+    }
+  ]
+}

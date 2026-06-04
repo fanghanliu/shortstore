@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="941" height="1672" viewBox="0 0 941 1672">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c1f1a"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="58%">
+      <stop offset="0" stop-color="#99f6e4" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#0c1f1a" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+    <filter id="softShadow"><feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#020617" flood-opacity="0.48"/></filter>
+  </defs>
+  <rect width="941" height="1672" fill="url(#bg)"/>
+  <rect width="941" height="1672" fill="url(#glow)" opacity="0.82"/>
+  <circle cx="780" cy="286" r="210" fill="#14b8a6" opacity="0.14" filter="url(#blur)"/>
+  <circle cx="158" cy="1160" r="270" fill="#99f6e4" opacity="0.12" filter="url(#blur)"/>
+  
+    <circle cx="144" cy="240" r="3" fill="#f0fdfa" opacity="0.42"/>
+    <circle cx="735" cy="188" r="4" fill="#14b8a6" opacity="0.48"/>
+    <circle cx="812" cy="482" r="3" fill="#99f6e4" opacity="0.42"/>
+    <circle cx="725" cy="350" r="116" fill="#14b8a6" opacity="0.18"/>
+    <path d="M100 1040 C190 886 276 886 356 1040 M586 1040 C676 886 762 886 842 1040" fill="none" stroke="#14b8a6" stroke-width="8" opacity="0.35"/>
+    <g fill="none" stroke="#99f6e4" stroke-width="5" opacity="0.48"><path d="M156 642 L156 780"/><path d="M122 642 L190 642 L190 720 Q156 758 122 720 Z"/><path d="M770 606 L770 742"/><path d="M736 606 L804 606 L804 684 Q770 722 736 684 Z"/></g>
+  <rect x="68" y="82" width="805" height="1508" rx="30" fill="none" stroke="#14b8a6" stroke-width="4" opacity="0.66"/>
+  <rect x="92" y="108" width="757" height="1458" rx="22" fill="#020617" opacity="0.12"/>
+  <text x="104" y="168" fill="#14b8a6" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" font-weight="800">AI MANHUA ORIGINAL COVER</text>
+  <text x="104" y="214" fill="#f0fdfa" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" opacity="0.72">纸术阴兵 · 白事街</text>
+  <g filter="url(#softShadow)">
+    <rect x="312" y="450" width="316" height="420" rx="42" fill="#0f172a" opacity="0.72" stroke="#14b8a6" stroke-width="8"/>
+    <circle cx="470" cy="596" r="96" fill="#99f6e4" opacity="0.2" stroke="#14b8a6" stroke-width="5"/>
+    <path d="M380 742 C430 690 510 690 560 742" fill="none" stroke="#f0fdfa" stroke-width="8" opacity="0.62"/>
+    <text x="470" y="660" text-anchor="middle" fill="#f0fdfa" font-family="Microsoft YaHei, Arial, sans-serif" font-size="40" font-weight="800">纸甲兵符</text>
+    <g opacity="0.92">
+    <ellipse cx="470" cy="922" rx="122" ry="40" fill="#020617" opacity="0.42"/>
+    <circle cx="470" cy="702" r="74" fill="#111827" stroke="#14b8a6" stroke-width="6"/>
+    <path d="M330 1040 C350 870 402 788 470 788 C538 788 590 870 610 1040 Z" fill="#111827" stroke="#14b8a6" stroke-width="6"/>
+    <path d="M408 680 C440 715 505 715 538 680" fill="none" stroke="#99f6e4" stroke-width="7" opacity="0.7"/>
+    <path d="M332 912 C244 906 208 836 188 750 M608 912 C696 906 732 836 752 750" fill="none" stroke="#14b8a6" stroke-width="12" opacity="0.52"/>
+    <text x="470" y="1130" text-anchor="middle" fill="#f0fdfa" font-family="Microsoft YaHei, Arial, sans-serif" font-size="30" font-weight="700" opacity="0.9">纸扎铺少女</text>
+  </g>
+  </g>
+  <rect x="92" y="1156" width="757" height="328" rx="24" fill="#020617" opacity="0.58"/>
+  <text x="122" y="1198" fill="#f0fdfa" font-family="Microsoft YaHei, Arial, sans-serif" font-size="61" font-weight="900">纸甲少女：我折出一</text>
+  <text x="122" y="1274" fill="#f0fdfa" font-family="Microsoft YaHei, Arial, sans-serif" font-size="61" font-weight="900">支阴兵军团</text>
+  <text x="122" y="1430" fill="#14b8a6" font-family="Microsoft YaHei, Arial, sans-serif" font-size="28" font-weight="800">核心道具：纸甲兵符</text>
+  <text x="122" y="1476" fill="#f0fdfa" font-family="Microsoft YaHei, Arial, sans-serif" font-size="25" opacity="0.78">AI纸术阴兵漫剧 / 阴司捕头压迫局</text>
+  <path d="M122 1518 L816 1518" stroke="#14b8a6" stroke-width="3" opacity="0.46"/>
+  <text x="122" y="1558" fill="#f0fdfa" font-family="Microsoft YaHei, Arial, sans-serif" font-size="22" opacity="0.62">前三集验证包 · 买断 · 按集 · 分成</text>
+</svg>
