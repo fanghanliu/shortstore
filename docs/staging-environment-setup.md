@@ -14,6 +14,14 @@
 
 测试环境的定位是 staging，不是 production。
 
+如果你希望使用国内平台，优先参考：
+
+```text
+docs/tencent-cloud-staging-deployment-guide.md
+```
+
+这份文档以腾讯云轻量应用服务器为主线，适合中文后台和国内访问场景。
+
 ## 2. 测试环境目标架构
 
 推荐测试环境尽量模拟正式环境：
@@ -124,9 +132,15 @@ npm.cmd start
 平台侧通常配置：
 
 ```text
-Build command: npm install
-Start command: npm start
+Build command: npm install && npm run db:generate:staging
+Start command: npm run start:staging
 ```
+
+说明：
+
+- `db:generate:staging` 会生成 PostgreSQL 版 Prisma Client。
+- `start:staging` 会在服务启动前执行测试库建表同步，并导入 `scripts-data/*.json`。
+- 这套命令只用于 staging，正式生产环境后续应改成 migration deploy。
 
 ### Step 2：准备测试数据库
 
@@ -150,21 +164,23 @@ script_marketplace_staging
 建议顺序：
 
 1. 备份当前 `prisma/schema.prisma`。
-2. 将 datasource provider 从 `sqlite` 改为 `postgresql`。
-3. 生成 Prisma migration。
-4. 在测试库执行 migration。
+2. 使用 `scripts/write-postgres-prisma-schema.js` 自动生成 `prisma/schema.postgresql.prisma`。
+3. staging 环境使用 `prisma/schema.postgresql.prisma`。
+4. 在测试库执行 `prisma db push --schema prisma/schema.postgresql.prisma`。
 5. 重新生成 Prisma Client。
 
 建议未来脚本：
 
 ```json
 {
+  "db:generate:staging": "npm run db:write-postgres-schema && prisma generate --schema prisma/schema.postgresql.prisma",
+  "db:push:staging": "npm run db:write-postgres-schema && prisma db push --schema prisma/schema.postgresql.prisma",
   "db:migrate:dev": "prisma migrate dev",
   "db:migrate:deploy": "prisma migrate deploy"
 }
 ```
 
-当前不要在 UI 收尾分支上直接切库，避免影响本地开发。
+当前不要在 UI 收尾分支上直接把 `prisma/schema.prisma` 切库，避免影响本地开发。
 
 ### Step 4：配置测试环境变量
 

@@ -12,6 +12,7 @@ qa-renders/
 public/site/assets/qa-*.png
 prisma/dev.db
 prisma/dev.db-journal
+prisma/schema.postgresql.prisma
 .env
 .env.*
 !.env.example

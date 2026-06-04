@@ -12,6 +12,9 @@
     "db:init": "node scripts/init-sqlite.js",
     "db:seed": "prisma db seed",
     "db:studio": "prisma studio",
+    "db:write-postgres-schema": "node scripts/write-postgres-prisma-schema.js",
+    "db:generate:staging": "npm run db:write-postgres-schema && prisma generate --schema prisma/schema.postgresql.prisma",
+    "db:push:staging": "npm run db:write-postgres-schema && prisma db push --schema prisma/schema.postgresql.prisma",
     "make:admin": "node scripts/make-admin.js",
     "import:script": "node scripts/import-script-data.js",
     "build:script-data": "node scripts/build-script-data-from-source.js",
@@ -23,6 +26,7 @@
     "check:covers": "node scripts/check-hot-catalog-png-covers.js",
     "sync:covers": "node scripts/sync-hot-catalog-png-covers.js",
     "generate:docx": "node scripts/generate-docx-deliveries.js",
+    "start:staging": "npm run db:push:staging && npm run import:script -- scripts-data/*.json && node server.js",
     "test:api": "node scripts/smoke-api.js",
     "test:staging": "node scripts/staging-smoke-check.js",
     "check:text": "node scripts/check-text-encoding.js"
