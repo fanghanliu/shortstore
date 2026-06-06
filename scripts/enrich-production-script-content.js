@@ -376,19 +376,57 @@ function buildShortDramaShots(episode) {
   });
 }
 
+function hasText(value) {
+  return typeof value === "string" && value.trim().length > 0;
+}
+
+function isCompleteAdvancedUnit(unit) {
+  if (!unit || typeof unit !== "object") return false;
+  return [
+    "visualDesign",
+    "cameraLanguage",
+    "characterAction",
+    "dramaticPurpose",
+    "dialogue",
+    "soundDesign",
+    "endingHook",
+    "aiPromptZh",
+    "aiPromptEn",
+    "negativePrompt"
+  ].every((fieldName) => hasText(unit[fieldName]));
+}
+
+function keepExistingAdvancedUnits(units, minimumCount) {
+  if (!Array.isArray(units) || units.length < minimumCount) return null;
+  return units.every(isCompleteAdvancedUnit) ? units : null;
+}
+
+function firstNonEmptyText(...values) {
+  return values.find((value) => hasText(value)) || "";
+}
+
 function enrichEpisode(master, rawEpisode) {
   const episode = baseEpisode(rawEpisode);
   const isManhua = master.primaryMode === "ai_manhua_drama";
   const mode = isManhua ? "ai_manhua_drama" : "ai_short_drama";
-  const scriptText = buildAdvancedScriptText(episode, mode);
+  const existingManhuaPanels = keepExistingAdvancedUnits(rawEpisode.aiManhuaDrama?.panels, 9);
+  const existingShortShots = keepExistingAdvancedUnits(rawEpisode.aiShortDrama?.shots, 8);
+  const scriptText =
+    firstNonEmptyText(rawEpisode.scriptText, rawEpisode.aiManhuaDrama?.scriptText, rawEpisode.aiShortDrama?.scriptText) ||
+    buildAdvancedScriptText(episode, mode);
+  const existingSummary = firstNonEmptyText(rawEpisode.summary);
+  const summary = existingSummary.length >= 240 ? existingSummary : advancedSummary(episode, mode);
+  const productionValue =
+    firstNonEmptyText(rawEpisode.productionValue) ||
+    `本集交付价值不只是剧情摘要，而是按高级深化指令提供可直接制作的影视化执行稿：完整正文、${isManhua ? "逐格漫剧分镜" : "逐镜头短剧执行表"}、戏剧目的、台词潜台词、视听调度、音效环境、结尾钩子、中英文提示词和反向提示词。`;
 
   const enriched = {
     ...rawEpisode,
     baseHook: episode.hook,
     baseSummary: episode.summary,
     baseEndingHook: episode.endingHook,
-    summary: advancedSummary(episode, mode),
-    productionValue: `本集交付价值不只是剧情摘要，而是按高级深化指令提供可直接制作的影视化执行稿：完整正文、${isManhua ? "逐格漫剧分镜" : "逐镜头短剧执行表"}、戏剧目的、台词潜台词、视听调度、音效环境、结尾钩子、中英文提示词和反向提示词。`,
+    summary,
+    productionValue,
     scriptText
   };
 
@@ -398,7 +436,7 @@ function enrichEpisode(master, rawEpisode) {
       directive: "docs/advanced-script-enrichment-directive.md",
       panelCount: 9,
       scriptText,
-      panels: buildManhuaPanels(episode),
+      panels: existingManhuaPanels || buildManhuaPanels(episode),
       layoutNotes: [
         "第一格必须建立强钩子和空间压迫，不用说明文解释设定。",
         "中段通过前景遮挡、反打镜头、长焦压缩和沉默动作体现人物动机。",
@@ -412,7 +450,7 @@ function enrichEpisode(master, rawEpisode) {
       directive: "docs/advanced-script-enrichment-directive.md",
       runtimeSeconds: 60,
       scriptText,
-      shots: buildShortDramaShots(episode),
+      shots: existingShortShots || buildShortDramaShots(episode),
       editingNotes: [
         "前 3 秒必须出现视觉或信息钩子。",
         "每个镜头都要服务人物目标、隐藏冲突或新信息。",

@@ -8,7 +8,6 @@ const mojibakePatterns = [
   /\uFFFD/,
   /鍓/,
   /鐭/,
-  /璇/,
   /鎴/,
   /绗/,
   /脳/,

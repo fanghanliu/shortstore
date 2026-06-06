@@ -1,0 +1,480 @@
+{
+  "slug": "neon-bone-doctor",
+  "status": "published",
+  "featured": false,
+  "trendEvidence": [
+    {
+      "source": "codex_first_batch",
+      "keyword": "赛博都市 / 尸体记忆 / 异能医生 / 连环谜案",
+      "heatScore": 88,
+      "observedAt": "2026-06-04T15:22:44.613Z"
+    }
+  ],
+  "master": {
+    "slug": "neon-bone-doctor",
+    "title": {
+      "zh": "霓虹骨医：我修复尸体记忆",
+      "en": "Neon Bone Doctor"
+    },
+    "primaryMode": "ai_manhua_drama",
+    "supportedModes": [
+      "ai_manhua_drama"
+    ],
+    "logline": "地下骨医能从尸体骨裂中读取最后三秒记忆，当她修复一具无名尸时，却看见未来的自己站在凶案现场。",
+    "synopsis": "近未来霓虹城里，穷人死后会被送进地下骨库，成为器官和机械义体的零件。骨医黎鸦靠修复尸体骨骼换取生活费，她有一个不能公开的能力：触碰骨裂时能看见死者临终前三秒。某夜，她接到一具没有身份码的年轻尸体，骨裂记忆里却出现未来的黎鸦本人，手里握着凶器。为了证明自己不是凶手，她必须在记忆被骨库清洗前找到尸体身份。前三集以无名尸、记忆错位和骨库追杀展开，兼具赛博画面和悬疑反转。",
+    "category": "AI赛博悬疑异能漫剧",
+    "recommendedPlatforms": [
+      "抖音",
+      "快手",
+      "视频号",
+      "TikTok",
+      "YouTube Shorts"
+    ],
+    "audienceTags": [
+      "赛博都市",
+      "尸体记忆",
+      "异能医生",
+      "连环谜案"
+    ],
+    "productionDifficulty": "medium",
+    "episodeCount": 3,
+    "freeEpisodeCount": 3,
+    "commercialPolicy": {
+      "buyout": "一次性买断完整剧本包，适合已经验证题材数据、准备连续更新的账号团队。",
+      "payPerEpisode": "按集购买后续内容，适合边生产边观察播放和转化数据的账号。",
+      "revenueShare": "无需预付剧本费，审核通过后可继续制作，并按视频收益约定比例分成。"
+    },
+    "characters": [
+      {
+        "name": "黎鸦",
+        "role": "地下骨医，能读取骨裂记忆",
+        "motivation": "查清无名尸身份并洗清未来杀人嫌疑",
+        "secret": "她的能力来自一次非法义体手术",
+        "visualDesign": "黑色短发、义体手套、深紫雨衣，眼下有蓝色光纹"
+      },
+      {
+        "name": "秦泊",
+        "role": "骨库清道夫，负责回收违规尸体",
+        "motivation": "维持骨库秩序并隐藏上层交易",
+        "secret": "他认识无名尸，却假装第一次见",
+        "visualDesign": "银色义眼、黑色防水长衣，动作冷静"
+      },
+      {
+        "name": "无名尸少年",
+        "role": "案件核心死者",
+        "motivation": "临终前试图把记忆交给黎鸦",
+        "secret": "他体内藏着城市上层的记忆备份",
+        "visualDesign": "苍白脸、机械脊柱裸露，胸口有被拔除身份码的空洞"
+      }
+    ],
+    "worldview": "霓虹骨医：我修复尸体记忆的世界中，表面秩序与隐藏规则同时存在。每一次反击都必须付出信息、记忆、信任或舆论代价，人物不能靠喊话获胜，只能靠证据、选择和行动推进命运改写。",
+    "visualStyle": "竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富",
+    "tone": "情绪克制但压迫，反转密集，人物动机明确，结尾必须有继续观看理由。",
+    "episodeOutline": [
+      {
+        "episodeNumber": 1,
+        "title": "无名尸的未来记忆",
+        "hook": "黎鸦触碰尸体骨裂，看见未来的自己亲手拔出一把带血骨锯。",
+        "summary": "黎鸦在地下骨库接到一具无名少年尸体，按规矩这种尸体必须在十分钟内拆解回收。她刚握住少年的断腕，眼前闪过临终记忆：雨夜、霓虹广告牌、未来的自己，以及一把带血骨锯。她强迫自己冷静，发现尸体身份码被人为挖掉，骨裂却是高空坠落前就存在的旧伤。清道夫秦泊催她签收回收单，语气像是在确认她有没有看见什么。黎鸦故意装作不知情，却把少年指骨里的一枚微型存储片藏进手套夹层。",
+        "endingHook": "存储片自动播放第一帧画面：秦泊跪在少年面前，说“对不起，我来晚了”。"
+      },
+      {
+        "episodeNumber": 2,
+        "title": "骨库清洗令",
+        "hook": "骨库系统突然把黎鸦标记为污染源，整层清道夫开始追捕她。",
+        "summary": "黎鸦破解存储片失败，反而触发骨库清洗令。所有门禁亮红，她的义体手套被远程锁死。秦泊出现在走廊尽头，表面要抓她，实际用枪声逼她躲进旧义体仓。黎鸦在那里发现多具被拔除身份码的尸体，骨裂记忆都指向同一个地方：上城区记忆移植中心。她意识到少年不是普通死者，而是某个实验的逃亡样本。秦泊低声告诉她，别再读骨头，否则她会看见自己的死法。黎鸦却反向敲碎手套锁扣，读取第二段记忆。",
+        "endingHook": "记忆里，少年临死前喊出的不是救命，而是黎鸦母亲的名字。"
+      },
+      {
+        "episodeNumber": 3,
+        "title": "母亲的义体编号",
+        "hook": "黎鸦查到少年体内的机械脊柱编号，登记人竟是她失踪十年的母亲。",
+        "summary": "黎鸦带着秦泊逃出骨库，进入一间废弃义体诊所。她用老式扫描器读取少年脊柱编号，发现登记签名来自十年前失踪的母亲。秦泊终于承认，他曾是母亲实验室的护卫，无名少年则是最后一个从记忆移植中心逃出来的人。黎鸦愤怒地质问秦泊为什么隐瞒，秦泊没有解释，只把自己的义眼摘下给她。义眼里保存着一段母亲留言：如果黎鸦看见这段影像，说明她已经被未来的自己盯上。诊所外，清道夫无人机包围建筑。",
+        "endingHook": "母亲影像最后一句是：不要相信你读到的记忆，骨头也会撒谎。"
+      }
+    ]
+  },
+  "episodes": [
+    {
+      "episodeNumber": 1,
+      "title": "无名尸的未来记忆",
+      "hook": "黎鸦触碰尸体骨裂，看见未来的自己亲手拔出一把带血骨锯。",
+      "summary": "黎鸦在地下骨库接到一具无名少年尸体，按规矩这种尸体必须在十分钟内拆解回收。她刚握住少年的断腕，眼前闪过临终记忆：雨夜、霓虹广告牌、未来的自己，以及一把带血骨锯。她强迫自己冷静，发现尸体身份码被人为挖掉，骨裂却是高空坠落前就存在的旧伤。清道夫秦泊催她签收回收单，语气像是在确认她有没有看见什么。黎鸦故意装作不知情，却把少年指骨里的一枚微型存储片藏进手套夹层。",
+      "endingHook": "存储片自动播放第一帧画面：秦泊跪在少年面前，说“对不起，我来晚了”。",
+      "scriptText": "黎鸦在地下骨库接到一具无名少年尸体，按规矩这种尸体必须在十分钟内拆解回收。她刚握住少年的断腕，眼前闪过临终记忆：雨夜、霓虹广告牌、未来的自己，以及一把带血骨锯。她强迫自己冷静，发现尸体身份码被人为挖掉，骨裂却是高空坠落前就存在的旧伤。清道夫秦泊催她签收回收单，语气像是在确认她有没有看见什么。黎鸦故意装作不知情，却把少年指骨里的一枚微型存储片藏进手套夹层。",
+      "productionValue": "本集以“黎鸦触碰尸体骨裂，看见未来的自己亲手拔出一把带血骨锯。”建立钩子，通过证据、误解和停顿推进人物关系，结尾落在“存储片自动播放第一帧画面：秦泊跪在少年面前，说“对不起，我来晚了”。”。",
+      "aiShortDrama": {
+        "runtimeSeconds": 75,
+        "scriptText": "黎鸦在地下骨库接到一具无名少年尸体，按规矩这种尸体必须在十分钟内拆解回收。她刚握住少年的断腕，眼前闪过临终记忆：雨夜、霓虹广告牌、未来的自己，以及一把带血骨锯。她强迫自己冷静，发现尸体身份码被人为挖掉，骨裂却是高空坠落前就存在的旧伤。清道夫秦泊催她签收回收单，语气像是在确认她有没有看见什么。黎鸦故意装作不知情，却把少年指骨里的一枚微型存储片藏进手套夹层。",
+        "shots": [
+          {
+            "shot": 1,
+            "duration": "6-8秒",
+            "visual": "压迫建立。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "中近景缓慢推进，焦点从环境道具转到主角眼神。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "压迫建立服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富，第无名尸的未来记忆，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 2,
+            "duration": "6-8秒",
+            "visual": "信息错位。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "以前景遮挡制造窥视感，背景人物保持压低的反应。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "信息错位服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富，第无名尸的未来记忆，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 3,
+            "duration": "6-8秒",
+            "visual": "反打对峙。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "长焦压缩空间，反打镜头强化双方权力关系。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "反打对峙服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富，第无名尸的未来记忆，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 4,
+            "duration": "6-8秒",
+            "visual": "结尾钩子。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "低机位停在关键证据或人物微表情上，留出一秒静默。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "存储片自动播放第一帧画面：秦泊跪在少年面前，说“对不起，我来晚了”。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "结尾钩子服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富，第无名尸的未来记忆，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          }
+        ],
+        "editingNotes": [
+          "开头3秒给出强信息差",
+          "台词克制，依靠眼神和动作承载潜台词",
+          "结尾停顿一秒制造追看"
+        ]
+      },
+      "aiManhuaDrama": {
+        "panelCount": 4,
+        "scriptText": "黎鸦在地下骨库接到一具无名少年尸体，按规矩这种尸体必须在十分钟内拆解回收。她刚握住少年的断腕，眼前闪过临终记忆：雨夜、霓虹广告牌、未来的自己，以及一把带血骨锯。她强迫自己冷静，发现尸体身份码被人为挖掉，骨裂却是高空坠落前就存在的旧伤。清道夫秦泊催她签收回收单，语气像是在确认她有没有看见什么。黎鸦故意装作不知情，却把少年指骨里的一枚微型存储片藏进手套夹层。",
+        "panels": [
+          {
+            "shot": 1,
+            "duration": "6-8秒",
+            "visual": "压迫建立。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "中近景缓慢推进，焦点从环境道具转到主角眼神。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "压迫建立服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富，第无名尸的未来记忆，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 2,
+            "duration": "6-8秒",
+            "visual": "信息错位。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "以前景遮挡制造窥视感，背景人物保持压低的反应。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "信息错位服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富，第无名尸的未来记忆，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 3,
+            "duration": "6-8秒",
+            "visual": "反打对峙。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "长焦压缩空间，反打镜头强化双方权力关系。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "反打对峙服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富，第无名尸的未来记忆，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 4,
+            "duration": "6-8秒",
+            "visual": "结尾钩子。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "低机位停在关键证据或人物微表情上，留出一秒静默。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "存储片自动播放第一帧画面：秦泊跪在少年面前，说“对不起，我来晚了”。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "结尾钩子服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富，第无名尸的未来记忆，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          }
+        ],
+        "layoutNotes": [
+          "竖屏漫画分镜",
+          "保持角色一致性",
+          "强化光影和空间层次"
+        ]
+      }
+    },
+    {
+      "episodeNumber": 2,
+      "title": "骨库清洗令",
+      "hook": "骨库系统突然把黎鸦标记为污染源，整层清道夫开始追捕她。",
+      "summary": "黎鸦破解存储片失败，反而触发骨库清洗令。所有门禁亮红，她的义体手套被远程锁死。秦泊出现在走廊尽头，表面要抓她，实际用枪声逼她躲进旧义体仓。黎鸦在那里发现多具被拔除身份码的尸体，骨裂记忆都指向同一个地方：上城区记忆移植中心。她意识到少年不是普通死者，而是某个实验的逃亡样本。秦泊低声告诉她，别再读骨头，否则她会看见自己的死法。黎鸦却反向敲碎手套锁扣，读取第二段记忆。",
+      "endingHook": "记忆里，少年临死前喊出的不是救命，而是黎鸦母亲的名字。",
+      "scriptText": "黎鸦破解存储片失败，反而触发骨库清洗令。所有门禁亮红，她的义体手套被远程锁死。秦泊出现在走廊尽头，表面要抓她，实际用枪声逼她躲进旧义体仓。黎鸦在那里发现多具被拔除身份码的尸体，骨裂记忆都指向同一个地方：上城区记忆移植中心。她意识到少年不是普通死者，而是某个实验的逃亡样本。秦泊低声告诉她，别再读骨头，否则她会看见自己的死法。黎鸦却反向敲碎手套锁扣，读取第二段记忆。",
+      "productionValue": "本集以“骨库系统突然把黎鸦标记为污染源，整层清道夫开始追捕她。”建立钩子，通过证据、误解和停顿推进人物关系，结尾落在“记忆里，少年临死前喊出的不是救命，而是黎鸦母亲的名字。”。",
+      "aiShortDrama": {
+        "runtimeSeconds": 75,
+        "scriptText": "黎鸦破解存储片失败，反而触发骨库清洗令。所有门禁亮红，她的义体手套被远程锁死。秦泊出现在走廊尽头，表面要抓她，实际用枪声逼她躲进旧义体仓。黎鸦在那里发现多具被拔除身份码的尸体，骨裂记忆都指向同一个地方：上城区记忆移植中心。她意识到少年不是普通死者，而是某个实验的逃亡样本。秦泊低声告诉她，别再读骨头，否则她会看见自己的死法。黎鸦却反向敲碎手套锁扣，读取第二段记忆。",
+        "shots": [
+          {
+            "shot": 1,
+            "duration": "6-8秒",
+            "visual": "压迫建立。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "中近景缓慢推进，焦点从环境道具转到主角眼神。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "压迫建立服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富，第骨库清洗令，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 2,
+            "duration": "6-8秒",
+            "visual": "信息错位。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "以前景遮挡制造窥视感，背景人物保持压低的反应。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "信息错位服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富，第骨库清洗令，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 3,
+            "duration": "6-8秒",
+            "visual": "反打对峙。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "长焦压缩空间，反打镜头强化双方权力关系。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "反打对峙服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富，第骨库清洗令，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 4,
+            "duration": "6-8秒",
+            "visual": "结尾钩子。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "低机位停在关键证据或人物微表情上，留出一秒静默。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "记忆里，少年临死前喊出的不是救命，而是黎鸦母亲的名字。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "结尾钩子服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富，第骨库清洗令，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          }
+        ],
+        "editingNotes": [
+          "开头3秒给出强信息差",
+          "台词克制，依靠眼神和动作承载潜台词",
+          "结尾停顿一秒制造追看"
+        ]
+      },
+      "aiManhuaDrama": {
+        "panelCount": 4,
+        "scriptText": "黎鸦破解存储片失败，反而触发骨库清洗令。所有门禁亮红，她的义体手套被远程锁死。秦泊出现在走廊尽头，表面要抓她，实际用枪声逼她躲进旧义体仓。黎鸦在那里发现多具被拔除身份码的尸体，骨裂记忆都指向同一个地方：上城区记忆移植中心。她意识到少年不是普通死者，而是某个实验的逃亡样本。秦泊低声告诉她，别再读骨头，否则她会看见自己的死法。黎鸦却反向敲碎手套锁扣，读取第二段记忆。",
+        "panels": [
+          {
+            "shot": 1,
+            "duration": "6-8秒",
+            "visual": "压迫建立。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "中近景缓慢推进，焦点从环境道具转到主角眼神。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "压迫建立服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富，第骨库清洗令，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 2,
+            "duration": "6-8秒",
+            "visual": "信息错位。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "以前景遮挡制造窥视感，背景人物保持压低的反应。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "信息错位服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富，第骨库清洗令，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 3,
+            "duration": "6-8秒",
+            "visual": "反打对峙。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "长焦压缩空间，反打镜头强化双方权力关系。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "反打对峙服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富，第骨库清洗令，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 4,
+            "duration": "6-8秒",
+            "visual": "结尾钩子。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "低机位停在关键证据或人物微表情上，留出一秒静默。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "记忆里，少年临死前喊出的不是救命，而是黎鸦母亲的名字。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "结尾钩子服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富，第骨库清洗令，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          }
+        ],
+        "layoutNotes": [
+          "竖屏漫画分镜",
+          "保持角色一致性",
+          "强化光影和空间层次"
+        ]
+      }
+    },
+    {
+      "episodeNumber": 3,
+      "title": "母亲的义体编号",
+      "hook": "黎鸦查到少年体内的机械脊柱编号，登记人竟是她失踪十年的母亲。",
+      "summary": "黎鸦带着秦泊逃出骨库，进入一间废弃义体诊所。她用老式扫描器读取少年脊柱编号，发现登记签名来自十年前失踪的母亲。秦泊终于承认，他曾是母亲实验室的护卫，无名少年则是最后一个从记忆移植中心逃出来的人。黎鸦愤怒地质问秦泊为什么隐瞒，秦泊没有解释，只把自己的义眼摘下给她。义眼里保存着一段母亲留言：如果黎鸦看见这段影像，说明她已经被未来的自己盯上。诊所外，清道夫无人机包围建筑。",
+      "endingHook": "母亲影像最后一句是：不要相信你读到的记忆，骨头也会撒谎。",
+      "scriptText": "黎鸦带着秦泊逃出骨库，进入一间废弃义体诊所。她用老式扫描器读取少年脊柱编号，发现登记签名来自十年前失踪的母亲。秦泊终于承认，他曾是母亲实验室的护卫，无名少年则是最后一个从记忆移植中心逃出来的人。黎鸦愤怒地质问秦泊为什么隐瞒，秦泊没有解释，只把自己的义眼摘下给她。义眼里保存着一段母亲留言：如果黎鸦看见这段影像，说明她已经被未来的自己盯上。诊所外，清道夫无人机包围建筑。",
+      "productionValue": "本集以“黎鸦查到少年体内的机械脊柱编号，登记人竟是她失踪十年的母亲。”建立钩子，通过证据、误解和停顿推进人物关系，结尾落在“母亲影像最后一句是：不要相信你读到的记忆，骨头也会撒谎。”。",
+      "aiShortDrama": {
+        "runtimeSeconds": 75,
+        "scriptText": "黎鸦带着秦泊逃出骨库，进入一间废弃义体诊所。她用老式扫描器读取少年脊柱编号，发现登记签名来自十年前失踪的母亲。秦泊终于承认，他曾是母亲实验室的护卫，无名少年则是最后一个从记忆移植中心逃出来的人。黎鸦愤怒地质问秦泊为什么隐瞒，秦泊没有解释，只把自己的义眼摘下给她。义眼里保存着一段母亲留言：如果黎鸦看见这段影像，说明她已经被未来的自己盯上。诊所外，清道夫无人机包围建筑。",
+        "shots": [
+          {
+            "shot": 1,
+            "duration": "6-8秒",
+            "visual": "压迫建立。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "中近景缓慢推进，焦点从环境道具转到主角眼神。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "压迫建立服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富，第母亲的义体编号，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 2,
+            "duration": "6-8秒",
+            "visual": "信息错位。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "以前景遮挡制造窥视感，背景人物保持压低的反应。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "信息错位服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富，第母亲的义体编号，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 3,
+            "duration": "6-8秒",
+            "visual": "反打对峙。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "长焦压缩空间，反打镜头强化双方权力关系。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "反打对峙服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富，第母亲的义体编号，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 4,
+            "duration": "6-8秒",
+            "visual": "结尾钩子。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "低机位停在关键证据或人物微表情上，留出一秒静默。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "母亲影像最后一句是：不要相信你读到的记忆，骨头也会撒谎。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "结尾钩子服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富，第母亲的义体编号，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          }
+        ],
+        "editingNotes": [
+          "开头3秒给出强信息差",
+          "台词克制，依靠眼神和动作承载潜台词",
+          "结尾停顿一秒制造追看"
+        ]
+      },
+      "aiManhuaDrama": {
+        "panelCount": 4,
+        "scriptText": "黎鸦带着秦泊逃出骨库，进入一间废弃义体诊所。她用老式扫描器读取少年脊柱编号，发现登记签名来自十年前失踪的母亲。秦泊终于承认，他曾是母亲实验室的护卫，无名少年则是最后一个从记忆移植中心逃出来的人。黎鸦愤怒地质问秦泊为什么隐瞒，秦泊没有解释，只把自己的义眼摘下给她。义眼里保存着一段母亲留言：如果黎鸦看见这段影像，说明她已经被未来的自己盯上。诊所外，清道夫无人机包围建筑。",
+        "panels": [
+          {
+            "shot": 1,
+            "duration": "6-8秒",
+            "visual": "压迫建立。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "中近景缓慢推进，焦点从环境道具转到主角眼神。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "压迫建立服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富，第母亲的义体编号，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 2,
+            "duration": "6-8秒",
+            "visual": "信息错位。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "以前景遮挡制造窥视感，背景人物保持压低的反应。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "信息错位服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富，第母亲的义体编号，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 3,
+            "duration": "6-8秒",
+            "visual": "反打对峙。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "长焦压缩空间，反打镜头强化双方权力关系。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "反打对峙服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富，第母亲的义体编号，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 4,
+            "duration": "6-8秒",
+            "visual": "结尾钩子。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "低机位停在关键证据或人物微表情上，留出一秒静默。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "母亲影像最后一句是：不要相信你读到的记忆，骨头也会撒谎。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "结尾钩子服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富，第母亲的义体编号，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 竖屏赛博AI漫剧，霓虹雨夜、义体骨骼、冷紫与电蓝光，机械细节丰富, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          }
+        ],
+        "layoutNotes": [
+          "竖屏漫画分镜",
+          "保持角色一致性",
+          "强化光影和空间层次"
+        ]
+      }
+    }
+  ]
+}

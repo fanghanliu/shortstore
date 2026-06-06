@@ -235,7 +235,7 @@ textarea:focus-visible {
   background:
     linear-gradient(180deg, rgba(2, 7, 13, 0.5) 0%, rgba(2, 7, 13, 0.08) 36%, rgba(2, 7, 13, 0.86) 96%),
     linear-gradient(90deg, rgba(2, 7, 13, 0.64), rgba(2, 7, 13, 0.04) 48%, rgba(2, 7, 13, 0.64)),
-    url("assets/hero-cinematic-arc.png");
+    url("assets/hero-rain-forest.jpg");
   background-size: cover;
   background-position: center center;
   filter: saturate(0.95) contrast(1.05);
@@ -3170,45 +3170,68 @@ h3 {
 
 .auth-page {
   min-height: 100svh;
+  color: var(--paper);
   background:
-    linear-gradient(180deg, rgba(5, 8, 11, 0.18), var(--deep) 720px),
-    url("assets/hero-storyboard-marketplace.png") center/cover fixed;
+    radial-gradient(circle at 58% 18%, rgba(85, 180, 255, 0.14), transparent 30%),
+    radial-gradient(circle at 12% 72%, rgba(85, 212, 198, 0.1), transparent 28%),
+    linear-gradient(90deg, rgba(5, 8, 11, 0.96) 0%, rgba(5, 8, 11, 0.68) 48%, rgba(5, 8, 11, 0.32) 100%),
+    linear-gradient(180deg, rgba(5, 8, 11, 0.1), var(--deep) 920px),
+    url("assets/auth-cinematic-workspace.png") center/cover fixed;
+}
+
+.auth-page::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.018) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.018) 1px, transparent 1px);
+  background-size: 76px 76px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.88), transparent 92%);
 }
 
 .auth-shell {
   min-height: 100svh;
   display: grid;
   align-items: center;
-  padding: 112px clamp(18px, 5vw, 72px) 48px;
+  padding: 126px clamp(24px, 7vw, 96px) 64px;
 }
 
 .auth-panel {
   display: grid;
-  grid-template-columns: minmax(0, 0.92fr) minmax(320px, 430px);
-  gap: clamp(28px, 5vw, 70px);
+  grid-template-columns: minmax(0, 0.96fr) minmax(340px, 430px);
+  gap: clamp(32px, 6vw, 88px);
   align-items: center;
-  max-width: 1180px;
+  max-width: 1460px;
   width: 100%;
   margin: 0 auto;
 }
 
 .auth-copy h1 {
-  font-size: clamp(38px, 5vw, 68px);
+  max-width: 840px;
+  font-size: clamp(44px, 5.4vw, 82px);
+  line-height: 1.03;
+  text-shadow: 0 22px 64px rgba(0, 0, 0, 0.52);
 }
 
 .auth-copy p {
-  max-width: 720px;
-  color: rgba(247, 241, 232, 0.8);
+  max-width: 760px;
+  color: rgba(234, 242, 249, 0.76);
   font-size: 18px;
   line-height: 1.75;
 }
 
 .auth-card {
   padding: 24px;
-  border: 1px solid rgba(247, 241, 232, 0.14);
-  border-radius: 8px;
-  background: rgba(8, 12, 16, 0.92);
-  box-shadow: var(--shadow);
+  border: 1px solid rgba(160, 205, 240, 0.18);
+  border-radius: 22px;
+  background:
+    linear-gradient(145deg, rgba(13, 28, 42, 0.78), rgba(5, 10, 16, 0.86)),
+    rgba(8, 12, 16, 0.82);
+  box-shadow: 0 28px 90px rgba(0, 0, 0, 0.42), inset 0 1px rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(22px);
 }
 
 .auth-tabs {
@@ -3219,18 +3242,19 @@ h3 {
 }
 
 .auth-tabs button {
-  min-height: 42px;
-  border: 1px solid rgba(247, 241, 232, 0.16);
-  border-radius: 8px;
-  background: rgba(247, 241, 232, 0.08);
-  color: rgba(247, 241, 232, 0.7);
+  min-height: 44px;
+  border: 1px solid rgba(160, 205, 240, 0.16);
+  border-radius: 14px;
+  background: rgba(247, 241, 232, 0.06);
+  color: rgba(234, 242, 249, 0.72);
   font-weight: 900;
 }
 
 .auth-tabs button.active {
-  border-color: var(--teal);
-  background: rgba(85, 212, 198, 0.16);
-  color: var(--ink);
+  border-color: rgba(188, 219, 245, 0.68);
+  background: rgba(239, 245, 250, 0.92);
+  color: #0a1119;
+  box-shadow: 0 0 28px rgba(188, 219, 245, 0.2);
 }
 
 .auth-form {
@@ -3241,23 +3265,34 @@ h3 {
 .auth-form label {
   display: grid;
   gap: 8px;
-  color: rgba(247, 241, 232, 0.76);
+  color: rgba(234, 242, 249, 0.76);
   font-size: 14px;
   font-weight: 850;
 }
 
 .auth-form input {
   width: 100%;
-  padding: 12px;
-  border: 1px solid rgba(247, 241, 232, 0.16);
-  border-radius: 8px;
-  background: rgba(247, 241, 232, 0.08);
-  color: var(--ink);
+  min-height: 46px;
+  padding: 12px 14px;
+  border: 1px solid rgba(160, 205, 240, 0.18);
+  border-radius: 14px;
+  background: rgba(3, 10, 18, 0.48);
+  color: var(--paper);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.04);
+}
+
+.auth-form input::placeholder {
+  color: rgba(234, 242, 249, 0.42);
 }
 
 .register-only {
   display: grid;
   gap: 14px;
+}
+
+.register-only[hidden],
+.auth-actions [hidden] {
+  display: none !important;
 }
 
 .form-message {
@@ -3278,7 +3313,7 @@ h3 {
 
 .auth-actions {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 10px;
   margin-top: 14px;
 }

@@ -33,6 +33,8 @@ function setMode(nextMode) {
     field.hidden = authMode !== "register";
   });
 
+  logoutButton.hidden = true;
+
   const password = authForm.elements.password;
   password.autocomplete = authMode === "register" ? "new-password" : "current-password";
 

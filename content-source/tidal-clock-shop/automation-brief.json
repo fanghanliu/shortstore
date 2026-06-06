@@ -1,0 +1,480 @@
+{
+  "slug": "tidal-clock-shop",
+  "status": "published",
+  "featured": false,
+  "trendEvidence": [
+    {
+      "source": "codex_first_batch",
+      "keyword": "时间交易 / 海岛奇幻 / 错过遗憾 / 治愈悬疑",
+      "heatScore": 88,
+      "observedAt": "2026-06-04T15:22:44.614Z"
+    }
+  ],
+  "master": {
+    "slug": "tidal-clock-shop",
+    "title": {
+      "zh": "潮汐钟表店：我出售错过的十分钟",
+      "en": "Tidal Clock Shop"
+    },
+    "primaryMode": "ai_manhua_drama",
+    "supportedModes": [
+      "ai_manhua_drama"
+    ],
+    "logline": "海岛钟表店只在退潮时开门，店主能出售人们错过的十分钟，但每买回一次时间，岛上就会多出一具无人认领的钟壳。",
+    "synopsis": "失声歌手岑夏回到故乡鲸屿，准备卖掉母亲留下的钟表店。她发现店门只在退潮时打开，墙上挂满写着陌生人名字的潮汐钟。每一只钟都能让购买者回到错过的十分钟，弥补一段遗憾。岑夏想买回母亲病逝前的最后通话，却发现母亲曾多次使用钟表店规则，代价是岛上出现越来越多空心钟壳。前三集围绕钟表店开门、第一次时间交易和母亲隐藏账册展开。",
+    "category": "AI海岛奇幻治愈悬疑漫剧",
+    "recommendedPlatforms": [
+      "抖音",
+      "快手",
+      "视频号",
+      "TikTok",
+      "YouTube Shorts"
+    ],
+    "audienceTags": [
+      "时间交易",
+      "海岛奇幻",
+      "错过遗憾",
+      "治愈悬疑"
+    ],
+    "productionDifficulty": "medium",
+    "episodeCount": 3,
+    "freeEpisodeCount": 3,
+    "commercialPolicy": {
+      "buyout": "一次性买断完整剧本包，适合已经验证题材数据、准备连续更新的账号团队。",
+      "payPerEpisode": "按集购买后续内容，适合边生产边观察播放和转化数据的账号。",
+      "revenueShare": "无需预付剧本费，审核通过后可继续制作，并按视频收益约定比例分成。"
+    },
+    "characters": [
+      {
+        "name": "岑夏",
+        "role": "失声歌手，钟表店继承人",
+        "motivation": "找回母亲最后通话并恢复歌声",
+        "secret": "她的失声不是疾病，而是母亲替她买过一次时间",
+        "visualDesign": "长卷发、浅色风衣、颈间银色哨坠，眼神温柔又防备"
+      },
+      {
+        "name": "闻潮",
+        "role": "鲸屿灯塔管理员",
+        "motivation": "阻止岑夏继续交易时间",
+        "secret": "他曾买回十分钟救人，却让另一个人消失",
+        "visualDesign": "晒黑皮肤、旧灯塔制服，手腕戴停走的潜水表"
+      },
+      {
+        "name": "岑母",
+        "role": "前钟表店主",
+        "motivation": "用时间交易保护女儿",
+        "secret": "她留下的账册记录了岛上所有消失者",
+        "visualDesign": "旧照片中穿蓝裙，声音温柔，影像常被潮声覆盖"
+      }
+    ],
+    "worldview": "潮汐钟表店：我出售错过的十分钟的世界中，表面秩序与隐藏规则同时存在。每一次反击都必须付出信息、记忆、信任或舆论代价，人物不能靠喊话获胜，只能靠证据、选择和行动推进命运改写。",
+    "visualStyle": "海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感",
+    "tone": "情绪克制但压迫，反转密集，人物动机明确，结尾必须有继续观看理由。",
+    "episodeOutline": [
+      {
+        "episodeNumber": 1,
+        "title": "退潮时开门",
+        "hook": "岑夏把钟表店钥匙扔进海里，下一秒钥匙从一只倒走的钟里掉出来。",
+        "summary": "岑夏回鲸屿处理母亲遗产，她讨厌这间钟表店，因为母亲临终前她没有接到最后一通电话。退潮时，店门自己打开，所有钟表同时倒走十分钟。墙上一只潮汐钟写着她的名字，指针停在母亲病逝那晚。灯塔管理员闻潮警告她不要碰钟，可岑夏已经听见母亲的声音从表盘里传出。她用失声的喉咙说不出话，只能按下钟钮。世界退回那晚十分钟，电话铃重新响起。",
+        "endingHook": "岑夏接起电话，母亲第一句话却是：别回来，这家店不是留给你的。"
+      },
+      {
+        "episodeNumber": 2,
+        "title": "第一只空心钟壳",
+        "hook": "岑夏买回十分钟后，店里多出一只没有指针的钟，钟壳内刻着闻潮的名字。",
+        "summary": "岑夏回到现实后发现自己仍然失声，母亲的话反而让她更不安。店内新出现的空心钟壳写着闻潮名字，像某种债务凭证。闻潮承认，时间交易不是免费弥补遗憾，而是从另一个人的人生里挪走十分钟。岑夏追问母亲为什么经营这种店，闻潮沉默，只带她去灯塔地下室。那里保存着许多没有主人的钟壳，每一只都对应一次岛民的奇迹。岑夏在最深处看到一只童年小钟，里面装着自己的歌声录音。",
+        "endingHook": "录音播放到最后，童年的岑夏说：妈妈，别把我的十分钟卖给海。"
+      },
+      {
+        "episodeNumber": 3,
+        "title": "母亲的潮汐账册",
+        "hook": "岑夏翻开账册，发现母亲最后一次交易对象不是她，而是整座鲸屿。",
+        "summary": "岑夏在柜台暗格里找到潮汐账册，记录着母亲每一次交易。她发现自己失声那年，母亲用她的十分钟换回了鲸屿一次台风预警，救下全岛，却也让岑夏失去登台机会。愤怒和理解同时压住她，她质问闻潮是否早知道真相。闻潮承认自己也被救过，所以才无法离开灯塔。就在岑夏准备烧掉账册时，海面突然退到异常远，钟表店所有指针同时指向未来十分钟。账册最后一页浮现新交易：用岑夏的歌声，换母亲回来十分钟。",
+        "endingHook": "门外响起母亲熟悉的脚步声，但闻潮看见来人的影子没有头。"
+      }
+    ]
+  },
+  "episodes": [
+    {
+      "episodeNumber": 1,
+      "title": "退潮时开门",
+      "hook": "岑夏把钟表店钥匙扔进海里，下一秒钥匙从一只倒走的钟里掉出来。",
+      "summary": "岑夏回鲸屿处理母亲遗产，她讨厌这间钟表店，因为母亲临终前她没有接到最后一通电话。退潮时，店门自己打开，所有钟表同时倒走十分钟。墙上一只潮汐钟写着她的名字，指针停在母亲病逝那晚。灯塔管理员闻潮警告她不要碰钟，可岑夏已经听见母亲的声音从表盘里传出。她用失声的喉咙说不出话，只能按下钟钮。世界退回那晚十分钟，电话铃重新响起。",
+      "endingHook": "岑夏接起电话，母亲第一句话却是：别回来，这家店不是留给你的。",
+      "scriptText": "岑夏回鲸屿处理母亲遗产，她讨厌这间钟表店，因为母亲临终前她没有接到最后一通电话。退潮时，店门自己打开，所有钟表同时倒走十分钟。墙上一只潮汐钟写着她的名字，指针停在母亲病逝那晚。灯塔管理员闻潮警告她不要碰钟，可岑夏已经听见母亲的声音从表盘里传出。她用失声的喉咙说不出话，只能按下钟钮。世界退回那晚十分钟，电话铃重新响起。",
+      "productionValue": "本集以“岑夏把钟表店钥匙扔进海里，下一秒钥匙从一只倒走的钟里掉出来。”建立钩子，通过证据、误解和停顿推进人物关系，结尾落在“岑夏接起电话，母亲第一句话却是：别回来，这家店不是留给你的。”。",
+      "aiShortDrama": {
+        "runtimeSeconds": 75,
+        "scriptText": "岑夏回鲸屿处理母亲遗产，她讨厌这间钟表店，因为母亲临终前她没有接到最后一通电话。退潮时，店门自己打开，所有钟表同时倒走十分钟。墙上一只潮汐钟写着她的名字，指针停在母亲病逝那晚。灯塔管理员闻潮警告她不要碰钟，可岑夏已经听见母亲的声音从表盘里传出。她用失声的喉咙说不出话，只能按下钟钮。世界退回那晚十分钟，电话铃重新响起。",
+        "shots": [
+          {
+            "shot": 1,
+            "duration": "6-8秒",
+            "visual": "压迫建立。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "中近景缓慢推进，焦点从环境道具转到主角眼神。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "压迫建立服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感，第退潮时开门，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 2,
+            "duration": "6-8秒",
+            "visual": "信息错位。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "以前景遮挡制造窥视感，背景人物保持压低的反应。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "信息错位服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感，第退潮时开门，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 3,
+            "duration": "6-8秒",
+            "visual": "反打对峙。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "长焦压缩空间，反打镜头强化双方权力关系。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "反打对峙服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感，第退潮时开门，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 4,
+            "duration": "6-8秒",
+            "visual": "结尾钩子。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "低机位停在关键证据或人物微表情上，留出一秒静默。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "岑夏接起电话，母亲第一句话却是：别回来，这家店不是留给你的。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "结尾钩子服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感，第退潮时开门，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          }
+        ],
+        "editingNotes": [
+          "开头3秒给出强信息差",
+          "台词克制，依靠眼神和动作承载潜台词",
+          "结尾停顿一秒制造追看"
+        ]
+      },
+      "aiManhuaDrama": {
+        "panelCount": 4,
+        "scriptText": "岑夏回鲸屿处理母亲遗产，她讨厌这间钟表店，因为母亲临终前她没有接到最后一通电话。退潮时，店门自己打开，所有钟表同时倒走十分钟。墙上一只潮汐钟写着她的名字，指针停在母亲病逝那晚。灯塔管理员闻潮警告她不要碰钟，可岑夏已经听见母亲的声音从表盘里传出。她用失声的喉咙说不出话，只能按下钟钮。世界退回那晚十分钟，电话铃重新响起。",
+        "panels": [
+          {
+            "shot": 1,
+            "duration": "6-8秒",
+            "visual": "压迫建立。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "中近景缓慢推进，焦点从环境道具转到主角眼神。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "压迫建立服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感，第退潮时开门，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 2,
+            "duration": "6-8秒",
+            "visual": "信息错位。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "以前景遮挡制造窥视感，背景人物保持压低的反应。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "信息错位服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感，第退潮时开门，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 3,
+            "duration": "6-8秒",
+            "visual": "反打对峙。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "长焦压缩空间，反打镜头强化双方权力关系。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "反打对峙服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感，第退潮时开门，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 4,
+            "duration": "6-8秒",
+            "visual": "结尾钩子。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "低机位停在关键证据或人物微表情上，留出一秒静默。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "岑夏接起电话，母亲第一句话却是：别回来，这家店不是留给你的。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "结尾钩子服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感，第退潮时开门，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          }
+        ],
+        "layoutNotes": [
+          "竖屏漫画分镜",
+          "保持角色一致性",
+          "强化光影和空间层次"
+        ]
+      }
+    },
+    {
+      "episodeNumber": 2,
+      "title": "第一只空心钟壳",
+      "hook": "岑夏买回十分钟后，店里多出一只没有指针的钟，钟壳内刻着闻潮的名字。",
+      "summary": "岑夏回到现实后发现自己仍然失声，母亲的话反而让她更不安。店内新出现的空心钟壳写着闻潮名字，像某种债务凭证。闻潮承认，时间交易不是免费弥补遗憾，而是从另一个人的人生里挪走十分钟。岑夏追问母亲为什么经营这种店，闻潮沉默，只带她去灯塔地下室。那里保存着许多没有主人的钟壳，每一只都对应一次岛民的奇迹。岑夏在最深处看到一只童年小钟，里面装着自己的歌声录音。",
+      "endingHook": "录音播放到最后，童年的岑夏说：妈妈，别把我的十分钟卖给海。",
+      "scriptText": "岑夏回到现实后发现自己仍然失声，母亲的话反而让她更不安。店内新出现的空心钟壳写着闻潮名字，像某种债务凭证。闻潮承认，时间交易不是免费弥补遗憾，而是从另一个人的人生里挪走十分钟。岑夏追问母亲为什么经营这种店，闻潮沉默，只带她去灯塔地下室。那里保存着许多没有主人的钟壳，每一只都对应一次岛民的奇迹。岑夏在最深处看到一只童年小钟，里面装着自己的歌声录音。",
+      "productionValue": "本集以“岑夏买回十分钟后，店里多出一只没有指针的钟，钟壳内刻着闻潮的名字。”建立钩子，通过证据、误解和停顿推进人物关系，结尾落在“录音播放到最后，童年的岑夏说：妈妈，别把我的十分钟卖给海。”。",
+      "aiShortDrama": {
+        "runtimeSeconds": 75,
+        "scriptText": "岑夏回到现实后发现自己仍然失声，母亲的话反而让她更不安。店内新出现的空心钟壳写着闻潮名字，像某种债务凭证。闻潮承认，时间交易不是免费弥补遗憾，而是从另一个人的人生里挪走十分钟。岑夏追问母亲为什么经营这种店，闻潮沉默，只带她去灯塔地下室。那里保存着许多没有主人的钟壳，每一只都对应一次岛民的奇迹。岑夏在最深处看到一只童年小钟，里面装着自己的歌声录音。",
+        "shots": [
+          {
+            "shot": 1,
+            "duration": "6-8秒",
+            "visual": "压迫建立。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "中近景缓慢推进，焦点从环境道具转到主角眼神。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "压迫建立服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感，第第一只空心钟壳，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 2,
+            "duration": "6-8秒",
+            "visual": "信息错位。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "以前景遮挡制造窥视感，背景人物保持压低的反应。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "信息错位服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感，第第一只空心钟壳，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 3,
+            "duration": "6-8秒",
+            "visual": "反打对峙。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "长焦压缩空间，反打镜头强化双方权力关系。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "反打对峙服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感，第第一只空心钟壳，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 4,
+            "duration": "6-8秒",
+            "visual": "结尾钩子。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "低机位停在关键证据或人物微表情上，留出一秒静默。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "录音播放到最后，童年的岑夏说：妈妈，别把我的十分钟卖给海。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "结尾钩子服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感，第第一只空心钟壳，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          }
+        ],
+        "editingNotes": [
+          "开头3秒给出强信息差",
+          "台词克制，依靠眼神和动作承载潜台词",
+          "结尾停顿一秒制造追看"
+        ]
+      },
+      "aiManhuaDrama": {
+        "panelCount": 4,
+        "scriptText": "岑夏回到现实后发现自己仍然失声，母亲的话反而让她更不安。店内新出现的空心钟壳写着闻潮名字，像某种债务凭证。闻潮承认，时间交易不是免费弥补遗憾，而是从另一个人的人生里挪走十分钟。岑夏追问母亲为什么经营这种店，闻潮沉默，只带她去灯塔地下室。那里保存着许多没有主人的钟壳，每一只都对应一次岛民的奇迹。岑夏在最深处看到一只童年小钟，里面装着自己的歌声录音。",
+        "panels": [
+          {
+            "shot": 1,
+            "duration": "6-8秒",
+            "visual": "压迫建立。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "中近景缓慢推进，焦点从环境道具转到主角眼神。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "压迫建立服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感，第第一只空心钟壳，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 2,
+            "duration": "6-8秒",
+            "visual": "信息错位。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "以前景遮挡制造窥视感，背景人物保持压低的反应。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "信息错位服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感，第第一只空心钟壳，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 3,
+            "duration": "6-8秒",
+            "visual": "反打对峙。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "长焦压缩空间，反打镜头强化双方权力关系。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "反打对峙服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感，第第一只空心钟壳，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 4,
+            "duration": "6-8秒",
+            "visual": "结尾钩子。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "低机位停在关键证据或人物微表情上，留出一秒静默。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "录音播放到最后，童年的岑夏说：妈妈，别把我的十分钟卖给海。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "结尾钩子服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感，第第一只空心钟壳，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          }
+        ],
+        "layoutNotes": [
+          "竖屏漫画分镜",
+          "保持角色一致性",
+          "强化光影和空间层次"
+        ]
+      }
+    },
+    {
+      "episodeNumber": 3,
+      "title": "母亲的潮汐账册",
+      "hook": "岑夏翻开账册，发现母亲最后一次交易对象不是她，而是整座鲸屿。",
+      "summary": "岑夏在柜台暗格里找到潮汐账册，记录着母亲每一次交易。她发现自己失声那年，母亲用她的十分钟换回了鲸屿一次台风预警，救下全岛，却也让岑夏失去登台机会。愤怒和理解同时压住她，她质问闻潮是否早知道真相。闻潮承认自己也被救过，所以才无法离开灯塔。就在岑夏准备烧掉账册时，海面突然退到异常远，钟表店所有指针同时指向未来十分钟。账册最后一页浮现新交易：用岑夏的歌声，换母亲回来十分钟。",
+      "endingHook": "门外响起母亲熟悉的脚步声，但闻潮看见来人的影子没有头。",
+      "scriptText": "岑夏在柜台暗格里找到潮汐账册，记录着母亲每一次交易。她发现自己失声那年，母亲用她的十分钟换回了鲸屿一次台风预警，救下全岛，却也让岑夏失去登台机会。愤怒和理解同时压住她，她质问闻潮是否早知道真相。闻潮承认自己也被救过，所以才无法离开灯塔。就在岑夏准备烧掉账册时，海面突然退到异常远，钟表店所有指针同时指向未来十分钟。账册最后一页浮现新交易：用岑夏的歌声，换母亲回来十分钟。",
+      "productionValue": "本集以“岑夏翻开账册，发现母亲最后一次交易对象不是她，而是整座鲸屿。”建立钩子，通过证据、误解和停顿推进人物关系，结尾落在“门外响起母亲熟悉的脚步声，但闻潮看见来人的影子没有头。”。",
+      "aiShortDrama": {
+        "runtimeSeconds": 75,
+        "scriptText": "岑夏在柜台暗格里找到潮汐账册，记录着母亲每一次交易。她发现自己失声那年，母亲用她的十分钟换回了鲸屿一次台风预警，救下全岛，却也让岑夏失去登台机会。愤怒和理解同时压住她，她质问闻潮是否早知道真相。闻潮承认自己也被救过，所以才无法离开灯塔。就在岑夏准备烧掉账册时，海面突然退到异常远，钟表店所有指针同时指向未来十分钟。账册最后一页浮现新交易：用岑夏的歌声，换母亲回来十分钟。",
+        "shots": [
+          {
+            "shot": 1,
+            "duration": "6-8秒",
+            "visual": "压迫建立。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "中近景缓慢推进，焦点从环境道具转到主角眼神。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "压迫建立服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感，第母亲的潮汐账册，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 2,
+            "duration": "6-8秒",
+            "visual": "信息错位。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "以前景遮挡制造窥视感，背景人物保持压低的反应。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "信息错位服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感，第母亲的潮汐账册，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 3,
+            "duration": "6-8秒",
+            "visual": "反打对峙。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "长焦压缩空间，反打镜头强化双方权力关系。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "反打对峙服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感，第母亲的潮汐账册，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 4,
+            "duration": "6-8秒",
+            "visual": "结尾钩子。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "低机位停在关键证据或人物微表情上，留出一秒静默。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "门外响起母亲熟悉的脚步声，但闻潮看见来人的影子没有头。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "结尾钩子服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感，第母亲的潮汐账册，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          }
+        ],
+        "editingNotes": [
+          "开头3秒给出强信息差",
+          "台词克制，依靠眼神和动作承载潜台词",
+          "结尾停顿一秒制造追看"
+        ]
+      },
+      "aiManhuaDrama": {
+        "panelCount": 4,
+        "scriptText": "岑夏在柜台暗格里找到潮汐账册，记录着母亲每一次交易。她发现自己失声那年，母亲用她的十分钟换回了鲸屿一次台风预警，救下全岛，却也让岑夏失去登台机会。愤怒和理解同时压住她，她质问闻潮是否早知道真相。闻潮承认自己也被救过，所以才无法离开灯塔。就在岑夏准备烧掉账册时，海面突然退到异常远，钟表店所有指针同时指向未来十分钟。账册最后一页浮现新交易：用岑夏的歌声，换母亲回来十分钟。",
+        "panels": [
+          {
+            "shot": 1,
+            "duration": "6-8秒",
+            "visual": "压迫建立。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "中近景缓慢推进，焦点从环境道具转到主角眼神。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "压迫建立服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感，第母亲的潮汐账册，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 2,
+            "duration": "6-8秒",
+            "visual": "信息错位。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "以前景遮挡制造窥视感，背景人物保持压低的反应。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "信息错位服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感，第母亲的潮汐账册，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 3,
+            "duration": "6-8秒",
+            "visual": "反打对峙。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "长焦压缩空间，反打镜头强化双方权力关系。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "你说得太顺了，像是早就知道我要问什么。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "反打对峙服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感，第母亲的潮汐账册，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          },
+          {
+            "shot": 4,
+            "duration": "6-8秒",
+            "visual": "结尾钩子。漫画质感画面，线条和光斑强化情绪。",
+            "camera": "低机位停在关键证据或人物微表情上，留出一秒静默。",
+            "action": "主角没有立刻开口，先停半拍，手指收紧，眼神短暂闪避后重新抬起。",
+            "dialogue": "门外响起母亲熟悉的脚步声，但闻潮看见来人的影子没有头。",
+            "sound": "低频环境声、呼吸声、衣料摩擦，关键停顿处抽掉背景音乐。",
+            "emotion": "结尾钩子服务于本集冲突，让观众感到关系和真相正在反转。",
+            "aiPromptZh": "海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感，第母亲的潮汐账册，竖屏构图，人物造型一致，表情细腻，光影参与叙事，前景遮挡，空间压迫，短剧强钩子，画面适合AI视频生产。",
+            "aiPromptEn": "Vertical cinematic AI comic drama, 海岛黄昏、潮湿玻璃、铜质钟表、蓝绿色海雾，竖屏AI漫剧质感, consistent character design, expressive micro reactions, layered lighting, foreground obstruction, spatial pressure, strong short-drama hook, production-ready."
+          }
+        ],
+        "layoutNotes": [
+          "竖屏漫画分镜",
+          "保持角色一致性",
+          "强化光影和空间层次"
+        ]
+      }
+    }
+  ]
+}

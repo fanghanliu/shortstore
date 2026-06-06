@@ -16,6 +16,7 @@ const siteDir = path.join(__dirname, "public", "site");
 const adminDir = path.join(__dirname, "public", "admin");
 const downloadsDir = path.join(__dirname, "downloads");
 const scriptsDataDir = path.join(__dirname, "scripts-data");
+const contentSourceDir = path.join(__dirname, "content-source");
 const authCookieName = process.env.AUTH_COOKIE_NAME || "script_marketplace_session";
 const authJwtSecret =
   process.env.AUTH_JWT_SECRET || "local-dev-auth-secret-change-before-production";
@@ -41,6 +42,16 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(express.static(siteDir));
 app.use("/admin", express.static(adminDir));
+app.use("/downloads", (request, response, next) => {
+  const requestedPath = normalizePath(decodeURIComponent(request.path || ""));
+  if (/\/deliveries\/.+\.docx$/i.test(requestedPath)) {
+    response.status(403).json({
+      error: "Delivery packages must be downloaded from the authenticated delivery asset API"
+    });
+    return;
+  }
+  next();
+});
 app.use("/downloads", express.static(downloadsDir));
 
 function parseJsonList(value) {
@@ -454,6 +465,107 @@ function formatDeliveryPathScope(episodeRange) {
   return scope.replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "") || "continuation";
 }
 
+function readJsonIfExists(filePath) {
+  if (!fs.existsSync(filePath)) return null;
+  return JSON.parse(fs.readFileSync(filePath, "utf8"));
+}
+
+function normalizeSourceScript(master, slug) {
+  const title = master?.title || {};
+  return {
+    slug: master?.slug || slug,
+    title: typeof title === "string" ? title : title.zh,
+    titleEn: typeof title === "object" ? title.en : undefined,
+    logline: master?.logline,
+    synopsis: master?.synopsis,
+    category: master?.category,
+    coverImage: master?.coverImage,
+    status: master?.status || "published",
+    featured: Boolean(master?.featured),
+    recommendedPlatforms: master?.recommendedPlatforms || [],
+    audienceTags: master?.audienceTags || [],
+    productionDifficulty: master?.productionDifficulty,
+    episodeCount: master?.episodeCount,
+    freeEpisodeCount: master?.freeEpisodeCount || 3
+  };
+}
+
+function readCompleteScriptDataFromScriptsData(slug) {
+  const sourcePath = path.join(scriptsDataDir, `${slug}.json`);
+  const sourceData = readJsonIfExists(sourcePath);
+  if (sourceData?.script?.slug === slug && Array.isArray(sourceData.episodes)) {
+    return sourceData;
+  }
+  return null;
+}
+
+function readCompleteScriptDataFromContentSource(slug) {
+  const sourceRoot = path.join(contentSourceDir, slug);
+  const master = readJsonIfExists(path.join(sourceRoot, "master.json"));
+  const episodesDir = path.join(sourceRoot, "episodes");
+
+  if (!master?.slug || master.slug !== slug || !fs.existsSync(episodesDir)) {
+    return null;
+  }
+
+  const episodes = fs
+    .readdirSync(episodesDir)
+    .filter((fileName) => /^episode-\d+\.json$/i.test(fileName))
+    .map((fileName) => readJsonIfExists(path.join(episodesDir, fileName)))
+    .filter((episode) => Number.isInteger(episode?.episodeNumber))
+    .sort((a, b) => a.episodeNumber - b.episodeNumber);
+
+  if (!episodes.length) return null;
+
+  return {
+    script: normalizeSourceScript(master, slug),
+    episodes
+  };
+}
+
+function mergeScriptRecordWithSource(script, sourceData) {
+  const sourceScript = sourceData?.script || {};
+  const dbEpisodesByNumber = new Map((script.episodes || []).map((episode) => [episode.episodeNumber, episode]));
+  const sourceEpisodes = Array.isArray(sourceData?.episodes) ? sourceData.episodes : [];
+  const mergedEpisodes = sourceEpisodes.map((episode) => {
+    const dbEpisode = dbEpisodesByNumber.get(episode.episodeNumber) || {};
+    return {
+      ...episode,
+      id: dbEpisode.id || episode.id,
+      title: dbEpisode.title || episode.title,
+      hook: dbEpisode.hook || episode.hook,
+      summary: dbEpisode.summary || episode.summary,
+      endingHook: dbEpisode.endingHook || episode.endingHook,
+      aiPromptZh: dbEpisode.aiPromptZh || episode.aiPromptZh,
+      aiPromptEn: dbEpisode.aiPromptEn || episode.aiPromptEn,
+      isFreePreview:
+        typeof dbEpisode.isFreePreview === "boolean" ? dbEpisode.isFreePreview : episode.isFreePreview,
+      status: dbEpisode.status || episode.status
+    };
+  });
+
+  return {
+    ...sourceData,
+    script: {
+      ...sourceScript,
+      id: script.id,
+      slug: script.slug,
+      title: script.title || sourceScript.title,
+      titleEn: script.titleEn || sourceScript.titleEn,
+      logline: script.logline || sourceScript.logline,
+      synopsis: script.synopsis || sourceScript.synopsis,
+      category: script.category || sourceScript.category,
+      coverImage: script.coverImage || sourceScript.coverImage,
+      status: script.status || sourceScript.status,
+      featured: Boolean(script.featured),
+      productionDifficulty: script.productionDifficulty || sourceScript.productionDifficulty,
+      episodeCount: script.episodeCount || sourceScript.episodeCount || mergedEpisodes.length,
+      freeEpisodeCount: script.freeEpisodeCount || sourceScript.freeEpisodeCount || 3
+    },
+    episodes: mergedEpisodes
+  };
+}
+
 function buildDeliveryAssetDefaultsForRequest(continuationRequest, options = {}) {
   const slug = continuationRequest.script?.slug || "script";
   const type = continuationRequest.type || "pay_per_episode";
@@ -531,34 +643,14 @@ async function loadDeliveryScriptData(scriptId) {
     throw error;
   }
 
-  const sourcePath = path.join(scriptsDataDir, `${script.slug}.json`);
-  if (fs.existsSync(sourcePath)) {
-    try {
-      const sourceData = JSON.parse(fs.readFileSync(sourcePath, "utf8"));
-      if (sourceData?.script?.slug === script.slug && Array.isArray(sourceData.episodes)) {
-        return {
-          ...sourceData,
-          script: {
-            ...sourceData.script,
-            id: script.id,
-            slug: script.slug,
-            title: script.title,
-            titleEn: script.titleEn || sourceData.script.titleEn,
-            logline: script.logline || sourceData.script.logline,
-            synopsis: script.synopsis || sourceData.script.synopsis,
-            category: script.category || sourceData.script.category,
-            coverImage: script.coverImage || sourceData.script.coverImage,
-            status: script.status,
-            featured: script.featured,
-            productionDifficulty: script.productionDifficulty || sourceData.script.productionDifficulty,
-            episodeCount: script.episodeCount || sourceData.script.episodeCount,
-            freeEpisodeCount: script.freeEpisodeCount || sourceData.script.freeEpisodeCount || 3
-          }
-        };
-      }
-    } catch (error) {
-      console.warn(`Failed to read complete script data for ${script.slug}:`, error.message);
+  try {
+    const completeData =
+      readCompleteScriptDataFromScriptsData(script.slug) || readCompleteScriptDataFromContentSource(script.slug);
+    if (completeData) {
+      return mergeScriptRecordWithSource(script, completeData);
     }
+  } catch (error) {
+    console.warn(`Failed to read complete script data for ${script.slug}:`, error.message);
   }
 
   return {
